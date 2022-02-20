@@ -1,0 +1,29 @@
+{
+  "model": "PostComments",
+  "documents": [
+    {
+      "_id": "5bd95e2eca156aebb4b022e5",
+      "title": "This product is very great",
+      "comment": "When I thought I couldn't find anything better, this shows up",
+      "post": "5b0fb9386909541feb5695ac",
+      "user": "5b2b43720b6fbf38cdcec90b",
+      "likes": []
+    },
+    {
+      "_id": "5bd95e2e080a12709fb8bd8c",
+      "title": "This product is very great",
+      "comment": "Best post ever! Keep it up!",
+      "post": "5b0fb9386909541feb5695ac",
+      "user": "5b2b43f90b6fbf38cdcec90d",
+      "likes": []
+    },
+    {
+      "_id": "5c57e37d42fdf855c12564cd",
+      "title": "This product is very great",
+      "comment": "Best post ever! Keep it up!",
+      "post": "5ba32fc72931143fcf668b52",
+      "user": "5b2b43f90b6fbf38cdcec90d",
+      "likes": ["5b2b43f90b6fbf38cdcec90d"]
+    }
+  ]
+}

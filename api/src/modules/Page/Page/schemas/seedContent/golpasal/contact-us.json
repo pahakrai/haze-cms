@@ -1,0 +1,1628 @@
+{
+  "_id": "5c91b4a722ef404da9298564",
+  "isTemplate": false,
+  "workspace": "5c91b4c11dd5438849a338b5",
+  "path": "/about",
+  "subPath": "",
+  "fromPageContent": null,
+  "globalWidgets": [],
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5c9b40c33829djk56313d38dk",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5dea025f5610fe8d03d8c17c",
+            "direction": "row",
+            "widgets": ["5dea025b5610fe8d03d8c17b"]
+          },
+          {
+            "_id": "5dea025f5610fe8d03d8c17d",
+            "direction": "row",
+            "widgets": []
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5de9f8b3fc45cdd3f9db7a87",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "map",
+      "data": {
+        "locations": [
+          {
+            "location": {
+              "lng": "114.2215105",
+              "lat": "22.311768"
+            },
+            "address": "",
+            "en": {
+              "address": "Room C, Flat F, 1/F, Wang Kwong Industrial Building, 45 Hung To Road, Kwun Tong"
+            },
+            "zh-cn": {
+              "address": "香港观塘鸿图道45号1楼C室"
+            },
+            "zh-hk": {
+              "address": "香港觀塘鴻圖道45號1樓C室"
+            }
+          },
+          {
+            "location": {
+              "lng": "113.949145",
+              "lat": "22.54285"
+            },
+            "address": "",
+            "en": {
+              "address": "MIRACT Space, 8th Floor, Building C, Chuangwei Building, Science Park, South Shennan Avenue, Nanshan District, Shenzhen"
+            },
+            "zh-cn": {
+              "address": "深圳南山区深南大道南侧科技园创维大厦C栋8楼米瑞空间"
+            },
+            "zh-hk": {
+              "address": "深圳南山區深南大道南側科技園創維大廈C棟8樓米瑞空間"
+            }
+          }
+        ],
+        "img": "http://www-testing.golpasal.com:3400/static/images/technologies_landing.png"
+      }
+    },
+    {
+      "_id": "5dea025b5610fe8d03d8c17b",
+      "position": "",
+      "inlineStyle": "padding-top:64px;\npadding-bottom:64px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea025b5610fe8d03d8c178",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dea02705610fe8d03d8c17f",
+                    "direction": "row",
+                    "widgets": ["5dea026c5610fe8d03d8c17e"]
+                  },
+                  {
+                    "_id": "5dea02705610fe8d03d8c180",
+                    "direction": "row",
+                    "widgets": ["5de9f8b3fc45cdd3f9db7a87"]
+                  },
+                  {
+                    "_id": "5dea0d1be966a9dbffea300a",
+                    "direction": "row",
+                    "widgets": ["5dea0d18e966a9dbffea3009"]
+                  },
+                  {
+                    "_id": "5dea0cc5e966a9dbffea3000",
+                    "direction": "row",
+                    "widgets": ["5dea0cc1e966a9dbffea2fff"]
+                  },
+                  {
+                    "_id": "5dea1576508e9e1251715e70",
+                    "direction": "row",
+                    "widgets": ["5dea156e508e9e1251715e6f"]
+                  },
+                  {
+                    "_id": "5dea0da3e966a9dbffea3010",
+                    "direction": "row",
+                    "widgets": ["5dea0da0e966a9dbffea300f"]
+                  },
+                  {
+                    "_id": "5dea19400451e7f469015f44",
+                    "direction": "row",
+                    "widgets": ["5dea19370451e7f469015f43"]
+                  },
+                  {
+                    "_id": "5dea19ad0451e7f469015f4b",
+                    "direction": "row",
+                    "widgets": ["5dea199d0451e7f469015f4a"]
+                  },
+                  {
+                    "_id": "5dea1cf50451e7f469015f5d",
+                    "direction": "row",
+                    "widgets": ["5dea19b00451e7f469015f4f"]
+                  },
+                  {
+                    "_id": "5dea1cf00451e7f469015f5c",
+                    "direction": "row",
+                    "widgets": ["5dea1caf0451e7f469015f59"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea025b5610fe8d03d8c179",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea025b5610fe8d03d8c17a",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "properties": [
+        {
+          "_id": "5e0578a1a2d2f3e559c602f5",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5dea026c5610fe8d03d8c17e",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 4em;\n    font-weight: 700;\n    margin: 50px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "zh-cn": {
+          "text": "联络我们"
+        },
+        "en": {
+          "text": "Contact Us"
+        },
+        "zh-hk": {
+          "text": "聯絡我們"
+        }
+      }
+    },
+    {
+      "_id": "5dea0d18e966a9dbffea3009",
+      "position": "",
+      "inlineStyle": "margin-top:56px;\nmargin-bottom:10px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": 2,
+          "1": "98"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea0d18e966a9dbffea3006",
+                "direction": "column",
+                "widgets": ["5dea142a508e9e1251715e6a"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea0d18e966a9dbffea3007",
+                "direction": "column",
+                "widgets": ["5dea147f508e9e1251715e6b"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea0d18e966a9dbffea3008",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": 2,
+              "1": "98"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "xs": {
+            "columnWidths": {
+              "0": 10,
+              "1": "90"
+            },
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": 10,
+              "1": "90"
+            },
+            "fixedHundredPercent": true
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dea0da0e966a9dbffea300f",
+      "position": "",
+      "inlineStyle": "\nmargin-bottom:15px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": 2,
+          "1": "98"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea0da0e966a9dbffea300c",
+                "direction": "column",
+                "widgets": ["5dea17ab0451e7f469015f3d"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea0da0e966a9dbffea300d",
+                "direction": "column",
+                "widgets": ["5dea18790451e7f469015f3f"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea0da0e966a9dbffea300e",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": 2,
+              "1": "98"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": 10,
+              "1": "90"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dea142a508e9e1251715e6a",
+      "position": "",
+      "inlineStyle": "margin-right:15px;\nmargin-top:15px;\n",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "icon",
+      "data": {
+        "iconName": "place",
+        "iconSize": "default",
+        "iconColor": "#000"
+      }
+    },
+    {
+      "_id": "5dea147f508e9e1251715e6b",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 2.3em;\n    font-size: 31px;\n    line-height: 45px;\n    font-weight: 300;\n    margin: 5px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "rgba(51,51,51,1)",
+        "en": {
+          "text": "Room C, Flat F, 1/F, Wang Kwong Industrial Building, 45 Hung To Road, Kwun Tong"
+        },
+        "zh-cn": {
+          "text": "香港观塘鸿图道45号1楼C室"
+        },
+        "zh-hk": {
+          "text": "香港觀塘鴻圖道45號1樓C室"
+        }
+      }
+    },
+    {
+      "_id": "5dea156e508e9e1251715e6f",
+      "position": "",
+      "inlineStyle": "\nmargin-bottom:10px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": 2,
+          "1": "98"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea156e508e9e1251715e6c",
+                "direction": "column",
+                "widgets": ["5dea158d508e9e1251715e71"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea156e508e9e1251715e6d",
+                "direction": "column",
+                "widgets": ["5dea184c0451e7f469015f3e"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea156e508e9e1251715e6e",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": 2,
+              "1": "98"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": 10,
+              "1": "90"
+            },
+            "fixedHundredPercent": true
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dea158d508e9e1251715e71",
+      "position": "",
+      "inlineStyle": "margin-right:15px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "icon",
+      "data": {
+        "iconName": "phone",
+        "iconSize": "default",
+        "iconColor": "#000"
+      }
+    },
+    {
+      "_id": "5dea17ab0451e7f469015f3d",
+      "position": "",
+      "inlineStyle": "margin-right:15px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "icon",
+      "data": {
+        "iconName": "email",
+        "iconSize": "default",
+        "iconColor": "#000"
+      }
+    },
+    {
+      "_id": "5dea184c0451e7f469015f3e",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(0, 0, 0); \n    font-weight: 500; \n    font-size: 19px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "3708 7073"
+        },
+        "zh-cn": {
+          "text": "3708 7073"
+        },
+        "zh-hk": {
+          "text": "3708 7073"
+        }
+      }
+    },
+    {
+      "_id": "5dea18790451e7f469015f3f",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(0, 0, 0); \n    font-weight: 500; \n    font-size: 19px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "business@golpasal.com"
+        },
+        "zh-cn": {
+          "text": "business@golpasal.com"
+        },
+        "zh-hk": {
+          "text": "business@golpasal.com"
+        }
+      }
+    },
+    {
+      "_id": "5dea19370451e7f469015f43",
+      "position": "",
+      "inlineStyle": "margin-top:28px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": 2,
+          "1": "98"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea19370451e7f469015f40",
+                "direction": "column",
+                "widgets": ["5dea19940451e7f469015f45"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea19370451e7f469015f41",
+                "direction": "column",
+                "widgets": ["5dea19980451e7f469015f46"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea19370451e7f469015f42",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": 2,
+              "1": "98"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": 10,
+              "1": "90"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dea19940451e7f469015f45",
+      "position": "",
+      "inlineStyle": "margin-right:15px;\nmargin-top:15px;\n",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "icon",
+      "data": {
+        "iconName": "place",
+        "iconSize": "default",
+        "iconColor": "#000"
+      }
+    },
+    {
+      "_id": "5dea19980451e7f469015f46",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 2.3em;\n    font-size: 31px;\n    line-height: 45px;\n    font-weight: 300;\n    margin: 5px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "rgba(51,51,51,1)",
+        "en": {
+          "text": "MIRACT Space, 8th Floor, Building C, Chuangwei Building, Science Park, South Shennan Avenue, Nanshan District, Shenzhen"
+        },
+        "zh-cn": {
+          "text": "深圳南山区深南大道南侧科技园创维大厦C栋8楼米瑞空间"
+        },
+        "zh-hk": {
+          "text": "深圳南山區深南大道南側科技園創維大廈C棟8樓米瑞空間"
+        }
+      }
+    },
+    {
+      "_id": "5dea199d0451e7f469015f4a",
+      "position": "",
+      "inlineStyle": "margin-bottom:10px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": 2,
+          "1": "98"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea199d0451e7f469015f47",
+                "direction": "column",
+                "widgets": ["5dea19ba0451e7f469015f51"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea199d0451e7f469015f48",
+                "direction": "column",
+                "widgets": ["5dea19c30451e7f469015f53"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea199d0451e7f469015f49",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "lg": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": 2,
+              "1": "98"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": 10,
+              "1": "90"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dea19b00451e7f469015f4f",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": 2,
+          "1": "98"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea19b00451e7f469015f4c",
+                "direction": "column",
+                "widgets": ["5dea19be0451e7f469015f52"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea19b00451e7f469015f4d",
+                "direction": "column",
+                "widgets": ["5dea19c80451e7f469015f54"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea19b00451e7f469015f4e",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": 2,
+              "1": "98"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": 10,
+              "1": "90"
+            },
+            "fixedHundredPercent": true
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dea19ba0451e7f469015f51",
+      "position": "",
+      "inlineStyle": "margin-right:15px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "icon",
+      "data": {
+        "iconName": "phone",
+        "iconSize": "default",
+        "iconColor": "#000"
+      }
+    },
+    {
+      "_id": "5dea19be0451e7f469015f52",
+      "position": "",
+      "inlineStyle": "margin-right:15px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "icon",
+      "data": {
+        "iconName": "email",
+        "iconSize": "default",
+        "iconColor": "#000"
+      }
+    },
+    {
+      "_id": "5dea19c30451e7f469015f53",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(0, 0, 0); \n    font-weight: 500; \n    font-size: 19px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "+86 18025378223"
+        },
+        "zh-cn": {
+          "text": "+86 18025378223"
+        },
+        "zh-hk": {
+          "text": "+86 18025378223"
+        }
+      }
+    },
+    {
+      "_id": "5dea19c80451e7f469015f54",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(0, 0, 0); \n    font-weight: 500; \n    font-size: 19px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "business@golpasal.com"
+        },
+        "zh-cn": {
+          "text": "business@golpasal.com"
+        },
+        "zh-hk": {
+          "text": "business@golpasal.com"
+        }
+      }
+    },
+    {
+      "_id": "5dea1caf0451e7f469015f59",
+      "position": "",
+      "inlineStyle": "margin-top: 80px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": "50.00",
+          "1": "50.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1caf0451e7f469015f56",
+                "direction": "column",
+                "widgets": ["5dea1cfe0451e7f469015f5e"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1caf0451e7f469015f57",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dea1d220451e7f469015f63",
+                    "direction": "row",
+                    "widgets": ["5dea1d120451e7f469015f5f"]
+                  },
+                  {
+                    "_id": "5dea1d220451e7f469015f64",
+                    "direction": "row",
+                    "widgets": ["5dea1d1b0451e7f469015f62"]
+                  }
+                ]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1caf0451e7f469015f58",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f66",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "4": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f67",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "5": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f68",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "6": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f69",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "7": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f6a",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "8": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f6b",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "9": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f6c",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "10": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f6d",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "11": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f6e",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "12": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f6f",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "13": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f70",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "14": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f71",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "15": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f72",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "16": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f73",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "17": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f74",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "18": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f75",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "19": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f76",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "20": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f77",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "21": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f78",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "22": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dea1d280451e7f469015f79",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "50.00",
+              "1": "50.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "0",
+              "1": "100"
+            },
+            "fixedHundredPercent": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dea1cfe0451e7f469015f5e",
+      "position": "",
+      "inlineStyle": {
+        "lg": "margin-right:10vw",
+        "sm": "width:0;\noverflow: hidden;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png"
+        },
+        "width": "440px",
+        "height": "auto",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dea1d120451e7f469015f5f",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-weight: 500;\n    margin: 4vh 0px;\n    text-align: center;\n    font-size: 40px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Contact Us Now!"
+        },
+        "zh-cn": {
+          "text": "现在联系我们！"
+        },
+        "zh-hk": {
+          "text": "現在聯繫我們！"
+        }
+      }
+    },
+    {
+      "_id": "5dea1d1b0451e7f469015f62",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "contactForm",
+      "data": {
+        "action": "url",
+        "submit": {
+          "_id": "5debcf86b9b983d997390632",
+          "position": "",
+          "inlineStyle": "",
+          "userPermission": {
+            "delete": true,
+            "edit": true,
+            "move": true
+          },
+          "hidden": false,
+          "mobileHidden": false,
+          "anchor": {
+            "hash": "",
+            "top": 0
+          },
+          "type": "button",
+          "data": {
+            "text": "提交",
+            "width": "133px",
+            "height": "43px",
+            "icon": {
+              "url": "",
+              "width": "20px",
+              "height": "20px"
+            },
+            "borderRadius": "8px",
+            "href": "",
+            "buttonType": "default",
+            "hrefTarget": "_blank",
+            "color": "#fff",
+            "supportJump": false,
+            "backgroundColor": "linear-gradient(90deg,rgba(242,122,56,1) 0%,rgba(237,73,94,1) 100%)"
+          }
+        },
+        "style": "style2",
+        "inputs": [
+          {
+            "label": "name",
+            "type": "input",
+            "value": "",
+            "placeholder": "enter name here",
+            "options": [],
+            "filedName": "",
+            "en": {
+              "label": "Name",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            },
+            "zh-cn": {
+              "label": "名称",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            },
+            "zh-hk": {
+              "label": "名稱",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            }
+          },
+          {
+            "label": "to email",
+            "type": "input",
+            "value": "",
+            "placeholder": "enter email here",
+            "options": [],
+            "filedName": "",
+            "en": {
+              "label": "Email",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            },
+            "zh-cn": {
+              "label": "电子邮箱",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            },
+            "zh-hk": {
+              "label": "電子郵箱",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            }
+          }
+        ],
+        "textarea": {
+          "label": "enter name here",
+          "rows": 7,
+          "en": {
+            "label": "What do you want to say?"
+          },
+          "zh-cn": {
+            "label": "你想说什么"
+          },
+          "zh-hk": {
+            "label": "你想說什麼？"
+          }
+        },
+        "message": {
+          "success": "enter success message here",
+          "failure": "enter success message here",
+          "en": {
+            "success": "Sent successfully!",
+            "failure": "Send failed!"
+          },
+          "zh-cn": {
+            "success": "发送成功!",
+            "failure": "发送失败!"
+          },
+          "zh-hk": {
+            "success": "發送成功!",
+            "failure": "發送失敗!"
+          }
+        },
+        "isButton": false,
+        "emailSettings": {
+          "emailTitle": "",
+          "toEmail": "business@golpasal.com",
+          "zh-cn": {
+            "emailTitle": "用户反馈"
+          },
+          "zh-hk": {
+            "emailTitle": "用戶反饋"
+          },
+          "en": {
+            "emailTitle": "customer feedback"
+          }
+        },
+        "en": {
+          "buttonText": "Send",
+          "requiredLabel": "Required",
+          "emailErrorLabel": "Email format error"
+        },
+        "zh-cn": {
+          "buttonText": "发送",
+          "requiredLabel": "必填",
+          "emailErrorLabel": "邮箱格式错误"
+        },
+        "zh-hk": {
+          "buttonText": "發送",
+          "requiredLabel": "必填",
+          "emailErrorLabel": "邮箱格式错误"
+        }
+      }
+    }
+  ]
+}

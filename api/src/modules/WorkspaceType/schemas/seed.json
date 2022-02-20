@@ -1,0 +1,85 @@
+{
+  "model": "WorkspaceTypes",
+  "documents": [
+    {
+      "_id": "5ec4e90f513b6262f12ee4bb",
+      "type": "shopping",
+      "userTypeDisplay": [
+        {
+          "type": "member",
+          "name": {
+            "en": "Member",
+            "zh-hk": "會員",
+            "zh-cn": "会员"
+          },
+          "isShow": true
+        },
+        {
+          "type": "programmatic",
+          "name": {
+            "en": "Programmatic",
+            "zh-hk": "程序",
+            "zh-cn": "程序"
+          },
+          "isShow": false
+        }
+      ],
+      "serviceTypeDisplay": [
+        {
+          "type": "administrative",
+          "name": {
+            "en": "Administrative",
+            "zh-hk": "行政",
+            "zh-cn": "行政"
+          },
+          "isShow": true
+        }
+      ],
+      "userTypeConfigs": [
+        {
+          "userType": "member"
+        }
+      ]
+    },
+    {
+      "_id": "5efe9b2eff0b4fbb9691dae6",
+      "type": "company-website",
+      "userTypeDisplay": [
+        {
+          "type": "member",
+          "name": {
+            "en": "Member",
+            "zh-hk": "會員",
+            "zh-cn": "会员"
+          },
+          "isShow": false
+        },
+        {
+          "type": "programmatic",
+          "name": {
+            "en": "Programmatic",
+            "zh-hk": "程序",
+            "zh-cn": "程序"
+          },
+          "isShow": false
+        }
+      ],
+      "serviceTypeDisplay": [
+        {
+          "type": "administrative",
+          "name": {
+            "en": "Administrative",
+            "zh-hk": "行政",
+            "zh-cn": "行政"
+          },
+          "isShow": true
+        }
+      ],
+      "userTypeConfigs": [
+        {
+          "userType": "member"
+        }
+      ]
+    }
+  ]
+}

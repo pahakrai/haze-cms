@@ -1,0 +1,102 @@
+{
+  "version": "2020-10-30",
+  "templates": [
+    {
+      "worksheet": "OrderReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "orderNo"
+          },
+          {
+            "idx": 2,
+            "fieldName": "date"
+          },
+          {
+            "idx": 3,
+            "fieldName": "status"
+          },
+          {
+            "idx": 4,
+            "fieldName": "paymentMethod"
+          },
+          {
+            "idx": 5,
+            "fieldName": "paymentStatus"
+          },
+          {
+            "idx": 6,
+            "fieldName": "currency"
+          },
+          {
+            "idx": 7,
+            "fieldName": "totalAmount"
+          },
+          {
+            "idx": 8,
+            "fieldName": "basetotalAmount"
+          },
+
+          {
+            "idx": 9,
+            "fieldName": "serviceAmount"
+          },
+          {
+            "idx": 10,
+            "fieldName": "otherAmount"
+          },
+          {
+            "idx": 11,
+            "fieldName": "couponAmount"
+          },
+          {
+            "idx": 12,
+            "fieldName": "remarks"
+          },
+          {
+            "idx": 13,
+            "fieldName": "delivery"
+          },
+          {
+            "idx": 14,
+            "fieldName": "shippmentStatus"
+          },
+          {
+            "idx": 15,
+            "fieldName": "addressName"
+          },
+          {
+            "idx": 16,
+            "fieldName": "phone"
+          },
+          {
+            "idx": 17,
+            "fieldName": "address1"
+          },
+          {
+            "idx": 18,
+            "fieldName": "address2"
+          },
+          {
+            "idx": 19,
+            "fieldName": "city"
+          },
+          {
+            "idx": 20,
+            "fieldName": "state"
+          },
+          {
+            "idx": 21,
+            "fieldName": "postCode"
+          },
+          {
+            "idx": 22,
+            "fieldName": "storeName"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "2020-11-24",
+  "templates": [
+    {
+      "worksheet": "EmployerReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "CompanyName"
+          },
+          {
+            "idx": 2,
+            "fieldName": "ContactName"
+          },
+          {
+            "idx": 3,
+            "fieldName": "Email"
+          },
+          {
+            "idx": 4,
+            "fieldName": "PhoneNo"
+          },
+          {
+            "idx": 5,
+            "fieldName": "status"
+          },
+          {
+            "idx": 6,
+            "fieldName": "registrationDate"
+          }
+        ]
+      }
+    }
+  ]
+}

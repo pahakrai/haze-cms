@@ -1,0 +1,56 @@
+{
+  "model": "UserNotifications",
+  "documents": [
+    {
+      "_id" : "5e86b5d1dd04e3542c9e996e",
+      "title" : {
+          "en" : "abc",
+          "zh-hk" : "abc"
+      },
+      "senders" : [],
+      "users" : [ 
+          {
+              "read" : false,
+              "_id" : "5e86b5d1dd04e3542c9e996f",
+              "user" : "5b2b82c919b5ed0b493c3037"
+          }, 
+          {
+              "read" : false,
+              "_id" : "5e86b5d1dd04e3542c9e9970",
+              "user" : "5e58ef8255079dbea8541700"
+          }, 
+          {
+              "read" : false,
+              "_id" : "5e86b5d1dd04e3542c9e9971",
+              "user" : "5e7835da3f7bf150efe74ab3"
+          }, 
+          {
+              "read" : false,
+              "_id" : "5e86b5d1dd04e3542c9e9972",
+              "user" : "5e7836633f7bf150efe74abf"
+          }, 
+          {
+              "read" : false,
+              "_id" : "5e86b5d1dd04e3542c9e9973",
+              "user" : "5e7836e93f7bf150efe74acb"
+          }, 
+          {
+              "read" : false,
+              "_id" : "5e86b5d1dd04e3542c9e9974",
+              "user" : "5e78374f3f7bf150efe74ad7"
+          }
+      ],
+      "images" : [],
+      "data" : {
+          "screen" : "postList"
+      },
+      "message" : {
+          "en" : "abc",
+          "zh-hk" : "abc"
+      },
+      "createdAt" : "2020-04-03T04:04:33.378Z",
+      "updatedAt" : "2020-04-03T04:04:33.378Z",
+      "__v" : 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "2020-11-24",
+  "templates": [
+    {
+      "worksheet": "RatingReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "CompanyName"
+          },
+          {
+            "idx": 2,
+            "fieldName": "Talent"
+          },
+          {
+            "idx": 3,
+            "fieldName": "Rating"
+          },
+          {
+            "idx": 4,
+            "fieldName": "Comment"
+          }
+        ]
+      }
+    }
+  ]
+}

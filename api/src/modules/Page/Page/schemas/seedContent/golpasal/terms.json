@@ -1,0 +1,734 @@
+{
+  "_id": "5c91b4a722ef404da9298564",
+  "isTemplate": false,
+  "subPath": "",
+  "fromPageContent": null,
+  "globalWidgets": [],
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5e747ec29b06e3981c6752b9",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5e9066b8f19cc96ddcea872d",
+            "direction": "row",
+            "widgets": ["5fb22a28e572c4e2d8b3d370"]
+          },
+          {
+            "_id": "5fb23020dfd0ebec1252ee9b",
+            "direction": "row",
+            "widgets": ["5fb23017dfd0ebec1252ee9a"]
+          },
+          {
+            "_id": "5fb23220dfd0ebec1252ee9b",
+            "direction": "row",
+            "widgets": ["5fb23017df10ebec1242ee9a"]
+          },
+          {
+            "_id": "5fb233e897fb7925c816fba4",
+            "direction": "row",
+            "widgets": ["5fb23022d2d0ebec1252ee9c"]
+          },
+          {
+            "_id": "5fb2385c570b0f561725cbd0",
+            "direction": "row",
+            "widgets": ["5fb23829feaf37aa821407f5"]
+          },
+          {
+            "_id": "5fd9cc6556e46bc51f090b07",
+            "direction": "row",
+            "widgets": ["5fd9cc57385cb503b0f7be44"]
+          },
+          {
+            "_id": "5fd9cbc398244ee9b90bf3bc",
+            "direction": "row",
+            "widgets": ["5fb238e81420b311e9d20d19"]
+          },
+          {
+            "_id": "5fd9cd214acab9d56ce56795",
+            "direction": "row",
+            "widgets": ["5fd9ccf4c9205c5f3de9610d"]
+          },
+          {
+            "_id": "5fd9cd252892ab10a893cdb8",
+            "direction": "row",
+            "widgets": ["5fd9cce9f918b619f46b69c9"]
+          },
+          {
+            "_id": "5fd9cd29c3285877fd7cbaae",
+            "direction": "row",
+            "widgets": ["5fd9cce097f6663276eafb56"]
+          },
+          {
+            "_id": "5fd9cf32f0f229182ca00555",
+            "direction": "row",
+            "widgets": ["5fd9ce7e4895044880dfd659"]
+          },
+          {
+            "_id": "5fd9cf2fcc86d2f501d2d5bb",
+            "direction": "row",
+            "widgets": ["5fd9ce85d2fd31d59ba146ed"]
+          },
+          {
+            "_id": "5fd9cf2bc48d784d1b9ca1d9",
+            "direction": "row",
+            "widgets": ["5fd9ce8d555ea2b785b90c1a"]
+          },
+          {
+            "_id": "5fd9cf1fa31121923d61a3be",
+            "direction": "row",
+            "widgets": ["5fd9ce95ed4dff795974a949"]
+          },
+          {
+            "_id": "5fd9cf1b7f3ce38628a0f5a5",
+            "direction": "row",
+            "widgets": ["5fd9ce9c2e11763b86260d9e"]
+          },
+          {
+            "_id": "5fd9cf1771c07b4b342d78ec",
+            "direction": "row",
+            "widgets": ["5fd9cea3e2d43fec7e75b657"]
+          },
+          {
+            "_id": "5fd9cf12bd8e71b627b675e0",
+            "direction": "row",
+            "widgets": ["5fd9cea9514a33ef0be93b06"]
+          },
+          {
+            "_id": "5fd9cf0ddd5a80a8a20543f0",
+            "direction": "row",
+            "widgets": ["5fd9ceb0d7a2d7d8624a20b8"]
+          },
+          {
+            "_id": "5fd9cf0a7f2b49324e46e806",
+            "direction": "row",
+            "widgets": ["5fd9ceb9e79f429e9c73ad41"]
+          },
+          {
+            "_id": "5fd9cf06ec71616cb89e01bf",
+            "direction": "row",
+            "widgets": ["5fd9cec0db3ba3b867609eea"]
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5fb22a28e572c4e2d8b3d370",
+      "position": "",
+      "inlineStyle": "margin-top:54px;\nfont-size:24px;\ncolor:#333333;\nfont-weight:400;\nfont-family:Adobe Heiti Std;\nheight:40px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>條款及細則</div>"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb23017dfd0ebec1252ee9a",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>感謝您使用本網站，您的訂單一經送出即視為理解並同意本網站的一切交易條款，故在購物前請先仔細閱讀有關服務條款及細則。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb23017df10ebec1242ee9a",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>我們保留在任何時間更新本網站、相關政策及協議、私隱政策以及本服務條款的權利。請您定時瀏覽本網站，查看上述的政策及協議、私隱政策以及本服務條款的更新或更改。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb23022d2d0ebec1252ee9c",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>會員註冊</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb23829feaf37aa821407f5",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "您需要註冊會員帳戶才能使用本網站提供的部分服務。註冊帳戶即表示您同意提供任何方面均為真實、正確、最新和完整的個人資料。如欲進一步了解我們如何使用您的個人資料，請參閱我們的私隱政策。18歲以下人士必須在註冊使用本網站和服務前讓家長或監護人同意。 我們保留只接受18歲以上人士使用本網站訂貨的權利。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cc57385cb503b0f7be44",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>禁制事項和違規情況</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb238e81420b311e9d20d19",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<p style=\"font-size:16px;\ncolor:#333333;font-family:Adobe Heiti Std;\n\">如您的帳戶執行以下任何活動，我們將對你的帳戶採取相關行動:<p>\n<ul>\n<li style=\"margin-top:15px;\">使用任何技術企圖隱藏使用多個帳戶，或以任何方式擾亂我們任何服務</li>\n<li style=\"margin-top:15px;\">發起任何含有非法、傷害、恐嚇、濫用、騷擾、誹謗、粗俗、淫褻、褻瀆、仇恨、會引起種族和民族反感成分的資料的訊息</li>\n<li style=\"margin-top:15px;\">宣傳或發送任何濫發訊息</li><li style=\"margin-top:15px;\">冒充他人或提供任何虛假資料</li>\n</ul><p style=\"font-size:16px;\ncolor:#333333;font-family:Adobe Heiti Std;\nmarin-top:15px;\n\">我們有權自行決定終止任何帳戶。在此情況下，我們會發電郵通知您有關帳戶終止的事宜。<p><p style=\"font-size:16px;\ncolor:#333333;font-family:Adobe Heiti Std;\nmarin-top:15px;\n\">我們保留在沒有通知的情況下撤銷或修改任何服務的權利。若本網站因任何理由在任何時間或任何期間無法使用，我們概不負責。<p>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ccf4c9205c5f3de9610d",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>商品價格</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cce9f918b619f46b69c9",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "本網站所標示的價格均為港幣售價。除非出現明顯錯誤，否則您的訂單獲接納時，即代表您同意支付本網站所顯示的價格。我們會盡力確保本網站所顯示的所有價格準確，但不能保證所有價格無誤，並保留更正任何錯誤的權利。如果我們發現您已訂購的任何產品價格有誤，我們會儘快通知您，屆時你可選擇重新確認或取消訂單。如果未能聯繫您，我們將把訂單作取消處理。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cce097f6663276eafb56",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "如果您的信用卡/ 轉帳卡不是港幣戶口，最終收費會以您的戶口貨幣，並由您的發卡銀行根據其處理交易當天的適用匯率計算。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce7e4895044880dfd659",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>退貨、退款或取消訂單</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce85d2fd31d59ba146ed",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>訂單一經送出，本網站將不接受任何取消訂單的要求。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce8d555ea2b785b90c1a",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>貨品出門後均不設退換，發貨前我們會盡力確保貨品品質及妥善包裝，惟我們不能保證貨品在運送過程中完好無損，選擇郵寄的買家請承擔一切郵寄風險。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce95ed4dff795974a949",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>如選擇到店取貨的訂單，買家請於收到取貨通知日起計一個月內完成取貨，如逾期仍未取貨，本店有權處理貨品而不作另行通知，有關訂單亦會視為取消處理，已收取之貨款亦無法退回，敬請留意。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce9c2e11763b86260d9e",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>假如您收到的商品與訂單有誤，請聯繫我們的客戶服務部並提供有關商品照片，我們會安排更換貨品。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cea3e2d43fec7e75b657",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>但請注意退回之貨品必須完好及不影響二次銷售。包括貨品需未經開封及使用，亦需連同附有所有標籤、配件和原裝包裝退回。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cea9514a33ef0be93b06",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本店保留退貨及換貨之最終決定權。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ceb0d7a2d7d8624a20b8",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>退款只限「訂購後遇缺貨」適用。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ceb9e79f429e9c73ad41",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>如遇此情況，我們將聯絡客人（電郵／電話）以獲得銀行戶口資料，透過轉賬全數退回款項。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cec0db3ba3b867609eea",
+      "position": "",
+      "inlineStyle": "margin-bottom:54px;\nfont-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>如有任何查詢可透過電郵<a href=\"mailto: support@golpasal.com\" style=\"color: rgb(208, 2, 27)\">support@golpasal.com</a>查詢。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    }
+  ]
+}

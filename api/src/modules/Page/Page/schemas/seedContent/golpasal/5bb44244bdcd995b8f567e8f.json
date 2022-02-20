@@ -1,0 +1,367 @@
+{
+  "_id": "5c91b4a722ef404da9298564",
+  "isTemplate": false,
+  "workspace": "5c91b4c11dd5438849a338b5",
+  "path": "/about",
+  "subPath": "",
+  "fromPageContent": null,
+  "globalWidgets": [],
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5c9b40c33829djk56313d38dk",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5e159acb242e400e2ab23424",
+            "direction": "row",
+            "widgets": ["5e159a46242e400e2ab23418"]
+          },
+          {
+            "_id": "5db699290bd310ce722ece69",
+            "direction": "row",
+            "widgets": [
+              {
+                "_id": "5db6999f0bd310ce722ece70",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5e159ad8242e400e2ab23427",
+                    "direction": "row",
+                    "widgets": ["5e159ad0242e400e2ab23425"]
+                  },
+                  {
+                    "_id": "5e159ad8242e400e2ab23428",
+                    "direction": "row",
+                    "widgets": ["5db6999d0bd310ce722ece6f"]
+                  }
+                ]
+              },
+              {
+                "_id": "5db6995e0bd310ce722ece6d",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5e159a35242e400e2ab23416",
+                    "direction": "row",
+                    "widgets": ["5e159a32242e400e2ab23415"]
+                  },
+                  {
+                    "_id": "5e159a35242e400e2ab23417",
+                    "direction": "row",
+                    "widgets": ["5db699260bd310ce722ece67"]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "5e159aa6242e400e2ab23423",
+            "direction": "row",
+            "widgets": ["5e159aa4242e400e2ab23422"]
+          },
+          {
+            "_id": "5e159a9a242e400e2ab23421",
+            "direction": "row",
+            "widgets": ["5e159a99242e400e2ab23420"]
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5db699260bd310ce722ece67",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://devcdn.golpasal.com/assets/images/cpls/Screenshot_2019-10-28_at_2-e641ddd989da0eb10af1a44a2be3af984_thumb.jpg",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5db6999d0bd310ce722ece6f",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://devcdn.golpasal.com/assets/images/cpls/Screenshot_2019-10-28_at_2-e641ddd989da0eb10af1a44a2be3af984_thumb.jpg",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5e159a32242e400e2ab23415",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "zh-hk": {
+          "text": "image 2 title - tc"
+        },
+        "en": {
+          "text": "image 2 title - en"
+        },
+        "zh-cn": {
+          "text": "image 2 title - sc"
+        }
+      }
+    },
+    {
+      "_id": "5e159a46242e400e2ab23418",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "h1",
+        "color": "#000",
+        "zh-hk": {
+          "text": "title demo --- click - tc"
+        },
+        "en": {
+          "text": "title demo --- click - en"
+        },
+        "zh-cn": {
+          "text": "title demo --- click - sc"
+        }
+      }
+    },
+    {
+      "_id": "5e159a99242e400e2ab23420",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "contactForm",
+      "data": {
+        "action": "url",
+        "submit": {
+          "_id": "5e159a99242e400e2ab2341e",
+          "position": "",
+          "inlineStyle": "",
+          "userPermission": {
+            "delete": true,
+            "edit": true,
+            "move": true
+          },
+          "hidden": false,
+          "mobileHidden": false,
+          "anchor": {
+            "hash": "",
+            "top": 0
+          },
+          "layout": {},
+          "type": "button",
+          "data": {
+            "text": "提交",
+            "width": "133px",
+            "height": "43px",
+            "icon": {
+              "url": "",
+              "width": "20px",
+              "height": "20px"
+            },
+            "borderRadius": "8px",
+            "href": "",
+            "buttonType": "default",
+            "hrefTarget": "_blank",
+            "color": "#fff",
+            "supportJump": false,
+            "backgroundColor": "linear-gradient(90deg,rgba(242,122,56,1) 0%,rgba(237,73,94,1) 100%)"
+          }
+        },
+        "style": "style1",
+        "inputs": [
+          {
+            "label": "name",
+            "type": "input",
+            "value": "",
+            "placeholder": "enter name here",
+            "options": [],
+            "filedName": ""
+          },
+          {
+            "label": "from email",
+            "type": "input",
+            "value": "",
+            "placeholder": "enter email here",
+            "options": [],
+            "filedName": ""
+          }
+        ],
+        "buttonText": "submit",
+        "textarea": {
+          "label": "enter name here",
+          "rows": 3
+        },
+        "message": {
+          "success": "enter success message here",
+          "failure": "enter success message here",
+          "en": {
+            "success": "Sent successfully!",
+            "failure": "Send failed!"
+          },
+          "zh-cn": {
+            "success": "发送成功!",
+            "failure": "发送失败!"
+          },
+          "zh-hk": {
+            "success": "發送成功!",
+            "failure": "發送失敗!"
+          }
+        },
+        "emailSettings": {
+          "toEmail": "To email",
+          "emailTitle": "Email title"
+        },
+        "isButton": false
+      }
+    },
+    {
+      "_id": "5e159aa4242e400e2ab23422",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "h1",
+        "color": "#000",
+        "zh-hk": {
+          "text": "Contact Form - tc"
+        },
+        "en": {
+          "text": "Contact Form - en"
+        },
+        "zh-cn": {
+          "text": "Contact Form - sc"
+        }
+      }
+    },
+    {
+      "_id": "5e159ad0242e400e2ab23425",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "zh-hk": {
+          "text": "image 1 title - tc"
+        },
+        "en": {
+          "text": "image 1 title - en"
+        },
+        "zh-cn": {
+          "text": "image 1 title - sc"
+        }
+      }
+    }
+  ]
+}

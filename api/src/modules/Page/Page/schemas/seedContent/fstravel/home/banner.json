@@ -1,0 +1,195 @@
+{
+  "_id": "5ecf20c2e8309b65c8a39745",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5ecf20c2e8309b65c8a39746",
+        "direction": "column",
+        "widgets": ["5ff815ad4dccd20ec39ed5a8"]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5ff815ad4dccd20ec39ed5a8",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": "33.33",
+          "1": "33.33",
+          "2": "33.33"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "fixedHundredPercent": false,
+        "breakpoints": {
+          "md": {
+            "columnWidths": {
+              "0": "100",
+              "1": "0"
+            },
+            "columnRatio": "even",
+            "direction": "leftToRight",
+            "fixedHundredPercent": false
+          },
+          "lg": {
+            "columnWidths": {
+              "0": "100",
+              "1": "0"
+            },
+            "fixedHundredPercent": false
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "0",
+              "1": "100"
+            },
+            "fixedHundredPercent": false
+          }
+        },
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ff815ad4dccd20ec39ed5a5",
+                "direction": "column",
+                "widgets": ["5ff815b94dccd20ec39ed5aa"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ff815ad4dccd20ec39ed5a6",
+                "direction": "column",
+                "widgets": ["5ff816694dccd20ec39ed5ad"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ff815ad4dccd20ec39ed5a7",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5ff815b94dccd20ec39ed5aa",
+      "position": "",
+      "inlineStyle": {
+        "sm": "display:none;",
+        "lg": ""
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "mediaBox",
+      "data": {
+        "media": {
+          "type": "image",
+          "src": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/home-banner.jpeg"
+        },
+        "width": "100%",
+        "height": "26vw",
+        "layout": {
+          "stackName": "flex",
+          "stack": [
+            {
+              "_id": "5ff815b94dccd20ec39ed5a9",
+              "direction": "column",
+              "widgets": []
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "_id": "6063f01b2df54b1a68e80945",
+          "type": "ratio",
+          "data": {
+            "w": 970,
+            "h": 250
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5ff816694dccd20ec39ed5ad",
+      "position": "",
+      "inlineStyle": {
+        "lg": "display:none;",
+        "sm": ""
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "mediaBox",
+      "data": {
+        "media": {
+          "type": "image",
+          "src": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/home-banner.jpeg"
+        },
+        "width": "100%",
+        "height": "100vw",
+        "layout": {
+          "stackName": "flex",
+          "stack": [
+            {
+              "_id": "5ff816694dccd20ec39ed5ac",
+              "direction": "column",
+              "widgets": []
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

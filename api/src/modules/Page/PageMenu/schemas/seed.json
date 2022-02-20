@@ -1,0 +1,135 @@
+{
+  "model": "PageMenus",
+  "documents": [
+    {
+      "_id": "5e68dd2bd79376ce014e5dd3",
+      "code": "TOP_MENU",
+      "platform": "web",
+      "items": [
+        {
+          "name": {
+            "en": "About",
+            "zh-hk": "關於",
+            "zh-cn": "关于"
+          },
+          "type": "link",
+          "data": null,
+          "to": {
+            "link": "#",
+            "mode": "standard"
+          },
+          "effects": {
+            "auth": false
+          },
+          "items": [
+            {
+              "name": {
+                "en": "About us",
+                "zh-hk": "關於我們",
+                "zh-cn": "关于我們"
+              },
+              "type": "link",
+              "data": null,
+              "to": {
+                "link": "/about",
+                "mode": "standard"
+              },
+              "effects": {
+                "auth": false
+              },
+              "idx": 0
+            },
+            {
+              "name": {
+                "en": "Terms",
+                "zh-hk": "服務條款",
+                "zh-cn": "服务条款"
+              },
+              "type": "link",
+              "data": null,
+              "to": {
+                "link": "/terms",
+                "mode": "standard"
+              },
+              "effects": {
+                "auth": false
+              },
+              "idx": 1
+            },
+            {
+              "name": {
+                "en": "Privacy",
+                "zh-hk": "私隱政策",
+                "zh-cn": "私隐政策"
+              },
+              "type": "link",
+              "data": null,
+              "to": {
+                "link": "/privacy",
+                "mode": "standard"
+              },
+              "effects": {
+                "auth": false
+              },
+              "idx": 2
+            }
+          ],
+          "idx": 1
+        },
+        {
+          "name": {
+            "en": "Posts",
+            "zh-hk": "優惠情報",
+            "zh-cn": "优惠情报"
+          },
+          "type": "link",
+          "to": {
+            "link": "/posts",
+            "mode": "standard"
+          },
+          "effects": {
+            "auth": false
+          },
+          "data": null,
+          "idx": 2
+        },
+        {
+          "name": {
+            "en": "FAQ",
+            "zh-hk": "常見問題",
+            "zh-cn": "常见问题"
+          },
+          "type": "link",
+          "to": {
+            "link": "/faq",
+            "mode": "standard"
+          },
+          "effects": {
+            "auth": false
+          },
+          "data": null,
+          "idx": 3
+        },
+        {
+          "name": {
+            "en": "Contact",
+            "zh-hk": "聯繫我們",
+            "zh-cn": "联系我们"
+          },
+          "type": "link",
+          "to": {
+            "link": "/contact",
+            "mode": "standard"
+          },
+          "effects": {
+            "auth": false
+          },
+          "data": null,
+          "idx": 4
+        }
+      ],
+      "mItems": [],
+      "idx": 0
+    }
+  ]
+}

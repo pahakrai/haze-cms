@@ -1,0 +1,36 @@
+scalar Date
+
+type Wallet {
+  _id: ID!
+}
+
+input WalletCreateModel {
+  name: String!
+}
+
+input WalletUpdateModel {
+  name: String
+}
+
+type PaginateWallet {
+  nodes: [Wallet]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input WalletSearchModel {
+  name: String
+}
+
+type Query {
+  wallet(id: ID!): Wallet
+  wallets(query: WalletSearchModel, paginate: Paginate): PaginateWallet
+}
+
+type Mutation {
+  createWallet(walletCreateModel:WalletCreateModel): Wallet
+  updateWallet(id: ID!, walletUpdateModel:WalletUpdateModel): Wallet
+}

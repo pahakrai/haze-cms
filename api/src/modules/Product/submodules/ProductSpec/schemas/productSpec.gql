@@ -1,0 +1,62 @@
+scalar Date
+
+type ProductSpecValues {
+  _id: ID
+  name: String
+}
+
+type ProductSpec {
+  _id: ID!
+  product: Product
+  name: String
+  values: [ProductSpecValues]
+  icon: FileMeta
+  activeIcon: FileMeta
+}
+
+input InputProductSpecValues {
+  _id: String
+  name: String
+}
+
+input ProductSpecCreateModel {
+  product: String!
+  name: String!
+  values: [InputProductSpecValues!]
+}
+
+input ProductSpecUpdateModel {
+  product: String
+  name: String
+  values: [InputProductSpecValues]
+}
+
+type PaginateProductSpec {
+  nodes: [ProductSpec]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input ProductSpecSearchModel {
+  q: String
+}
+
+type Query {
+  productSpec(id: ID!): ProductSpec
+  productSpecs(
+    query: ProductSpecSearchModel
+    paginate: Paginate
+    options: QueryOption
+  ): PaginateProductSpec
+}
+
+type Mutation {
+  createProductSpec(productSpecCreateModel: ProductSpecCreateModel): ProductSpec
+  updateProductSpec(
+    id: ID!
+    productSpecUpdateModel: ProductSpecUpdateModel
+  ): ProductSpec
+}

@@ -1,0 +1,27 @@
+export const POST_DETAIL_PAGE_FIELDS = `
+   _id
+   type
+   title
+   postDate
+   snippets
+   likes{
+        _id
+   }
+   images{
+       _id,
+       fileMeta{
+           uri
+       }
+   }
+   content
+   priority
+   isActive
+   createdBy{
+        _id
+    }
+    createDate
+    likeCount
+    commentCount
+    tags
+    platformTypes
+`;

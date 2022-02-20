@@ -1,0 +1,105 @@
+{
+  "model": "PaymentMethods",
+  "documents": [
+    {
+      "_id": "5e843a40800b0e98ab81eb62",
+      "code": "alipay",
+      "name": {
+        "en": "AliPay",
+        "zh-hk": "支付寶",
+        "zh-cn": "支付宝"
+      },
+      "isActive": false
+    },
+    {
+      "_id": "600b848643500f4c0e2ac27e",
+      "code": "atm",
+      "name": {
+        "en": "ATM",
+        "zh-hk": "銀行轉脹",
+        "zh-cn": "银行转帐"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5fd9e2ba1e9d0d5b9fea0e33",
+      "code": "cod",
+      "name": {
+        "en": "Cash on Delivery",
+        "zh-hk": "到付",
+        "zh-cn": "到付"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5fd9e279aaac223281884717",
+      "code": "cheque",
+      "name": {
+        "en": "Cheque",
+        "zh-hk": "支票",
+        "zh-cn": "支票"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5ed76ef70cbf0ed638ac49e6",
+      "code": "credit-card-stripe",
+      "name": {
+        "en": "Credit Card",
+        "zh-hk": "信用卡",
+        "zh-cn": "信用卡"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "600b857629578b553bfc005c",
+      "code": "fps",
+      "name": {
+        "en": "FPS",
+        "zh-hk": "轉數快",
+        "zh-cn": "转数快"
+      },
+      "isActive": false
+    },
+    {
+      "_id": "600b855aa24cc3c02869ab4b",
+      "code": "PAYME",
+      "name": {
+        "en": "PayMe",
+        "zh-hk": "PayMe",
+        "zh-cn": "PayMe"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5e843a40800b0e98ab81eb61",
+      "code": "paypal",
+      "name": {
+        "en": "PayPal",
+        "zh-hk": "PayPal",
+        "zh-cn": "PayPal"
+      },
+      "isActive": false
+    },
+    {
+      "_id": "600b85f7cb7a52ba54f62f04",
+      "code": "union-pay",
+      "name": {
+        "en": "Union Pay",
+        "zh-hk": "銀聯",
+        "zh-cn": "銀聯"
+      },
+      "isActive": false
+    },
+    {
+      "_id": "5e843a40800b0e98ab81eb63",
+      "code": "wechat-pay",
+      "name": {
+        "en": "Wechat Pay",
+        "zh-hk": "微信支付",
+        "zh-cn": "微信支付"
+      },
+      "isActive": false
+    }
+  ]
+}

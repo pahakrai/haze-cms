@@ -1,0 +1,13 @@
+/* for menu over style */
+
+.ant-menu-item:hover {
+  color: #edba37;
+}
+
+.ant-menu-item-selected {
+  color: #edba37;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #fff5de;
+}

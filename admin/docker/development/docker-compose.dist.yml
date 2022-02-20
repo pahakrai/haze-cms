@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  admin:
+    image: ecomm-admin_dev-dist
+    container_name: ecomm-admin_dev-dist
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile-dist
+      args:
+        - NPM_TOKEN=${NPM_TOKEN}
+        - NODE_ENV=development
+    ports:
+      - '3111:80'
+    env_file:
+      - .env.development

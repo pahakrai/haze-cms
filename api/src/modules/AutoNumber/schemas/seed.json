@@ -1,0 +1,120 @@
+{
+  "model": "AutoNumbers",
+  "documents": [
+    {
+      "_id": "5d27e92f8c714964d41e567b",
+      "prefix": "20",
+      "type": "payroll",
+      "lastNo": 2
+    },
+    {
+      "_id": "5f15770f49b5181b34055169",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "lastNo": 5,
+      "type": "coupon",
+      "prefix": "20"
+    },
+    {
+      "_id": "5f1aa862e224ebdd502e1441",
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "lastNo": 1,
+      "type": "order",
+      "prefix": "20"
+    },
+    {
+      "_id": "5f1aa2b2d5bcf82396e20684",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "lastNo": 1,
+      "type": "order",
+      "subType": "education",
+      "prefix": "2010"
+    },
+    {
+      "_id": "5f1e57099d6c9f3464f932a1",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "lastNo": 1,
+      "type": "order",
+      "subType": "shopping",
+      "prefix": "20",
+      "createdAt": "2020-07-27T04:24:41.114Z",
+      "updatedAt": "2020-07-27T04:24:41.114Z",
+      "__v": 0
+    },
+    {
+      "_id": "5fae304b99f5d902a051a1a4",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "lastNo": 1,
+      "type": "quotation",
+      "prefix": "20",
+      "createdAt": "2020-07-27T04:24:41.114Z",
+      "updatedAt": "2020-07-27T04:24:41.114Z",
+      "__v": 0
+    },
+    {
+      "_id": "5fdc2bb8ef4e2893eb54e5eb",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "lastNo": 1,
+      "type": "receipt",
+      "prefix": "20"
+    },
+    {
+      "_id": "5fdc2bcf526d59395b07c496",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "lastNo": 1,
+      "type": "receipt",
+      "prefix": "20"
+    },
+    {
+      "_id": "6000f98708dfc336f69b7975",
+      "workspace": "5fd83be73db74d57b304cb82",
+      "lastNo": 1,
+      "type": "order",
+      "subType": "education",
+      "prefix": "20"
+    },
+    {
+      "_id": "600a412489eb436b8bb3861e",
+      "workspace": "5fd83be73db74d57b304cb82",
+      "lastNo": 1,
+      "type": "receipt",
+      "prefix": "20"
+    },
+    {
+      "_id": "603c889042eee2fac919b5d4",
+      "workspace": "603c49b5db43c6f01a68c691",
+      "lastNo": 1,
+      "type": "order",
+      "subType": "shopping",
+      "prefix": "20"
+    },
+    {
+      "_id": "603c88945967ca570d4119d0",
+      "workspace": "603c4a3dc77d84287d986486",
+      "lastNo": 1,
+      "type": "order",
+      "subType": "shopping",
+      "prefix": "20"
+    },
+    {
+      "_id": "5d26988f94d0535e147a48ce",
+      "prefix": "2103",
+      "type": "claim",
+      "lastNo": 1,
+      "workspace": "5ea7f40f68a8e97c03d55326"
+    },
+    {
+      "_id": "6042079ef0db5517047184bb",
+      "workspace": "603c49b5db43c6f01a68c691",
+      "lastNo": 1,
+      "type": "quotation",
+      "prefix": "20"
+    },
+    {
+      "_id": "604207c1e03f8107a1e1e1de",
+      "workspace": "603c4a3dc77d84287d986486",
+      "lastNo": 1,
+      "type": "quotation",
+      "prefix": "20"
+    }
+  ]
+}

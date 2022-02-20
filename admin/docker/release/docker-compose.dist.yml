@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  admin:
+    image: ecomm-admin_release-dist
+    container_name: ecomm-admin_release-dist
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile-dist
+      args:
+        - NPM_TOKEN=${NPM_TOKEN}
+        - NODE_ENV=release
+    ports:
+      - '3117:80'
+    env_file:
+      - .env.release

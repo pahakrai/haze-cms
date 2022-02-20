@@ -1,0 +1,561 @@
+{
+  "model": "SystemReports",
+  "documents": [
+    {
+      "_id": "5f3c88cccd1e991f087c4be4",
+      "workspaceTypes": ["job-hunting"],
+      "workspaces": ["5ea95dce2b462f77bf7acc04"],
+      "commandText": "/systemReports/recruitment-report/",
+      "reportName": "RecruitmentReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3f40a97d1e68801acf0364",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        },
+        {
+          "code": "startDateFrom",
+          "name": {
+            "en": "Start Date From",
+            "zh-cn": "开始时间",
+            "zh-hk": "開始時間"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c891fd7a724eec367a088"
+        },
+        {
+          "code": "startDateTo",
+          "name": {
+            "en": "Start Date To",
+            "zh-cn": "至",
+            "zh-hk": "至"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c89321e9ee1b9dc8205d6"
+        }
+      ],
+      "name": {
+        "en": "Reimbursement Report ",
+        "zh-hk": "招聘報表",
+        "zh-cn": "招聘报表"
+      },
+      "__v": 0
+    },
+    {
+      "_id": "5fbc8827e8988551e3cebb85",
+      "workspaceTypes": ["job-hunting"],
+      "workspaces": ["5ea95dce2b462f77bf7acc04"],
+      "commandText": "/systemReports/employer-report/",
+      "reportName": "EmployerReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3f40a97d1e68801acf0364",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        }
+      ],
+      "name": {
+        "en": "Employer Report ",
+        "zh-hk": "僱主報表",
+        "zh-cn": "雇主报表"
+      },
+      "__v": 0
+    },
+    {
+      "_id": "5fbc9aa889d90173eb091cb6",
+      "workspaceTypes": ["job-hunting"],
+      "workspaces": ["5ea95dce2b462f77bf7acc04"],
+      "commandText": "/systemReports/talent-report/",
+      "reportName": "TalentReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5fbb9035377fd08b9556406d",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        }
+      ],
+      "name": {
+        "en": "Talent Report",
+        "zh-hk": "人材報表",
+        "zh-cn": "人材报表"
+      },
+      "__v": 0
+    },
+    {
+      "_id": "5fbcdc3412f5159041590c69",
+      "workspaceTypes": ["job-hunting"],
+      "workspaces": ["5ea95dce2b462f77bf7acc04"],
+      "commandText": "/systemReports/rating-report/",
+      "reportName": "RatingReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3f40a97d1e68801acf0364",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        }
+      ],
+      "name": {
+        "en": "Rating Report ",
+        "zh-hk": "評分報告",
+        "zh-cn": "评分报告"
+      }
+    },
+    {
+      "_id": "5fbf17c982d1e6eb3151ba48",
+      "workspaceTypes": ["job-hunting"],
+      "workspaces": ["5ea95dce2b462f77bf7acc04"],
+      "commandText": "/systemReports/job-nature-report/",
+      "reportName": "JobNatureReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5fbf17f0945e3cf329cfe222",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        }
+      ],
+      "name": {
+        "en": "Job nature report",
+        "zh-hk": "工作性質報表",
+        "zh-cn": "工作性质报表"
+      }
+    },
+    {
+      "_id": "5fbf4296ce653fde67dbb03d",
+      "workspaceTypes": ["job-hunting"],
+      "workspaces": ["5ea95dce2b462f77bf7acc04"],
+      "commandText": "/systemReports/employment-report/",
+      "reportName": "EmploymentReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5fbf17f0945e3cf329cfe222",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        },
+        {
+          "code": "startDateFrom",
+          "name": {
+            "en": "Start Date From",
+            "zh-cn": "开始时间",
+            "zh-hk": "開始時間"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c891fd7a724eec367a088"
+        },
+        {
+          "code": "startDateTo",
+          "name": {
+            "en": "Start Date To",
+            "zh-cn": "至",
+            "zh-hk": "至"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c89321e9ee1b9dc8205d6"
+        }
+      ],
+      "name": {
+        "en": "Employment Report",
+        "zh-hk": "就業報表",
+        "zh-cn": "就业报表"
+      }
+    },
+    {
+      "_id": "5fc6133667cacbe36c4a2595",
+      "workspaceTypes": ["education", "shopping"],
+      "workspaces": ["5e9fcae14fc78a87a9bc4c11", "5ea95dce2b462f77bf7acc02"],
+      "commandText": "/systemReports/order-report/",
+      "reportName": "OrderReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5fbf17f0945e3cf329cfe222",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        },
+        {
+          "code": "startDateFrom",
+          "name": {
+            "en": "Start Date From",
+            "zh-cn": "开始时间",
+            "zh-hk": "開始時間"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c891fd7a724eec367a088"
+        },
+        {
+          "code": "startDateTo",
+          "name": {
+            "en": "Start Date To",
+            "zh-cn": "至",
+            "zh-hk": "至"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c89321e9ee1b9dc8205d6"
+        }
+      ],
+      "name": {
+        "en": "Order Report",
+        "zh-hk": "訂單報表",
+        "zh-cn": "订单报表"
+      }
+    },
+    {
+      "_id": "5fe1cddbc8a181fce530f606",
+      "workspaceTypes": ["education", "shopping"],
+      "workspaces": ["5e9fcae14fc78a87a9bc4c11", "5ea95dce2b462f77bf7acc02"],
+      "commandText": "/systemReports/payment-report/",
+      "reportName": "PaymentReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5fbf17f0945e3cf329cfe222",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        },
+        {
+          "code": "startDateFrom",
+          "name": {
+            "en": "Start Date From",
+            "zh-cn": "开始时间",
+            "zh-hk": "開始時間"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c891fd7a724eec367a088"
+        },
+        {
+          "code": "startDateTo",
+          "name": {
+            "en": "Start Date To",
+            "zh-cn": "至",
+            "zh-hk": "至"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c89321e9ee1b9dc8205d6"
+        }
+      ],
+      "name": {
+        "en": "Payment Report",
+        "zh-hk": "付款報表",
+        "zh-cn": "付款报表"
+      }
+    },
+    {
+      "_id": "600296a8a6352ddbe43d3d96",
+      "workspaceTypes": ["job-hunting"],
+      "workspaces": ["5ea95dce2b462f77bf7acc04"],
+      "commandText": "/systemReports/device-report/",
+      "reportName": "DeviceReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5fbf17f0945e3cf329cfe222",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        },
+        {
+          "code": "startDateFrom",
+          "name": {
+            "en": "Start Date From",
+            "zh-cn": "开始时间",
+            "zh-hk": "開始時間"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c891fd7a724eec367a088"
+        },
+        {
+          "code": "startDateTo",
+          "name": {
+            "en": "Start Date To",
+            "zh-cn": "至",
+            "zh-hk": "至"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c89321e9ee1b9dc8205d6"
+        }
+      ],
+      "name": {
+        "en": "Device Report",
+        "zh-hk": "設備報表",
+        "zh-cn": "设备报表"
+      }
+    },
+    {
+      "_id": "60419130ecc06d1dba848e5c",
+      "workspaceTypes": ["logistics"],
+      "workspaces": ["5ea7f40f68a8e97c03d55326"],
+      "commandText": "/systemReports/order-logistic-report/",
+      "reportName": "OrderLogisticReport",
+      "format": "excel",
+      "isActive": true,
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5fbf17f0945e3cf329cfe222",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        },
+        {
+          "code": "startDateFrom",
+          "name": {
+            "en": "Start Date From",
+            "zh-cn": "开始时间",
+            "zh-hk": "開始時間"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c891fd7a724eec367a088"
+        },
+        {
+          "code": "startDateTo",
+          "name": {
+            "en": "Start Date To",
+            "zh-cn": "至",
+            "zh-hk": "至"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c89321e9ee1b9dc8205d6"
+        },
+        {
+          "code": "peopleInCharge",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "604191c11cd61c7a30119d93",
+          "name": {
+            "en": "Staff",
+            "zh-hk": "員工",
+            "zh-cn": "员工"
+          }
+        }
+      ],
+      "name": {
+        "en": "Staff work report",
+        "zh-hk": "員工工作報表",
+        "zh-cn": "员工工作报表"
+      }
+    },
+    {
+      "_id": "604710f0e26f2deaf27b2d67",
+      "workspaceTypes": ["logistics"],
+      "workspaces": ["5ea7f40f68a8e97c03d55326"],
+      "commandText": "/systemReports/Expense-report/",
+      "reportName": "ExpenseReport",
+      "format": "excel",
+      "parameters": [
+        {
+          "code": "workspaceType",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5fbf17f0945e3cf329cfe222",
+          "name": {
+            "en": "Workspace Type",
+            "zh-hk": "公司類型",
+            "zh-cn": "公司类型"
+          }
+        },
+        {
+          "code": "startDateFrom",
+          "name": {
+            "en": "Start Date From",
+            "zh-cn": "开始时间",
+            "zh-hk": "開始時間"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c891fd7a724eec367a088"
+        },
+        {
+          "code": "startDateTo",
+          "name": {
+            "en": "Start Date To",
+            "zh-cn": "至",
+            "zh-hk": "至"
+          },
+          "dataType": "date",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "5f3c89321e9ee1b9dc8205d6"
+        },
+        {
+          "code": "peopleInCharge",
+          "dataType": "string",
+          "isDbNull": false,
+          "isNull": false,
+          "size": 10,
+          "value": "1",
+          "_id": "604191c11cd61c7a30119d93",
+          "name": {
+            "en": "Staff",
+            "zh-hk": "員工",
+            "zh-cn": "员工"
+          }
+        }
+      ],
+      "name": {
+        "en": "Staff expense report",
+        "zh-hk": "員工支出報表",
+        "zh-cn": "员工支出报表"
+      }
+    }
+  ]
+}

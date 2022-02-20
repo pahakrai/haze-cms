@@ -1,0 +1,33 @@
+{
+  "version": "2021-03-05",
+  "templates": [
+    {
+      "worksheet": "OrderReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "orderNo"
+          },
+          {
+            "idx": 2,
+            "fieldName": "client"
+          },
+          {
+            "idx": 3,
+            "fieldName": "contact"
+          },
+          {
+            "idx": 4,
+            "fieldName": "contactPhone"
+          },
+          {
+            "idx": 5,
+            "fieldName": "status"
+          }
+        ]
+      }
+    }
+  ]
+}

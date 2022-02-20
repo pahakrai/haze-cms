@@ -1,0 +1,26 @@
+// IMPORT GALLERY SCSS(may not here)
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.image-gallery-slide {
+  .image-gallery-image {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.image-gallery-thumbnail {
+  border: none;
+  .image-gallery-thumbnail-image {
+    width: 100%;
+    object-fit: cover;
+  }
+  &.active,
+  &:hover,
+  &:focus {
+    outline: none;
+    border: none;
+    @media (max-width: $ig-small-screen) {
+      border: none;
+    }
+  }
+}

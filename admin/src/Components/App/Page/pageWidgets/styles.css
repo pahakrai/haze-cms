@@ -1,0 +1,294 @@
+.page_base .property_boxed.inherit {
+  max-width: 1280px;
+}
+.page_editor_widget_layout > div {
+  height: inherit;
+}
+.page_editor {
+  flex-direction: column;
+}
+
+.page_display .widget_header {
+  position: absolute !important;
+  z-index: 2 !important;
+}
+
+/* widget locale start css */
+.widget_locale_menu {
+  position: relative;
+  max-width: 120px;
+}
+
+.widget_locale_menu .downMenu_container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: #fff;
+}
+
+.widget_locale_menu .menu_item {
+  color: #000;
+  font-size: 14px;
+  padding: 10px 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.widget_locale_menu .menu_item.fixed {
+  color: #edba37;
+  border: none;
+}
+
+.widget_locale_menu .menu_item.actived:hover {
+  background: linear-gradient(180deg, #fff5de 0%, #fff5de 100%);
+  color: #333333;
+}
+
+.widget_locale_menu .menu_arrow {
+  height: 0;
+  width: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  transition: all 300ms ease-out;
+}
+
+/* widget locale end css */
+
+/* widget menu start css */
+
+.widget_menu .editor_menu ul li a {
+  font-size: 16px;
+  font-family: PingFangHK-Medium, PingFangHK;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 22px;
+  padding: 25px 24px;
+}
+
+.widget_menu .editor_menu nav ul {
+  background-color: transparent;
+}
+
+.widget_menu .editor_menu li ul {
+  background-color: #fff;
+}
+
+.widget_menu .editor_menu ul li {
+  background-color: transparent;
+}
+
+.widget_menu .editor_menu ul li a:hover {
+  box-shadow: 0 4px 2px -2px #fff;
+  background-color: transparent;
+}
+
+.widget_menu .editor_menu.inline ul li a:hover {
+  border-radius: 0px;
+}
+
+.widget_menu .editor_menu li ul li a {
+  color: #000;
+  padding: 15px 24px;
+}
+
+.widget_menu .editor_menu.horizontal li ul li a:hover {
+  border-radius: 0px;
+  box-shadow: none;
+  background: linear-gradient(
+    180deg,
+    rgba(40, 34, 82, 1) 0%,
+    rgba(74, 35, 90, 1) 100%
+  );
+  color: #fff;
+}
+
+.widget_menu .editor_menu li:hover > ul {
+  margin-top: 0px;
+}
+
+.widget_menu .bm-menu .editor_menu.inline li ul li a {
+  margin-left: 24px;
+}
+
+.widget_menu .bm-burger-button {
+  margin-top: 25px;
+}
+.widget_menu .bm-burger-bars {
+  background: #fff;
+}
+.widget_menu .bm-menu .editor_menu.inline ul li a:hover {
+  color: #000;
+  background-color: #fff;
+}
+/* widget menu end css */
+
+/* widget link start css */
+.widget_text a {
+  text-decoration: none;
+}
+/* widget link end css */
+.widget_contact > div > div > div:nth-child(2) {
+  width: auto;
+}
+.widget_contact > div > div > div {
+  width: 100%;
+}
+
+.widget_contact > div > div > div > div > input[type='text'] {
+  border-radius: 8px;
+  border: 1px solid rgba(151, 151, 151, 1);
+  padding: 15px 10px;
+  font-size: 14px;
+}
+
+.widget_contact > div > div button {
+  height: 50px !important;
+  font-size: 15px !important;
+  border: 0 !important;
+  margin: 0 5px 0px 0 !important;
+  cursor: pointer !important;
+  background: #edba37 !important;
+}
+
+#logo > * > a {
+  display: block;
+  width: 259px;
+  height: 72px;
+}
+
+/* for media box auto height */
+
+.widget_mediaBox > img {
+  position: absolute;
+}
+
+.widget_mediaBox .widget_mediaBox_layout {
+  position: relative;
+}
+
+/*  media box end style */
+
+/*
+  ==============
+  if need add other widget style
+  ==============
+*/
+
+.page_display .text_style.h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display .text_style.h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display .text_style.h3 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display .text_style.h4 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display .text_style.h5 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display .text_style.h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display .text_style.p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-weight: normal;
+  line-height: 30px;
+}
+.page_display .text_style.small {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 24px;
+}
+.page_display h1,
+.page-text-editor h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display h2,
+.page-text-editor h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display h3,
+.page-text-editor h3 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display h4,
+.page-text-editor h4 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display h5,
+.page-text-editor h5 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display h6,
+.page-text-editor h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.page_display p,
+.page-text-editor p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-weight: normal;
+  line-height: 30px;
+}
+.page_display small,
+.page-text-editor small {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 24px;
+}

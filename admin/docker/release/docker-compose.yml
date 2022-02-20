@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+  admin:
+    image: ecomm-admin_release
+    container_name: ecomm-admin_release
+    stdin_open: true
+    tty: true
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile
+      args:
+        - NPM_TOKEN=${NPM_TOKEN}
+    volumes:
+      - '../../:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '3116:3000'
+    env_file:
+      - .env.release

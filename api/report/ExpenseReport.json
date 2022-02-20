@@ -1,0 +1,37 @@
+{
+  "version": "2021-01-16",
+  "templates": [
+    {
+      "worksheet": "ExpenseReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "orderNo"
+          },
+          {
+            "idx": 2,
+            "fieldName": "expenseType"
+          },
+          {
+            "idx": 3,
+            "fieldName": "amount"
+          },
+          {
+            "idx": 4,
+            "fieldName": "expenseDate"
+          },
+          {
+            "idx": 5,
+            "fieldName": "description"
+          },
+          {
+            "idx": 6,
+            "fieldName": "payer"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,5703 @@
+{
+  "_id": "5dca130199770434e76297ca",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5dca130199770434e76297cb",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5deca5db2910ce1f98803650",
+            "direction": "row",
+            "widgets": ["5deca5d72910ce1f9880364f"]
+          },
+          {
+            "_id": "5deca5db2910ce1f98803651",
+            "direction": "row",
+            "widgets": ["5debb6cd9b5261052db1e227"]
+          }
+        ]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5dca2d66ebdc1b3b06bd8ed4",
+      "position": "",
+      "inlineStyle": "padding-top:25vh",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "%",
+        "paddingUnit": "%",
+        "marginTop": "0",
+        "marginRight": "18",
+        "marginBottom": "0",
+        "marginLeft": "18",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": "50.00",
+          "1": "50.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca2d66ebdc1b3b06bd8ed1",
+                "direction": "column",
+                "widgets": ["5dca4fd1e3e3a32219caf300"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca2d66ebdc1b3b06bd8ed2",
+                "direction": "column",
+                "widgets": ["5dca2db9ebdc1b3b06bd8ed7"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca2d66ebdc1b3b06bd8ed3",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dca2db9ebdc1b3b06bd8ed7",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dca1efed6519e748c2742db-402e7894168e19b8379483125cc210845.png",
+        "width": "32vw",
+        "height": "70%",
+        "fit": "cover",
+        "position": "center"
+      },
+      "properties": [
+        {
+          "_id": "5dca7f390f928b4d96c0b855",
+          "type": "reveal",
+          "data": {
+            "type": "Zoom",
+            "startingPoint": "right",
+            "isBig": false,
+            "isCascade": false,
+            "isText": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5dca2dc4ebdc1b3b06bd8ed8",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "h3",
+        "color": "rgba(255,255,255,1)",
+        "zh-hk": {
+          "text": "WMS多行業及項目追蹤管理系統"
+        },
+        "zh-cn": {
+          "text": "wms多行业及项目追踪管理系统"
+        },
+        "en": {
+          "text": "Wms multi-industry and project tracking management system"
+        }
+      },
+      "properties": [
+        {
+          "_id": "5dca7f600f928b4d96c0b856",
+          "type": "reveal",
+          "data": {
+            "type": "Fade",
+            "startingPoint": "left",
+            "isBig": false,
+            "isCascade": false,
+            "isText": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5dca2dc7ebdc1b3b06bd8ed9",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "rgba(255,255,255,1)",
+        "zh-hk": {
+          "text": "借助peacewms，您可以在我們的系統中輕鬆管理公司不同項目的出庫、收貨、商家等貨品管理的所有操作。"
+        },
+        "zh-cn": {
+          "text": "借助peacewms，您可以在我们的系统中轻松管理公司不同项目的出库、收货、商家等货品管理的所有操作。"
+        },
+        "en": {
+          "text": "With peacewms, you can easily manage all operations of your company's different items such as outbound, inbound, and merchant management in our system."
+        }
+      },
+      "properties": [
+        {
+          "_id": "5dca7f660f928b4d96c0b857",
+          "type": "reveal",
+          "data": {
+            "type": "Fade",
+            "startingPoint": "left",
+            "isBig": false,
+            "isCascade": false,
+            "isText": false
+          }
+        }
+      ],
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "20",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dca4fd1e3e3a32219caf300",
+      "position": "",
+      "inlineStyle": "margin-left:5vw\nmargin-top:11vh",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca4fd1e3e3a32219caf2fd",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dca4ff5e3e3a32219caf303",
+                    "direction": "row",
+                    "widgets": ["5dca2dc4ebdc1b3b06bd8ed8"]
+                  },
+                  {
+                    "_id": "5dca4ff5e3e3a32219caf304",
+                    "direction": "row",
+                    "widgets": ["5dca2dc7ebdc1b3b06bd8ed9"]
+                  },
+                  {
+                    "_id": "5dca5005e3e3a32219caf305",
+                    "direction": "row",
+                    "widgets": [
+                      {
+                        "_id": "5dd74191630dd37b6ce56556",
+                        "direction": "column",
+                        "widgets": ["5dd7418a630dd37b6ce56555"]
+                      },
+                      {
+                        "_id": "5dd74202630dd37b6ce56558",
+                        "direction": "column",
+                        "widgets": ["5dd741fd630dd37b6ce56557"]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca4fd1e3e3a32219caf2fe",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca4fd1e3e3a32219caf2ff",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dca58a75938242efeaf3cf4",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "%",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "18",
+        "paddingBottom": "0",
+        "paddingLeft": "18",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": "50.00",
+          "1": "50.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca58a75938242efeaf3cf1",
+                "direction": "column",
+                "widgets": ["5dca5a6c5938242efeaf3d0a"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca58a75938242efeaf3cf2",
+                "direction": "column",
+                "widgets": ["5dca58b95938242efeaf3cf8"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca58a75938242efeaf3cf3",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dca58b95938242efeaf3cf8",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dca5834d6519e748c2742e6-c10c997dc85f97db86e029b555560fc35.png",
+        "width": "",
+        "height": "592px",
+        "fit": "cover",
+        "position": "center"
+      },
+      "properties": [
+        {
+          "_id": "5dca7f0b3a0adcf2c316eb7e",
+          "type": "reveal",
+          "data": {
+            "type": "Fade",
+            "startingPoint": "right",
+            "isBig": false,
+            "isCascade": false,
+            "isText": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5dca5a1f5938242efeaf3cfc",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": "50.00",
+          "1": "50.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a1f5938242efeaf3cf9",
+                "direction": "column",
+                "widgets": ["5dca5a265938242efeaf3cfe"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a1f5938242efeaf3cfa",
+                "direction": "column",
+                "widgets": ["5dca5a2b5938242efeaf3d02"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a1f5938242efeaf3cfb",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "%",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "",
+        "paddingRight": "18",
+        "paddingBottom": "0",
+        "paddingLeft": "18",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dca5a265938242efeaf3cfe",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dca583dd6519e748c2742e9-e2634782b31f668ed86a2c743b5cc423.png",
+        "width": "",
+        "height": "592px",
+        "fit": "cover",
+        "position": "center"
+      },
+      "properties": [
+        {
+          "_id": "5dca7f133a0adcf2c316eb7f",
+          "type": "reveal",
+          "data": {
+            "type": "Fade",
+            "startingPoint": "left",
+            "isBig": false,
+            "isCascade": false,
+            "isText": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5dca5a2b5938242efeaf3d02",
+      "position": "",
+      "inlineStyle": "margin-top: 35%;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a2b5938242efeaf3cff",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dca5a355938242efeaf3d05",
+                    "direction": "row",
+                    "widgets": ["5dca5a305938242efeaf3d03"]
+                  },
+                  {
+                    "_id": "5dca5a355938242efeaf3d06",
+                    "direction": "row",
+                    "widgets": ["5dca5a335938242efeaf3d04"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a2b5938242efeaf3d00",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a2b5938242efeaf3d01",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dca5a305938242efeaf3d03",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "h3",
+        "color": "#000",
+        "zh-hk": {
+          "text": "企業訂製"
+        },
+        "zh-cn": {
+          "text": "企业订制"
+        },
+        "en": {
+          "text": "Enterprise order"
+        }
+      }
+    },
+    {
+      "_id": "5dca5a335938242efeaf3d04",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "zh-hk": {
+          "text": "根據不同行業的用戶，使用範圍的不同可以選擇適合您方案匹配合適的價位。匹配出最適合您公司的方案。"
+        },
+        "zh-cn": {
+          "text": "根据不同行业的用户，使用范围的不同可以选择适合您方案匹配合适的价位。匹配出最适合您公司的方案。"
+        },
+        "en": {
+          "text": "According to the different industries, users can choose the right price for your solution. Match the best solution for your company."
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "25",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dca5a6c5938242efeaf3d0a",
+      "position": "",
+      "inlineStyle": "margin-top: 35%;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a6c5938242efeaf3d07",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dca5a745938242efeaf3d0d",
+                    "direction": "row",
+                    "widgets": ["5dca5a6e5938242efeaf3d0b"]
+                  },
+                  {
+                    "_id": "5dca5a745938242efeaf3d0e",
+                    "direction": "row",
+                    "widgets": ["5dca5a725938242efeaf3d0c"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a6c5938242efeaf3d08",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dca5a6c5938242efeaf3d09",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dca5a6e5938242efeaf3d0b",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "h3",
+        "color": "#000",
+        "zh-hk": {
+          "text": "多設備數據實時追蹤查詢"
+        },
+        "zh-cn": {
+          "text": "多设备数据实时追踪查询"
+        },
+        "en": {
+          "text": "Multi-device data real-time tracking query"
+        }
+      }
+    },
+    {
+      "_id": "5dca5a725938242efeaf3d0c",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "zh-hk": {
+          "text": "多設備管理，手機、ipad、電腦端您均可實時追蹤並查看企業數據，根據響應數據分析，對響應倉庫進行調整，達到企業倉庫最大化合理運用。"
+        },
+        "zh-cn": {
+          "text": "多设备管理，手机、ipad、电脑端您均可实时追踪并查看企业数据，根据响应数据分析，对响应仓库进行调整，达到企业仓库最大化合理运用。"
+        },
+        "en": {
+          "text": "Multi-device management, mobile phone, ipad, computer, you can track and view enterprise data in real time, according to the response data analysis, adjust the response warehouse to maximize the reasonable use of enterprise warehouse."
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "25",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dcb73f060edf752ec991562",
+      "position": "",
+      "inlineStyle": "width:519px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "%",
+        "paddingUnit": "px",
+        "marginTop": "10",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "15",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "h2",
+        "color": "rgba(255,255,255,1)",
+        "zh-hk": {
+          "text": "我們正在使用技術助您一臂之力"
+        },
+        "zh-cn": {
+          "text": "我们正在使用技术助您一臂之力"
+        },
+        "en": {
+          "text": "We are using technology to help you"
+        }
+      }
+    },
+    {
+      "_id": "5dcb73f460edf752ec991563",
+      "position": "",
+      "inlineStyle": "width:560px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "rgba(249,245,245,1)",
+        "zh-hk": {
+          "text": "通過不間斷的數據分析及用戶反饋，免費更新程序。做出更符合企業需求的軟件。"
+        },
+        "zh-cn": {
+          "text": "通过不间断的数据分析及用户反馈，免费更新程序。做出更符合企业需求的软件。"
+        },
+        "en": {
+          "text": "Free updates through uninterrupted data analysis and user feedback. Make software that better meets your business needs."
+        }
+      },
+      "layout": {
+        "marginUnit": "%",
+        "paddingUnit": "px",
+        "marginTop": "1",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "15",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dd4e952e10f89a7c5b6d7e6",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "width": "95%",
+        "height": "",
+        "title": "Barcode/RFID scanning",
+        "description": "Scan barcodes with the mobile device's built-in scanning application or scanner attachment, which allows you to identify the item and view or edit related information",
+        "borderRadius": "20px",
+        "icon": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dd648fb676cb126b06cbb7b-bf68b1f5913210c052a0fd6b5f93b5648.png",
+        "iconSize": "60px",
+        "isBoxShadow": true,
+        "boxshadowOptions": {
+          "x": "0",
+          "y": "0",
+          "size": "20px",
+          "color": "#888888"
+        },
+        "background": "rgba(255,255,255,1)"
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "20",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dd4ebeae10f89a7c5b6d7e7",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "title": "Item tracking",
+        "description": "Enter your product information and check your records and status at any time to manage your warehouse.",
+        "height": "",
+        "width": "95%",
+        "borderRadius": "20px",
+        "icon": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dd64958676cb126b06cbb83-e7f182611f10d881fb5c243264a10106142.png",
+        "iconSize": "60px",
+        "isBoxShadow": true,
+        "boxshadowOptions": {
+          "x": "0",
+          "y": "0",
+          "size": "19px",
+          "color": "#888888"
+        },
+        "background": "rgba(255,255,255,1)"
+      }
+    },
+    {
+      "_id": "5dd4ec56e10f89a7c5b6d7e8",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "title": "inventory",
+        "description": "Through the record of the inventory information, the accuracy of the warehouse information and the relevant records are ensured, which is more conducive to query management.",
+        "height": "",
+        "width": "95%",
+        "borderRadius": "20px",
+        "icon": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dd648ef676cb126b06cbb78-7fadd7a958d2fe7a8683067a9a7ad2210.png",
+        "iconSize": "60px",
+        "isBoxShadow": true,
+        "boxshadowOptions": {
+          "x": "0",
+          "y": "0",
+          "size": "19px",
+          "color": "#888888"
+        },
+        "background": "rgba(255,255,255,1)"
+      }
+    },
+    {
+      "_id": "5dd4ec5ae10f89a7c5b6d7e9",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "title": "Warehousing sharing",
+        "description": "Warehouse messages can be managed whenever and wherever.",
+        "height": "",
+        "width": "95%",
+        "borderRadius": "20px",
+        "icon": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dd64917676cb126b06cbb80-41c0a3f1b78eebf10ae2ffde844370e9c.png",
+        "iconSize": "60px",
+        "isBoxShadow": true,
+        "boxshadowOptions": {
+          "x": "0",
+          "y": "0",
+          "size": "19px",
+          "color": "#888888"
+        },
+        "background": "rgba(255,255,255,1)"
+      }
+    },
+    {
+      "_id": "5dd60047e6bc3a5a77618aea",
+      "position": "",
+      "inlineStyle": "font-size: 12px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "title": "公司信息設定",
+        "description": "Here is the introduction of the company's related information. Here is the introduction of the company's related information.",
+        "height": "",
+        "width": "100%",
+        "borderRadius": "",
+        "icon": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dd64958676cb126b06cbb83-e7f182611f10d881fb5c243264a10106142.png",
+        "iconSize": "74px",
+        "isBoxShadow": false,
+        "boxshadowOptions": {
+          "x": "10px",
+          "y": "10px",
+          "size": "19px",
+          "color": "#888888"
+        },
+        "background": "rgba(255,255,255,1)"
+      }
+    },
+    {
+      "_id": "5dd600c3e6bc3a5a77618aeb",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "74",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "image",
+      "data": {
+        "height": "",
+        "width": "100%",
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/1-9fb24cb4d81c69b8d159b8bfeaca7927.png",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dd60373e6bc3a5a77618aec",
+      "position": "",
+      "inlineStyle": "font-size: 12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "title": "Manager setting",
+        "description": "Here is the introduction of the company's related information. Here is the introduction of the company's related information.",
+        "height": "",
+        "width": "100%",
+        "borderRadius": "",
+        "icon": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dd64958676cb126b06cbb83-e7f182611f10d881fb5c243264a10106142.png",
+        "iconSize": "74px",
+        "isBoxShadow": false,
+        "boxshadowOptions": {
+          "x": "10px",
+          "y": "10px",
+          "size": "19px",
+          "color": "#888888"
+        },
+        "background": "#fff"
+      }
+    },
+    {
+      "_id": "5dd60631e6bc3a5a77618aed",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "height": "",
+        "width": "100%",
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/1-9fb24cb4d81c69b8d159b8bfeaca7927.png",
+        "fit": "cover",
+        "position": "center"
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "74",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dd6063ce6bc3a5a77618aee",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "height": "",
+        "width": "100%",
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/1-9fb24cb4d81c69b8d159b8bfeaca7927.png",
+        "fit": "cover",
+        "position": "center"
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "74",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dd60648e6bc3a5a77618aef",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/1-9fb24cb4d81c69b8d159b8bfeaca7927.png",
+        "width": "100%",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "74",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dd607e2e6bc3a5a77618af0",
+      "position": "",
+      "inlineStyle": "font-size: 12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "title": "Receipt",
+        "description": "Here is the introduction of the company's related information. Here is the introduction of the company's related information.",
+        "height": "",
+        "width": "100%",
+        "borderRadius": "",
+        "icon": "",
+        "iconSize": "74px",
+        "isBoxShadow": false,
+        "boxshadowOptions": {
+          "x": "10px",
+          "y": "10px",
+          "size": "19px",
+          "color": "#888888"
+        },
+        "background": "#fff"
+      }
+    },
+    {
+      "_id": "5dd60874e6bc3a5a77618af1",
+      "position": "",
+      "inlineStyle": "font-size: 12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "width": "100%",
+        "height": "",
+        "title": "Information check and tracking",
+        "description": "Here is the introduction of the company's related information. Here is the introduction of the company's related information.",
+        "borderRadius": "",
+        "icon": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dd64958676cb126b06cbb83-e7f182611f10d881fb5c243264a10106142.png",
+        "iconSize": "74px",
+        "isBoxShadow": false,
+        "boxshadowOptions": {
+          "x": "10px",
+          "y": "10px",
+          "size": "19px",
+          "color": "#888888"
+        },
+        "background": "#fff"
+      }
+    },
+    {
+      "_id": "5dd608bae6bc3a5a77618af2",
+      "position": "",
+      "inlineStyle": "font-size: 12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "card",
+      "data": {
+        "title": "Issue",
+        "description": "Here is the introduction of the company's related information. Here is the introduction of the company's related information.",
+        "height": "",
+        "width": "100%",
+        "borderRadius": "",
+        "icon": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/5dd64958676cb126b06cbb83-e7f182611f10d881fb5c243264a10106142.png",
+        "iconSize": "74px",
+        "isBoxShadow": false,
+        "boxshadowOptions": {
+          "x": "10px",
+          "y": "10px",
+          "size": "19px",
+          "color": "#888888"
+        },
+        "background": "#fff"
+      }
+    },
+    {
+      "_id": "5dd65a7dcded8d60d47dacb1",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nwidth: 60%\nmargin: 0 auto;\ntext-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(34,34,34,1)",
+        "zh-hk": {
+          "text": "wms是我用過最好用的物流系統，沒有之一 團隊多方寫作做的非常好"
+        },
+        "zh-cn": {
+          "text": "wms是我用过最好用的物流系统，没有之一\n团队多方写作做的非常好"
+        },
+        "en": {
+          "text": "Wms is the best logistics system I have ever used, no one\nThe team has done a lot of writing and doing very well."
+        }
+      }
+    },
+    {
+      "_id": "5dd65b84cded8d60d47dacb2",
+      "position": "",
+      "inlineStyle": "font-size: 18px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(34,34,34,1)",
+        "zh-hk": {
+          "text": "josiezhang"
+        },
+        "zh-cn": {
+          "text": "josiezhang"
+        },
+        "en": {
+          "text": "josiezhang"
+        }
+      }
+    },
+    {
+      "_id": "5dd7418a630dd37b6ce56555",
+      "position": "",
+      "inlineStyle": "border: none;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "54",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "button",
+      "data": {
+        "width": "157px",
+        "height": "40px",
+        "text": "",
+        "icon": {
+          "url": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/homepage_appstore@2x-11ac1fcdd74212467b0e5bb046140937.png",
+          "width": "100%",
+          "height": "100%"
+        },
+        "borderRadius": "8px",
+        "href": "",
+        "hrefTarget": "_blank",
+        "color": "#fff",
+        "supportJump": true,
+        "backgroundColor": "rgba(0,0,0,1)"
+      }
+    },
+    {
+      "_id": "5dd741fd630dd37b6ce56557",
+      "position": "",
+      "inlineStyle": "width:157px    \nmargin-left: calc(-1 * (100% - 157px) + 12px);",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "button",
+      "data": {
+        "height": "40px",
+        "width": "157px",
+        "borderRadius": "8px",
+        "icon": {
+          "url": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/homepage_icon_googleplay@2x-d4afa108c5fa7aab31cf8d2a175b3b0eb.png",
+          "width": "100%",
+          "height": "100%"
+        },
+        "text": "",
+        "href": "",
+        "hrefTarget": "_blank",
+        "color": "#fff",
+        "supportJump": true,
+        "backgroundColor": "rgba(0,0,0,1)"
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "54",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5debb6cd9b5261052db1e227",
+      "position": "",
+      "inlineStyle": "padding-top:64px;\npadding-bottom:64px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "center",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "center",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debb6cd9b5261052db1e224",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5debc4b63bdef09632710f69",
+                    "direction": "row",
+                    "widgets": ["5debc4b33bdef09632710f68"]
+                  },
+                  {
+                    "_id": "5dfb01148629cb06a28013d3",
+                    "direction": "row",
+                    "widgets": ["5dfb01108629cb06a28013d2"]
+                  },
+                  {
+                    "_id": "5dfb010f8629cb06a28013ce",
+                    "direction": "row",
+                    "widgets": ["5dfb010c8629cb06a28013cd"]
+                  },
+                  {
+                    "_id": "5debcbf0b9b983d997390626",
+                    "direction": "row",
+                    "widgets": ["5debcbc9b9b983d997390624"]
+                  },
+                  {
+                    "_id": "5debcc35b9b983d997390628",
+                    "direction": "row",
+                    "widgets": ["5debcc2fb9b983d997390627"]
+                  },
+                  {
+                    "_id": "5df7096ca3859f3ee99fb6cc",
+                    "direction": "row",
+                    "widgets": ["5df70967a3859f3ee99fb6cb"]
+                  },
+                  {
+                    "_id": "5dfaf37b4d6e5964c06866a3",
+                    "direction": "row",
+                    "widgets": ["5dfaf3774d6e5964c06866a2"]
+                  },
+                  {
+                    "_id": "5dfaf4034d6e5964c06866a5",
+                    "direction": "row",
+                    "widgets": ["5dfaf4004d6e5964c06866a4"]
+                  },
+                  {
+                    "_id": "5debccfbb9b983d99739062a",
+                    "direction": "row",
+                    "widgets": ["5debccf8b9b983d997390629"]
+                  },
+                  {
+                    "_id": "5df70963a3859f3ee99fb6ca",
+                    "direction": "row",
+                    "widgets": ["5df7095ca3859f3ee99fb6c9"]
+                  },
+                  {
+                    "_id": "5dfb57bd366854839273030f",
+                    "direction": "row",
+                    "widgets": ["5dfb57b7366854839273030e"]
+                  },
+                  {
+                    "_id": "5dfb57dc3668548392730311",
+                    "direction": "row",
+                    "widgets": ["5dfb57d73668548392730310"]
+                  },
+                  {
+                    "_id": "5debcec3b9b983d99739062f",
+                    "direction": "row",
+                    "widgets": ["5debcebeb9b983d99739062e"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debb6cd9b5261052db1e225",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debb6cd9b5261052db1e226",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5decb2b5af52fa417e7455f4",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "4": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5decb2b5af52fa417e7455f5",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "5": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5decb2b5af52fa417e7455f6",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "6": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5decb2b5af52fa417e7455f7",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "",
+        "marginRight": "0",
+        "marginBottom": "",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "properties": [
+        {
+          "_id": "5e0577b1a2d2f3e559c602f3",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5debb8879b5261052db1e22e",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/banner.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/banner.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/banner.png"
+        },
+        "width": "100%",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5debb88a9b5261052db1e22f",
+      "position": "",
+      "inlineStyle": "font-size:35px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "zh-hk": {
+          "text": ""
+        },
+        "en": {
+          "text": "With professional and dedicated service,\nwe provide you with the most appropriate solutions."
+        }
+      }
+    },
+    {
+      "_id": "5debb972b4132dedef29067b",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "center",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debb972b4132dedef290678",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5debb99ab4132dedef29067f",
+                    "direction": "row",
+                    "widgets": ["5debb88a9b5261052db1e22f"]
+                  },
+                  {
+                    "_id": "5debbf3fb8e8a6e3fec2b049",
+                    "direction": "row",
+                    "widgets": ["5debb999b4132dedef29067e"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debb972b4132dedef290679",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debb972b4132dedef29067a",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5debb999b4132dedef29067e",
+      "position": "",
+      "inlineStyle": "\n    width: -webkit-min-content;\n    width: -moz-min-content;\n    width: min-content;\n    margin: 30px auto 0px auto;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "button",
+      "data": {
+        "text": "Button",
+        "icon": {
+          "url": "",
+          "width": "1412",
+          "height": "58"
+        },
+        "borderRadius": "8px",
+        "href": "/about",
+        "hrefTarget": "_blank",
+        "color": "#fff",
+        "supportJump": true,
+        "backgroundColor": "rgb(22, 114, 201)",
+        "en": {
+          "text": "Learn More"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "100",
+        "marginBottom": "0",
+        "marginLeft": "",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5debc4b33bdef09632710f68",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "h3",
+        "color": "#000",
+        "en": {
+          "text": "Our Services"
+        },
+        "zh-cn": {
+          "text": "我们的服务"
+        },
+        "zh-hk": {
+          "text": "我們的服務"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "100",
+        "marginRight": "",
+        "marginBottom": "30",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover",
+        "md": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "100",
+          "marginRight": "0",
+          "marginBottom": "30",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover"
+        },
+        "sm": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "20",
+          "marginRight": "0",
+          "marginBottom": "10",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover"
+        }
+      }
+    },
+    {
+      "_id": "5debc6822bfbecafa5d8823f",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/laptopMobile.png",
+        "width": "100%",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5debc6bd2bfbecafa5d88240",
+      "position": "",
+      "inlineStyle": "\n    font-weight: 500;\n    font-size: 19px;\n    margin-bottom: 18px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Without a lot of initial hardware investment"
+        },
+        "zh-cn": {
+          "text": "不需大量初始硬件投资"
+        },
+        "zh-hk": {
+          "text": "毋須大量初始硬件投資"
+        }
+      }
+    },
+    {
+      "_id": "5debc6c52bfbecafa5d88241",
+      "position": "",
+      "inlineStyle": "\n    font-weight: 500;\n    font-size: 19px;\n    margin-bottom: 18px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Team IT Support"
+        },
+        "zh-cn": {
+          "text": "团队IT支持"
+        },
+        "zh-hk": {
+          "text": "團隊IT支援"
+        }
+      }
+    },
+    {
+      "_id": "5debc6dc2bfbecafa5d88245",
+      "position": "",
+      "inlineStyle": "\n    font-weight: 500;\n    font-size: 19px;\n    margin-bottom: 18px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Automatically adjusting items and applications"
+        },
+        "zh-cn": {
+          "text": "自动调节项目及应用程序"
+        },
+        "zh-hk": {
+          "text": "自動調節專案及應用程式"
+        }
+      }
+    },
+    {
+      "_id": "5debc6e22bfbecafa5d88247",
+      "position": "",
+      "inlineStyle": "\n    font-weight: 500;\n    font-size: 19px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Smooth user experience design process, reduce human and time costs"
+        },
+        "zh-cn": {
+          "text": "顺畅的用户体验设计流程，减少人力和时间成本"
+        },
+        "zh-hk": {
+          "text": "順暢的用戶體驗設計流程，減少人力和時間成本"
+        }
+      }
+    },
+    {
+      "_id": "5debc6eb2bfbecafa5d88249",
+      "position": "",
+      "inlineStyle": "\n    font-weight: 500;\n    font-size: 19px;\n    margin-bottom: 18px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "It can be used anywhere"
+        },
+        "zh-cn": {
+          "text": "可在任何地方使用"
+        },
+        "zh-hk": {
+          "text": "可在任何地方使用"
+        }
+      }
+    },
+    {
+      "_id": "5debc6f52bfbecafa5d8824b",
+      "position": "",
+      "inlineStyle": "\n    font-weight: 500;\n    font-size: 19px;\n    margin-bottom: 18px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Guarantee 99.99% of normal running time per month"
+        },
+        "zh-cn": {
+          "text": "保证每月正常运行时间达99.99％"
+        },
+        "zh-hk": {
+          "text": "保證每月正常運行時間達99.99％"
+        }
+      }
+    },
+    {
+      "_id": "5debc866b9b983d99739061d",
+      "position": "",
+      "inlineStyle": "\n    position: absolute;\n    right: 43px;\n    bottom: -5vw;\n    width: 20vw; ",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/leave_decoration.png",
+        "width": "272px",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5debc954b9b983d997390620",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "mediaBox",
+      "data": {
+        "width": "",
+        "height": "600px",
+        "media": {
+          "type": "video",
+          "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/terminal2.mp4"
+        },
+        "layout": {
+          "stackName": "flex",
+          "stack": [
+            {
+              "_id": "5debc954b9b983d99739061f",
+              "direction": "column",
+              "widgets": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "_id": "5debcbc9b9b983d997390624",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "h3",
+        "color": "#000",
+        "en": {
+          "text": "Our Technologies"
+        },
+        "zh-cn": {
+          "text": "领先技术"
+        },
+        "zh-hk": {
+          "text": "領先技術"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "140",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover",
+        "md": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "140",
+          "marginRight": "0",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover"
+        },
+        "sm": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "50",
+          "marginRight": "0",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover"
+        }
+      }
+    },
+    {
+      "_id": "5debcc2fb9b983d997390627",
+      "position": "",
+      "inlineStyle": "\n    font-size: 19px;\n    font-weight: 500; \n    line-height: 30px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "We provide a wide variety of IT solutions comprising of professional analysis, web & application development, operations support systems and business support Systems, digital marketing design & planning, server and storage planning and cutting-edge technologies consultancy."
+        },
+        "zh-cn": {
+          "text": "们提供多种不同的I.T解决方案，包括专业分析、网络和移动应用程式开发、营运系统、电子商贸系统、电子市场规划和设计、服务器和存取计划，以及提供尖端技术谘询。"
+        },
+        "zh-hk": {
+          "text": "我們提供多種不同的I.T解決方案，包括專業分析、網絡和移動應用程式開發、營運系統、電子商貿系統、電子市場規劃和設計、服務器和存取計劃，以及提供尖端技術諮詢。"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "30",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5debccf8b9b983d997390629",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "h3",
+        "color": "#000",
+        "en": {
+          "text": "What are they saying"
+        },
+        "zh-cn": {
+          "text": "他们怎么说"
+        },
+        "zh-hk": {
+          "text": "他們怎麼說 "
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "160",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5debcebeb9b983d99739062e",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": "50.00",
+          "1": "50.00"
+        },
+        "columnJustifyContents": {
+          "0": "center",
+          "1": "center",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "center",
+          "1": "center",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debcebeb9b983d99739062b",
+                "direction": "column",
+                "widgets": ["5debcf7ab9b983d997390630"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debcebeb9b983d99739062c",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5debcf8bb9b983d997390635",
+                    "direction": "row",
+                    "widgets": ["5debcf81b9b983d997390631"]
+                  },
+                  {
+                    "_id": "5debcf8bb9b983d997390636",
+                    "direction": "row",
+                    "widgets": ["5debcf86b9b983d997390634"]
+                  }
+                ]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5debcebeb9b983d99739062d",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "50.00",
+              "1": "50.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "0",
+              "1": "100"
+            },
+            "fixedHundredPercent": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "5debcf7ab9b983d997390630",
+      "position": "",
+      "inlineStyle": {
+        "lg": "margin-right:10vw",
+        "sm": "width:0;\noverflow: hidden;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png"
+        },
+        "width": "440px",
+        "height": "auto",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5debcf81b9b983d997390631",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-weight: 500;\n    margin: 4vh 0px;\n    text-align: center;\n    font-size: 40px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(51,51,51,1)",
+        "en": {
+          "text": "Contact Us Now!"
+        },
+        "zh-cn": {
+          "text": "现在联系我们！"
+        },
+        "zh-hk": {
+          "text": "現在聯繫我們！"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "60",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5debcf86b9b983d997390634",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "contactForm",
+      "data": {
+        "action": "url",
+        "submit": {
+          "_id": "5debcf86b9b983d997390632",
+          "position": "",
+          "inlineStyle": "",
+          "userPermission": {
+            "delete": true,
+            "edit": true,
+            "move": true
+          },
+          "hidden": false,
+          "mobileHidden": false,
+          "anchor": {
+            "hash": "",
+            "top": 0
+          },
+          "type": "button",
+          "data": {
+            "text": "提交",
+            "width": "133px",
+            "height": "43px",
+            "icon": {
+              "url": "",
+              "width": "20px",
+              "height": "20px"
+            },
+            "borderRadius": "8px",
+            "href": "",
+            "buttonType": "default",
+            "hrefTarget": "_blank",
+            "color": "#fff",
+            "supportJump": false,
+            "backgroundColor": "linear-gradient(90deg,rgba(242,122,56,1) 0%,rgba(237,73,94,1) 100%)"
+          }
+        },
+        "style": "style2",
+        "inputs": [
+          {
+            "label": "name",
+            "type": "input",
+            "value": "",
+            "placeholder": "enter name here",
+            "options": [],
+            "filedName": "",
+            "en": {
+              "label": "Name",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            },
+            "zh-cn": {
+              "label": "名称",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            },
+            "zh-hk": {
+              "label": "名稱",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            }
+          },
+          {
+            "label": "to email",
+            "type": "input",
+            "value": "",
+            "placeholder": "enter email here",
+            "options": [],
+            "filedName": "",
+            "en": {
+              "label": "Email",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            },
+            "zh-cn": {
+              "label": "电子邮箱",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            },
+            "zh-hk": {
+              "label": "電子郵箱",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            }
+          }
+        ],
+        "textarea": {
+          "label": "enter name here",
+          "rows": 7,
+          "en": {
+            "label": "What do you want to say?"
+          },
+          "zh-cn": {
+            "label": "你想说什么"
+          },
+          "zh-hk": {
+            "label": "你想說什麼？"
+          }
+        },
+        "message": {
+          "success": "enter success message here",
+          "failure": "enter success message here",
+          "en": {
+            "success": "Sent successfully!",
+            "failure": "Send failed!"
+          },
+          "zh-cn": {
+            "success": "发送成功!",
+            "failure": "发送失败!"
+          },
+          "zh-hk": {
+            "success": "發送成功!",
+            "failure": "發送失敗!"
+          }
+        },
+        "isButton": false,
+        "emailSettings": {
+          "emailTitle": "",
+          "toEmail": "business@golpasal.com",
+          "zh-cn": {
+            "emailTitle": "用户反馈"
+          },
+          "zh-hk": {
+            "emailTitle": "用戶反饋"
+          },
+          "en": {
+            "emailTitle": "customer feedback"
+          }
+        },
+        "en": {
+          "buttonText": "Send",
+          "requiredLabel": "Required",
+          "emailErrorLabel": "Email format error"
+        },
+        "zh-cn": {
+          "buttonText": "发送",
+          "requiredLabel": "必填",
+          "emailErrorLabel": "邮箱格式错误"
+        },
+        "zh-hk": {
+          "buttonText": "發送",
+          "requiredLabel": "必填",
+          "emailErrorLabel": "邮箱格式错误"
+        }
+      }
+    },
+    {
+      "_id": "5deca5d72910ce1f9880364f",
+      "position": "",
+      "inlineStyle": {
+        "xs": "height:70vh",
+        "md": ""
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "introductionSlider",
+      "data": {
+        "en": {
+          "title": "With professional and dedicated service, we provide you with the most appropriate solutions.",
+          "button": "Learn More"
+        },
+        "zh-cn": {
+          "title": "我们用专业和热诚服务， 为你提供最适切的解决方案",
+          "button": "了解更多"
+        },
+        "zh-hk": {
+          "title": "我們用專業和熱誠服務， 為你提供最適切的解決方案",
+          "button": "瞭解更多"
+        }
+      }
+    },
+    {
+      "_id": "5deca9058185887e375b2865",
+      "position": "",
+      "inlineStyle": "\n    margin: 0px auto;\n    background-color: rgb(242, 140, 49);\n    border-radius: 50px;\n    width: 26px;\n    font-size: 12px;\n    text-align: center;\n    line-height: 26px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "en": {
+          "text": "01"
+        },
+        "zh-cn": {
+          "text": "01"
+        },
+        "zh-hk": {
+          "text": "01"
+        },
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(255,255,255,1)"
+      }
+    },
+    {
+      "_id": "5decaadf8185887e375b2866",
+      "position": "",
+      "inlineStyle": "\n    border: 0;\n    border-top: 1px;\n    border-color: #bdbdbd;\n    border-style: solid;\n    position: relative;\n    top: 12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000"
+      }
+    },
+    {
+      "_id": "5decac458185887e375b2867",
+      "position": "",
+      "inlineStyle": "\n    margin: 0px auto;\n    background-color: rgb(242, 140, 49);\n    border-radius: 50px;\n    width: 26px;\n    font-size: 12px;\n    text-align: center;\n    line-height: 26px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(255,255,255,1)",
+        "en": {
+          "text": "02"
+        },
+        "zh-cn": {
+          "text": "02"
+        },
+        "zh-hk": {
+          "text": "02"
+        }
+      }
+    },
+    {
+      "_id": "5decac4a8185887e375b2868",
+      "position": "",
+      "inlineStyle": "\n    border: 0;\n    border-top: 1px;\n    border-color: #bdbdbd;\n    border-style: solid;\n    position: relative;\n    top: 12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000"
+      }
+    },
+    {
+      "_id": "5decac4e8185887e375b2869",
+      "position": "",
+      "inlineStyle": "\n    margin: 0px auto;\n    background-color: rgb(242, 140, 49);\n    border-radius: 50px;\n    width: 26px;\n    font-size: 12px;\n    text-align: center;\n    line-height: 26px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(255,255,255,1)",
+        "en": {
+          "text": "03"
+        },
+        "zh-cn": {
+          "text": "03"
+        },
+        "zh-hk": {
+          "text": "03"
+        }
+      }
+    },
+    {
+      "_id": "5decac518185887e375b286a",
+      "position": "",
+      "inlineStyle": "\n    border: 0;\n    border-top: 1px;\n    border-color: #bdbdbd;\n    border-style: solid;\n    position: relative;\n    top: 12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "color": "#000"
+      }
+    },
+    {
+      "_id": "5decac578185887e375b286b",
+      "position": "",
+      "inlineStyle": "\n    margin: 0px auto;\n    background-color: rgb(242, 140, 49);\n    border-radius: 50px;\n    width: 26px;\n    font-size: 12px;\n    text-align: center;\n    line-height: 26px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(255,255,255,1)",
+        "en": {
+          "text": "04"
+        },
+        "zh-cn": {
+          "text": "04"
+        },
+        "zh-hk": {
+          "text": "04"
+        }
+      }
+    },
+    {
+      "_id": "5decb2e5af52fa417e7455fc",
+      "position": "",
+      "inlineStyle": "\n    font-size: 14px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Analysis"
+        },
+        "zh-cn": {
+          "text": "分析及计划"
+        },
+        "zh-hk": {
+          "text": "分析及計劃"
+        }
+      }
+    },
+    {
+      "_id": "5decb2e9af52fa417e7455fd",
+      "position": "",
+      "inlineStyle": "\n    font-size: 14px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Design UX&Infrastructure"
+        },
+        "zh-cn": {
+          "text": "UX设计及基建"
+        },
+        "zh-hk": {
+          "text": "UX設計及基建"
+        }
+      }
+    },
+    {
+      "_id": "5decb2eeaf52fa417e7455fe",
+      "position": "",
+      "inlineStyle": "\n    font-size: 14px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Build Product"
+        },
+        "zh-cn": {
+          "text": "产品开发"
+        },
+        "zh-hk": {
+          "text": "產品開發"
+        }
+      }
+    },
+    {
+      "_id": "5decb2f1af52fa417e7455ff",
+      "position": "",
+      "inlineStyle": "\n    font-size: 14px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Launch"
+        },
+        "zh-cn": {
+          "text": "发布"
+        },
+        "zh-hk": {
+          "text": "發佈"
+        }
+      }
+    },
+    {
+      "_id": "5decba6ccfe2d330c538ba1c",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5decba6ccfe2d330c538ba19",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5decba9fcfe2d330c538ba1e",
+                    "direction": "row",
+                    "widgets": ["5debc6bd2bfbecafa5d88240"]
+                  },
+                  {
+                    "_id": "5decba9fcfe2d330c538ba1f",
+                    "direction": "row",
+                    "widgets": ["5debc6dc2bfbecafa5d88245"]
+                  },
+                  {
+                    "_id": "5decbaa6cfe2d330c538ba20",
+                    "direction": "row",
+                    "widgets": ["5debc6f52bfbecafa5d8824b"]
+                  },
+                  {
+                    "_id": "5decbaadcfe2d330c538ba21",
+                    "direction": "row",
+                    "widgets": ["5debc6c52bfbecafa5d88241"]
+                  },
+                  {
+                    "_id": "5decbab3cfe2d330c538ba22",
+                    "direction": "row",
+                    "widgets": ["5debc6eb2bfbecafa5d88249"]
+                  },
+                  {
+                    "_id": "5decbab8cfe2d330c538ba23",
+                    "direction": "row",
+                    "widgets": ["5debc6e22bfbecafa5d88247"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5decba6ccfe2d330c538ba1a",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5decba6ccfe2d330c538ba1b",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5df7095ca3859f3ee99fb6c9",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "whatAreTheySayingSilder",
+      "data": {
+        "projects": [
+          {
+            "name": "",
+            "description": "",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/kaz.png",
+            "en": {
+              "name": "KAZ",
+              "description": "KAZ"
+            },
+            "zh-cn": {
+              "name": "KAZ",
+              "description": "KAZ"
+            },
+            "zh-hk": {
+              "name": "KAZ",
+              "description": "KAZ"
+            }
+          },
+          {
+            "name": "",
+            "description": "",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/dou4la.png",
+            "en": {
+              "name": "Dou4la",
+              "description": "到货啦"
+            },
+            "zh-cn": {
+              "name": "Dou4la",
+              "description": "到货啦"
+            },
+            "zh-hk": {
+              "name": "Dou4la",
+              "description": "到货啦"
+            }
+          },
+          {
+            "name": "",
+            "description": "",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/fung-group.png",
+            "en": {
+              "name": "FUNG GROUP",
+              "description": "FUNG GROUP"
+            },
+            "zh-cn": {
+              "name": "FUNG GROUP",
+              "description": "FUNG GROUP"
+            },
+            "zh-hk": {
+              "name": "FUNG GROUP",
+              "description": "FUNG GROUP"
+            }
+          },
+          {
+            "name": "",
+            "description": "",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/uncle-print.png",
+            "en": {
+              "name": "UP",
+              "description": "UP"
+            },
+            "zh-cn": {
+              "name": "UP",
+              "description": "UP"
+            },
+            "zh-hk": {
+              "name": "UP",
+              "description": "UP"
+            }
+          },
+          {
+            "name": "",
+            "description": "",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/hms.png",
+            "en": {
+              "name": "海味街",
+              "description": "海味街"
+            },
+            "zh-cn": {
+              "name": "海味街",
+              "description": "海味街"
+            },
+            "zh-hk": {
+              "name": "海味街",
+              "description": "海味街"
+            }
+          },
+          {
+            "name": "",
+            "description": "",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/buyco.png",
+            "en": {
+              "name": "BuyCo",
+              "description": "BuyCo"
+            },
+            "zh-cn": {
+              "name": "BuyCo",
+              "description": "BuyCo"
+            },
+            "zh-hk": {
+              "name": "BuyCo",
+              "description": "BuyCo"
+            }
+          },
+          {
+            "name": "",
+            "description": "",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/yesasia.png",
+            "en": {
+              "name": "yesasia",
+              "description": "yesasia"
+            },
+            "zh-cn": {
+              "name": "yesasia",
+              "description": "yesasia"
+            },
+            "zh-hk": {
+              "name": "yesasia",
+              "description": "yesasia"
+            }
+          }
+        ]
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "30",
+        "marginRight": "0",
+        "marginBottom": "130",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5df70967a3859f3ee99fb6cb",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "ourTechnologieSlider",
+      "data": {
+        "silderData": [
+          {
+            "title": " ",
+            "description": " ",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/ar.jpg",
+            "en": {
+              "title": "AR",
+              "description": "Augmented Reality (AR) is a technology that 'expands virtual information into the real world'. It is not replacing real environment, but adding virtual objects to the real world instead. Through the recognition technology of the camera and the calculation of the computer, when the pre-set picture or the sensing medium appears in the camera screen, the corresponding virtual object will appear. You can experience the fun of AR through normal smartphones. AR can be applied in marketing promotion, learning and game areas, such as maps, clothes fitting, furniture placement, digital pets, measuring size, etc. AR is an integration of virtual world and reality."
+            },
+            "zh-cn": {
+              "title": "AR 扩增实境 ",
+              "description": "扩增实境(AR)是「将虚拟资讯扩增到现实环境中」的技术，它所强调的不是要取代现实空间，而是在现实世界中添加虚拟物件。藉由摄影机的辨识技术与电脑的运算，当预设好的图片或感应媒介出现在摄影机画面中时，就能出现相对应的虚拟物件。只需透过普通智能手机就能体验AR的乐趣，在行销推广、学习及游戏等领域都可被应用，例如地图、试衫、摆设虚拟家具、养电子宠物、量度尺寸等，将虚拟世界和现实生活，无缝结合。"
+            },
+            "zh-hk": {
+              "title": " AR擴增實境",
+              "description": "擴增實境(AR)是「將虛擬資訊擴增到現實環境中」的技術，它所強調的不是要取代現實空間，而是在現實世界中添加虛擬物件。藉由攝影機的辨識技術與電腦的運算，當預設好的圖片或感應媒介出現在攝影機畫面中時，就能出現相對應的虛擬物件。只需透過普通智能手機就能體驗AR的樂趣，在行銷推廣、學習及遊戲等領域都可被應用，例如地圖、試衫、擺設虛擬家具、養電子寵物、量度尺寸等，將虛擬世界和現實生活，無縫結合。"
+            }
+          },
+          {
+            "title": " ",
+            "description": " ",
+            "image": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/oauth_login_copy.jpg",
+            "en": {
+              "title": "Face ID & Touch ID ",
+              "description": "Face recognition is to allow the user to completely acquire the personal information stored in the device by recognizing the face. The user records his face through the camera, so that the device pre-memorizes the face information. It recognizes the face through the camera, and unlocks. Compared with fingerprint recognition, its main advantage is that it can actively obtain user information without user contact. The fingerprint recognition is performed by the fingerprint reading device to compare the read fingerprint with the stored fingerprint template, thereby unlocking. The benefits are speed, accuracy. Both biometric technologies are widely used in application such as login and online payment."
+            },
+            "zh-cn": {
+              "title": "人脸识别＆指纹识别",
+              "description": "人脸识别是通过识别人脸来允许用户完全获取设备中存储的个人信息，用户通过摄像头录製自己的面部，使设备预先记忆脸部信息，通过摄像头识别人脸并解锁。与指纹识别是相比，其主要优点是可主动获取用户信息，无须用户接触。而指纹识别则是通过指纹读取设备来确认读取的指纹与储存的指纹模板进行比较，从而解锁。好处是速度快及准确率高。这两项生物识别技术都被广泛应用于登入及网上付款等程序。"
+            },
+            "zh-hk": {
+              "title": "人臉識別＆指紋識別",
+              "description": "人臉識別是通過識別人臉來允許用戶完全獲取設備中存儲的個人信息，用戶通過攝像頭錄製自己的面部，使設備預先記憶臉部信息，通過攝像頭識別人臉並解鎖。與指紋識別是相比，其主要優點是可主動獲取用戶信息，無須用戶接觸。而指纹识别則是通过指纹读取设备來確認讀取的指紋與儲存的指紋模板進行比較，從而解鎖。好處是速度快及准确率高。這兩項生物识别技术都被廣泛應用於登入及網上付款等程序。"
+            }
+          },
+          {
+            "title": " ",
+            "description": " ",
+            "image": " https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/online_payment.jpg",
+            "en": {
+              "title": " Payment Gateway",
+              "description": "For e-commerce systems, we have developed different payment channels for our customers to match the rapid development of online stores, including: Pay Pal, UnionPay, Alipay, WeChat Pay, Braintree, Stripe, which support Visa, Master Card, Apply Pay and Google Pay, etc. These payment methods help you handle online transactions quickly and easily."
+            },
+            "zh-cn": {
+              "title": " 网上支付网关",
+              "description": "针对电子商贸系统，我们为客户开发了不同的支付途径，以配合网上商店的高速发展，包括：Pay Pal，银联，支付宝，微信支付，Braintree，Stripe，支持Visa，Master Card，Apply Pay及Google Pay等多种支付方式，轻松处理网上交易。"
+            },
+            "zh-hk": {
+              "title": "網上支付網關 ",
+              "description": "針對電子商貿系統，我們為客戶開發了不同的支付途徑，以配合網上商店的高速發展，包括：Pay Pal，銀聯，支付寶，微信支付， Braintree，Stripe，支援Visa，Master Card，Apply Pay及Google Pay等多種支付方式，輕鬆處理網上交易。"
+            }
+          },
+          {
+            "title": " ",
+            "description": " ",
+            "image": " https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/oauth_login.jpg",
+            "en": {
+              "title": "Third Party Authentication",
+              "description": "Ways such as Facebook, Google, WeChat, etc. can be classified into OAuth and OpenID. OAuth allows users to provide a token without requiring a username and password to access the data they store in a particular service provider. OpenID is to provide authentication, through the URI to authenticate the identity of the user. The advantages of Third Party Authentication are to save the registration process, to facilitate users’ login, while allowing the application to obtain user information, reducing design costs and improving user conversion rate."
+            },
+            "zh-cn": {
+              "title": " 第三方认证",
+              "description": "方式例如Facebook，Google，WeChat等，可归类为OAuth与OpenID两种，OAuth允许使用者提供一个令牌，而不需使用者名称和密码来访问他们存放在特定服务提供者的数据。OpenID则是提供身份验证，通过URI来认证使用者的身份。好处是省却注册程序，方便用户快捷登录，同时让应用程序获取用户信息，减低设计成本及提高产品的用户转化率。"
+            },
+            "zh-hk": {
+              "title": "第三方認證",
+              "description": "方式例如Facebook ，Google，WeChat等，可歸類為OAuth與OpenID兩種，OAuth 允許使用者提供一個令牌，而不需使用者名稱和密碼來訪問他們存放在特定服務提供者的資料。OpenID 則是提供身份驗證，通過 URI 來認證使用者的身份。好處是省卻註冊程序，方便用戶快捷登錄，同時讓應用程式獲取用戶信息，減低設計成本及提高產品的用戶轉化率。"
+            }
+          }
+        ]
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "50",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfaf3774d6e5964c06866a2",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "h3",
+        "color": "#000",
+        "en": {
+          "text": "Project management"
+        },
+        "zh-cn": {
+          "text": "项目管理"
+        },
+        "zh-hk": {
+          "text": "項目管理"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "140",
+        "marginRight": "0",
+        "marginBottom": "50",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfaf4004d6e5964c06866a4",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/service-img-project-management-en.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/service-img-project-management-cht.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/service-img-project-management-chs.png"
+        },
+        "width": "100%",
+        "height": "auto",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dfb010c8629cb06a28013cd",
+      "position": "",
+      "inlineStyle": "font-size:18px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "3",
+        "columnWidths": {
+          "0": "33.33",
+          "1": "33.33",
+          "2": "33.33"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb010c8629cb06a28013ca",
+                "direction": "column",
+                "widgets": ["5dfb1a9c76df6a3dcf894af7"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb010c8629cb06a28013cb",
+                "direction": "column",
+                "widgets": ["5dfb1aa176df6a3dcf894afd"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb010c8629cb06a28013cc",
+                "direction": "column",
+                "widgets": ["5dfb1aa676df6a3dcf894b03"]
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "33.33",
+              "1": "33.33",
+              "2": "33.33"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "100",
+              "1": "100",
+              "2": "100"
+            },
+            "fixedHundredPercent": false
+          }
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "40",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover",
+        "md": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "40",
+          "marginRight": "0",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover"
+        },
+        "sm": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "10",
+          "marginRight": "0",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover"
+        }
+      }
+    },
+    {
+      "_id": "5dfb01108629cb06a28013d2",
+      "position": "",
+      "inlineStyle": "font-size:18px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "3",
+        "columnWidths": {
+          "0": "33.33",
+          "1": "33.33",
+          "2": "33.33"
+        },
+        "columnJustifyContents": {
+          "0": "center",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb01108629cb06a28013cf",
+                "direction": "column",
+                "widgets": ["5dfb1a6a76df6a3dcf894ae7"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb01108629cb06a28013d0",
+                "direction": "column",
+                "widgets": ["5dfb1a8776df6a3dcf894aed"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb01108629cb06a28013d1",
+                "direction": "column",
+                "widgets": ["5dfb1a8f76df6a3dcf894af2"]
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "33.33",
+              "1": "33.33",
+              "2": "33.33"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "100",
+              "1": "100",
+              "2": "100"
+            },
+            "fixedHundredPercent": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dfb01448629cb06a28013d5",
+      "position": "",
+      "inlineStyle": "width:min-content;\nmargin: 0 auto;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/web.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/web.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/web.png"
+        },
+        "width": "189px",
+        "height": "110px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dfb16128629cb06a28013d8",
+      "position": "",
+      "inlineStyle": "font-weight: 700;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "30",
+        "marginRight": "0",
+        "marginBottom": "20",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Web Development"
+        },
+        "zh-cn": {
+          "text": "网页开发"
+        },
+        "zh-hk": {
+          "text": "網頁開發"
+        }
+      }
+    },
+    {
+      "_id": "5dfb16308629cb06a28013db",
+      "position": "",
+      "inlineStyle": "line-height: 30px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "From conception and strategy to design and implementation, golpasal builds and hosts premium 1-stop website development for your business idea."
+        },
+        "zh-cn": {
+          "text": "网站就好比是业务的店面，亦是很多潜在客户第一接触的渠道。时尚的店面能吸引更多的客户和伙伴。"
+        },
+        "zh-hk": {
+          "text": "從概念策略到設計和應用，golpasal為您的企業理念構建及提供一站式的優質網站開發。"
+        }
+      }
+    },
+    {
+      "_id": "5dfb17e876df6a3dcf894ac3",
+      "position": "",
+      "inlineStyle": "width:min-content;\nmargin: 0 auto;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/phone.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/phone.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/phone.png"
+        },
+        "width": "156px",
+        "height": "110px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dfb184776df6a3dcf894ac4",
+      "position": "",
+      "inlineStyle": "line-height: 30px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Tailor-made mobile apps to suit your needs through information infrastructure transformation, visual layout, operational logic and interactive experience."
+        },
+        "zh-cn": {
+          "text": "网站就好比是业务的店面，亦是很多潜在客户第一接触的渠道。时尚的店面能吸引更多的客户和伙伴。"
+        },
+        "zh-hk": {
+          "text": "透過資訊架構轉化、視覺佈局、操作邏輯及互動體驗，度身打造迎合你需要的手機應用程式。"
+        }
+      }
+    },
+    {
+      "_id": "5dfb184d76df6a3dcf894ac7",
+      "position": "",
+      "inlineStyle": "font-weight: 700;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "App Development"
+        },
+        "zh-cn": {
+          "text": "应用程序开发"
+        },
+        "zh-hk": {
+          "text": "應用程式開發"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "30",
+        "marginRight": "0",
+        "marginBottom": "20",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb185376df6a3dcf894ac9",
+      "position": "",
+      "inlineStyle": "width:min-content;\nmargin: 0 auto;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/icloud.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/icloud.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/icloud.png"
+        },
+        "width": "125",
+        "height": "110px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dfb185776df6a3dcf894aca",
+      "position": "",
+      "inlineStyle": "width:min-content;\nmargin: 0 auto;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/support.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/support.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/support.png"
+        },
+        "width": "135px",
+        "height": "110px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dfb185a76df6a3dcf894acb",
+      "position": "",
+      "inlineStyle": "width:min-content;\nmargin: 0 auto;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/tvp.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/tvp.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/tvp.png"
+        },
+        "width": "169px",
+        "height": "110px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dfb186376df6a3dcf894acd",
+      "position": "",
+      "inlineStyle": "width:min-content;\nmargin: 0 auto;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/bud.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/bud.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/home/bud.png"
+        },
+        "width": "132px",
+        "height": "110px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5dfb187776df6a3dcf894acf",
+      "position": "",
+      "inlineStyle": "line-height: 30px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Cloud computing solutions improve enterprises' effectiveness by having secure access to your application and data from any network device."
+        },
+        "zh-cn": {
+          "text": "网站就好比是业务的店面，亦是很多潜在客户第一接触的渠道。时尚的店面能吸引更多的客户和伙伴。"
+        },
+        "zh-hk": {
+          "text": "雲端解決方案和雲端服務可使企業通過安全地使用任何網絡設備的應用程序和數據，提高效率。"
+        }
+      }
+    },
+    {
+      "_id": "5dfb188876df6a3dcf894ad3",
+      "position": "",
+      "inlineStyle": "font-weight: 700;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Cloud Service"
+        },
+        "zh-cn": {
+          "text": "云端服务"
+        },
+        "zh-hk": {
+          "text": "雲端服務"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "30",
+        "marginRight": "0",
+        "marginBottom": "20",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb188d76df6a3dcf894ad5",
+      "position": "",
+      "inlineStyle": "line-height: 30px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "We provide professional and all-rounded support service to keep your application updated throughout its lifecycle by leveraging our expertise in artificial intelligence, workflow and operations optimisation."
+        },
+        "zh-cn": {
+          "text": "我们利用在人工智能，工作流程和营运优化方面的专业知识，为不同领域的公司提供专业而全面的支援服务。"
+        },
+        "zh-hk": {
+          "text": "我們利用在人工智能，工作流程和營運優化方面的專業知識，為不同領域的公司提供專業而全面的支援服務。"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "20",
+        "marginBottom": "0",
+        "marginLeft": "20",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb189476df6a3dcf894ad8",
+      "position": "",
+      "inlineStyle": "font-weight: 700;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Maintenance & Support"
+        },
+        "zh-cn": {
+          "text": "维护及支援"
+        },
+        "zh-hk": {
+          "text": "維護及支援"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "30",
+        "marginRight": "",
+        "marginBottom": "20",
+        "marginLeft": "",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb189f76df6a3dcf894ada",
+      "position": "",
+      "inlineStyle": "line-height: 30px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Funding amount up to HK$400K. Enjoy operational efficiency by modernisation today."
+        },
+        "zh-cn": {
+          "text": "资助额最高40万元，为中小企打造高效科技方案，提升竞争力。"
+        },
+        "zh-hk": {
+          "text": "資助額最高40萬元，為中小企打造高效科技方案，提升競爭力。"
+        }
+      }
+    },
+    {
+      "_id": "5dfb18a676df6a3dcf894add",
+      "position": "",
+      "inlineStyle": "font-weight: 700;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Technology Voucher Programme"
+        },
+        "zh-cn": {
+          "text": "科技券计划"
+        },
+        "zh-hk": {
+          "text": "科技券計劃"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "30",
+        "marginRight": "",
+        "marginBottom": "20",
+        "marginLeft": "",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb18aa76df6a3dcf894adf",
+      "position": "",
+      "inlineStyle": "font-weight: 700;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "BUD Fund"
+        },
+        "zh-cn": {
+          "text": "BUD专项基金"
+        },
+        "zh-hk": {
+          "text": "BUD專項基金"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "30",
+        "marginRight": "",
+        "marginBottom": "20",
+        "marginLeft": "",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb18b176df6a3dcf894ae2",
+      "position": "",
+      "inlineStyle": "line-height: 30px",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Enhance business with a strong technology partner by your side."
+        },
+        "zh-cn": {
+          "text": "把握黄金机遇，以科技拓展潜力，发展品牌、升级转型及拓展内销市场。"
+        },
+        "zh-hk": {
+          "text": "把握黃金機遇，以科技拓展潛力，發展品牌、升級轉型及拓展內銷市場。"
+        }
+      }
+    },
+    {
+      "_id": "5dfb1a6a76df6a3dcf894ae7",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a6a76df6a3dcf894ae4",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dfb1c8976df6a3dcf894b3c",
+                    "direction": "row",
+                    "widgets": ["5dfb01448629cb06a28013d5"]
+                  },
+                  {
+                    "_id": "5dfb1c8976df6a3dcf894b3d",
+                    "direction": "row",
+                    "widgets": ["5dfb16128629cb06a28013d8"]
+                  },
+                  {
+                    "_id": "5dfb1c8f76df6a3dcf894b3e",
+                    "direction": "row",
+                    "widgets": ["5dfb16308629cb06a28013db"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a6a76df6a3dcf894ae5",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a6a76df6a3dcf894ae6",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "backgroundType": "color",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb1a8776df6a3dcf894aed",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a8776df6a3dcf894aea",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dfb1aee76df6a3dcf894b2d",
+                    "direction": "row",
+                    "widgets": ["5dfb17e876df6a3dcf894ac3"]
+                  },
+                  {
+                    "_id": "5dfb1aee76df6a3dcf894b2e",
+                    "direction": "row",
+                    "widgets": ["5dfb184d76df6a3dcf894ac7"]
+                  },
+                  {
+                    "_id": "5dfb1afa76df6a3dcf894b2f",
+                    "direction": "row",
+                    "widgets": ["5dfb184776df6a3dcf894ac4"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a8776df6a3dcf894aeb",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a8776df6a3dcf894aec",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b06",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "4": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b07",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "5": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b08",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "6": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b09",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "7": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b0a",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "8": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b0b",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "9": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b0c",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "10": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b0d",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "11": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b0e",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "12": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b0f",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "13": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b10",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "14": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b11",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "15": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b12",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "16": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b13",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "17": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b14",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "18": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b15",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "19": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b16",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "20": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b17",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "21": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b18",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "22": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b19",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "23": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b1a",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "24": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b1b",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "25": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b1c",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "26": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b1d",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "27": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b1e",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "28": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b1f",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "29": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b20",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "30": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ab676df6a3dcf894b21",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "backgroundType": "color",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb1a8f76df6a3dcf894af2",
+      "position": "",
+      "inlineStyle": "height:400px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a8f76df6a3dcf894aef",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dfb1b0776df6a3dcf894b30",
+                    "direction": "row",
+                    "widgets": ["5dfb185376df6a3dcf894ac9"]
+                  },
+                  {
+                    "_id": "5dfb1b0776df6a3dcf894b31",
+                    "direction": "row",
+                    "widgets": ["5dfb188876df6a3dcf894ad3"]
+                  },
+                  {
+                    "_id": "5dfb1b0c76df6a3dcf894b32",
+                    "direction": "row",
+                    "widgets": ["5dfb187776df6a3dcf894acf"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a8f76df6a3dcf894af0",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a8f76df6a3dcf894af1",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "backgroundType": "color",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb1a9c76df6a3dcf894af7",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a9c76df6a3dcf894af4",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dfb1b1e76df6a3dcf894b33",
+                    "direction": "row",
+                    "widgets": ["5dfb185776df6a3dcf894aca"]
+                  },
+                  {
+                    "_id": "5dfb1b1e76df6a3dcf894b34",
+                    "direction": "row",
+                    "widgets": ["5dfb189476df6a3dcf894ad8"]
+                  },
+                  {
+                    "_id": "5dfb1b2376df6a3dcf894b35",
+                    "direction": "row",
+                    "widgets": ["5dfb188d76df6a3dcf894ad5"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a9c76df6a3dcf894af5",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1a9c76df6a3dcf894af6",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "backgroundType": "color",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb1aa176df6a3dcf894afd",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1aa176df6a3dcf894afa",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dfb1b3676df6a3dcf894b36",
+                    "direction": "row",
+                    "widgets": ["5dfb185a76df6a3dcf894acb"]
+                  },
+                  {
+                    "_id": "5dfb1b3676df6a3dcf894b37",
+                    "direction": "row",
+                    "widgets": ["5dfb18a676df6a3dcf894add"]
+                  },
+                  {
+                    "_id": "5dfb1b3c76df6a3dcf894b38",
+                    "direction": "row",
+                    "widgets": ["5dfb189f76df6a3dcf894ada"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1aa176df6a3dcf894afb",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1aa176df6a3dcf894afc",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "backgroundType": "color",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    },
+    {
+      "_id": "5dfb1aa676df6a3dcf894b03",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "backgroundType": "color",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1aa676df6a3dcf894b00",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5dfb1b5176df6a3dcf894b39",
+                    "direction": "row",
+                    "widgets": ["5dfb186376df6a3dcf894acd"]
+                  },
+                  {
+                    "_id": "5dfb1b5176df6a3dcf894b3a",
+                    "direction": "row",
+                    "widgets": ["5dfb18aa76df6a3dcf894adf"]
+                  },
+                  {
+                    "_id": "5dfb1b5876df6a3dcf894b3b",
+                    "direction": "row",
+                    "widgets": ["5dfb18b176df6a3dcf894ae2"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1aa676df6a3dcf894b01",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1aa676df6a3dcf894b02",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b22",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "4": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b23",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "5": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b24",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "6": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b25",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "7": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b26",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "8": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b27",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "9": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b28",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "10": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b29",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "11": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b2a",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "12": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5dfb1ac476df6a3dcf894b2b",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5dfb57b7366854839273030e",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "70",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "h4",
+        "color": "#000",
+        "en": {
+          "text": "News"
+        },
+        "zh-cn": {
+          "text": "新闻"
+        },
+        "zh-hk": {
+          "text": "新聞"
+        }
+      }
+    },
+    {
+      "_id": "5dfb57d73668548392730310",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "homeNews",
+      "data": {
+        "buttonText": "了解更多",
+        "en": {
+          "buttonText": "See More"
+        },
+        "zh-cn": {
+          "buttonText": "查看更多"
+        },
+        "zh-hk": {
+          "buttonText": "查看更多"
+        }
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "0",
+        "marginRight": "0",
+        "marginBottom": "200",
+        "marginLeft": "0",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      }
+    }
+  ]
+}

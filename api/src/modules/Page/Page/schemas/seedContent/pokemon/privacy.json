@@ -1,0 +1,62 @@
+{
+  "_id": "5e747ec29b06e3981c6752c8",
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5e747ec29b06e3981c6752b9",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5e9066b8f19cc96ddcea872d",
+            "direction": "row",
+            "widgets": ["5f97ad1a0893a9e3567cc1f7"]
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5f97ad1a0893a9e3567cc1f7",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:16px"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<p class='text-center text-primary my-3'>Shopping Cart 隱私及聲明</p>"
+        },
+        "zh-cn": {
+          "text": "<p class='text-center text-primary my-3'>Shopping Cart 隐私及声明</p>"
+        },
+        "en": {
+          "text": "<p class='text-center text-primary my-3'>Shopping Cart Privacy</p>"
+        }
+      }
+    }
+  ]
+}

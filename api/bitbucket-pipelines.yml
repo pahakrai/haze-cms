@@ -1,0 +1,249 @@
+---
+image: node:12.18.2
+definitions:
+  caches:
+    npm: ~/.npm
+pipelines:
+  branches:
+    dev:
+      - step:
+          name: test build
+          deployment: dev
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            # - yarn install --frozen-lockfile
+            # build project
+            # - yarn lint
+            # - yarn build
+            # when build success
+            - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+            - git show-ref
+            - git remote update
+            - git fetch --all
+            - git checkout testing
+            - git rebase origin/dev
+            - git push origin
+    testing:
+      - step:
+          name: AWS Code Deploy - Testing
+          deployment: testing
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            - yarn install --frozen-lockfile
+            # build project
+            - yarn lint
+            - yarn build
+            # remove tsbuildinfo
+            - rm dist/tsconfig.build.tsbuildinfo
+            # mv dist/src to dist_temp
+            - mv dist/src dist_temp
+            # rm dist
+            - rm -r dist
+            # rename dist_temp to dist
+            - mv dist_temp dist
+            - zip -r api.zip dist/* configs/ deploy_script/ locales/ report/ patches/ views/ appspec.yml package.json yarn.lock
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'upload'
+                ZIP_FILE: 'api.zip'
+                VERSION_LABEL: 'api-1.0.0'
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                DEPLOYMENT_GROUP: $DEPLOYMENT_GROUP
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'deploy'
+                VERSION_LABEL: 'api-1.0.0'
+                WAIT: 'true'
+                IGNORE_APPLICATION_STOP_FAILURES: 'true'
+                FILE_EXISTS_BEHAVIOR: 'OVERWRITE'
+    release/golpasal:
+      - step:
+          name: AWS Code Deploy - golpasal Production
+          deployment: production-golpasal
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            - yarn install --frozen-lockfile
+            # build project
+            - yarn build
+            # remove tsbuildinfo
+            - rm dist/tsconfig.build.tsbuildinfo
+            # mv dist/src to dist_temp
+            - mv dist/src dist_temp
+            # rm dist
+            - rm -r dist
+            # rename dist_temp to dist
+            - mv dist_temp dist
+            - zip -r api.zip dist/* configs/ deploy_script/ locales/ report/ patches/ views/ appspec.yml package.json yarn.lock
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'upload'
+                ZIP_FILE: 'api.zip'
+                VERSION_LABEL: 'api-1.0.0'
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                DEPLOYMENT_GROUP: $DEPLOYMENT_GROUP
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'deploy'
+                VERSION_LABEL: 'api-1.0.0'
+                WAIT: 'true'
+                IGNORE_APPLICATION_STOP_FAILURES: 'true'
+                FILE_EXISTS_BEHAVIOR: 'OVERWRITE'
+    release/taxiapp:
+      - step:
+          name: AWS Code Deploy - taxiapp Production
+          deployment: production-taxiapp
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            - yarn install --frozen-lockfile
+            # build project
+            - yarn build
+            # remove tsbuildinfo
+            - rm dist/tsconfig.build.tsbuildinfo
+            # mv dist/src to dist_temp
+            - mv dist/src dist_temp
+            # rm dist
+            - rm -r dist
+            # rename dist_temp to dist
+            - mv dist_temp dist
+            - zip -r api.zip dist/* configs/ deploy_script/ locales/ report/ patches/ views/ appspec.yml package.json yarn.lock
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'upload'
+                ZIP_FILE: 'api.zip'
+                VERSION_LABEL: 'api-1.0.0'
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                DEPLOYMENT_GROUP: $DEPLOYMENT_GROUP
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'deploy'
+                VERSION_LABEL: 'api-1.0.0'
+                WAIT: 'true'
+                IGNORE_APPLICATION_STOP_FAILURES: 'true'
+                FILE_EXISTS_BEHAVIOR: 'OVERWRITE'
+    release/drikids:
+      - step:
+          name: AWS Code Deploy - Dr ikids Production
+          deployment: production-drikids
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            - yarn install --frozen-lockfile
+            # build project
+            - yarn build
+            # remove tsbuildinfo
+            - rm dist/tsconfig.build.tsbuildinfo
+            # mv dist/src to dist_temp
+            - mv dist/src dist_temp
+            # rm dist
+            - rm -r dist
+            # rename dist_temp to dist
+            - mv dist_temp dist
+            - zip -r api.zip dist/* configs/ deploy_script/ locales/ report/ patches/ views/ appspec.yml package.json yarn.lock
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'upload'
+                ZIP_FILE: 'api.zip'
+                VERSION_LABEL: 'api-1.0.0'
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                DEPLOYMENT_GROUP: $DEPLOYMENT_GROUP
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'deploy'
+                VERSION_LABEL: 'api-1.0.0'
+                WAIT: 'true'
+                IGNORE_APPLICATION_STOP_FAILURES: 'true'
+                FILE_EXISTS_BEHAVIOR: 'OVERWRITE'
+    release/sjs-firstjob:
+      - step:
+          name: AWS Code Deploy - sjs firstjob Production
+          deployment: production-sjs-firstjob
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            - yarn install --frozen-lockfile
+            # build project
+            - yarn build
+            # remove tsbuildinfo
+            - rm dist/tsconfig.build.tsbuildinfo
+            # mv dist/src to dist_temp
+            - mv dist/src dist_temp
+            # rm dist
+            - rm -r dist
+            # rename dist_temp to dist
+            - mv dist_temp dist
+            - zip -r api.zip dist/* configs/ deploy_script/ locales/ report/ patches/ views/ appspec.yml package.json yarn.lock
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'upload'
+                ZIP_FILE: 'api.zip'
+                VERSION_LABEL: 'api-1.0.0'
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                DEPLOYMENT_GROUP: $DEPLOYMENT_GROUP
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: 'deploy'
+                VERSION_LABEL: 'api-1.0.0'
+                WAIT: 'true'
+                IGNORE_APPLICATION_STOP_FAILURES: 'true'
+                FILE_EXISTS_BEHAVIOR: 'OVERWRITE'

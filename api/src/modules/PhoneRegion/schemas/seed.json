@@ -1,0 +1,33 @@
+{
+  "model": "PhoneRegions",
+  "documents": [
+    {
+      "_id": "5aede0835ea0d39b9977564f",
+      "code": "+84"
+    },
+    {
+      "_id": "5ed617c05c9651b474960d38",
+      "code": "+86"
+    },
+    {
+      "_id": "5aede0835ea0d39b9977566f",
+      "code": "+852"
+    },
+    {
+      "_id": "5fac932b5a1df17bf5857812",
+      "code": "+81"
+    },
+    {
+      "_id": "5fac93547984d3a9c97f7a9b",
+      "code": "+1"
+    },
+    {
+      "_id": "5fac93c16e346acd6e471940",
+      "code": "+82"
+    },
+    {
+      "_id": "5fac9567eb5b805641a6dea0",
+      "code": "+886"
+    }
+  ]
+}

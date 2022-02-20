@@ -1,0 +1,36 @@
+scalar Date
+
+type WalletBankCardTransaction {
+  _id: ID!
+}
+
+input WalletBankCardTransactionCreateModel {
+  name: String!
+}
+
+input WalletBankCardTransactionUpdateModel {
+  name: String
+}
+
+type PaginateWalletBankCardTransaction {
+  nodes: [WalletBankCardTransaction]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input WalletBankCardTransactionSearchModel {
+  name: String
+}
+
+type Query {
+  walletBankCardTransaction(id: ID!): WalletBankCardTransaction
+  walletBankCardTransactions(query: WalletBankCardTransactionSearchModel, paginate: Paginate): PaginateWalletBankCardTransaction
+}
+
+type Mutation {
+  createWalletBankCardTransaction(walletBankCardTransactionCreateModel:WalletBankCardTransactionCreateModel): WalletBankCardTransaction
+  updateWalletBankCardTransaction(id: ID!, walletBankCardTransactionUpdateModel:WalletBankCardTransactionUpdateModel): WalletBankCardTransaction
+}

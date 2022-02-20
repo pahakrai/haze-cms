@@ -1,0 +1,23 @@
+{
+  "model": "TagImages",
+  "documents": [
+    {
+      "_id": "5f6b662cd1d0003be3d9a90e",
+      "text": "升學必備",
+      "image": "5f6b6625d1d0003be3d9a90c",
+      "workspace": "5e9fcae14fc78a87a9bc4c11"
+    },
+    {
+      "_id": "5f6b65aed1d0003b22d9a90b",
+      "text": "證書課程",
+      "image": "5f6b65a8d1d0003be3d9a909",
+      "workspace": "5e9fcae14fc78a87a9bc4c11"
+    },
+    {
+      "_id": "5f6b650bd1d0003be3d9a908",
+      "text": "獨家教材",
+      "image": "5f6b6501d1d0003be3d9a906",
+      "workspace": "5e9fcae14fc78a87a9bc4c11"
+    }
+  ]
+}

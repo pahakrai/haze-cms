@@ -1,0 +1,62 @@
+{
+  "_id": "5e747ec29b06e3981c6752c8",
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5e747ec29b06e3981c6752b9",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5e9066b8f19cc96ddcea872d",
+            "direction": "row",
+            "widgets": ["5f97ad1a0893a9e3567cc1f7"]
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5f97ad1a0893a9e3567cc1f7",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:16px"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<p>送貨方式</p>\n<p>銅鑼灣門市取貨</p>\n<p>尖沙咀門市取貨</p>\n<p>觀塘門市取貨</p>\n<p>順豐速運 - 7-11便利店取件 (自付運費)</p>\n<p>順豐速運 - OK便利店取件 (自付運費)</p>\n<p>順豐速運 - 順便智能櫃取件 (自付運費)</p>\n<p>順豐速運 - 順豐站取件 (自付運費)</p>\n<p>順豐速運 - 順豐服務中心取件 (自付運費)</p>\n<p>順豐速運 - 工商或住宅地址派送 (自付運費）</p>\n<p></p>\n<p>付款方式</p>\n<p>PayMe</p>\n<p>轉數快FPS (掃瞄QR CODE｜即時確認)</p>\n<p>轉數快FPS (自行輸入FPS ID轉帳 | 需人手確認)</p>\n<p>信用卡</p>\n<p>PayPal</p>\n<p>匯豐銀行轉帳</p>\n<p>澳門中國銀行 (只適用於澳門買家)</p>\n"
+        },
+        "zh-cn": {
+          "text": "<p>送货方式</p>\n<p>铜锣湾门市取货</p>\n<p>尖沙咀门市取货</p>\n<p>观塘门市取货</p>\n<p>顺丰速运 - 7-11便利店取件 (自付运费)</p>\n<p>顺丰速运 - OK便利店取件 (自付运费)</p>\n<p>顺丰速运 - 顺便智能柜取件 (自付运费)</p>\n<p>顺丰速运 - 顺丰站取件 (自付运费)</p>\n<p>顺丰速运 - 顺丰服务中心取件 (自付运费)</p>\n<p>顺丰速运 - 工商或住宅地址派送 (自付运费）</p>\n<p></p>\n<p>付款方式</p>\n<p>PayMe</p>\n<p>转数快FPS (扫瞄QR CODE｜即时确认)</p>\n<p>转数快FPS (自行输入FPS ID转帐 | 需人手确认)</p>\n<p>信用卡</p>\n<p>PayPal</p>\n<p>汇丰银行转帐</p>\n<p>澳门中国银行 (只适用于澳门买家)</p>\n"
+        },
+        "en": {
+          "text": "<p>Delivery methods</p>\n<p>Pickup at Causeway Bay Store</p>\n<p>Pickup at Tsim Sha Tsui store</p>\n<p>Kwun Tong store pickup</p>\n<p>SF Express-7-11 Convenience Store Pickup (self-shipment)</p>\n<p>SF Express-OK Convenience Store Pickup (Shipping Fee)</p>\n<p>SF Express-Pickup via Smart Cabinet (Shipping Fee)</p>\n<p>SF Express-Pickup at SF Station (Shipping Fee)</p>\n<p>SF Express-SF Service Center Pickup (Shipping Fee)</p>\n<p>SF Express-Commercial or residential address delivery (self-shipment)</p>\n<p></p>\n<p>Payment method</p>\n<p>PayMe</p>\n<p>Fast FPS (Scan QR CODE｜Instant Confirmation)</p>\n<p>Fast FPS (input FPS ID to transfer money by yourself | manual confirmation required)</p>\n<p>credit card</p>\n<p>PayPal</p>\n<p>HSBC bank transfer</p>\n<p>Macau Bank of China (Only applicable to Macau buyers)</p>\n"
+        }
+      }
+    }
+  ]
+}

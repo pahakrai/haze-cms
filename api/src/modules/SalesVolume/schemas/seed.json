@@ -1,0 +1,33 @@
+{
+  "model": "SalesVolumes",
+  "documents": [
+    {
+      "_id": "5fa53a70e578e606eb34492f",
+      "currency": "HKD",
+      "amount": 2890,
+      "time": "2020-09",
+      "workspace": "5e9fcae14fc78a87a9bc4c11"
+    },
+    {
+      "_id": "5fb6164a0f92c48c9aead034",
+      "currency": "HKD",
+      "amount": 3000,
+      "time": "2020-10",
+      "workspace": "5e9fcae14fc78a87a9bc4c11"
+    },
+    {
+      "_id": "5fb6164f09664e25fd769585",
+      "currency": "HKD",
+      "amount": 3000,
+      "time": "2020-11",
+      "workspace": "5e9fcae14fc78a87a9bc4c11"
+    },
+    {
+      "_id": "5fb6165492510e21a3e6ce69",
+      "currency": "HKD",
+      "amount": 3250,
+      "time": "2020-12",
+      "workspace": "5e9fcae14fc78a87a9bc4c11"
+    }
+  ]
+}

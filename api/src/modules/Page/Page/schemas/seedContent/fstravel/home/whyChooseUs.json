@@ -1,0 +1,901 @@
+{
+  "_id": "5ecf20c2e8309b65c8a39745",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5ecf20c2e8309b65c8a39746",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5ecf2c641f2d5b47f39eb0ed",
+            "direction": "row",
+            "widgets": ["5ecf6af52edb890c87911820"]
+          }
+        ]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5ecf6af52edb890c87911820",
+      "position": "",
+      "inlineStyle": {},
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "lg": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "0",
+          "marginRight": "0",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#000000",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        }
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "fixedHundredPercent": false,
+        "breakpoints": {
+          "md": {
+            "columnWidths": {
+              "0": "100.00"
+            },
+            "columnRatio": "even",
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          }
+        },
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ecf2c621f2d5b47f39eb0e8",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5ecf2ca41f2d5b47f39eb0f7",
+                    "direction": "row",
+                    "widgets": ["5ecf6af52edb890c87911828"]
+                  },
+                  {
+                    "_id": "5ecf2ca41f2d5b47f39eb0f8",
+                    "direction": "row",
+                    "widgets": ["5ecf6af52edb890c87911822"]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5ecf6af52edb890c87911822",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "3",
+        "columnWidths": {
+          "0": "33.33",
+          "1": "33.33",
+          "2": "33.33"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "fixedHundredPercent": false,
+        "breakpoints": {
+          "md": {
+            "columnWidths": {
+              "0": "33.33",
+              "1": "33.33",
+              "2": "33.33"
+            },
+            "columnRatio": "even",
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "lg": {
+            "columnWidths": {
+              "0": "33.33",
+              "1": "33.33",
+              "2": "33.33"
+            },
+            "fixedHundredPercent": true
+          }
+        },
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ecf2c891f2d5b47f39eb0f2",
+                "direction": "column",
+                "widgets": ["5ecf6af52edb890c87911823"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ecf2c891f2d5b47f39eb0f3",
+                "direction": "column",
+                "widgets": ["5ecf6af52edb890c87911824"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ecf2c891f2d5b47f39eb0f4",
+                "direction": "column",
+                "widgets": ["5ecf6af52edb890c87911825"]
+              }
+            ]
+          }
+        }
+      },
+      "properties": []
+    },
+    {
+      "_id": "5ecf6af52edb890c87911823",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "lg": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "50",
+          "marginRight": "18",
+          "marginBottom": "0",
+          "marginLeft": "18",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#E6E6E6",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        },
+        "sm": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "10",
+          "marginRight": "5",
+          "marginBottom": "0",
+          "marginLeft": "5",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#E6E6E6",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        }
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "fixedHundredPercent": false,
+        "breakpoints": {
+          "md": {
+            "columnWidths": {
+              "0": "100.00"
+            },
+            "columnRatio": "even",
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          }
+        },
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ecf2de7db5ec009c362d5ea",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5ecf6c106741077f6319b5a5",
+                    "direction": "row",
+                    "widgets": ["5ecf6bf96741077f6319b5a3"]
+                  },
+                  {
+                    "_id": "5ecf6c106741077f6319b5a6",
+                    "direction": "row",
+                    "widgets": ["5ecf6c0c6741077f6319b5a4"]
+                  },
+                  {
+                    "_id": "5ecf6c166741077f6319b5a8",
+                    "direction": "row",
+                    "widgets": ["5ecf6c136741077f6319b5a7"]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "properties": [
+        {
+          "_id": "5ecf6dc49c8d47cb03ce18a3",
+          "type": "boxed",
+          "data": {
+            "type": "custom",
+            "centered": true,
+            "width": "238px"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5ecf6af52edb890c87911824",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "lg": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "50",
+          "marginRight": "18",
+          "marginBottom": "0",
+          "marginLeft": "18",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#E6E6E6",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        },
+        "sm": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "10",
+          "marginRight": "5",
+          "marginBottom": "0",
+          "marginLeft": "5",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#E6E6E6",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        }
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "fixedHundredPercent": false,
+        "breakpoints": {
+          "md": {
+            "columnWidths": {
+              "0": "100.00"
+            },
+            "columnRatio": "even",
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          }
+        },
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ecf2deadb5ec009c362d5ee",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5ecf6d089c8d47cb03ce1899",
+                    "direction": "row",
+                    "widgets": ["5ecf6d009c8d47cb03ce1897"]
+                  },
+                  {
+                    "_id": "5ecf6d089c8d47cb03ce189a",
+                    "direction": "row",
+                    "widgets": ["5ecf6d069c8d47cb03ce1898"]
+                  },
+                  {
+                    "_id": "5ecf6d0d9c8d47cb03ce189c",
+                    "direction": "row",
+                    "widgets": ["5ecf6d0a9c8d47cb03ce189b"]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "properties": [
+        {
+          "_id": "5ecf6dda9c8d47cb03ce18a4",
+          "type": "boxed",
+          "data": {
+            "type": "custom",
+            "centered": true,
+            "width": "238px"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5ecf6af52edb890c87911825",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "lg": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "50",
+          "marginRight": "18",
+          "marginBottom": "0",
+          "marginLeft": "18",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#E6E6E6",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        },
+        "sm": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "10",
+          "marginRight": "5",
+          "marginBottom": "0",
+          "marginLeft": "5",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#E6E6E6",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        }
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "fixedHundredPercent": false,
+        "breakpoints": {
+          "md": {
+            "columnWidths": {
+              "0": "100.00"
+            },
+            "columnRatio": "even",
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          }
+        },
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5ecf2deddb5ec009c362d5f2",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5ecf6d1b9c8d47cb03ce189f",
+                    "direction": "row",
+                    "widgets": ["5ecf6d139c8d47cb03ce189d"]
+                  },
+                  {
+                    "_id": "5ecf6d1b9c8d47cb03ce18a0",
+                    "direction": "row",
+                    "widgets": ["5ecf6d189c8d47cb03ce189e"]
+                  },
+                  {
+                    "_id": "5ecf6d1f9c8d47cb03ce18a2",
+                    "direction": "row",
+                    "widgets": ["5ecf6d1d9c8d47cb03ce18a1"]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "properties": [
+        {
+          "_id": "5ecf6de69c8d47cb03ce18a5",
+          "type": "boxed",
+          "data": {
+            "type": "custom",
+            "centered": true,
+            "width": "238px"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5ecf6af52edb890c87911828",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 2.125rem;\nmargin-bottom: -60px;",
+        "sm": "font-size: 2.125rem;",
+        "xs": "font-size: 2.125rem;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<div style=\"text-align:center;\nfont-size: 36px;\">為什麼選擇我們<div style=\"text-align: center;\nfont-size:15px;\npadding-bottom: 15px;\">這是您應與我們計劃行程的原因</div></div>"
+        },
+        "zh-cn": {
+          "text": "<div style=\"text-align:center;\nfont-size: 36px;\">为什么选择我们<div style=\"text-align: center;\nfont-size:15px;\npadding-bottom: 15px;\">这是您应与我们计划行程的原因</div></div>"
+        },
+        "en": {
+          "text": "<div style=\"text-align:center;\nfont-size: 36px;\">Why Choose Us<div style=\"text-align: center;\nfont-size:15px;\npadding-bottom: 15px;\">Here are reasons you should plan trip with us</div></div>"
+        }
+      }
+    },
+    {
+      "_id": "5ecf6bf96741077f6319b5a3",
+      "position": "",
+      "inlineStyle": {
+        "lg": "max-width:100px;\nmargin:0 auto;",
+        "sm": "max-width:70px;\nmargin:0 auto;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-1.png",
+          "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-1.png",
+          "en": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-1.png"
+        },
+        "width": "100%",
+        "height": "auto",
+        "fit": "cover",
+        "position": "center",
+        "title": "",
+        "borderRadius": "0%"
+      }
+    },
+    {
+      "_id": "5ecf6c0c6741077f6319b5a4",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:20px;\ncolor:#000;\nfont-weight:400;\ntext-align:center;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<div>精選酒店</div>"
+        },
+        "zh-cn": {
+          "text": "<div>精选酒店</div>"
+        },
+        "en": {
+          "text": "<div>Handpicked Hotels</div>"
+        }
+      }
+    },
+    {
+      "_id": "5ecf6c136741077f6319b5a7",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:15px;\ncolor:#222;\ntext-align:center;\nfont-weight:300"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        },
+        "zh-cn": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        },
+        "en": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        }
+      }
+    },
+    {
+      "_id": "5ecf6d009c8d47cb03ce1897",
+      "position": "",
+      "inlineStyle": {
+        "lg": "max-width:100px;\nmargin:0 auto;",
+        "sm": "max-width:70px;\nmargin:0 auto;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-2.png",
+          "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-2.png",
+          "en": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-2.png"
+        },
+        "width": "100%",
+        "height": "auto",
+        "fit": "cover",
+        "position": "center",
+        "title": "",
+        "borderRadius": "0%"
+      }
+    },
+    {
+      "_id": "5ecf6d069c8d47cb03ce1898",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:20px;\ncolor:#000;\nfont-family:Adobe Heiti Std;\nfont-weight:500;\ntext-align:center;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<div>世界一流的服務</div>"
+        },
+        "zh-cn": {
+          "text": "<div>世界一流的服务</div>"
+        },
+        "en": {
+          "text": "<div>World Class Service</div>"
+        }
+      }
+    },
+    {
+      "_id": "5ecf6d0a9c8d47cb03ce189b",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:15px;\ncolor:#222;\ntext-align:center;\nfont-weight:300;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        },
+        "zh-cn": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        },
+        "en": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        }
+      }
+    },
+    {
+      "_id": "5ecf6d139c8d47cb03ce189d",
+      "position": "",
+      "inlineStyle": {
+        "lg": "max-width:100px;\nmargin:0 auto;",
+        "sm": "max-width:70px;\nmargin:0 auto;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-3.png",
+          "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-3.png",
+          "en": "https://devcdn.golpasal.com/assets/images/golpasal/5fd83be73db74d57b304cb82/seed/why-choose-us-3.png"
+        },
+        "width": "100%",
+        "height": "auto",
+        "fit": "cover",
+        "position": "center",
+        "title": "",
+        "borderRadius": "0%"
+      }
+    },
+    {
+      "_id": "5ecf6d189c8d47cb03ce189e",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:20px;\ncolor:#000;\nfont-family:Adobe Heiti Std;\nfont-weight:400;\ntext-align:center;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<div>專員服務</div>"
+        },
+        "zh-cn": {
+          "text": "<div>最優惠的價格保證</div>"
+        },
+        "en": {
+          "text": "<div>Best Price Guarantee</div>"
+        }
+      }
+    },
+    {
+      "_id": "5ecf6d1d9c8d47cb03ce18a1",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:15px\ncolor:#222;\ntext-align:center;\nfont-weight:300;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        },
+        "zh-cn": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        },
+        "en": {
+          "text": "<div>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</div>"
+        }
+      }
+    }
+  ]
+}

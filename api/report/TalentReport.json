@@ -1,0 +1,49 @@
+{
+  "version": "2020-11-25",
+  "templates": [
+    {
+      "worksheet": "TalentReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "name"
+          },
+          {
+            "idx": 2,
+            "fieldName": "age"
+          },
+          {
+            "idx": 3,
+            "fieldName": "gender"
+          },
+          {
+            "idx": 4,
+            "fieldName": "educationLevel"
+          },
+          {
+            "idx": 5,
+            "fieldName": "email"
+          },
+          {
+            "idx": 6,
+            "fieldName": "phoneNo"
+          },
+          {
+            "idx": 7,
+            "fieldName": "count"
+          },
+          {
+            "idx": 8,
+            "fieldName": "status"
+          },
+          {
+            "idx": 9,
+            "fieldName": "registerDate"
+          }
+        ]
+      }
+    }
+  ]
+}

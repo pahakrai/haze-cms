@@ -1,0 +1,36 @@
+input LoginChannelInput {
+  type: String
+}
+
+input SignupModel {
+  email: String
+  phone: String
+  password: String
+  userTypes: [String]
+  lastName: String
+  firstName: String
+  name: String
+  username: String
+  loginChannel: [LoginChannelInput]
+  phoneRegionCode: String
+  channelId: String
+}
+
+type SignupResponse {
+  user: User
+  userToken: UserToken
+}
+
+type Mutation {
+  loginGoogle(token: String!, newUser: SignupModel): SignupResponse
+  loginFacebook(token: String!, newUser: SignupModel): SignupResponse
+  loginApple(token: String!, newUser: SignupModel): SignupResponse
+  loginWeChat(token: String!, newUser: SignupModel): SignupResponse
+  loginMessaging(
+    phoneRegionCode: String!
+    phone: String!
+    verifyCode: String!
+    userType: String!
+  ): SignupResponse
+  sendMessagingVerification(phoneRegionCode: String!, phone: String!): Boolean
+}

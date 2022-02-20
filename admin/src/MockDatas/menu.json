@@ -1,0 +1,76 @@
+{
+  "web-header": {
+    "name": "web-header",
+    "items": [
+      {
+        "label": {
+          "en": "about"
+        },
+        "type": "link",
+        "data": null,
+        "to": "#",
+        "items": [
+          {
+            "label": {
+              "en": "about us"
+            },
+            "type": "link",
+            "data": null,
+            "to": "/about",
+            "idx": 0
+          },
+          {
+            "label": {
+              "en": "terms"
+            },
+            "type": "link",
+            "data": null,
+            "to": "/terms",
+            "idx": 1
+          },
+          {
+            "label": {
+              "en": "privacy"
+            },
+            "type": "link",
+            "data": null,
+            "to": "/privacy",
+            "idx": 2
+          }
+        ],
+        "idx": 1
+      },
+      {
+        "label": {
+          "en": "posts"
+        },
+        "type": "link",
+        "data": null,
+        "to": "/posts",
+        "items": [],
+        "idx": 2
+      },
+      {
+        "label": {
+          "en": "faq"
+        },
+        "type": "link",
+        "data": null,
+        "to": "/faq",
+        "items": [],
+        "idx": 3
+      },
+      {
+        "label": {
+          "en": "contact"
+        },
+        "type": "link",
+        "data": null,
+        "to": "/contact",
+        "items": [],
+        "idx": 4
+      }
+    ],
+    "workspace": "cm"
+  }
+}

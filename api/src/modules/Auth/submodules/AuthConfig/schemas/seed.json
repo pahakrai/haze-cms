@@ -1,0 +1,1087 @@
+{
+  "documents": [
+    {
+      "_id": "5eb3e4460bc6e44a21319df8",
+      "userType": "member",
+      "loginRequireVerify": true,
+      "signUpAcGroups": ["5c760de61e6fbb3b98c8d1ba"],
+      "signUpRequireVerify": true,
+      "verifiedRequirements": ["email"],
+      "activateByAdmin": false,
+      "workspace": "5e9fcae14fc78a87a9bc4c43",
+      "contactMethod": {
+        "default": {
+          "emailMessage": {
+            "default": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Passcode verification",
+            "zh-hk": "golpasal: 一次性驗証碼"
+          },
+          "interactLinkUrl": "/auth/verify-user",
+          "interactType": "passcode",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "sms"
+        },
+        "emailVerify": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTitle": {
+            "en": "golpasal: E-mail Verification",
+            "zh-hk": "golpasal: 電子郵件驗證"
+          },
+          "interactLinkUrl": "/auth/verify-user",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "forgotPassword": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Reset Password",
+            "zh-hk": "golpasal: 重設密碼"
+          },
+          "interactLinkUrl": "/auth/verify-user?p=/auth/reset-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Reset Password",
+              "zh-hk": "重設密碼"
+            }
+          },
+          "transportType": "email"
+        },
+        "phoneVerify": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTitle": {
+            "en": "golpasal: Phone Verification",
+            "zh-hk": "golpasal: 電話驗證"
+          },
+          "interactLinkUrl": "/auth/verify-user",
+          "interactType": "passcode",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "passcodeScope": "phoneVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportType": "email"
+        },
+        "signUp": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Sign Up Verification",
+            "zh-hk": "golpasal: 註冊驗證"
+          },
+          "interactLinkUrl": "/auth/verify-user",
+          "interactType": "link",
+          "passcodeExpiresIn": 86400000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "invite": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Invitation",
+            "zh-hk": "golpasal: 邀請函"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 86400000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Click on the following link to continue - {code}",
+            "zh-hk": "golpasal: 單擊此鏈接以完成該過程 - {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "userIsVerifiedTrue": {
+          "emailMessage": {
+            "default": {
+              "en": "A new client has registered",
+              "zh-hk": "新客戶已註冊"
+            }
+          },
+          "emailTemplate": "email/userIsVerifiedTrue.ejs",
+          "emailTitle": {
+            "en": "golpasal: New Client Registered",
+            "zh-hk": "golpasal: 新客戶註冊"
+          },
+          "transportParameters": {
+            "t_client_email_label": {
+              "en": "Email",
+              "zh-hk": "電郵"
+            },
+            "t_client_name_label": {
+              "en": "Name",
+              "zh-hk": "名字"
+            },
+            "t_client_phone_label": {
+              "en": "Phone No.",
+              "zh-hk": "電話"
+            }
+          },
+          "transportType": "email"
+        },
+        "userStatusActive": {
+          "emailMessage": {
+            "default": {
+              "en": "Welcome to our big family!",
+              "zh-hk": "歡迎來到我們的大家庭!"
+            }
+          },
+          "emailTemplate": "email/userStatusActive.ejs",
+          "emailTitle": {
+            "en": "golpasal: You have been activated!",
+            "zh-hk": "golpasal: 您已被激活!"
+          },
+          "transportParameters": {},
+          "transportType": "email"
+        }
+      }
+    },
+    {
+      "_id": "5e997b8dc2588709db2f8924",
+      "userType": "user",
+      "loginRequireVerify": true,
+      "signUpAcGroups": ["5c760de61e6fbb3b98c8d1ba"],
+      "signUpRequireVerify": true,
+      "verifiedRequirements": ["email"],
+      "activateByAdmin": true,
+      "workspace": "5e9fcae14fc78a87a9bc4c43",
+      "contactMethod": {
+        "default": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Passcode verification",
+            "zh-hk": "golpasal: 一次性驗証碼"
+          },
+          "interactLinkUrl": "/auth/verify-user",
+          "interactType": "passcode",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "sms"
+        },
+        "emailVerify": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTitle": {
+            "en": "golpasal: E-mail Verification",
+            "zh-hk": "golpasal: 電子郵件驗證"
+          },
+          "interactLinkUrl": "/auth/verify-user",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "forgotPassword": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Reset Password",
+            "zh-hk": "golpasal: 重設密碼"
+          },
+          "interactLinkUrl": "/auth/verify-user?p=/auth/reset-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Reset Password",
+              "zh-hk": "重設密碼"
+            }
+          },
+          "transportType": "email"
+        },
+        "phoneVerify": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTitle": {
+            "en": "golpasal: Phone Verification",
+            "zh-hk": "golpasal: 電話驗證"
+          },
+          "interactLinkUrl": "/auth/verify-user",
+          "interactType": "passcode",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "passcodeScope": "phoneVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportType": "email"
+        },
+        "signUp": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Sign Up Verification",
+            "zh-hk": "golpasal: 註冊驗證"
+          },
+          "interactLinkUrl": "/auth/verify-user",
+          "interactType": "link",
+          "passcodeExpiresIn": 86400000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportType": "email",
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "invite": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Invitation",
+            "zh-hk": "golpasal: 邀請函"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 86400000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Click on the following link to continue - {code}",
+            "zh-hk": "golpasal: 單擊此鏈接以完成該過程 - {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "userIsVerifiedTrue": {
+          "emailMessage": {
+            "default": {
+              "en": "A new client has registered",
+              "zh-hk": "新客戶已註冊"
+            }
+          },
+          "emailTemplate": "email/userIsVerifiedTrue.ejs",
+          "emailTitle": {
+            "en": "golpasal: New Client Registered",
+            "zh-hk": "golpasal: 新客戶註冊"
+          },
+          "transportParameters": {
+            "t_client_email_label": {
+              "en": "Email",
+              "zh-hk": "電郵"
+            },
+            "t_client_name_label": {
+              "en": "Name",
+              "zh-hk": "名字"
+            },
+            "t_client_phone_label": {
+              "en": "Phone No.",
+              "zh-hk": "電話"
+            }
+          },
+          "transportType": "email"
+        },
+        "userStatusActive": {
+          "emailMessage": {
+            "default": {
+              "en": "Welcome to our big family!",
+              "zh-hk": "歡迎來到我們的大家庭!"
+            }
+          },
+          "emailTemplate": "email/userStatusActive.ejs",
+          "emailTitle": {
+            "en": "golpasal: You have been activated!",
+            "zh-hk": "golpasal: 您已被激活!"
+          },
+          "transportParameters": {},
+          "transportType": "email"
+        }
+      }
+    },
+    {
+      "_id": "5e99846b33f945c5fbd0db4c",
+      "userType": "provider",
+      "loginRequireVerify": true,
+      "signUpAcGroups": [],
+      "signUpRequireVerify": true,
+      "verifiedRequirements": ["email"],
+      "activateByAdmin": false,
+      "workspace": "5e9fcae14fc78a87a9bc4c43",
+      "contactMethod": {
+        "default": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Passcode verification",
+            "zh-hk": "golpasal: 一次性驗証碼"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "smsMessage": {
+            "en": "Click on the following link to continue: {code}",
+            "zh-hk": "單擊此鏈接以完成該過程: {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email"
+        },
+        "emailVerify": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: E-mail Verification",
+            "zh-hk": "golpasal: 電子郵件驗證"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "forgotPassword": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Reset Password",
+            "zh-hk": "golpasal: 重設密碼"
+          },
+          "interactLinkUrl": "/auth/reset-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "smsMessage": {
+            "en": "Click on the following link to continue: {code}",
+            "zh-hk": "單擊此鏈接以完成該過程: {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Reset Password",
+              "zh-hk": "重設密碼"
+            }
+          },
+          "transportType": "email"
+        },
+        "phoneVerify": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTitle": {
+            "en": "golpasal: Phone Verification",
+            "zh-hk": "golpasal: 電話驗證"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "code",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "passcodeScope": "phoneVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportType": "sms"
+        },
+        "signUp": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Sign Up Verification",
+            "zh-hk": "golpasal: 註冊驗證"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 86400000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Click on the following link to continue - {code}",
+            "zh-hk": "golpasal: 單擊此鏈接以完成該過程 - {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "invite": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Invitation",
+            "zh-hk": "golpasal: 邀請函"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 86400000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Click on the following link to continue - {code}",
+            "zh-hk": "golpasal: 單擊此鏈接以完成該過程 - {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "userIsVerifiedTrue": {
+          "emailMessage": {
+            "default": {
+              "en": "A new provider has registered",
+              "zh-hk": "新管理員已註冊"
+            }
+          },
+          "emailTemplate": "email/userIsVerifiedTrue.ejs",
+          "emailTitle": {
+            "en": "golpasal: New Provider Registered",
+            "zh-hk": "golpasal: 新管理員註冊"
+          },
+          "transportParameters": {
+            "t_client_email_label": {
+              "en": "Email",
+              "zh-hk": "電郵"
+            },
+            "t_client_name_label": {
+              "en": "Name",
+              "zh-hk": "名字"
+            },
+            "t_client_phone_label": {
+              "en": "Phone No.",
+              "zh-hk": "電話"
+            }
+          },
+          "transportType": "email"
+        },
+        "userStatusActive": {
+          "emailMessage": {
+            "default": {
+              "en": "Welcome to our big family!",
+              "zh-hk": "歡迎來到我們的大家庭!"
+            }
+          },
+          "emailTemplate": "email/userStatusActive.ejs",
+          "emailTitle": {
+            "en": "golpasal: You have been activated!",
+            "zh-hk": "golpasal: 您已被激活!"
+          },
+          "transportParameters": {},
+          "transportType": "email"
+        }
+      }
+    },
+    {
+      "_id": "6052bfafc0aebb81fa6266fb",
+      "userType": "system_admin",
+      "loginRequireVerify": true,
+      "signUpAcGroups": [],
+      "signUpRequireVerify": true,
+      "verifiedRequirements": ["email"],
+      "activateByAdmin": false,
+      "workspace": "5e9fcae14fc78a87a9bc4c43",
+      "contactMethod": {
+        "default": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Passcode verification",
+            "zh-hk": "golpasal: 一次性驗証碼"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "smsMessage": {
+            "en": "Click on the following link to continue: {code}",
+            "zh-hk": "單擊此鏈接以完成該過程: {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email"
+        },
+        "emailVerify": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: E-mail Verification",
+            "zh-hk": "golpasal: 電子郵件驗證"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "forgotPassword": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Reset Password",
+            "zh-hk": "golpasal: 重設密碼"
+          },
+          "interactLinkUrl": "/auth/reset-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "smsMessage": {
+            "en": "Click on the following link to continue: {code}",
+            "zh-hk": "單擊此鏈接以完成該過程: {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Reset Password",
+              "zh-hk": "重設密碼"
+            }
+          },
+          "transportType": "email"
+        },
+        "phoneVerify": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTitle": {
+            "en": "golpasal: Phone Verification",
+            "zh-hk": "golpasal: 電話驗證"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "code",
+          "passcodeExpiresIn": 300000,
+          "passcodeLength": 6,
+          "passcodeScope": "phoneVerify",
+          "smsMessage": {
+            "en": "golpasal: Your one-time password is {code}",
+            "zh-hk": "golpasal: 你的一次性驗証碼是 {code}"
+          },
+          "transportType": "sms"
+        },
+        "signUp": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Sign Up Verification",
+            "zh-hk": "golpasal: 註冊驗證"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 86400000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Click on the following link to continue - {code}",
+            "zh-hk": "golpasal: 單擊此鏈接以完成該過程 - {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "invite": {
+          "emailMessage": {
+            "default": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "link": {
+              "en": "Click on the following link to continue",
+              "zh-hk": "單擊此鏈接以完成該過程"
+            },
+            "passcode": {
+              "en": "golpasal: Your one-time password is",
+              "zh-hk": "golpasal: 你的一次性驗証碼是"
+            }
+          },
+          "emailTemplate": "email/passcode.ejs",
+          "emailTitle": {
+            "en": "golpasal: Invitation",
+            "zh-hk": "golpasal: 邀請函"
+          },
+          "interactLinkUrl": "/auth/set-password",
+          "interactType": "link",
+          "passcodeExpiresIn": 86400000,
+          "passcodeLength": 6,
+          "passcodeScope": "emailVerify",
+          "smsMessage": {
+            "en": "golpasal: Click on the following link to continue - {code}",
+            "zh-hk": "golpasal: 單擊此鏈接以完成該過程 - {code}"
+          },
+          "transportParameters": {
+            "t_passcode_token_text": {
+              "en": "Verify",
+              "zh-hk": "驗證"
+            }
+          },
+          "transportType": "email",
+          "isUpdateUserVerifyOnPasscodeValidate": true
+        },
+        "userIsVerifiedTrue": {
+          "emailMessage": {
+            "default": {
+              "en": "A new system admin has registered",
+              "zh-hk": "新系統管理員已註冊"
+            }
+          },
+          "emailTemplate": "email/userIsVerifiedTrue.ejs",
+          "emailTitle": {
+            "en": "golpasal: New System Admin Registered",
+            "zh-hk": "golpasal: 新系統管理員註冊"
+          },
+          "transportParameters": {
+            "t_client_email_label": {
+              "en": "Email",
+              "zh-hk": "電郵"
+            },
+            "t_client_name_label": {
+              "en": "Name",
+              "zh-hk": "名字"
+            },
+            "t_client_phone_label": {
+              "en": "Phone No.",
+              "zh-hk": "電話"
+            }
+          },
+          "transportType": "email"
+        },
+        "userStatusActive": {
+          "emailMessage": {
+            "default": {
+              "en": "Welcome to our big family!",
+              "zh-hk": "歡迎來到我們的大家庭!"
+            }
+          },
+          "emailTemplate": "email/userStatusActive.ejs",
+          "emailTitle": {
+            "en": "golpasal: You have been activated!",
+            "zh-hk": "golpasal: 您已被激活!"
+          },
+          "transportParameters": {},
+          "transportType": "email"
+        }
+      }
+    }
+  ],
+  "model": "AuthConfigs"
+}

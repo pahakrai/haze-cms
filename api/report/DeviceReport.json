@@ -1,0 +1,37 @@
+{
+  "version": "2021-01-16",
+  "templates": [
+    {
+      "worksheet": "DeviceReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "deviceType"
+          },
+          {
+            "idx": 2,
+            "fieldName": "deviceName"
+          },
+          {
+            "idx": 3,
+            "fieldName": "createdAt"
+          },
+          {
+            "idx": 4,
+            "fieldName": "lastOnTime"
+          },
+          {
+            "idx": 5,
+            "fieldName": "online"
+          },
+          {
+            "idx": 6,
+            "fieldName": "status"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<html>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+  />
+  <head>
+    <style>
+      td,
+      th,
+      p {
+        font-family: 'PingFangHK', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 auto;
+      }
+      body {
+        background-color: #fff;
+        padding: 16;
+      }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <table
+        border="0"
+        cellspacing="0"
+        cellpadding="0"
+        style="padding: 25px; margin: 0 auto;"
+        width="600px"
+      >
+        <tbody style="background-color: #ffffff;">
+          <tr>
+            <td align="left">
+              <div style="margin: 0;">
+                <p style="margin-bottom: 20px;">
+                  <span style="font-size: 16px; line-height: 24px;"
+                    >Follow us :
+                  </span>
+                  <%if (data.facebookPath) { %>
+                  <a
+                    href="<%=data.facebookPath%>"
+                    target="blank"
+                    style="text-decoration: none;"
+                    ><img
+                      src="<%=data.iconFacebook%>"
+                      style="
+                        vertical-align: middle;
+                        background-color: #3b5998;
+                        border-radius: 8px;
+                      "
+                    />
+                  </a>
+                  <% } %> &nbsp; <%if (data.instagramPath) { %>
+                  <a
+                    href="<%=data.instagramPath%>"
+                    target="blank"
+                    style="text-decoration: none;"
+                  >
+                    <img
+                      src="<%=data.iconInstagram%>"
+                      style="
+                        vertical-align: middle;
+                        background: #e10980;
+                        border-radius: 8px;
+                      "
+                    />
+                  </a>
+                  <% } %> &nbsp;
+                </p>
+              </div>
+              <p style="color: #a6a6a6;"><%-data.email_footer_content%></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+version: '3.5'
+
+services:
+  admin:
+    image: ecomm-admin_dev
+    container_name: ecomm-admin_dev
+    stdin_open: true
+    tty: true
+    networks:
+      - ecomm-frontend
+      - ecomm-backend
+    external_links:
+      - ecomm-api_dev:api
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile
+      args:
+        - NPM_TOKEN=${NPM_TOKEN}
+    volumes:
+      - '../../:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '3110:3000'
+    env_file:
+      - .env.development
+
+networks:
+  ecomm-frontend:
+    name: ecomm-frontend
+    driver: bridge
+  ecomm-backend:
+    external:
+      name: ecomm-backend

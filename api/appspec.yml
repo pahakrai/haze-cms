@@ -1,0 +1,32 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/deploy/api/api
+permissions:
+  - object: /home/deploy/api/api
+    pattern: '**'
+    owner: deploy
+    group: deploy
+    mode: 777
+    type:
+      - file
+  - object: /home/deploy/api/api
+    owner: deploy
+    group: deploy
+    mode: 777
+    type:
+      - directory
+hooks:
+  BeforeInstall:
+    - location: deploy_script/before-install.sh
+      timeout: 300
+      runas: deploy
+  AfterInstall:
+    - location: deploy_script/after-install.sh
+      timeout: 300
+      runas: deploy
+  ApplicationStart:
+    - location: deploy_script/application-start.sh
+      timeout: 300
+      runas: deploy

@@ -1,0 +1,9 @@
+scalar Upload
+
+type Mutation {
+  uploadImages(
+    images: [Upload!]!
+    folder: String!
+    tags: [String!]!
+  ): [FileMeta]
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "5dca130199770434e76298ca",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5dce3e49e2884936a9514852",
+        "direction": "column",
+        "widgets": ["5e6b22f4ed7e117dfff80ad4"]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5e6b22f4ed7e117dfff80ad4",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutContent"
+    }
+  ]
+}

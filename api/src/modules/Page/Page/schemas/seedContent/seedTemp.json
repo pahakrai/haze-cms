@@ -1,0 +1,52 @@
+{
+  "__v": 0,
+  "content": {
+    "_id": "5e747ec29b06e3981c6752b8",
+    "layout": {
+      "stackName": "flex",
+      "stack": [
+        {
+          "_id": "5e747ec29b06e3981c6752b9",
+          "direction": "column",
+          "widgets": []
+        }
+      ]
+    },
+    "widgets": []
+  },
+  "createdAt": "2019-12-03T02:27:22.376Z",
+  "diffNodes": [
+    {
+      "_id": "5de5c80ad2f0d7a3ea4070e1",
+      "version": 1,
+      "up": {
+        "layout": [],
+        "widgets": []
+      },
+      "down": {
+        "layout": [],
+        "widgets": []
+      },
+      "date": "2019-12-03T02:27:22.376Z"
+    }
+  ],
+  "isTemplate": false,
+  "isActive": true,
+  "isSystem": false,
+  "layout": "5dd209746a12ef54b39a4e85",
+  "title": {
+    "en": "PageTemplate",
+    "zh-hk": "頁面模板",
+    "zh-cn": "页面模板"
+  },
+  "type": "content",
+  "updatedAt": "2019-12-03T02:27:22.376Z",
+  "version": 1,
+  "workspace": "5e9fcae14fc78a87a9bc4c43",
+  "meta": {
+    "description": "",
+    "version": "",
+    "og:url": "",
+    "og:image": ""
+  }
+}

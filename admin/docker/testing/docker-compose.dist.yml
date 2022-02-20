@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  admin:
+    image: ecomm-admin_testing-dist
+    container_name: ecomm-admin_testing-dist
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile-dist
+      args:
+        - NPM_TOKEN=${NPM_TOKEN}
+        - NODE_ENV=testing
+    ports:
+      - '3113:80'
+    env_file:
+      - .env.testing

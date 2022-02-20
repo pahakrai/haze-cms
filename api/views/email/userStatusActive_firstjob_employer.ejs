@@ -1,0 +1,151 @@
+<html>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+  />
+  <head>
+    <style>
+      table,
+      td,
+      p {
+        font-family: 'PingFangHK', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+      .pstyle {
+        color: #5e5e5e;
+        margin: 0;
+        font-size: 18px;
+        line-height: 24px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- header -->
+    <table
+      cellspacing="0"
+      cellpadding="0"
+      style="
+        padding: 2px;
+        margin: 0 auto;
+        background-color: #f9f9f9;
+        padding-bottom: 0;
+        margin-top: 32px;
+      "
+      width="600px"
+    >
+      <tbody style="background-color: #ffffff;">
+        <tr>
+          <td
+            align="left"
+            style="padding-left: 16px; padding-bottom: 16px; padding-top: 32px;"
+          >
+            <img
+              src="<%=data.logoUrl%>"
+              style="display: -webkit-box; height: 80px;"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- End of header -->
+    <!-- body -->
+    <table
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+      width="600px"
+      style="
+        padding: 2px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0 auto;
+        background-color: #f9f9f9;
+      "
+    >
+      <tbody style="background-color: #ffffff;">
+        <tr width="100%" border="0" cellpadding="5" cellspacing="0">
+          <td style="padding-left: 32px; padding-right: 32px;">
+            <p class="pstyle">
+              <strong><%=data.greeting_hello%>,</strong>
+            </p>
+            <br />
+            <p class="pstyle">
+              <%=data.email_user_activated_body_part_1%>
+            </p>
+            <br />
+            <p class="pstyle">
+              <%=data.email_user_activated_body_part_2%>
+              <a
+                target="blank"
+                href="mailto:<%=data.support_email%>"
+                style="
+                  border: none;
+                  color: #395ee4;
+                  padding-left: 0px;
+                  padding-right: 0px;
+                  text-align: center;
+                  text-decoration: underline;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 4px 2px;
+                  cursor: pointer;
+                "
+              >
+                <%=data.support_email%>
+              </a>
+            </p>
+            <br />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- End of body -->
+    <!-- footer -->
+    <table
+      cellspacing="0"
+      cellpadding="0"
+      style="
+        padding: 2px;
+        margin: 0 auto;
+        background-color: #f9f9f9;
+        padding-top: 0;
+      "
+      width="600px"
+    >
+      <tbody style="background-color: #ffffff;">
+        <tr>
+          <td style="padding-left: 32px; padding-right: 32px;">
+            <p class="pstyle">
+              <strong><%=data.email_user_activated_body_part_3%></strong>
+            </p>
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-left: 32px; padding-right: 32px;">
+            <p class="pstyle">
+              <strong><%=data.appName%></strong>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              padding-left: 32px;
+              padding-right: 32px;
+              padding-bottom: 64px;
+            "
+          ></td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- End of footer -->
+  </body>
+</html>

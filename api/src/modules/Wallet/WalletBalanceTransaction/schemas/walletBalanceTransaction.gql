@@ -1,0 +1,36 @@
+scalar Date
+
+type WalletBalanceTransaction {
+  _id: ID!
+}
+
+input WalletBalanceTransactionCreateModel {
+  name: String!
+}
+
+input WalletBalanceTransactionUpdateModel {
+  name: String
+}
+
+type PaginateWalletBalanceTransaction {
+  nodes: [WalletBalanceTransaction]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input WalletBalanceTransactionSearchModel {
+  name: String
+}
+
+type Query {
+  walletBalanceTransaction(id: ID!): WalletBalanceTransaction
+  walletBalanceTransactions(query: WalletBalanceTransactionSearchModel, paginate: Paginate): PaginateWalletBalanceTransaction
+}
+
+type Mutation {
+  createWalletBalanceTransaction(walletBalanceTransactionCreateModel:WalletBalanceTransactionCreateModel): WalletBalanceTransaction
+  updateWalletBalanceTransaction(id: ID!, walletBalanceTransactionUpdateModel:WalletBalanceTransactionUpdateModel): WalletBalanceTransaction
+}

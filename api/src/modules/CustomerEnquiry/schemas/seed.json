@@ -1,0 +1,17 @@
+{
+  "model": "CustomerEnquirys",
+  "documents": [
+    {
+      "_id": "5fc73201429ba74c749b8c7d",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "isFollow": false,
+      "subject": "預約課堂",
+      "phoneRegion": "+852",
+      "phone": "11122233",
+      "message": "",
+      "email": "",
+      "whoFollow": null,
+      "followTime": null
+    }
+  ]
+}

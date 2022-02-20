@@ -1,0 +1,526 @@
+{
+  "model": "Dashboards",
+  "documents": [
+    {
+      "_id": "5e4d0e68df38811123c86111",
+      "title": {
+        "zh-hk": "現有老師總數",
+        "zh-cn": "现有老师总数",
+        "en": "Teacher"
+      },
+      "apiUrl": "/merchants/total-merchant-count",
+      "widgetType": "totalCount",
+      "queries": [],
+      "position": {
+        "x": 0,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "xs": {
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "workspaces": ["5e9fcae14fc78a87a9bc4c11"]
+    },
+    {
+      "_id": "5ed4e52234c88a48c0df61d8",
+      "title": {
+        "zh-hk": "現有學生總數",
+        "zh-cn": "现有学生总数",
+        "en": "Students"
+      },
+      "apiUrl": "/members/total-member-count",
+      "widgetType": "totalCount",
+      "queries": [],
+      "position": {
+        "x": 3,
+        "y": 1,
+        "w": 3,
+        "h": 1
+      },
+      "workspaces": ["5e9fcae14fc78a87a9bc4c11"]
+    },
+    {
+      "_id": "5e4d0e68df38821123c86115",
+      "title": {
+        "zh-hk": "訂單總數",
+        "zh-cn": "订单总数",
+        "en": "Orders Count"
+      },
+      "apiUrl": "/orders/total-order-count",
+      "widgetType": "totalCount",
+      "queries": ["dateFr", "dateTo", "status", "statuses"],
+
+      "position": {
+        "x": 6,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "sm": {
+          "x": 0,
+          "y": 2,
+          "w": 3,
+          "h": 1
+        },
+        "xs": {
+          "x": 0,
+          "y": 2,
+          "w": 3,
+          "h": 1
+        },
+        "xxs": {
+          "x": 0,
+          "y": 2,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "workspaces": ["5e9fcae14fc78a87a9bc4c11"]
+    },
+
+    {
+      "_id": "5e4d0e68df38811123c86112",
+      "title": {
+        "zh-hk": "訂單總數",
+        "zh-cn": "订单总数",
+        "en": "Orders Count"
+      },
+      "apiUrl": "/orders/total-order-count",
+      "widgetType": "totalCount",
+      "queries": ["dateFr", "dateTo", "status", "statuses"],
+      "position": {
+        "x": 0,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "lg": {
+          "x": 6,
+          "y": 0,
+          "w": 3,
+          "h": 1
+        },
+        "md": {
+          "x": 6,
+          "y": 0,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "workspaces": ["5e9fcae14fc78a87a9bc4c22", "5ea95dce2b462f77bf7acc02"]
+    },
+    {
+      "_id": "5e4d0e68df38811123c86123",
+      "__v": 0,
+      "apiUrl": "/payrolls/total-payroll-count",
+      "createdAt": "2020-07-10T06:13:21.832Z",
+      "position": {
+        "x": 0,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "lg": {
+          "x": 9,
+          "y": 0,
+          "w": 3,
+          "h": 1
+        },
+        "xs": {
+          "x": 6,
+          "y": 3,
+          "w": 3,
+          "h": 1
+        },
+        "xxs": {
+          "x": 6,
+          "y": 3,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "queries": [],
+      "title": {
+        "zh-hk": "支薪總金額",
+        "zh-cn": "支薪总金额",
+        "en": "TotalPayroll"
+      },
+      "updatedAt": "2020-07-10T06:13:21.832Z",
+      "widgetType": "totalCount",
+      "workspaces": ["5ea95dce2b462f77bf7acc04"]
+    },
+    {
+      "_id": "5d5d0e79df33312223c78234",
+      "__v": 0,
+      "apiUrl": "/merchants/total-merchant-count",
+      "createdAt": "2020-07-21T02:19:39.778Z",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 1
+      },
+      "queries": [],
+      "title": {
+        "zh-hk": "僱主總數",
+        "zh-cn": "雇主总数",
+        "en": "Total number of employers"
+      },
+      "updatedAt": "2020-07-21T02:19:39.778Z",
+      "widgetType": "totalCount",
+      "workspaces": ["5ea95dce2b462f77bf7acc04"]
+    },
+    {
+      "_id": "5f4a0968df3d856453c861ab",
+      "__v": 0,
+      "apiUrl": "/members/total-member-count",
+      "createdAt": "2020-07-21T02:19:39.778Z",
+      "position": {
+        "x": 3,
+        "y": 0,
+        "w": 3,
+        "h": 1,
+        "xs": {
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 1
+        },
+        "xxs": {
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "queries": [],
+      "title": {
+        "zh-hk": "僱員總數",
+        "zh-cn": "雇员总数",
+        "en": "Total number of employees"
+      },
+      "updatedAt": "2020-07-21T02:19:39.778Z",
+      "widgetType": "totalCount",
+      "workspaces": ["5ea95dce2b462f77bf7acc04"]
+    },
+    {
+      "_id": "5ad4e51134c34a48c0df61c9",
+      "title": {
+        "zh-hk": "會員總數",
+        "zh-cn": "会员总数",
+        "en": "Total number of members"
+      },
+      "apiUrl": "/members/total-member-count",
+      "widgetType": "totalCount",
+      "queries": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 1
+      },
+      "workspaces": ["5ea95dce2b462f77bf7acc02"]
+    },
+    {
+      "_id": "5ad4e32414c34f48d0df61c1",
+      "title": {
+        "zh-hk": "訂單總金額",
+        "zh-cn": "订单总金额",
+        "en": "The total amount of orders"
+      },
+      "apiUrl": "/orders/total-order-amount",
+      "widgetType": "totalCount",
+      "queries": ["dateFr", "dateTo"],
+      "position": {
+        "x": 3,
+        "y": 0,
+        "w": 3,
+        "h": 1
+      },
+      "workspaces": ["5ea95dce2b462f77bf7acc02"]
+    },
+
+    {
+      "_id": "600927da8d3a5506362d9fb8",
+      "title": {
+        "zh-hk": "生意額",
+        "zh-cn": "生意額",
+        "en": "The total amount of orders"
+      },
+      "apiUrl": "/orders/total-order-amount",
+      "widgetType": "totalCount",
+      "queries": ["dateFr", "dateTo"],
+      "position": {
+        "x": 9,
+        "y": 0,
+        "w": 3,
+        "h": 1
+      },
+      "workspaces": ["5e9fcae14fc78a87a9bc4c11"]
+    },
+    {
+      "_id": "5f3b5375fecd4779c759b5d4",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 1
+      },
+      "queries": [],
+      "title": {
+        "zh-hk": "司機總數",
+        "zh-cn": "司机总数",
+        "en": "Total number of Driver"
+      },
+      "apiUrl": "/merchants/total-merchant-count",
+      "updatedAt": "2020-07-21T02:19:39.778Z",
+      "widgetType": "totalCount",
+      "workspaces": ["5ea7f40f68a8e97c03d55326", "5fe02d4db3ca9dfa8170b5ca"]
+    },
+    {
+      "_id": "5f3b536f7e6fda553883a607",
+      "apiUrl": "/members/total-member-count",
+      "position": {
+        "x": 3,
+        "y": 0,
+        "w": 3,
+        "h": 1,
+        "xs": {
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 1
+        },
+        "xxs": {
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "queries": [],
+      "title": {
+        "zh-hk": "會員總數",
+        "zh-cn": "会员总数",
+        "en": "Total number of members"
+      },
+      "updatedAt": "2020-07-21T02:19:39.778Z",
+      "widgetType": "totalCount",
+      "workspaces": ["5fe02d4db3ca9dfa8170b5ca"]
+    },
+    {
+      "_id": "6035b197c5a47d8993c63be6",
+      "apiUrl": "/members/total-member-count",
+      "position": {
+        "x": 3,
+        "y": 0,
+        "w": 3,
+        "h": 1,
+        "xs": {
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 1
+        },
+        "xxs": {
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "queries": [],
+      "title": {
+        "zh-hk": "客戶總數",
+        "zh-cn": "客户总数",
+        "en": "Total number of clients"
+      },
+      "updatedAt": "2020-07-21T02:19:39.778Z",
+      "widgetType": "totalCount",
+      "workspaces": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "5f3b536b745ac92f213d1d0e",
+      "title": {
+        "zh-hk": "訂單總數",
+        "zh-cn": "订单总数",
+        "en": "Orders Count"
+      },
+      "apiUrl": "/orders/total-order-count",
+      "widgetType": "totalCount",
+      "queries": ["statuses"],
+      "position": {
+        "x": 6,
+        "y": 0,
+        "w": 3,
+        "h": 1,
+        "xs": {
+          "x": 6,
+          "y": 2,
+          "w": 3,
+          "h": 1
+        },
+        "xxs": {
+          "x": 6,
+          "y": 2,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "workspaces": ["5ea7f40f68a8e97c03d55326", "5fe02d4db3ca9dfa8170b5ca"]
+    },
+    {
+      "_id": "5f3b5367eeda87144063d76d",
+      "position": {
+        "x": 0,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "lg": {
+          "x": 9,
+          "y": 0,
+          "w": 3,
+          "h": 1
+        },
+        "xs": {
+          "x": 6,
+          "y": 3,
+          "w": 3,
+          "h": 1
+        },
+        "xxs": {
+          "x": 6,
+          "y": 3,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "queries": ["dateFr", "dateTo"],
+      "title": {
+        "zh-hk": "訂單總金額",
+        "zh-cn": "订单总金额",
+        "en": "The total amount of orders"
+      },
+      "apiUrl": "/orders/total-order-amount",
+      "widgetType": "totalCount",
+      "workspaces": ["5ea7f40f68a8e97c03d55326", "5fe02d4db3ca9dfa8170b5ca"]
+    },
+    {
+      "_id": "5f3b536711da87144063d76d",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 2,
+        "lg": {
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1
+        },
+        "md": {
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1
+        },
+        "sm": {
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1
+        }
+      },
+      "queries": [],
+      "title": {
+        "zh-hk": "生意額",
+        "zh-cn": "生意额",
+        "en": "Business volume"
+      },
+      "apiUrl": "/sales-volumes/month-overview",
+      "widgetType": "salesVolume",
+      "workspaces": ["5e9fcae14fc78a87a9bc4c11"]
+    },
+    {
+      "_id": "5fd1ef28b15a398f09ae2da0",
+      "title": {
+        "zh-hk": "商戶總數",
+        "zh-cn": "商户总数",
+        "en": "Total number of merchants"
+      },
+      "apiUrl": "/merchants/total-merchant-count",
+      "widgetType": "totalCount",
+      "queries": [],
+      "position": {
+        "x": 0,
+        "y": 1,
+        "w": 3,
+        "h": 1,
+        "xs": {
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 1
+        }
+      },
+      "workspaces": ["5e9fcae14fc78a87a9bc4c22"]
+    },
+    {
+      "_id": "5fd1ef2d0d53f7b83bbe68ed",
+      "title": {
+        "zh-hk": "用戶總數",
+        "zh-cn": "用户总数",
+        "en": "Total users"
+      },
+      "apiUrl": "/members/total-member-count",
+      "widgetType": "totalCount",
+      "queries": [],
+      "position": {
+        "x": 3,
+        "y": 1,
+        "w": 3,
+        "h": 1
+      },
+      "workspaces": ["5e9fcae14fc78a87a9bc4c22"]
+    },
+    {
+      "_id": "601a6272d39803ff04269d04",
+      "title": {
+        "zh-hk": "附近車輛",
+        "zh-cn": "附近车辆",
+        "en": "Nearby vehicles"
+      },
+      "apiUrl": "/vehicles/nearby",
+      "widgetType": "map",
+      "reload": 60000,
+      "queries": [],
+      "position": {
+        "x": 3,
+        "y": 1,
+        "w": 3,
+        "h": 1
+      },
+      "workspaces": ["5ea7f40f68a8e97c03d55326", "5fe02d4db3ca9dfa8170b5ca"]
+    },
+    {
+      "_id": "601a670b9a7a4b7383c692bc",
+      "title": {
+        "zh-hk": "訂單分佈",
+        "zh-cn": "订单分布",
+        "en": "Order distribution"
+      },
+      "apiUrl": "/orders/logistic/coordinates",
+      "widgetType": "map",
+      "reload": 300000,
+      "queries": ["dateFr", "dateTo"],
+      "position": {
+        "x": 3,
+        "y": 1,
+        "w": 3,
+        "h": 1
+      },
+      "workspaces": ["5ea7f40f68a8e97c03d55326", "5fe02d4db3ca9dfa8170b5ca"]
+    }
+  ]
+}

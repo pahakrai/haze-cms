@@ -1,0 +1,121 @@
+scalar Date
+
+type CouponCriteria {
+  paymentMethods: [String]
+  products: [Product]
+  amount: Float
+}
+
+type CouponEffect {
+  type: String
+  amount: Float
+  creditType: String
+}
+
+input CouponCriteriaInput {
+  paymentMethods: [String]
+  products: [String]
+  amount: Float
+}
+
+input CouponEffectInput {
+  type: String
+  amount: Float
+  creditType: String
+}
+
+type Coupon {
+  _id: ID!
+  code: String
+  startAt: Date
+  expireAt: Date
+  title: String
+  description: String
+  noOfCoupon: Int
+  redeemLimitPerUser: Int
+  criteria: CouponCriteria
+  currency: String
+  workspace: Workspace
+  isActive: Boolean
+  createdAt: Date
+  updatedAt: Date
+  images: [FileMeta]
+  effect: CouponEffect
+
+  # virtual populate field
+  logs: [CouponLog!]
+}
+
+input CouponInput {
+  code: String
+  startAt: Date
+  expireAt: Date
+  title: String
+  description: String
+  images: [ID]
+  criteria: CouponCriteriaInput
+  currency: String
+  workspace: String
+  effect: CouponEffectInput
+  noOfCoupon: Int
+  redeemLimitPerUser: Int
+}
+
+input CouponCreateModel {
+  code: String
+  startAt: Date
+  expireAt: Date
+  title: String
+  description: String
+  images: [ID]
+  criteria: CouponCriteriaInput
+  currency: String
+  workspace: String
+  effect: CouponEffectInput
+  noOfCoupon: Int
+  redeemLimitPerUser: Int
+}
+
+input CouponRedeemProductModel {
+  product: String!
+  productSKU: String
+  amount: Float!
+}
+
+input CouponRedeemModel {
+  productTotAmount: Float!
+  products: [CouponRedeemProductModel!]
+}
+
+type PaginateCoupon {
+  nodes: [Coupon]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input CouponSearchModel {
+  q: String
+  code: String
+  workspace: String
+}
+
+type Query {
+  coupon(id: ID!): Coupon
+  coupons(
+    query: CouponSearchModel
+    paginate: Paginate
+    options: QueryOption
+  ): PaginateCoupon
+}
+
+type Mutation {
+  coupon(id: ID!): Coupon
+  coupons(
+    couponSearchModel: CouponSearchModel
+    paginate: Paginate
+  ): PaginateCoupon
+  redeemCoupon(code: String!, model: CouponRedeemModel): OrderChargeCoupon
+}

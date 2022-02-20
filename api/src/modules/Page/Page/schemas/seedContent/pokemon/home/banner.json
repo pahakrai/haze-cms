@@ -1,0 +1,116 @@
+{
+  "_id": "5ecf20c2e8309b65c8a39745",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5ecf20c2e8309b65c8a39746",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5f912d875296b21d116833e1",
+            "direction": "row",
+            "widgets": ["5fcddefa6a5118f74a1b33cc"]
+          }
+        ]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5fcddefa6a5118f74a1b33cc",
+      "position": "",
+      "inlineStyle": {
+        "sm": "height:69vw",
+        "lg": "height:35vw"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "mediaSlick",
+      "data": {
+        "leftArrow": {
+          "width": "30px",
+          "height": "24px",
+          "fit": "cover",
+          "position": "center",
+          "src": {
+            "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/left.png",
+            "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/left.png",
+            "en": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/left.png"
+          },
+          "title": "",
+          "borderRadius": "0%"
+        },
+        "rightArrow": {
+          "width": "30px",
+          "height": "24px",
+          "fit": "cover",
+          "position": "center",
+          "src": {
+            "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/right.png",
+            "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/right.png",
+            "en": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/right.png"
+          },
+          "borderRadius": "0%"
+        },
+        "images": [
+          {
+            "src": {
+              "en": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/web-homepage-banner.png",
+              "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/web-homepage-banner.png",
+              "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/web-homepage-banner.png"
+            },
+            "mobileSrc": {
+              "en": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/home_banner1_mobile.png",
+              "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/home_banner1_mobile.png",
+              "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/home_banner1_mobile.png"
+            },
+            "width": "100%",
+            "height": "100%",
+            "fit": "cover",
+            "position": "center",
+            "title": {
+              "en": "",
+              "zh-hk": "",
+              "zh-cn": ""
+            }
+          },
+          {
+            "src": {
+              "en": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/web-homepage-banner2.png",
+              "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/web-homepage-banner2.png",
+              "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/web-homepage-banner2.png"
+            },
+            "mobileSrc": {
+              "en": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/home_banner2_mobile.png",
+              "zh-hk": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/home_banner2_mobile.png",
+              "zh-cn": "https://devcdn.golpasal.com/assets/images/golpasal/5ea95dce2b462f77bf7acc02/seed/home_banner2_mobile.png"
+            },
+            "width": "100%",
+            "height": "100%",
+            "fit": "cover",
+            "position": "center",
+            "title": {
+              "en": "",
+              "zh-hk": "",
+              "zh-cn": ""
+            }
+          }
+        ],
+        "quantity": 1,
+        "carouseSpeed": 4
+      }
+    }
+  ]
+}

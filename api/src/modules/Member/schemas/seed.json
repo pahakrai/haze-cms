@@ -1,0 +1,233 @@
+{
+  "model": "Members",
+  "documents": [
+    {
+      "_id": "5ebe693bfd9984a79d8f9dd0",
+      "user": "5b2b43720b6fbf38cdcec90b",
+      "level": "5f224d4028009e6a0dbfdae2",
+      "meta": {
+        "handledBy": "5e72e771b4a00f406743a4fe"
+      },
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5ebe693bfd6784a79d8f9cc0",
+      "user": "5ebe687068be76a39d744fc2",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5ebe693bfd5984a79d8f9ee0",
+      "user": "5ebe693bfd5624a79d8f9cc1",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5ed8696e0459f440ad9da79f",
+      "user": "5ebe6a441c678d2b4f019a34",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 80
+    },
+    {
+      "_id": "5ed8696e0459f440ce9da79f",
+      "user": "5ebe6a441c678d2b4f119a34",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5ed8696e0459f440ce9da79c",
+      "user": "5ecd6a331c678d2b4f119c57",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5fbdbc205169d4ab5f9f8804",
+      "user": "5f476e7e6a176cdb5e54adc8",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5f4740a451d1ec7cf83fc291",
+      "user": "5f4740a451d1ec7cf83fc28d",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5f476e7e6a176cdb5e54adc1",
+      "user": "5f476e7e6a176cdb5e54adbd",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5f61bc10704fe95d3edd5e8a",
+      "user": "5f61bc0f704fe95d3edd5e86",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "5f61bb8b704fe95d3edd5e82",
+      "user": "5f61bb8a704fe95d3edd5e7e",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "6000fd7c60999b60a3004d98",
+      "user": "6000fb89bcf31601dac46a99",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "6035c48366ae5d1fc00b3c45",
+      "user": "6035c1a45654f5bd51b8e245",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    },
+    {
+      "_id": "603f4748ea4f5a8a997af77d",
+      "user": "603f46654416c72b4137bdf2",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": [],
+        "showAvgFeedback": true
+      },
+      "avgFeedback": 0
+    }
+  ]
+}

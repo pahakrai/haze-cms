@@ -1,0 +1,124 @@
+{
+  "_id": "5c91b4a722ef404da9298564",
+  "isTemplate": false,
+  "subPath": "",
+  "fromPageContent": null,
+  "globalWidgets": [],
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5c9b40c33829djk56313d38dk",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5e9066b8f19cc96ddcea872c",
+            "direction": "row",
+            "widgets": ["5e6b1adfcde2eb189467b831"]
+          },
+          {
+            "_id": "5e9066b8f19cc96ddcea872d",
+            "direction": "row",
+            "widgets": ["5e9066b6f19cc96ddcea872b"]
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5e6b1adfcde2eb189467b831",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "lg": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "30",
+          "marginRight": "",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#000000",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        }
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "h1",
+        "color": "#000",
+        "zh-hk": {
+          "text": "首頁"
+        },
+        "zh-cn": {
+          "text": "首页"
+        },
+        "en": {
+          "text": "Home"
+        }
+      }
+    },
+    {
+      "_id": "5e9066b6f19cc96ddcea872b",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<p style=\"text-align:center;\"></p>",
+        "en": {
+          "text": "<p style=\"text-align:center;\"></p>"
+        },
+        "zh-hk": {
+          "text": "<p style=\"text-align:center;\"></p>"
+        }
+      }
+    }
+  ]
+}

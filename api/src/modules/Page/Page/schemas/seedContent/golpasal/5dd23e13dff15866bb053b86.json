@@ -1,0 +1,83 @@
+{
+  "_id": "5dd23e13dff15866bb053b86",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5dce3e49e2884936a9514852",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5dca130199770434e76298cb",
+            "direction": "row",
+            "widgets": [
+              {
+                "_id": "5dce02857929cf26c0e7a200",
+                "direction": "column",
+                "width": "300px",
+                "type": "layout",
+                "widgets": []
+              },
+              {
+                "_id": "5dca58a95938242efeaf8cf5",
+                "direction": "column",
+                "type": "layout",
+                "widgets": [
+                  {
+                    "_id": "5dce02b09efc7f26ffc7c108",
+                    "direction": "row",
+                    "height": "80px",
+                    "type": "layout",
+                    "widgets": []
+                  },
+                  {
+                    "_id": "5dce02bc147484270f4f8e60",
+                    "direction": "column",
+                    "type": "layout",
+                    "widgets": ["5c998603d55de26f326f127e"]
+                  },
+                  {
+                    "_id": "5dce02bc147484270f4f8e60",
+                    "direction": "row",
+                    "height": "80px",
+                    "type": "layout",
+                    "widgets": []
+                  }
+                ]
+              },
+              {
+                "_id": "5dce028e6ad75126e7e11ff0",
+                "direction": "column",
+                "width": "300px",
+                "type": "layout",
+                "widgets": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5c998603d55de26f326f127e",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "layoutContent",
+      "data": {}
+    }
+  ]
+}

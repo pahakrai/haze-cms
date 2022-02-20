@@ -1,0 +1,59 @@
+scalar Date
+scalar JSON
+
+type ServiceCondition {
+  key: String
+  comparison: String
+  value: JSON
+}
+
+type Service {
+  _id: ID!
+  workspace: Workspace
+  # used for populate, can be omit
+  category: Category
+  # handle by resolveProperty
+  name: String
+  description: String
+  alias: String
+  type: String
+  icon: FileMeta
+  idx: Int
+  unit: String
+  isConfigurable: Boolean
+  unitMeta: JSON
+  isUserInfo: Boolean
+  isMatchCriteria: Boolean
+  conditions: [ServiceCondition!]
+  isActive: Boolean
+  platformTypes: [String]
+  pricings: [PricingService]
+}
+
+type PaginateService {
+  nodes: [Service]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input ServiceSearchModel {
+  q: String
+  _ids: [String!]
+  platformTypes: [String]
+  # category code
+  category: String
+  types: [String!]
+  units: [String!]
+  isConfigurable: Boolean
+  isActive: Boolean
+}
+
+type Query {
+  service(id: ID!): Service
+  servicesInUserProfile: [Service!]
+  skillServices: [Service!]
+  services(query: ServiceSearchModel, paginate: Paginate): PaginateService
+}

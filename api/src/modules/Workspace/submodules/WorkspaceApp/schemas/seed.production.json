@@ -1,0 +1,146 @@
+{
+  "model": "WorkspaceApps",
+  "documents": [
+    {
+      "_id": "5fb64c24da7c848d272f7abd",
+      "name": "Futuremakers' First Job",
+      "workspace": "5ea95dce2b462f77bf7acc04",
+      "productionIOS": {
+        "appId": "1536521317",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "1.2.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      },
+      "productionAndroid": {
+        "appId": "hk.firstjob.futuremaker",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "1.2.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      }
+    },
+    {
+      "_id": "5fb64d676cbb9a4c0c1f3514",
+      "name": "Futuremakers' Employer",
+      "workspace": "5ea95dce2b462f77bf7acc04",
+      "productionIOS": {
+        "appId": "1536701396",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "1.2.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      },
+      "productionAndroid": {
+        "appId": "hk.firstjob.employer",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "1.2.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      }
+    },
+    {
+      "_id": "60065c24af75964b97320645",
+      "name": "的士app(香港)",
+      "workspace": "5fe02d4db3ca9dfa8170b5ca",
+      "productionIOS": {
+        "appId": "1551765127",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "0.7.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      },
+      "productionAndroid": {
+        "appId": "com.taxiapphkpassenger.mobile",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "0.7.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      }
+    },
+    {
+      "_id": "60065c35347ff2b82797fc5c",
+      "name": "的士app(香港)-司機版",
+      "workspace": "5fe02d4db3ca9dfa8170b5ca",
+      "productionIOS": {
+        "appId": "1551746893",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "0.7.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      },
+      "productionAndroid": {
+        "appId": "com.taxiapphkdriver.mobile",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "0.7.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      }
+    },
+    {
+      "_id": "600a384f08d71eade55f9ca8",
+      "name": "FS Travel",
+      "workspace": "5fd83be73db74d57b304cb82",
+      "productionIOS": {
+        "appId": "1536701396",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "1.1.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": [
+          {
+            "version": "1.1.0",
+            "description": "",
+            "releaseDate": "2020-11-01 10:39:27.505Z"
+          }
+        ]
+      },
+      "productionAndroid": {
+        "appId": "hk.firstjob.employer",
+        "appIconLink": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "touchIcon": "https://play-lh.googleusercontent.com/SqFZRVbnnK4yTkTOD-J9erv7-QRkFasIdaUTK27CcBSOFl-rLF_YaRpgEDpGlwxhpzw=s360-rw",
+        "latestVersionNo": "1.1.0",
+        "latestVersionDescription": "",
+        "nextVersionNo": null,
+        "nextVersionDescription": "",
+        "releaseDate": "2020-11-24 10:39:27.505Z",
+        "history": []
+      }
+    }
+  ]
+}

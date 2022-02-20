@@ -1,0 +1,870 @@
+{
+  "model": "AC_Policies",
+  "documents": [
+    {
+      "_id": "5ab0ecee198c0c3e543ea5ce",
+      "name": "Root",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["*"]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "604f0c9d23d9deb82a519bea",
+      "name": "System Administrator",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "System:Administrator",
+            "User:Management:View",
+            "User:SystemAdmin:View",
+            "User:Provider:View",
+            "User:SystemAdmin:Invite",
+            "User:Provider:Invite",
+            "User:SystemAdmin:Edit",
+            "User:Provider:Edit",
+            "User:SystemAdmin:Delete",
+            "User:Provider:Delete",
+            "MyWorkspace:Account:Update"
+          ]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "6053056866d45222f3b0ff2f",
+      "name": "System Support",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "System:Support",
+            "User:Management:View",
+            "User:Provider:View",
+            "User:Provider:Invite",
+            "User:Provider:Edit",
+            "User:Provider:Delete",
+            "MyWorkspace:Account:Update"
+          ]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5e58104eb5bd8e8427ed0e11",
+      "name": "Order Administrator",
+      "Statement": [
+        {
+          "_id": "5f16baedf3fa6d5cdcf46221",
+          "Effect": "Allow",
+          "Action": [
+            "Order:Management:View",
+            "Order:View",
+            "Order:Create",
+            "Order:Cancel"
+          ]
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f16b320cd1eb15b8481781a",
+      "name": "Order View And Create",
+      "Statement": [
+        {
+          "_id": "5f16bae4b13074cb953de879",
+          "Effect": "Allow",
+          "Action": ["Order:Management:View", "Order:View", "Order:Create"]
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f16b8666e3c7189be2a3d77",
+      "name": "Product Administrator",
+      "Statement": [
+        {
+          "_id": "5f16bad986c867c9b8a646da",
+          "Action": ["Product:View", "Product:Create", "Product:Edit"],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": ["5fe02d4db3ca9dfa8170b5ca"]
+    },
+    {
+      "_id": "5fe4360c70ee1b0cfdfa6ca2",
+      "name": "ProductType Administrator",
+      "Statement": [
+        {
+          "_id": "5f16bad986c867c9b8a646da",
+          "Action": [
+            "ProductType:View",
+            "ProductType:Create",
+            "ProductType:Edit"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5eb3de916d8a9f0419081dfd",
+      "name": "Product View",
+      "Statement": [
+        {
+          "_id": "5f16bac1ab429b89dca0ea5f",
+          "Action": ["Product:View"],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5ed0cf62f87139ce8a7ad7aa",
+      "name": "Product Edit",
+      "Statement": [
+        {
+          "_id": "5f16babc6b43716598f0c6f2",
+          "Action": ["Product:View", "Product:Create", "Product:Edit"],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f16b931bdc3487bfb555549",
+      "name": "Category Administrator",
+      "Statement": [
+        {
+          "_id": "5f16bab5e4e6449708e70c47",
+          "Action": ["Category:View", "Category:Create", "Category:Edit"],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "5f16b9b6ada83038e0936165",
+      "name": "Event Administrator",
+      "Statement": [
+        {
+          "_id": "5f16baaf8b9c0cf3dc3c410b",
+          "Action": [
+            "Event:Management:View",
+            "Event:View",
+            "Event:Create",
+            "Event:Edit"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f16b9ead38c8447a6b59f9f",
+      "name": "Event Edit",
+      "Statement": [
+        {
+          "_id": "5f16baa9d221334c0f2035fd",
+          "Action": [
+            "Event:Management:View",
+            "Event:View",
+            "Event:Create",
+            "Event:Edit"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f16baa01ce0685827b1c0bf",
+      "name": "Event View",
+      "Statement": [
+        {
+          "_id": "5f16baa55372f54d396404e7",
+          "Action": ["Event:Management:View", "Event:View"],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+
+    {
+      "_id": "5c7ce12bf1d3458e089e6bd9",
+      "name": "User Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "User:Management:View",
+            "User:Provider:View",
+            "User:Provider:Invite",
+            "User:Provider:Edit",
+            "User:Provider:Delete"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5c7ce438f1d3458e089e73f1",
+      "name": "User Group Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "User:Management:View",
+            "UserGroup:Create",
+            "UserGroup:Delete",
+            "UserGroup:Edit",
+            "UserGroup:View"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "604ec3cdb30f73e5f31e5a94",
+      "name": "Policy Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "Policy:Create",
+            "Policy:Delete",
+            "Policy:Edit",
+            "Policy:View"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f2386d21b4ca3f1311ac300",
+      "name": "User Level Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "User:Management:View",
+            "UserLevel:Create",
+            "UserLevel:Delete",
+            "UserLevel:Edit",
+            "UserLevel:View"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5b2b44930b6fbf38cdcec90a",
+      "name": "Post Administrator",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "Post:Management:View",
+            "Post:Create",
+            "Post:Delete",
+            "Post:Edit",
+            "Post:View",
+            "PostComment:Create",
+            "PostComment:Delete",
+            "PostComment:View"
+          ]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5c7ce238f1d3458e089e6e8c",
+      "name": "Post Create And Edit",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["Post:Create", "Post:Edit", "Post:View"]
+        }
+      ]
+    },
+    {
+      "_id": "5c7ce221f1d3458e089e6e57",
+      "name": "Post Comment Administrator",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "Post:Management:View",
+            "PostComment:Create",
+            "PostComment:Delete",
+            "PostComment:View"
+          ]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f16c59b6b52e76c76818fcb",
+      "name": "Tag View",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["Tag:Create", "Tag:Delete", "Tag:View"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f73e6a7bb72e60d58a428f3",
+      "name": "Tag Image View",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "TagImage:Create",
+            "TagImage:Delete",
+            "TagImage:View",
+            "TagImage:Edit"
+          ]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5eb2e26d66fb9dae437ae5b2",
+      "name": "Notification Schedule Administrator",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "NotificationSchedule:View",
+            "NotificationSchedule:View",
+            "NotificationSchedule:Create",
+            "NotificationSchedule:Edit"
+          ]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+
+    {
+      "_id": "5eb2e0afa05f2d495224fb3f",
+      "name": "Service Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "Service:View",
+            "Service:Create",
+            "Service:Edit",
+            "Service:Delete"
+          ],
+          "_id": "5eb2e0b895103e720c568251",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5eaab89b2a001a5584a7a2e2",
+      "name": "Page Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "Page:Management:View",
+            "Page:View",
+            "Page:Create",
+            "Page:Edit",
+            "Page:Delete"
+          ],
+          "_id": "5ea933a1e645fc70f3a94312",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5e58104eb5bd8e8427ed0e22",
+      "name": "Page Template Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "PageTemplate:Management:View",
+            "PageTemplate:View",
+            "PageTemplate:Create",
+            "PageTemplate:Edit",
+            "PageTemplate:Delete"
+          ],
+          "_id": "5ea933a1e645fc70f3a94312",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5c7ce45cf1d3458e089e744d",
+      "name": "File Meta Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "FileMeta:Management:View",
+            "FileMeta:Create",
+            "FileMeta:Delete",
+            "FileMeta:Edit",
+            "FileMeta:View"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5c7ce46ef1d3458e089e7478",
+      "name": "Workspace Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "Workspace:Create",
+            "Workspace:Delete",
+            "Workspace:Edit",
+            "Workspace:View"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5eaab339074cf35359149d49",
+      "name": "My Workspace Access",
+      "Statement": [
+        {
+          "Action": ["MyWorkspace:View"],
+          "_id": "5ea933a1e645fc70f3a94312",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5eaab8a70f97059328065a11",
+      "name": "Region Access",
+      "Statement": [
+        {
+          "Action": [
+            "Region:Management:View",
+            "Region:View",
+            "Region:Create",
+            "Region:Update",
+            "Region:Delete"
+          ],
+          "_id": "5ea933a1e645fc70f3a94312",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "5c7ce483f1d3458e089e74a5",
+      "name": "Device Administrator",
+      "Statement": [
+        {
+          "Action": ["Device:Management:View", "Device:View"],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5eaabbb287eb209be6d10583",
+      "name": "System Menu Access",
+      "Statement": [
+        {
+          "Action": ["System:Management:View", "PublicHoliday:Edit"],
+          "_id": "5ea933a1e645fc70f3a94312",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5eaabbb9b1f833ff00306b86",
+      "name": "Holiday Access",
+      "Statement": [
+        {
+          "_id": "5ea933a1e645fc70f3a94312",
+          "Action": ["System:Management:View", "PublicHoliday:Edit"],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "5ed86c24ab532739b8e81d04",
+      "name": "Enquiry Notification",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["Enquiry:ReceiveNotification"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "5e72d6d877705bdea22852c2",
+      "name": "Member Registration Notification",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["Registration:ReceiveNotification"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5d7ce45cf1d3458e089e744c",
+      "name": "Coupon Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "Coupon:Management:View",
+            "Coupon:Create",
+            "Coupon:Delete",
+            "Coupon:Edit",
+            "Coupon:View"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f3e475db26c1f3055c18b8e",
+      "name": "Report Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "Report:Management:View",
+            "Report:Create",
+            "Report:Delete",
+            "Report:Edit",
+            "Report:View"
+          ],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f5f040c7a2b6ddbcc5703b6",
+      "name": "Report List Administrator",
+      "Statement": [
+        {
+          "Action": ["Report:Management:View", "Report:View"],
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5e58104eb22d8e8427ed0e11",
+      "name": "Courier Administrator",
+      "Statement": [
+        {
+          "_id": "5f16baedf3fa6d5cdcf46ccc",
+          "Effect": "Allow",
+          "Action": [
+            "Courier:Management:View",
+            "Courier:View",
+            "Courier:Create",
+            "Courier:Cancel"
+          ]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f86d662b6aa9dd1dd8f3c42",
+      "name": "Recruitment Apply",
+      "Statement": [
+        {
+          "_id": "5f86d6aada78c400e62b7763",
+          "Effect": "Allow",
+          "Action": ["Recruitment:Apply"]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5f89567cdbeb683cdfd54ce1",
+      "name": "Quotation Administrator",
+      "Statement": [
+        {
+          "_id": "5f8956a380e2542ff9186c7e",
+          "Effect": "Allow",
+          "Action": [
+            "Quotation:Management",
+            "Quotation:View",
+            "Quotation:Create",
+            "Quotation:Edit"
+          ]
+        }
+      ],
+      "workspaceTypes": ["shopping"],
+      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "5fa4ff5b0e23c855dd3bdeef",
+      "name": "SalesVolume Administrator",
+      "Statement": [
+        {
+          "_id": "5fa4ff7835e255208278ab38",
+          "Effect": "Allow",
+          "Action": [
+            "SalesVolume:Management:View",
+            "SalesVolume:View",
+            "SalesVolume:Create",
+            "SalesVolume:Edit"
+          ]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "5fc4cd7f6a971c8a1b8a9586",
+      "name": "WorkspaceApp Administrator",
+      "Statement": [
+        {
+          "_id": "5fc4cd9a6139d8eb3547e255",
+          "Effect": "Allow",
+          "Action": [
+            "WorkspaceApp:Management:View",
+            "WorkspaceApp:View",
+            "WorkspaceApp:Create",
+            "WorkspaceApp:Edit"
+          ]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "601a57cb97f8728b702e473a",
+      "name": "DataAnalysisMap Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "DataAnalysisMap:Managment:View",
+            "DataAnalysisMap:View",
+            "DataAnalysisMap:Create",
+            "DataAnalysisMap:Edit"
+          ],
+          "_id": "601a57dfc600b27dd97d2d27",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "603c9902151d81c7490e9917",
+      "name": "Expense Types Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "Expense:Managment:View",
+            "ExpenseType:View",
+            "ExpenseType:Create",
+            "ExpenseType:Edit",
+            "ExpenseType:Delete"
+          ],
+          "_id": "603c98fd75337580f7e95842",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "5e58104eb5b44e8444ed0e11",
+      "name": "Claim Administrator",
+      "Statement": [
+        {
+          "_id": "5f16baedf3fa6d44dcf46221",
+          "Effect": "Allow",
+          "Action": ["Claim:View", "Claim:Create", "Claim:Edit"]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "603d9c93d51664ee9dec1fb9",
+      "name": "Expense Administrator",
+      "Statement": [
+        {
+          "Action": [
+            "Expense:Managment:View",
+            "Expense:View",
+            "Expense:Create",
+            "Expense:Edit",
+            "Expense:Delete"
+          ],
+          "_id": "603d9c971feded6fe91fc1b9",
+          "Effect": "Allow"
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+    },
+    {
+      "_id": "5c7ce483f1d3458e089e74a7",
+      "name": "ClaimAdministrator",
+      "Statement": [
+        {
+          "Action": ["Claim:Approve", "Claim:Decline", "Claim:Admin"],
+          "Effect": "Allow"
+        }
+      ]
+    },
+    {
+      "_id": "6041a35207c86c0bf88af2bc",
+      "name": "Quotation Notification",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["Quotation:ReceiveNotification"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "6049e9e8cf9e2336d8ba0c1e",
+      "name": "MyWorkspace Account",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["MyWorkspace:Account"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "60498cd6f4359e7eafdeea84",
+      "name": "MyWorkspace Account Preference",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["MyWorkspace:Account:Preference"]
+        }
+      ],
+      "workspaceTypes": [],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "60498eb423ce88c8a3cd172d",
+      "name": "MyWorkspace Account Subscription",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["MyWorkspace:Account:Subscription"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "6049927d002236882ab14e8f",
+      "name": "MyWorkspace Account MySubscription Invoice",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["MyWorkspace:Account:SubscriptionInvoice"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "60498eba9854872aa51f936d",
+      "name": "MyWorkspace Account PaymentMethod",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["MyWorkspace:Account:PaymentMethod"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "60499222ed801e53346164e3",
+      "name": "MyWorkspace Account Region",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["MyWorkspace:Account:Region"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    },
+    {
+      "_id": "6049923d8d4a8f0e6bc841e5",
+      "name": "MyWorkspace Account App",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["MyWorkspace:Account:App"]
+        }
+      ],
+      "workspaceTypes": ["company-website", "shopping"],
+      "workspaceAccess": []
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export * from './orderWage.interface';

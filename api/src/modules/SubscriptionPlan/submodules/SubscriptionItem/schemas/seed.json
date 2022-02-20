@@ -1,0 +1,47 @@
+{
+  "model": "SubscriptionItems",
+  "documents": [
+    {
+      "_id": "5f3d2062a1dba9441ec0b3e9",
+      "name": {
+        "zh-hk": "用戶數量",
+        "zh-cn": "用户数量",
+        "en": "No. of User"
+      },
+      "description": {
+        "zh-hk": "用戶數量",
+        "zh-cn": "用户数量",
+        "en": "No. of User"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5fc765e2f5fc4e5319e5028f",
+      "name": {
+        "zh-hk": "儲存空間",
+        "zh-cn": "储存空间",
+        "en": "File storage"
+      },
+      "description": {
+        "zh-hk": "儲存空間",
+        "zh-cn": "储存空间",
+        "en": "File storage"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5fc85080e8960f8037291a41",
+      "name": {
+        "zh-hk": "訂單數量 (/月）",
+        "zh-cn": "订单数量 (/月）",
+        "en": "No. of Orders per month"
+      },
+      "description": {
+        "zh-hk": "訂單數量 (/月）",
+        "zh-cn": "订单数量 (/月）",
+        "en": "No. of Orders per month"
+      },
+      "isActive": true
+    }
+  ]
+}

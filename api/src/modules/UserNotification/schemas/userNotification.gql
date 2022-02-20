@@ -1,0 +1,54 @@
+scalar Date
+scalar JSON
+
+type UserNotificationUser {
+  user: User
+  read: Boolean
+}
+
+type UserNotificationImage {
+  fileMeta: FileMeta
+}
+
+type UserNotificationData {
+  screen: String
+  parameters: JSON
+}
+
+type UserNotification {
+  _id: ID!
+  senders: [User]
+  users: [UserNotificationUser]
+  title: String
+  message: String
+  images: [UserNotificationImage]
+  data: UserNotificationData
+  read: Boolean
+  createdAt: Date
+  updatedAt: Date
+}
+
+type PaginateUserNotification {
+  nodes: [UserNotification]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+type Query {
+  userNotification(id: ID!): UserNotification
+  userNotifications(paginate: Paginate): PaginateUserNotification
+  userNotificationCount(read: Boolean): Int
+}
+
+type Mutation {
+  userNotificationRead(id: ID!): UserNotification
+  userNotificationUnread(id: ID!): UserNotification
+}
+
+type Subscription {
+  userNotificationCreated: UserNotification
+  userNotificationUnreadCount: Int
+}

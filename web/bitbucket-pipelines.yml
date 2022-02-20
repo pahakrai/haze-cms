@@ -1,0 +1,101 @@
+---
+image: node:12.18.2
+definitions:
+  caches:
+    npm: ~/.npm
+pipelines:
+  branches:
+    dev:
+      - step:
+          name: test build
+          deployment: dev
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            # - yarn install --frozen-lockfile
+            # build project
+            # - yarn build
+            # when build success
+            - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+            - git show-ref
+            - git remote update
+            - git fetch --all
+            - git checkout test
+            - git rebase origin/dev
+            - git push origin
+    test:
+      - step:
+          name: AWS Code Deploy - Testing
+          deployment: test
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            - yarn install --frozen-lockfile
+            # build project
+            - yarn build
+            # zip except .git and node_modules folder
+            - zip -r ecomm-cart.zip . -x .git/\* node_modules/\*
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: "upload"
+                ZIP_FILE: "ecomm-cart.zip"
+                VERSION_LABEL: "ecomm-cart-0.4.0"
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                DEPLOYMENT_GROUP: dg-ecomm-cart-testing
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: "deploy"
+                VERSION_LABEL: "ecomm-cart-0.4.0"
+                WAIT: "true"
+                IGNORE_APPLICATION_STOP_FAILURES: "true"
+                FILE_EXISTS_BEHAVIOR: "OVERWRITE"
+    release/v0.4.x:
+      - step:
+          name: AWS Code Deploy - Production
+          deployment: production
+          caches:
+            - npm
+          script:
+            - apt-get update
+            - apt-get install -y zip
+            - yarn install --frozen-lockfile
+            # build project
+            - yarn build
+            # zip except .git and node_modules folder
+            - zip -r ecomm-cart.zip . -x .git/\* node_modules/\*
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: "upload"
+                ZIP_FILE: "ecomm-cart.zip"
+                VERSION_LABEL: "ecomm-cart-0.4.0"
+            - pipe: atlassian/aws-code-deploy:0.2.10
+              variables:
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME
+                DEPLOYMENT_GROUP: $DEPLOYMENT_GROUP
+                S3_BUCKET: $S3_BUCKET
+                COMMAND: "deploy"
+                VERSION_LABEL: "ecomm-cart-0.4.0"
+                WAIT: "true"
+                IGNORE_APPLICATION_STOP_FAILURES: "true"
+                FILE_EXISTS_BEHAVIOR: "OVERWRITE"

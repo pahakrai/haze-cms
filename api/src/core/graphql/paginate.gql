@@ -1,0 +1,7 @@
+input Paginate {
+  first: Float
+  # last: Float
+  after: ID
+  # before: ID
+  # skip: Float
+}

@@ -1,0 +1,22 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "lint",
+      "problemMatcher": ["$eslint-stylish"]
+    },
+    {
+      "label": "seed",
+      "type": "shell",
+      "command": "yarn seed:ts --clear",
+      "options": {
+        "env": {
+          "TS_NODE_TRANSPILE_ONLY": "true"
+        }
+      }
+    }
+  ]
+}

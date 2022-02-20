@@ -1,0 +1,88 @@
+<%- include('../_layout/head') %>
+
+<html>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+  />
+
+  <head>
+    <base target="_blank" />
+    <style>
+      table,
+      td,
+      p {
+        font-family: 'PingFangHK', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+      style="padding:0 20px 0 20px;
+    margin: 0 auto;background-color: #F9F9F9;"
+      width="600px"
+    >
+      <tbody style="background-color:#fff">
+        <tr>
+          <td style="padding: 0 0 0 10px;">
+            <table width="100%" border="0" cellpadding="5" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td>
+                    <br />
+                    <p
+                      style="color:#2D2D2D; font-size:16px;line-height:24px;margin-bottom: 20px"
+                    >
+                      <strong><%=data.greeting%>,</strong>
+                    </p>
+                    <p>
+                      Thank you for choosing <%=data.appName%>!
+                    </p>
+                    <br />
+                    <p>
+                      <%=data.message%>
+                    </p>
+                    <br />
+                    <p>
+                      Should you need assistance or have any questions, please
+                      call
+                      <a href="tel:<%=data.support_phone%>"
+                        ><%=data.support_phone%></a
+                      >
+                      or send an email to
+                      <a href="mailto:<%=data.support_email%>"
+                        ><%=data.support_email%></a
+                      >.
+                    </p>
+                    <br />
+                    <br />
+                    <p>
+                      Thank you!
+                    </p>
+                    <br />
+                    <p>
+                      <%=data.appName%> Team
+                    </p>
+                    <br />
+                    <br />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+<%- include('../_layout/foot') %>

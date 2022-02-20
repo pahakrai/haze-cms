@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <meta charset="utf8" />
+  <title>
+    <%=data.receiptNo %>
+  </title>
+  <style>
+    @font-face {
+      font-family: 'HelveticaNeue-CondensedBlack';
+      src: url('https://candyfonts.com/wp-data/2019/04/06/51368/HelveticaNeueCondensedBlack.ttf') format('woff'),
+        url('https://candyfonts.com/wp-data/2019/04/06/51368/HelveticaNeueCondensedBlack.ttf') format('opentype'),
+        url('https://candyfonts.com/wp-data/2019/04/06/51368/HelveticaNeueCondensedBlack.ttf') format('truetype');
+    }
+
+    article {
+      margin: 0 auto;
+    }
+
+    header {
+      width: 100%;
+      background-color: transparent;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    img.logo {
+      padding: 0%;
+      text-align: center;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .log {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    html {
+      zoom: 0.6;
+      font-family: helvetica, Arial, sans-serif;
+    }
+
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    html,
+    body {
+      width: 100%;
+    }
+
+    h1 {
+      margin-top: 0 !important;
+    }
+
+    th {
+      text-align: left;
+    }
+
+    td {
+      padding: 1px;
+    }
+
+    td[rowspan] {
+      vertical-align: top;
+    }
+
+    td:empty:after {
+      content: '\00a0';
+    }
+
+    section {
+      margin: 0 auto;
+    }
+
+    .layout-sidebar {
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 2%;
+      height: 100%;
+    }
+
+    .halfview {
+      width: 48%;
+      margin: 0;
+      display: inline-block;
+    }
+
+    .halfview .table {
+      padding: 10px;
+      border: 0.5px solid;
+      display: table;
+    }
+
+    .align-right {
+      text-align: right;
+    }
+
+    .finishing-display {
+      width: 49%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .textDecoration {
+      text-decoration: underline;
+    }
+
+    .underline {
+      border-bottom: 1px solid black;
+    }
+
+    #sidebar-blue {
+      height: 65%;
+      background-color: rgba(0, 255, 255, 0.6);
+    }
+
+    #sidebar-red {
+      height: 35%;
+      background-color: rgba(255, 0, 255, 0.6);
+    }
+
+    #sidebar-yellow {
+      background-color: yellow;
+    }
+
+    #sidebar-black {
+      background-color: black;
+    }
+
+    #hidden-img {
+      display: none;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .container-panle {
+      width: 100%;
+    }
+
+    #container-email {
+      width: 600px;
+      font-size: 16px;
+      padding: 50px 30px;
+      margin: 0 auto !important;
+      background-color: #fff;
+      box-shadow: 0 1px 41px rgba(0, 0, 0, 0.01),
+        0 1px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 2px;
+    }
+
+    #container-pdf {
+      width: calc(100% - 120px);
+      font-size: 16px;
+      padding: 0px 60px;
+      margin-top: 50px;
+      margin: 0 auto !important;
+      background-color: #fff;
+      border-radius: 2px;
+    }
+
+    #title-wrapper {
+      margin-top: 15px;
+      width: 100%;
+      text-align: center;
+    }
+
+    #quotation-info-container {
+      width: 100%;
+      font-size: 15px;
+      display: inline-block;
+    }
+
+    #invoice-container {
+      vertical-align: top;
+    }
+
+    #invoice-container .table {
+      width: 100%;
+      vertical-align: top;
+    }
+
+    #summary {
+      width: 80%;
+      margin: 50px auto;
+    }
+
+    #summary .table {
+      width: 100%;
+    }
+
+    #signature {
+      padding-top: 10%;
+      width: 100%;
+    }
+
+    #rules {
+      width: 90%;
+      padding-top: 50px;
+    }
+
+    #invoice {
+      display: block;
+      margin: 0 auto;
+    }
+
+    label {
+      display: inline-block;
+      text-align: right;
+      width: 15%;
+      vertical-align: top;
+    }
+
+    span {
+      font-size: inherit;
+    }
+
+    .td1,
+    .td2,
+    td3,
+    td4 {
+      padding: 10px 0;
+    }
+
+    .tr {
+      display: table;
+      width: 100%;
+    }
+
+    .td1 {
+      display: table-cell;
+      width: 40%;
+      word-break: break-all;
+      word-wrap: break-word;
+    }
+
+    .td2 {
+      display: table-cell;
+      width: 25%;
+      word-break: break-all;
+      word-wrap: break-word;
+    }
+
+    .td3 {
+      display: table-cell;
+      width: 10%;
+      word-break: break-all;
+    }
+
+    .td4 {
+      display: table-cell;
+      width: 25%;
+      word-break: break-all;
+      word-wrap: break-word;
+    }
+
+    .tr .title {
+      font-weight: 500;
+    }
+
+    .div-relative {
+      position: relative;
+      width: 100%;
+      height: 100px;
+    }
+
+    .div-logo {
+      position: absolute;
+      left: 30px;
+      top: 30px;
+    }
+
+    .div-webHost {
+      background-color: '<%=data.colour%>';
+      height: 100px;
+    }
+
+    .text_align {
+      width: 30%;
+      text-align: left;
+    }
+
+    .left {
+      width: 48%;
+      float: right;
+      padding-right: 6px;
+    }
+
+    .right {
+      width: 48%;
+      float: left;
+      padding-left: 6px;
+    }
+
+    .style_padding {
+      padding: 5px 0 5px 0;
+    }
+
+    .text_title {
+      text-align: right;
+      font-size: 15px;
+    }
+
+    #width-pdf {
+      width: 200px;
+    }
+
+    .button-r {
+      padding: 3px 10px 5px 10px;
+      border: 1px solid #d8d8d7;
+      border-radius: 4px;
+      background: #ffffff;
+      float: left;
+      overflow: hidden;
+      font-size: 9px;
+    }
+
+    .fee-pdf {
+      border-bottom: 1px solid #999999;
+      padding-left: 8%;
+      word-break: break-word;
+      font-weight: normal;
+    }
+
+    .fee-email {
+      border-bottom: 1px solid;
+      padding-left: 2%;
+      width: 60%;
+      word-break: break-word;
+    }
+
+    .fontHk {
+      font-family: DFYuanMedium-B5;
+    }
+
+
+    .big_div {
+      margin: 0 auto;
+      padding: 0;
+      clear: both;
+      height: auto;
+      padding-top: 32px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .small1 {
+      margin: 0;
+      padding: 0;
+      float: left;
+    }
+
+    .p1 {
+      display: none
+    }
+
+    table,
+    tr,
+    td,
+    th,
+    tbody,
+    thead,
+    tfoot {
+      page-break-inside: avoid !important;
+    }
+
+    #leftSide,
+    #rightSide {
+      padding-bottom: 9999px;
+      margin-bottom: -9995px;
+    }
+
+    #leftSide {
+      width: 55%;
+      float: left;
+      padding-left: 5px;
+    }
+
+    #rightSide {
+      width: 40%;
+      float: right;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container-panle">
+    <div style="width: 100%;">
+      <div id="<%= data.fullWidthStyle ? 'container-pdf' : 'container-email' %>">
+   
+        <table border="0" bordercolor="black" width="100%" cellspacing="0" cellpadding="5"
+          style="font-family: Helvetica;">
+          <tr style="background-color: #ffffff;border-style: #ffffff;">
+            <td colspan="5">
+              <div style="width: 100%;text-align: center;">
+                <div style="text-align: center;display: -webkit-inline-box;">
+                  <div style="
+              font-size: 36px;
+              font-family: DFYuanMedium-B5;
+              line-height: 38px;
+              ">收據</div>
+                  <div style="
+              padding-left: 5px;
+              font-size: 42px;
+              font-family: Helvetica Neue;
+              font-weight: bold;
+              line-height: 36px;
+            "><strong>Receipt</strong></div>
+                </div>
+              </div>
+              <div style="height: 32px;"></div>
+            </td>
+          </tr>
+
+          <tr style="background-color: #ffffff;border-style: #ffffff;">
+            <td colspan="5">
+              <div class="big_div">
+                <div class="small1" style="width: 28%;">
+                  <div style="
+                  font-family: Helvetica;margin-left:20%; ">客戶姓名：</span><span
+                      style="font-family: Helvetica;"><%=data.userName%></div>
+      
+                  <div style="
+               font-family: Helvetica;margin-left:20% ;"> Client Name</div>
+                </div>
+      
+                <div class="small1" style="width: 25%;">
+                  <div style="
+                  font-family: Helvetica;margin-left:15%; ">訂單編號：</span><span
+                      style="font-family: Helvetica;"><%=data.orderNo%></div>
+      
+                  <div style="
+               font-family: Helvetica;margin-left:15% ;"> Order No</div>
+                </div>
+      
+                <div class="small1" style="width: 25%;">
+                  <div style="
+                  font-family: Helvetica;margin-left:15%; ">收據編號：</span><span
+                      style="font-family: Helvetica;"><%=data.receiptNo%></div>
+                  <div style="
+               font-family: Helvetica;margin-left:15% ;"> Receipt No</div>
+                </div>
+      
+                <div class="small1" style="width: 18%;">
+                  <div style="
+                  font-family: Helvetica;margin-left:15%">日期：</span><span style="font-family: Helvetica;"><%=data.date%>
+                  </div>
+                  <div style="
+               font-family: Helvetica;margin-left:15%"> Date</div>
+                </div>
+                <div style="clear:both"></div>
+              </div>
+            </td>
+          </tr>
+          <tr style="background-color: #ffffff;border-style: #ffffff;">
+            <td colspan="5">
+              <div style="height: 10px;"></div>
+            </td>
+          </tr>
+       
+          <tr id="<%= data.fullWidthStyle ? 'title-pdf' : 'title-email' %>">
+            <td style="
+                  width: 25%;
+                  font-weight: normal;
+                ">
+              <div style="padding: 5px 0 5px 20px;">
+                <div style="font-family: DFYuanMedium-B5; padding-top: 6px;">
+                  產品名稱
+                </div>
+                <span style="font-family: Helvetica Neue;"> Product</span>
+              </div>
+            </td>
+            <td style="
+                  border-bottom: 4px solid#fff;
+                  font-weight: normal;
+                  width: 35%;
+                  text-align: center;
+                ">
+              <div style="padding: 5px 0 5px 0;">
+                <div style="font-family: DFYuanMedium-B5;">
+                  數量
+                </div>
+                <span style="font-family: Helvetica Neue;">Qty </span>
+              </div>
+            </td>
+            <td style="
+                  border-bottom: 4px solid#fff;
+                  font-weight: normal;
+                  width: 35%;
+                ">
+              <div style="padding: 5px 0 5px 0;">
+                <div style="font-family: DFYuanMedium-B5; margin-left: 42%;">
+                  價格
+                </div>
+                <span style="font-family: Helvetica Neue; margin-left: 42%;">
+                  Amount</span>
+              </div>
+            </td>
+          </tr>
+
+          <%if (data.orderProductLists) { %>
+          <%data.orderProductLists.forEach(function(item, index){%>
+          <tr>
+            <td style="width: 25%;border-top: 1px solid #999999;">
+              <div style="padding: 5px 0 5px 20px;"><%=item.product.name%></div>
+            </td>
+
+            <td style="width: 35%; padding: 1% 0% 1% 0%; text-align: center;border-top: 1px solid #999999;">
+              <%=item.qty%>
+            </td>
+            <td style="width: 35%; padding: 1% 0% 1% 0%; text-align: center;border-top: 1px solid #999999;">
+              <%=item.amount%>
+            </td>
+          </tr>
+
+          <% }) %> <% } %>
+        </table>
+
+        <br />
+        <div style=" overflow: hidden;">
+          <div style="text-overflow: ellipsis; overflow: hidden;table-layout: fixed;position:relative">
+            <div id="leftSide">
+              <table border:none cellspacing="0" cellpadding="5"
+                class="<%= data.fullWidthStyle ? 'table-pdf' : 'table-email' %>" style="
+                  width: 100%;
+                  background: #f1f1f2;
+                  min-height: 180px;
+                  font-size: 12px;
+                  padding: 4%;
+                  font-family: DFYuanMedium-B5;
+                ">
+                <tr>
+                  <td rowspan="2">
+                    <div style="text-align: center;display: -webkit-inline-box;">
+                      <div style="
+                          font-size: 12px;
+                          font-family: DFYuanMedium-B5;
+                         
+                          line-height: 18px;
+                          ">備註</div>
+                      <div style="
+                          padding-left: 5px;
+                          font-size: 14px;
+                          font-family: Helvetica Neue;
+                         
+                        ">Note：</div>
+                    </div>
+                  </td>
+                  <td colspan="2" rowspan="2">
+                    <span style="font-family: DFYuanMedium-B5;">
+                      <%=data.remarks%>
+                    </span>
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td rowspan="2" id="<%= data.fullWidthStyle ? 'width-pdf' : 'width-email' %>">
+                    <div style="text-align: center;display: -webkit-inline-box;">
+                      <div style="
+                          font-size: 12px;
+                          font-family: DFYuanMedium-B5;
+                         
+                          line-height: 18px;
+                          ">付款方法</div>
+                      <div style="
+                          padding-left: 5px;
+                          font-size: 14px;
+                          font-family: Helvetica Neue;
+                        
+                        ">Payment method：</div>
+                    </div>
+                  </td>
+                  <td colspan="2" rowspan="2" style="padding-top: 5px;">
+                    <span style="font-family: DFYuanMedium-B5;"><%=data.paymentMethod%></span><br />
+                    <span style="
+                        word-break: break-all;
+                        font-family: Helvetica;
+                        font-size: 14px;
+                        line-height: 20px;
+                      "><span> Ref no：</span><%=data.paymentNo%></span>
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td>
+                    <div style="text-align: center;display: -webkit-inline-box;">
+                      <div style="
+                          font-size: 12px;
+                          font-family: DFYuanMedium-B5;
+                        
+                          line-height: 18px;
+                          ">經手人</div>
+                      <div style="
+                          padding-left: 5px;
+                          font-size: 14px;
+                          font-family: Helvetica Neue;
+                          
+                        ">Staff：</div>
+                    </div>
+                  </td>
+                  <td colspan="2">
+                    <span style="font-family: Helvetica; font-size: 14px;">
+                      <%=data.handledBy%></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div style="text-align: center;display: -webkit-inline-box;">
+                      <div style="
+                          font-size: 12px;
+                          font-family: DFYuanMedium-B5;
+                        
+                          line-height: 18px;
+                          ">備註1</div>
+                      <div style="
+                          padding-left: 5px;
+                          font-size: 14px;
+                          font-family: Helvetica Neue;
+                          
+                        ">Remarks1：</div>
+                    </div>
+                  </td>
+                  <td colspan="2">
+                    <span style="font-family: Helvetica; font-size: 14px;">
+                      <%=data.remarks1%></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div style="text-align: center;display: -webkit-inline-box;">
+                      <div style="
+                          font-size: 12px;
+                          font-family: DFYuanMedium-B5;
+                          line-height: 18px;
+                          ">備註2</div>
+                      <div style="
+                          padding-left: 5px;
+                          font-size: 14px;
+                          font-family: Helvetica Neue;
+                          
+                        ">Remarks2：</div>
+                    </div>
+                  </td>
+                  <td colspan="2">
+                    <span style="font-family: Helvetica; font-size: 14px;">
+                      <%=data.remarks2%></span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div id="rightSide">
+              <table border="0" cellspacing="0" cellpadding="12"
+                class="<%= data.fullWidthStyle ? 'table-pdf' : 'table-email' %>"
+                style="width: 100%; min-height: 150px;">
+                <tr>
+                  <th class="<%= data.fullWidthStyle ? 'fee-pdf' : 'fee-email' %>"
+                    style="<%= data.chargeServices.length===0 && data.chargeOthers.length===0 ? 'border: none':'' %>">
+                    <span style="font-size: 12px; font-family: DFYuanMedium-B5;">產品</span>
+                  </th>
+                  <th class="<%= data.fullWidthStyle ? 'fee-pdf' : 'fee-email' %>"
+                    style="<%= data.chargeServices.length===0 && data.chargeOthers.length===0 ? 'border: none':'' %>">
+                    <span style="font-size: 14px; font-family: Helvetica;">Product Fee:</span>
+                  </th>
+                  <th
+                    style="<%= data.chargeServices.length===0  && data.chargeOthers.length===0 ? 'border: none':'border-bottom: 1px solid #999999;' %>">
+                    <span style="
+                        font-family: Helvetica;
+                        font-weight: normal;
+                        font-size: 15px;
+                      ">
+                      <%= data.currency %></span><span style="
+                        font-family: Helvetica;
+                        font-weight: normal;
+                        font-size: 15px;
+                      ">$</span><span style="
+                        font-family: Helvetica;
+                        font-weight: normal;
+                        font-size: 15px;
+                      "><%= data.baseFee %></span>
+                  </th>
+                </tr>
+                <% for (var i =0; i < data.chargeServices.length; i++ ) { %>
+                <tr>
+                  <th class="<%= data.fullWidthStyle ? 'fee-pdf' : 'fee-email' %>"
+                    style="<%= data.chargeServices.length===1 && data.chargeOthers.length===0 ? 'border: none':'font-size: 12px' %>">
+                    <span style="font-size: 12px; font-family: DFYuanMedium-B5;">
+                      <%=data.chargeServices[i].name%></span>
+                  </th>
+                  <th class="<%= data.fullWidthStyle ? 'fee-pdf' : 'fee-email' %>"
+                    style="<%= data.chargeServices.length===1 && data.chargeOthers.length===0 ? 'border: none':'font-size: 14px' %>">
+                    <span style="font-family: Helvetica; font-size: 14px;">
+                      <%=data.chargeServices[i].nameLan%>:</span>
+                  </th>
+                  <th
+                    style="<%= data.chargeServices.length===1 && data.chargeOthers.length===0 ? 'border: none':'border-bottom: 1px solid #999999' %>">
+                    <%if (data.chargeServices[i].amount!=0) { %>
+                    <span style="
+                        font-size: 15px;
+                        font-family: Helvetica;
+                        font-weight: normal;
+                      "><%=data.currency%>$<%=data.chargeServices[i].amount%></span>
+                    <% } %>
+                  </th>
+                </tr>
+                <% } %> <% for (var i =0; i < data.chargeOthers.length; i++ ) {
+                %>
+                <tr>
+                  <th class="<%= data.fullWidthStyle ? 'fee-pdf' : 'fee-email' %>" colspan="2"
+                    style="<%= !data.othersServiceEnd ? 'border: none':'border-bottom: 1px solid #999999 ;' %>">
+                    <span style="font-size: 12px; font-family: DFYuanMedium-B5;">
+                      <%=data.chargeOthers[i].description%></span>
+                  </th>
+
+                  <th style="<%= !data.othersServiceEnd ? 'border: none':'border-bottom: 1px solid #999999;' %>">
+                    <span style="
+                        font-size: 15px;
+                        font-family: Helvetica;
+                        font-weight: normal;
+                      "><%=data.currency%>$<%=data.chargeOthers[i].amount%></span>
+                  </th>
+                </tr>
+                <% } %> 
+                
+                <%if (data.othersServiceEnd) { %>
+                <tr>
+                  <th class="<%= data.fullWidthStyle ? 'fee-pdf' : 'fee-email' %>" colspan="2"
+                    style="border: none; font-family: Helvetica;">
+                    <span style="font-size: 12px; font-family: DFYuanMedium-B5;">
+                      <%=data.othersServiceEnd.description%></span>
+                  </th>
+
+                  <th style="border: none;">
+                    <span style="
+                        font-size: 15px;
+                        font-family: Helvetica;
+                        font-weight: normal;
+                      "><%=data.currency%>$<%=data.othersServiceEnd.amount%></span>
+                  </th>
+                </tr>
+                <% } %>
+
+                <tr>
+                  <th class="<%= data.fullWidthStyle ? 'fee-pdf' : 'fee-email' %>" style="
+                      border: none;
+                      border-top: 1px solid #999999;
+                      font-family: DFYuanMedium-B5;
+                      font-size: 14px;
+                    ">
+                    <span>總數</span>
+                  </th>
+                  <th class="<%= data.fullWidthStyle ? 'fee-pdf' : 'fee-email' %>" style="   border: none;border-top: 1px solid #999999;">
+                    <span style="
+                        font-family: HelveticaNeue-CondensedBlack,
+                          Helvetica Neue;
+                        font-weight: bold;
+                        padding-left: 2px;
+                        font-size: 16px;
+                      ">
+                      Total:
+                    </span>
+                  </th>
+                  <th style="   border: none;border-top: 1px solid #999999;">
+                    <span style="
+                        font-family: HelveticaNeue-CondensedBlack,
+                          Helvetica Neue;
+                        font-weight: bold;
+                        font-size: 16px;
+                      ">
+                      <%=data.currency%>$<%=data.paymentAmount%>
+                    </span>
+                  </th>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <img style="display: none;" src="<%=data.headerImage%>" />
+        <img style="display: none;" src="<%=data.footerImage%>" />
+        <img style="display: none;" src="<%=data.logoUrl%>" />
+        <img style="display: none;" src="<%=data.iconInstagram%>" />
+        <img style="display: none;" src="<%=data.iconFacebook%>" />
+        <img style="display: none;" src="<%=data.iconSearch%>" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

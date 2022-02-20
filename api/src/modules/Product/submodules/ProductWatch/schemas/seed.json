@@ -1,0 +1,19 @@
+{
+  "model": "ProductWatches",
+  "documents": [
+    {
+      "_id": "5ea2e03df807ef80fb9f3383",
+      "client": "5ebe6a441c678d2b4f019a34",
+      "product": "5e9eb3e1f90722ad755ae799",
+      "createdAt": "2020-04-24T12:49:01.523Z",
+      "updatedAt": "2020-04-24T12:49:01.523Z"
+    },
+    {
+      "_id": "5fc61f58235ee6b7ede00bc4",
+      "client": "5f476e7e6a176cdb5e54adc8",
+      "product": "5fbf51a0ada5873de625cd09",
+      "createdAt": "2020-12-01T12:49:01.523Z",
+      "updatedAt": "2020-12-01T12:49:01.523Z"
+    }
+  ]
+}

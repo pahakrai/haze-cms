@@ -1,0 +1,29 @@
+enum Effect {
+  Allow
+  Deny
+}
+type StatementType {
+  Effect: Effect!
+  Action: [String]
+  Resource: String
+}
+type Policy {
+  _id: ID!
+  name: String
+  workspaceTypes: [String!]
+  workspaceAccess: [ID!]
+  Statement: [StatementType]
+}
+type Query {
+  policy: Policy!
+  policies: [Policy]
+}
+input StatementInput {
+  Effect: Effect!
+  Action: [String]
+  Resource: String
+}
+type Mutation {
+  createPolicy(statement: StatementInput!): Policy!
+  updatePolicy(id: ID!, statement: StatementInput!): Policy!
+}

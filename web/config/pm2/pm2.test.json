@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "ecomm-cart",
+      "cwd": "/home/deploy/sites/ecomm-cart",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "script": "server.js",
+      "instances": 1,
+      "exec_mode": "fork",
+      "env": {
+        "NODE_ENV": "production",
+        "APP_ENV": "test",
+        "PORT": "3601"
+      }
+    }
+  ]
+}

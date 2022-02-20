@@ -1,0 +1,23 @@
+input ContactInput {
+  address: LocationInput
+  email: String
+  phoneNo: String!
+  person: String!
+  isPrimary: Boolean
+  website: String
+  department: String
+  phoneExt: String
+  phoneRegionCode: String
+}
+
+type Contact {
+  address: Location
+  email: String
+  phoneNo: String
+  person: String
+  isPrimary: Boolean
+  website: String
+  department: String
+  phoneExt: String
+  phoneRegionCode: String
+}

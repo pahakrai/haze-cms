@@ -1,0 +1,28 @@
+import ObjectID from 'bson-objectid';
+import display from './display';
+import context from './context';
+
+export default {
+  display,
+  context,
+  new: (obj = {}) => ({
+    _id: `${ObjectID()}`,
+    type: 'pieChart',
+    ...obj,
+    data: {
+      chartProps: {
+        ...context.defalutChartProps,
+        ...((obj.data && obj.data.chartProps) || {})
+      },
+      ...(obj.data || {})
+    },
+    layout: {
+      x: 0,
+      y: 0,
+      w: 6,
+      h: 2,
+      isCloseable: false,
+      ...(obj.layout || {})
+    }
+  })
+};

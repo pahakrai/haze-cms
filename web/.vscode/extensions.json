@@ -1,0 +1,29 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+    "Anjali.clipboard-history",
+    "CoenraadS.bracket-pair-colorizer",
+    "alefragnani.Bookmarks",
+    "alefragnani.project-manager",
+    "angryobject.react-pure-to-class-vscode",
+    "burkeholland.simple-react-snippets",
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "humy2833.ftp-simple",
+    "kisstkondoros.vscode-codemetrics",
+    "ms-python.python",
+    "msjsdiag.debugger-for-chrome",
+    "naumovs.color-highlight",
+    "rebornix.project-snippets",
+    "richie5um2.vscode-sort-json",
+    "robertohuertasm.vscode-icons",
+    "wix.vscode-import-cost",
+    "xabikos.JavaScriptSnippets",
+    "vsmobile.vscode-react-native"
+  ]
+}

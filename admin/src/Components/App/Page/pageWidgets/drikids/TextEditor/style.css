@@ -1,0 +1,9 @@
+.widget_text_editor_style .ck-editor__editable_inline {
+  min-height: 20px;
+}
+
+.page-text-editor {
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}

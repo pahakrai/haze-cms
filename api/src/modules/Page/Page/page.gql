@@ -1,0 +1,36 @@
+scalar Date
+scalar Object
+
+type PageMeta {
+  description: String
+  keywords: String
+  version: String
+  og_title: String
+  og_type: String
+  og_image: String
+  og_url: String
+}
+type Page {
+  _id: ID!
+  title: Object
+  meta: PageMeta
+  path: String
+  isActive: Boolean
+  remarks: String
+  layout: Page
+  content: Object
+  workspace: Workspace
+  updatedAt: Date
+  createdAt: Date
+  preview: FileMeta
+  isTemplate: Boolean
+}
+
+type Query {
+  page(id: String!): Page
+  pageByPath(path: String!): Page
+  pagesByPath(paths: [String!]): [Page!]
+  pageSeo(path: String!): Page
+  getSitemap: [Page]
+  getPaths: [String]
+}

@@ -1,0 +1,15 @@
+{
+  "model": "ProductReviews",
+  "documents": [
+    {
+      "_id": "5ea2e275926f46818fe4e6c1",
+      "rating": 100,
+      "comment": "teswe1",
+      "client": "5ea2452e3aaa4067d31f71bf",
+      "product": "5e9eb3e1f90722ad755ae799",
+      "order": "5ea2dee4c2c95903bea3a22c",
+      "createdAt": "2020-04-24T12:58:30.005Z",
+      "updatedAt": "2020-04-24T13:01:38.780Z"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<div id="pageHeader">
+  <div>
+    <%if (data.headerImage) { %>
+    <img
+      src="<%=data.headerImage%>"
+      style="display: -webkit-box; width: 100%; height: 100px;"
+    />
+    <% } %> <%if (!data.headerImage) { %>
+    <div style="height: 100px;"></div>
+    <% } %>
+  </div>
+  <div style="padding: 10px 0 60px 100px;">
+    <img src="<%=data.logoUrl%>" style="height: 90px;" />
+  </div>
+</div>

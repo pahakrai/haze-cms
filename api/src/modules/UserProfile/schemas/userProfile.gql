@@ -1,0 +1,51 @@
+scalar Date
+
+type UserProfile {
+  user: User
+  member: Member
+  balance: UserCreditType
+}
+
+type UserCreditType {
+  cash: Float
+  point: Float
+}
+
+# input UserProfileCreateModel {
+#   name: String!
+# }
+
+input UserProfileUpdateModel {
+  user: UserUpdateModel
+  member: MemberUpdateModel
+}
+
+type PaginateUserProfile {
+  nodes: [UserProfile]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input UserProfileSearchModel {
+  name: String
+}
+
+type Query {
+  myUserProfile: UserProfile
+  # userProfiles(
+  #   query: UserProfileSearchModel
+  #   paginate: Paginate
+  # ): PaginateUserProfile
+}
+
+type Mutation {
+  # createUserProfile(userProfileCreateModel: UserProfileCreateModel): UserProfile
+  updateMyUserProfile(
+    userProfileUpdateModel: UserProfileUpdateModel
+  ): UserProfile
+  updateMyDocs(files: [Upload!]!, fileType: String): UserProfile
+  updateMyAvatar(images: [Upload!]!): User
+}

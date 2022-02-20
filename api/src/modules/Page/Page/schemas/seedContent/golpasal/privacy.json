@@ -1,0 +1,1484 @@
+{
+  "_id": "5c91b4a722ef404da9298564",
+  "isTemplate": false,
+  "subPath": "",
+  "fromPageContent": null,
+  "globalWidgets": [],
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5e747ec29b06e3981c6752b9",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5e9066b8f19cc96ddcea872d",
+            "direction": "row",
+            "widgets": ["5fb22a28e572c4e2d8b3d370"]
+          },
+          {
+            "_id": "5fb23020dfd0ebec1252ee9b",
+            "direction": "row",
+            "widgets": ["5fb23017dfd0ebec1252ee9a"]
+          },
+          {
+            "_id": "5fb233e897fb7925c816fba4",
+            "direction": "row",
+            "widgets": ["5fb23022d2d0ebec1252ee9c"]
+          },
+          {
+            "_id": "5fb2385c570b0f561725cbd0",
+            "direction": "row",
+            "widgets": ["5fb23829feaf37aa821407f5"]
+          },
+          {
+            "_id": "5fd9d19da08299324558356d",
+            "direction": "row",
+            "widgets": ["5fd9d174e94db1fd13ed8c1f"]
+          },
+
+          {
+            "_id": "5fd9d1a2c0c60c6659805b23",
+            "direction": "row",
+            "widgets": ["5fd9d17c51c4baddde588cca"]
+          },
+          {
+            "_id": "5fd9cc6556e46bc51f090b07",
+            "direction": "row",
+            "widgets": ["5fd9cc57385cb503b0f7be44"]
+          },
+          {
+            "_id": "5fd9cbc398244ee9b90bf3bc",
+            "direction": "row",
+            "widgets": ["5fb238e81420b311e9d20d19"]
+          },
+          {
+            "_id": "5fd9d225c7fa9534077af175",
+            "direction": "row",
+            "widgets": ["5fd9d2068461dc246293219c"]
+          },
+          {
+            "_id": "5fd9d2280f3efebb03383cc2",
+            "direction": "row",
+            "widgets": ["5fd9d20cd8d01fc99d44938b"]
+          },
+          {
+            "_id": "5fd9cd214acab9d56ce56795",
+            "direction": "row",
+            "widgets": ["5fd9ccf4c9205c5f3de9610d"]
+          },
+          {
+            "_id": "5fd9cd252892ab10a893cdb8",
+            "direction": "row",
+            "widgets": ["5fd9cce9f918b619f46b69c9"]
+          },
+          {
+            "_id": "5fd9cd29c3285877fd7cbaae",
+            "direction": "row",
+            "widgets": ["5fd9cce097f6663276eafb56"]
+          },
+          {
+            "_id": "5fd9cf32f0f229182ca00555",
+            "direction": "row",
+            "widgets": ["5fd9ce7e4895044880dfd659"]
+          },
+          {
+            "_id": "5fd9cf2fcc86d2f501d2d5bb",
+            "direction": "row",
+            "widgets": ["5fd9ce85d2fd31d59ba146ed"]
+          },
+          {
+            "_id": "5fd9cf2bc48d784d1b9ca1d9",
+            "direction": "row",
+            "widgets": ["5fd9ce8d555ea2b785b90c1a"]
+          },
+          {
+            "_id": "5fd9cf1fa31121923d61a3be",
+            "direction": "row",
+            "widgets": ["5fd9ce95ed4dff795974a949"]
+          },
+          {
+            "_id": "5fd9cf1b7f3ce38628a0f5a5",
+            "direction": "row",
+            "widgets": ["5fd9ce9c2e11763b86260d9e"]
+          },
+          {
+            "_id": "5fd9cf1771c07b4b342d78ec",
+            "direction": "row",
+            "widgets": ["5fd9cea3e2d43fec7e75b657"]
+          },
+          {
+            "_id": "5fd9cf12bd8e71b627b675e0",
+            "direction": "row",
+            "widgets": ["5fd9cea9514a33ef0be93b06"]
+          },
+          {
+            "_id": "5fd9d364fde6568eb9ca7aff",
+            "direction": "row",
+            "widgets": ["5fd9d335164f00b35279e105"]
+          },
+          {
+            "_id": "5fd9d361c149d363017bf0e6",
+            "direction": "row",
+            "widgets": ["5fd9d33be8be1a0faa3af83e"]
+          },
+          {
+            "_id": "5fd9d35d80ff966bb9dea596",
+            "direction": "row",
+            "widgets": ["5fd9d34353994719a48777c8"]
+          },
+          {
+            "_id": "5fd9d468313b65a07274ad67",
+            "direction": "row",
+            "widgets": ["5fd9d3d660da8865ed193292"]
+          },
+          {
+            "_id": "5fd9d4621fa9f6823c8b58ee",
+            "direction": "row",
+            "widgets": ["5fd9d3e11856fa4dff5696b8"]
+          },
+          {
+            "_id": "5fd9d45e71028616c5a51e12",
+            "direction": "row",
+            "widgets": ["5fd9d3e9b36b179f4183b0e1"]
+          },
+          {
+            "_id": "5fd9d45a334ae10dda39f6df",
+            "direction": "row",
+            "widgets": ["5fd9d3f06135d05b12051d50"]
+          },
+          {
+            "_id": "5fd9d4574a0665681a1b92bf",
+            "direction": "row",
+            "widgets": ["5fd9d3faccb9a871ca32b1ec"]
+          },
+          {
+            "_id": "5fd9d452e05f559262644268",
+            "direction": "row",
+            "widgets": ["5fd9d40281eaafa7379266f3"]
+          },
+          {
+            "_id": "5fd9d44f15cfefe75fde9252",
+            "direction": "row",
+            "widgets": ["5fd9d40b020f4e424c098da1"]
+          },
+          {
+            "_id": "5fd9d44bba63171807ee158d",
+            "direction": "row",
+            "widgets": ["5fd9d41a84010808fbee8e13"]
+          },
+          {
+            "_id": "5fd9d5bb3a8cdedcbaf290ea",
+            "direction": "row",
+            "widgets": ["5fd9d50cd5a1f1d6c28e6722"]
+          },
+          {
+            "_id": "5fd9d5b71fe89b4500b6f639",
+            "direction": "row",
+            "widgets": ["5fd9d5218c1bf7ab4e25f3ac"]
+          },
+          {
+            "_id": "5fd9d5b242be1276c9226798",
+            "direction": "row",
+            "widgets": ["5fd9d529b6dae8e2889b799c"]
+          },
+          {
+            "_id": "5fd9d5aed4d599f9d7e2efec",
+            "direction": "row",
+            "widgets": ["5fd9d531703ad9e541eab296"]
+          },
+          {
+            "_id": "5fd9d5aa126d65e061f1fe4d",
+            "direction": "row",
+            "widgets": ["5fd9d539685b011707fd8b77"]
+          },
+          {
+            "_id": "5fd9d5a6ed0f1be4e424df3c",
+            "direction": "row",
+            "widgets": ["5fd9d5418afd780159f56afc"]
+          },
+          {
+            "_id": "5fd9d5a246bdb7b0e56faa4c",
+            "direction": "row",
+            "widgets": ["5fd9d549d9101d2d21a34800"]
+          },
+          {
+            "_id": "5fd9d59e5e0636ef63e29603",
+            "direction": "row",
+            "widgets": ["5fd9d550d070770c8c62d201"]
+          },
+          {
+            "_id": "5fd9d599ad899520198c32c4",
+            "direction": "row",
+            "widgets": ["5fd9d5598544f8fafd8fe14e"]
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5fb22a28e572c4e2d8b3d370",
+      "position": "",
+      "inlineStyle": "margin-top:54px;\nfont-size:24px;\ncolor:#333333;\nfont-weight:400;\nfont-family:Adobe Heiti Std;\nheight:40px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>私隱政策</div>"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb23017dfd0ebec1252ee9a",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本私隱政策聲明應用於<span style=\"color: rgb(208, 2, 27)\">golpasal</span>的客戶：</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb23022d2d0ebec1252ee9c",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>保障閣下的私隱</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb23829feaf37aa821407f5",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>golpasal竭力為閣下提供最高水平的客戶服務，其中包括保障閣下的私隱。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d174e94db1fd13ed8c1f",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本公司的私隱政策對本公司在本網站上收集的資訊的使用及／或分享、資訊的維護作出了說明。閣下使用本網站即視為閣下同意並接受本私隱政策的相關規定。如果您不同意本私隱政策部分或全部條款，將不得使用本網站。請註意，本私隱政策僅適用於本網站收集的相關資訊，不適用於通過其他方式或從其他來源收集或獲取的任何資訊。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d17c51c4baddde588cca",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本公司的私隱政策確保閣下提供給我們的資訊是安全的。為使閣下放心，以下將說明您需提供給本公司的資訊詳情以及資訊的使用方式。在未取得閣下明確同意的情況下，本公司絕不會收集有關您的敏感資訊。本公司所掌握的資訊是準確的並會隨時更新。如果閣下需要更改您的資訊，請隨時與本公司聯絡（可能收取一定的管理費用 ）。如果閣下發現資訊有任何錯誤，本公司將立即刪除或更改。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cc57385cb503b0f7be44",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>個人驗證資訊 - 本公司所收集的 PII 資訊匯總</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fb238e81420b311e9d20d19",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本公司將收集註冊時的自願個人驗證資訊（「 PII 」），或根據閣下明確提出的資訊請求進行收集。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d2068461dc246293219c",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本公司可能還將收集閣下的 IP（互聯網協議）位址以便通過本公司的伺服器診斷問題和管理此網站。IP地址是指使用互聯網時指定給您電腦的數位。閣下的 IP 位址還將用於會話中您的身份識別以及人口統計資料的收集。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d20cd8d01fc99d44938b",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>在閣下使用網站的過程中，本公司可能會要求您提供電郵地址。此外，本公司可能會要求閣下在訂購過程提供下述部分或全部 PII ：姓名、通訊地址、電郵地址、電話號碼以及支付機制詳情（例如信用卡詳情）。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ccf4c9205c5f3de9610d",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>PII 的使用與共用</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cce9f918b619f46b69c9",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>全部 PII 均按照《資料保護準則》以及香港適用的其他資料保護法律法規進行保留。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cce097f6663276eafb56",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本公司使用 PII 來向閣下提供有關本公司的有關資訊，向您提供相應服務並進行自身宣傳與行銷。本公司的原則是：不將任何 PII 出售或透露給任何其他機構（本公司之外的機構），除非本公司被強制要求進行此行為以防止和檢測詐騙行為。在未取得閣下同意的情況下，本公司絕不將您的 PII 出售或租賃給任何其他人用於市場行銷的目的。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce7e4895044880dfd659",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>但是，本公司可能會將閣下的 PII 透露給本公司的代理人和承包商以協助本公司按照本私隱政策所規定的用途使用您的資料。例如，本公司可能會選用第三方來進行市場行銷或提供客戶服務協助，或者本公司會將相關資料透露給信用卡營運商以處理支付有關事項。為了便捷交易服務，我們的第三方網上付款系統將會收集並紀錄閣下的首次付款資料，並以 SSL 加密裝置傳送至銀行作為方便您日後交易轉賬之用。請註意 golpasal 從不於我們的伺服器上儲存及使用您的任何資料（包括信用卡資料）。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce85d2fd31d59ba146ed",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:35px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本公司同樣保留基於下述目的披露 PII 的權利：</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce8d555ea2b785b90c1a",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>根據適用法律進行披露</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce95ed4dff795974a949",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>根據政府要求（或任何類型的法律機構、政府機構或類似政府機構、當地權力機構或互聯網保護機構）進行披露；</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9ce9c2e11763b86260d9e",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>根據有效的法定手續或程式進行披露；</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cea3e2d43fec7e75b657",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>為保護本公司的權利或財產、本網站及／或本網站的其他用戶；</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9cea9514a33ef0be93b06",
+      "position": "",
+      "inlineStyle": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:13px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>向本公司提交 PII 即視為您同意本公司已按照本私隱政策所規定的方式使用您的資料，對於接收和處理您資料的第三方對相關資料的使用，本公司概不負責。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d335164f00b35279e105",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>Cookie （資訊記錄程式）</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d33be8be1a0faa3af83e",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本公司使用 Cookie 技術通過您的瀏覽器將資料儲存在您的電腦中。由於 Cookie 允許網站出版商採取有用的措施（例如確認某電腦或其使用者此前是否訪問過該網站），因此許多網站都使用 Cookie 來記錄資訊。通常閣下可以更改瀏覽器設置以防止使用 Cookie ，但是如果您作出更改，有可能導致服務（和網站）無法正常運作。儲存在 Cookie 中的資訊用於識別您的身份。這樣可説明本公司進行更為有效的服務以及追蹤訪客對網站的訪問模式。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d34353994719a48777c8",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>此外，在向本網站發佈廣告時（如適用），第三方廣告商或廣告服務商可能會在您的瀏覽器上設置獨一無二的 Cookie 或對其進行識別。第三方廣告商或廣告服務商對 Cookie 的使用不受本私隱政策的約束，但受他們各自私隱政策的約束。請註意，本網站的使用不得用於或針對十二歲以下之人士。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d3d660da8865ed193292",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>電子郵件</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d3e11856fa4dff5696b8",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>請註意，本公司可能基於下述目的向閣下發送電子郵件：</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d3e9b36b179f4183b0e1",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>用作服務的一部分。例如，本公司在下述某些情形下向閣下（或可能向您）發送電子郵件：</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d3f06135d05b12051d50",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>註冊後，將您的帳戶詳細資訊通知您；</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d3faccb9a871ca32b1ec",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>將本公司的產品和服務有關資訊通知您；</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d40281eaafa7379266f3",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>用作新聞通訊；</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d40b020f4e424c098da1",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>用作促銷電子郵件。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d41a84010808fbee8e13",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>但是，對於本公司可能發送的市場行銷或促銷電子郵件，本公司會為閣下提供取消（或取消訂閱）的選擇。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d50cd5a1f1d6c28e6722",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>安全和保留</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d5218c1bf7ab4e25f3ac",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本公司保證所掌握的 PII 按照內部安全政策以及相關法律法規進行管理，在本公司系統中是安全的。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d529b6dae8e2889b799c",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>對於本網站及／或使用者之間所傳輸的資訊，雖然本公司將採取預防措施進行保護，但可能無法防止第三方對此類資訊的未授權訪問，也可能無法防止傳輸過程中因疏忽大意造成此類資訊的洩露。用戶認同與本網站進行通訊時存在此類風險。 </div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d531703ad9e541eab296",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>特定環境下的轉移</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d539685b011707fd8b77",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>如果 golpasal Limited 對大部分資產進行出售、合併、兼併、控制權變更或轉移行為，或進行重組或清算，本公司將有權單方面決定將本網站上的或通過本網站傳輸的資訊（包括但不限於 PII 和其他資訊）轉移、出售或分配給相關的一個或多個第三方。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d5418afd780159f56afc",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>客戶服務</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d549d9101d2d21a34800",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>如果閣下有任何疑問或意見，歡迎在星期一至五下午 13:00-19:00（公眾假期除外）致電 +852 1234 5678聯絡我們的客戶服務。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+
+    {
+      "_id": "5fd9d550d070770c8c62d201",
+      "position": "",
+      "inlineStyle": "font-size: 24px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #333333;\nheight:40px;\nmargin-top:24px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "textEditor",
+      "data": {
+        "text": "<div>本私隱政策的變更</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5fd9d5598544f8fafd8fe14e",
+      "position": "",
+      "inlineStyle": {
+        "lg": "margin-bottom:54px;\nfont-size: 16px;\nfont-family:Adobe Heiti Std;\nfont-weight: 400;\ncolor: #666666;\nmargin-top:12px;\nline-height:24px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "textEditor",
+      "data": {
+        "text": "<div>請註意，本私隱政策是網站使用條款及細則的組成部分，將視為您與本公司之間協議的一部分。本公司有權單方面不時對本私隱政策作出更改。修訂後的私隱政策一經在本網站公佈即視為本私隱政策的更改生效。根據更改的性質，本公司將對更改作出如下公佈：（ 1 ）在本網站主頁上公佈，或（ 2 ）如果本公司存有您的電郵地址，將通過電郵通知。但是，無論在何種情況下，如您在更改作出後繼續使用本網站，即視為您同意此類更改。如果您不同意本私隱政策將不時作出全部或部分更改的條款，則您必須終止對本網站的使用。</div>\n"
+      },
+      "properties": [
+        {
+          "_id": "5e057ab7a2d2f3e559c602ff",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    }
+  ]
+}

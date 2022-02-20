@@ -1,0 +1,23 @@
+{
+  "model": "ShoppingCarts",
+  "documents": [
+    {
+      "_id": "5f1e8091627e697000092bb9",
+      "user": "5b2b43720b6fbf38cdcec90b",
+      "items": [
+        {
+          "qty": 1,
+          "_id": "5f1e80af627e697000092bbd",
+          "product": "5eb90a396c53d5c1d7bcc25a",
+          "productSku": "5ecc69309aa13aea67705483"
+        },
+        {
+          "qty": 1,
+          "_id": "5f1e80be627e697000092bbe",
+          "product": "5ecce52565de19502d04cce7",
+          "productSku": "5ecf3e089fc2ef5b03919704"
+        }
+      ]
+    }
+  ]
+}

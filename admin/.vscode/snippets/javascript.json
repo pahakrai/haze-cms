@@ -1,0 +1,154 @@
+{
+  "Console Log": {
+    "prefix": "log",
+    "body": "console.log('$1');$0"
+  },
+
+  "Import File": {
+    "prefix": "im",
+    "body": "import ${1} from '${2}${1}';$0"
+  },
+  "Import Local File": {
+    "prefix": "iml",
+    "body": "import ${1} from './${1}';$0"
+  },
+  "Import All": {
+    "prefix": "ima",
+    "body": "import * as ${1} from '${2}${1}';$0"
+  },
+  "Import Some": {
+    "prefix": "ims",
+    "body": "import {$1} from '$2';$0"
+  },
+  "Import App Components": {
+    "prefix": "imac",
+    "body": "import {$1} from 'app/components';$0"
+  },
+  "Index File": {
+    "prefix": "imi",
+    "body": [
+      "import ${1:MyComponent} from './${1:MyComponent}';",
+      "$0",
+      "export default ${1:MyComponent};"
+    ]
+  },
+
+  "Set State": {
+    "prefix": "sst",
+    "body": ["this.setState({", "  ${1}: $2", "});$0"]
+  },
+
+  "constructor": {
+    "prefix": "cstt",
+    "body": ["constructor(props) {", "  super(props);", "  $0", "}"]
+  },
+  "componentDidMount": {
+    "prefix": "cdm",
+    "body": ["componentDidMount() {", "  $0", "}"]
+  },
+
+  "componentWillUnmount": {
+    "prefix": "cwum",
+    "body": ["componentWillUnmount() {", "  $0", "}"]
+  },
+
+  "shouldComponentUpdate": {
+    "prefix": "scu",
+    "body": ["shouldComponentUpdate(nextProps, nextState) {", "  $0", "}"]
+  },
+
+  "componentWillUpdate": {
+    "prefix": "cwu",
+    "body": ["componentWillUpdate(nextProps, nextState?) {", "  $0", "}"]
+  },
+
+  "componentDidUpdate": {
+    "prefix": "cdu",
+    "body": ["componentDidUpdate(prevProps, prevState) {", "  $0", "}"]
+  },
+
+  "R Container Component": {
+    "prefix": "rcc",
+    "body": [
+      "import React from 'react';",
+      "import { connect } from 'react-redux';",
+      "import { bindActionCreators } from 'redux';",
+      "import styled from 'styled-components';",
+      "",
+      "const Container = styled.div``;",
+      "",
+      "class ${1:MyComponent}Container extends React.Component {",
+      "  render() {",
+      "    return (",
+      "      <Container>$0</Container>",
+      "    );",
+      "  }",
+      "}",
+      "",
+
+      "const mapStateToProps = () => ({});",
+      "const mapDispatchToProps = dispatch => bindActionCreators({}, dispatch);",
+      "export default connect(mapStateToProps, mapDispatchToProps)(",
+      "  ${1:MyComponent}Container",
+      ");"
+    ]
+  },
+
+  "R Component": {
+    "prefix": "rc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export default class ${1:MyComponent} extends React.Component {",
+      "  static propTypes = {};",
+      "",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        ${0}",
+      "      </div>",
+      "    );",
+      "  }",
+      "}",
+      ""
+    ]
+  },
+
+  "R Stateless Component": {
+    "prefix": "rsc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export default (props) => {",
+      "  return (",
+      "  <div>",
+      "    ${1:Page Content}",
+      "  </div>",
+      "  );",
+      "};",
+      ""
+    ]
+  },
+
+  "Styled Component": {
+    "prefix": "styd",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "export default styled.div`",
+      "  $0",
+      "`;"
+    ]
+  },
+
+  "Intl Messages": {
+    "prefix": "imsg",
+    "body": [
+      "import {defineMessages} from 'react-intl';",
+      "",
+      "export default defineMessages({",
+      "  $1",
+      "});"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+type Group {
+  _id: ID!
+  name: String!
+  users: [User]
+  workspace: ID!,
+  policies: [Policy]
+}
+type Query {
+  group: Group
+  groups: [Group]
+}
+type Mutation {
+  createGroup(name: String!, users: [ID], policies: [ID]): Group!
+  updateGroup(id: ID!, name: String, users: [ID], policies: [ID]): Group!
+}

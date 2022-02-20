@@ -1,0 +1,40 @@
+type DeviceLocation {
+  type: String
+  coordinates: [Float]
+  lastUpdate: Date
+}
+
+type Device {
+  _id: ID!
+  user: User
+  pushNotificationToken: String
+  deviceType: String
+  deviceName: String
+  lastOnTime: Date
+  online: Boolean
+  location: DeviceLocation
+  locale: String
+  deviceStatus: Float
+  scope: String
+}
+
+input RegisterDeviceModel {
+  _id: String
+  user: String
+  pushNotificationToken: String
+  deviceType: String
+  deviceName: String
+  lastOnTime: Date
+  online: Boolean
+  locale: String
+  scope: String
+}
+
+type Mutation {
+  updateDeviceState(deviceState: RegisterDeviceModel!): Device
+  updateDeviceLocation(
+    deviceId: String!
+    coordinates: [Float!]
+    heading: Float
+  ): Device
+}

@@ -1,0 +1,30 @@
+.image_list_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image_list_title h3 {
+  margin-bottom: 0px;
+}
+
+.widget_image_slick_editor_style,
+.widget_image_slick_editor_style > div,
+.widget_image_slick_editor_style > div > div,
+.widget_image_slick_editor_style > div > div > div,
+.widget_image_slick_editor_style > div > div > div > div {
+  height: 100%;
+}
+.slick-widget-form-modal {
+  width: 1246px !important;
+}
+.widget_image_slick_editor_style .widget_image_slick_item_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.media_library_container.slick_widget_image_tab {
+  flex-wrap: nowrap;
+  overflow: auto;
+}

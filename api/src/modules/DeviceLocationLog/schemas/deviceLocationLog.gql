@@ -1,0 +1,44 @@
+scalar Date
+
+type DeviceLocationLog {
+  _id: ID!
+}
+
+input DeviceLocationLogCreateModel {
+  name: String!
+}
+
+input DeviceLocationLogUpdateModel {
+  name: String
+}
+
+type PaginateDeviceLocationLog {
+  nodes: [DeviceLocationLog]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input DeviceLocationLogSearchModel {
+  name: String
+}
+
+type Query {
+  deviceLocationLog(id: ID!): DeviceLocationLog
+  deviceLocationLogs(
+    query: DeviceLocationLogSearchModel
+    paginate: Paginate
+  ): PaginateDeviceLocationLog
+}
+
+type Mutation {
+  createDeviceLocationLog(
+    deviceLocationLogCreateModel: DeviceLocationLogCreateModel
+  ): DeviceLocationLog
+  updateDeviceLocationLog(
+    id: ID!
+    deviceLocationLogUpdateModel: DeviceLocationLogUpdateModel
+  ): DeviceLocationLog
+}

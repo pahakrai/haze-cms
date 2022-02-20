@@ -1,0 +1,65 @@
+{
+  "version": "2019-06-25",
+  "templates": [
+    {
+      "worksheet": "RecruitmentReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "title"
+          },
+          {
+            "idx": 2,
+            "fieldName": "employmentType"
+          },
+          {
+            "idx": 3,
+            "fieldName": "industry"
+          },
+          {
+            "idx": 4,
+            "fieldName": "candidate"
+          },
+          {
+            "idx": 5,
+            "fieldName": "publisher"
+          },
+          {
+            "idx": 6,
+            "fieldName": "educationLevel"
+          },
+          {
+            "idx": 7,
+            "fieldName": "postStartDate"
+          },
+          {
+            "idx": 8,
+            "fieldName": "postEndDate"
+          },
+          {
+            "idx": 9,
+            "fieldName": "currency"
+          },
+          {
+            "idx": 10,
+            "fieldName": "minWage"
+          },
+          {
+            "idx": 11,
+            "fieldName": "maxWage"
+          },
+          {
+            "idx": 12,
+            "fieldName": "vacancy"
+          },
+          {
+            "idx": 13,
+            "fieldName": "status"
+          }
+        ]
+      }
+    }
+  ]
+}

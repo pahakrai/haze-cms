@@ -1,0 +1,1400 @@
+{
+  "_id": "5c91b4a722ef404da9298564",
+  "isTemplate": false,
+  "workspace": "5c91b4c11dd5438849a338b5",
+  "path": "/about",
+  "subPath": "",
+  "fromPageContent": null,
+  "globalWidgets": [],
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5c9b40c33829djk56313d38dk",
+        "direction": "column",
+        "widgets": ["5de60952afd43f61f0ab2554"]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5db2a9f5994e7c4aaabddef3",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 4em;\n    font-weight: 700;\n    margin: 50px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "en": {
+          "text": "About Us"
+        },
+        "zh-cn": {
+          "text": "关于我们"
+        },
+        "zh-hk": {
+          "text": "關於我們"
+        }
+      }
+    },
+    {
+      "_id": "5db2aa03994e7c4aaabddef5",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18.8px;\n    font-weight: 500;\n    line-height: 29px;margin-top:20px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "p",
+        "en": {
+          "text": "golpasal is a proficient web development company based in Hong Kong. We are formed by a group of specialists of website services, software application & mobile app development, as well as cloud computing service. We provide a wide variety of IT solutions comprising of professional analysis, web & application development, operations support systems and business support Systems, digital marketing design & planning, server and storage planning and cutting-edge technologies consultancy.\nWe treasure the relationship with our clients. We insist to provide high quality design and programming. With our flexible service, our client can enjoy a cost- effective service and get the best from their I.T. investment."
+        },
+        "zh-cn": {
+          "text": "golpasal是一家以香港为发展基地的科创公司，我们由一群精通网站服务，软件和移动应用程式开发，以及云端服务的专家所组成。我们提供多种不同的I.T解决方案，包括专业分析、网络和移动应用程式开发、运营系统、电子商务系统、电子市场规划和设计、服务器和存取计划，以及提供尖端技术咨询。\n我们十分珍视与客戶的关系，我们坚持提供高质的设计和应用系统。凭借我們灵活的服务范畴，我们的客戶可以享受到低成本高效益的服务，并从他们的I.T投资中获得最佳的成果。"
+        },
+        "zh-hk": {
+          "text": "golpasal是一家以香港為發展基地的科創公司，我們由一群精通網站服務，軟件和移動應用程式開發，以及雲端服務的專家所組成。我們提供多種不同的I.T解決方案，包括專業分析、網絡和移動應用程式開發、營運系統、電子商貿系統、電子市場規劃和設計、服務器和存取計劃，以及提供尖端技術諮詢。\n我們十分珍視與客戶的關係，我們堅持提供高質的設計和應用系統。憑藉我們靈活的服務範疇，我們的客戶可以享受到低成本高效益的服務，並從他們的I.T投資中獲得最佳的成果。"
+        }
+      }
+    },
+    {
+      "_id": "5de60952afd43f61f0ab2554",
+      "position": "",
+      "inlineStyle": "padding-top:64px;\npadding-bottom:64px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de60952afd43f61f0ab2551",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5de609e5afd43f61f0ab2558",
+                    "direction": "row",
+                    "widgets": ["5db2a9f5994e7c4aaabddef3"]
+                  },
+                  {
+                    "_id": "5de609c8afd43f61f0ab2556",
+                    "direction": "row",
+                    "widgets": ["5db2aa03994e7c4aaabddef5"]
+                  },
+                  {
+                    "_id": "5de60cd805e6f7fb0489fcaf",
+                    "direction": "row",
+                    "widgets": ["5de60cd405e6f7fb0489fcae"]
+                  },
+                  {
+                    "_id": "5de6253705e6f7fb0489fd1d",
+                    "direction": "row",
+                    "widgets": ["5de6253205e6f7fb0489fd1c"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de60952afd43f61f0ab2552",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de60952afd43f61f0ab2553",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de61fdf05e6f7fb0489fd04",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "4": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de61fdf05e6f7fb0489fd05",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "properties": [
+        {
+          "_id": "5e05781fa2d2f3e559c602f4",
+          "type": "boxed",
+          "data": {
+            "type": "inherit",
+            "centered": true
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5de60cd405e6f7fb0489fcae",
+      "position": "",
+      "inlineStyle": "margin:50px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/why-golpasal.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/why-golpasal.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/why-golpasal.png"
+        },
+        "width": "80%",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de614fa05e6f7fb0489fcbf",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/calvin-au.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/calvin-au.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/calvin-au.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de6150505e6f7fb0489fcc0",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Calvin Au"
+        },
+        "zh-cn": {
+          "text": "Calvin Au"
+        },
+        "zh-hk": {
+          "text": "Calvin Au"
+        }
+      }
+    },
+    {
+      "_id": "5de6150905e6f7fb0489fcc3",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "System architect"
+        },
+        "zh-cn": {
+          "text": "系统架构师"
+        },
+        "zh-hk": {
+          "text": "系統架構師"
+        }
+      }
+    },
+    {
+      "_id": "5de6175f05e6f7fb0489fccb",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Linker Lim"
+        },
+        "zh-cn": {
+          "text": "Linker Lim"
+        },
+        "zh-hk": {
+          "text": "Linker Lim"
+        }
+      }
+    },
+    {
+      "_id": "5de6176205e6f7fb0489fccc",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Senior App Developer"
+        },
+        "zh-cn": {
+          "text": "高级前端工程师"
+        },
+        "zh-hk": {
+          "text": "高級前端工程師"
+        }
+      }
+    },
+    {
+      "_id": "5de61e0905e6f7fb0489fcd0",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/linker.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/linker.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/linker.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de61e1205e6f7fb0489fcd2",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/casey.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/casey.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/casey.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de61e1505e6f7fb0489fcd3",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/calvin-wong.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/calvin-wong.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/calvin-wong.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de61e4405e6f7fb0489fcd4",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Casey Wang"
+        },
+        "zh-cn": {
+          "text": "Casey Wang"
+        },
+        "zh-hk": {
+          "text": "Casey Wang"
+        }
+      }
+    },
+    {
+      "_id": "5de61e4a05e6f7fb0489fcd7",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "APP Developer"
+        },
+        "zh-cn": {
+          "text": "手机应用程序工程师"
+        },
+        "zh-hk": {
+          "text": "手機應用程式工程師"
+        }
+      }
+    },
+    {
+      "_id": "5de61e5105e6f7fb0489fcd9",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Calvin Wong"
+        },
+        "zh-cn": {
+          "text": "Calvin Wong"
+        },
+        "zh-hk": {
+          "text": "Calvin Wong"
+        }
+      }
+    },
+    {
+      "_id": "5de61e5605e6f7fb0489fcdc",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Software Development Engineer"
+        },
+        "zh-cn": {
+          "text": "软件开发工程师"
+        },
+        "zh-hk": {
+          "text": "軟件開發工程師"
+        }
+      }
+    },
+    {
+      "_id": "5de61ec305e6f7fb0489fce5",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/pahak.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/pahak.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/pahak.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de61eda05e6f7fb0489fce6",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/steve.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/steve.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/steve.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de61edd05e6f7fb0489fce7",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/elsa.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/elsa.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/elsa.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de61ee105e6f7fb0489fce8",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/josie.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/josie.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/josie.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de61f8805e6f7fb0489fce9",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Pahak Rai"
+        },
+        "zh-cn": {
+          "text": "Pahak Rai"
+        },
+        "zh-hk": {
+          "text": "Pahak Rai"
+        }
+      }
+    },
+    {
+      "_id": "5de61f8d05e6f7fb0489fcec",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Web Developer"
+        },
+        "zh-cn": {
+          "text": "软件开发工程师"
+        },
+        "zh-hk": {
+          "text": "軟件開發工程師"
+        }
+      }
+    },
+    {
+      "_id": "5de61f9c05e6f7fb0489fcef",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Steve Yu"
+        },
+        "zh-cn": {
+          "text": "Steve Yu"
+        },
+        "zh-hk": {
+          "text": "Steve Yu"
+        }
+      }
+    },
+    {
+      "_id": "5de61fa005e6f7fb0489fcf2",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Web Developer"
+        },
+        "zh-cn": {
+          "text": "前端工程師"
+        },
+        "zh-hk": {
+          "text": "前端工程師"
+        }
+      }
+    },
+    {
+      "_id": "5de61fa505e6f7fb0489fcf4",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Elsa"
+        },
+        "zh-cn": {
+          "text": "Elsa"
+        },
+        "zh-hk": {
+          "text": "Elsa"
+        }
+      }
+    },
+    {
+      "_id": "5de61fa905e6f7fb0489fcf7",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Senior Project Coordinator"
+        },
+        "zh-cn": {
+          "text": "高级项目统筹"
+        },
+        "zh-hk": {
+          "text": "高級項目統籌"
+        }
+      }
+    },
+    {
+      "_id": "5de61fb305e6f7fb0489fcfa",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Josie Zhang"
+        },
+        "zh-cn": {
+          "text": "Josie Zhang"
+        },
+        "zh-hk": {
+          "text": "Josie Zhang"
+        }
+      }
+    },
+    {
+      "_id": "5de61fb905e6f7fb0489fcfd",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "UI/UX Designer"
+        },
+        "zh-cn": {
+          "text": "UI/UX设计师"
+        },
+        "zh-hk": {
+          "text": "UI/UX設計師"
+        }
+      }
+    },
+    {
+      "_id": "5de6202a05e6f7fb0489fd06",
+      "position": "",
+      "inlineStyle": "margin:10px auto;\nwidth: min-content;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/qiuying.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/qiuying.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/about/qiuying.png"
+        },
+        "width": "100px",
+        "height": "100px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de6202e05e6f7fb0489fd07",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-size: 1.3em;\n    font-weight: 700;\n    margin: 7px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Qiuying Chen"
+        },
+        "zh-cn": {
+          "text": "Qiuying Chen"
+        },
+        "zh-hk": {
+          "text": "Qiuying Chen"
+        }
+      }
+    },
+    {
+      "_id": "5de6203305e6f7fb0489fd0a",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(102, 102, 102);\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 26px;\n    margin: 0px;\n    display: block;\n    text-overflow: ellipsis;\n    overflow-wrap: break-word;\n    overflow: hidden;\n    height: 2.8em;\n    text-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "rgba(102,102,102,1)",
+        "en": {
+          "text": "Application Tester"
+        },
+        "zh-cn": {
+          "text": "测试工程师"
+        },
+        "zh-hk": {
+          "text": "測試工程師"
+        }
+      }
+    },
+    {
+      "_id": "5de6253205e6f7fb0489fd1c",
+      "position": "",
+      "inlineStyle": "margin-top:150px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "2",
+        "columnWidths": {
+          "0": "50.00",
+          "1": "50.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de6253205e6f7fb0489fd19",
+                "direction": "column",
+                "widgets": ["5de6254405e6f7fb0489fd1e"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de6253205e6f7fb0489fd1a",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5de62b8a05e6f7fb0489fd24",
+                    "direction": "row",
+                    "widgets": ["5de62b8505e6f7fb0489fd23"]
+                  },
+                  {
+                    "_id": "5df9d231729a3278bf13b41a",
+                    "direction": "row",
+                    "widgets": ["5df9d228729a3278bf13b419"]
+                  },
+                  {
+                    "_id": "5de62b8a05e6f7fb0489fd25",
+                    "direction": "row",
+                    "widgets": ["5de6255505e6f7fb0489fd22"]
+                  }
+                ]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de6253205e6f7fb0489fd1b",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "50.00",
+              "1": "50.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "0",
+              "1": "100"
+            },
+            "fixedHundredPercent": false
+          }
+        }
+      }
+    },
+    {
+      "_id": "5de6254405e6f7fb0489fd1e",
+      "position": "",
+      "inlineStyle": {
+        "lg": "margin-right:10vw",
+        "sm": "width:0;\noverflow: hidden;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/news/contact-us.png"
+        },
+        "width": "440px",
+        "height": "481px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de62b8505e6f7fb0489fd23",
+      "position": "",
+      "inlineStyle": "\n    color: rgb(51, 51, 51);\n    font-weight: 500;\n    margin: 4vh 0px;\n    text-align: center;\n    font-size: 40px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Contact Us Now!"
+        },
+        "zh-cn": {
+          "text": "现在联系我们！"
+        },
+        "zh-hk": {
+          "text": "現在聯繫我們！"
+        }
+      }
+    },
+    {
+      "_id": "5df9d228729a3278bf13b419",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "contactForm",
+      "data": {
+        "action": "url",
+        "submit": {
+          "_id": "5debcf86b9b983d997390632",
+          "position": "",
+          "inlineStyle": "",
+          "userPermission": {
+            "delete": true,
+            "edit": true,
+            "move": true
+          },
+          "hidden": false,
+          "mobileHidden": false,
+          "anchor": {
+            "hash": "",
+            "top": 0
+          },
+          "type": "button",
+          "data": {
+            "text": "提交",
+            "width": "133px",
+            "height": "43px",
+            "icon": {
+              "url": "",
+              "width": "20px",
+              "height": "20px"
+            },
+            "borderRadius": "8px",
+            "href": "",
+            "buttonType": "default",
+            "hrefTarget": "_blank",
+            "color": "#fff",
+            "supportJump": false,
+            "backgroundColor": "linear-gradient(90deg,rgba(242,122,56,1) 0%,rgba(237,73,94,1) 100%)"
+          }
+        },
+        "style": "style2",
+        "inputs": [
+          {
+            "label": "name",
+            "type": "input",
+            "value": "",
+            "placeholder": "enter name here",
+            "options": [],
+            "filedName": "",
+            "en": {
+              "label": "Name",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            },
+            "zh-cn": {
+              "label": "名称",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            },
+            "zh-hk": {
+              "label": "名稱",
+              "type": "input",
+              "placeholder": "enter name here",
+              "filedName": ""
+            }
+          },
+          {
+            "label": "to email",
+            "type": "input",
+            "value": "",
+            "placeholder": "enter email here",
+            "options": [],
+            "filedName": "",
+            "en": {
+              "label": "Email",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            },
+            "zh-cn": {
+              "label": "电子邮箱",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            },
+            "zh-hk": {
+              "label": "電子郵箱",
+              "type": "input",
+              "placeholder": "enter email here",
+              "filedName": ""
+            }
+          }
+        ],
+        "textarea": {
+          "label": "enter name here",
+          "rows": 7,
+          "en": {
+            "label": "What do you want to say?"
+          },
+          "zh-cn": {
+            "label": "你想说什么"
+          },
+          "zh-hk": {
+            "label": "你想說什麼？"
+          }
+        },
+        "message": {
+          "success": "enter success message here",
+          "failure": "enter success message here",
+          "en": {
+            "success": "Sent successfully!",
+            "failure": "Send failed!"
+          },
+          "zh-cn": {
+            "success": "发送成功!",
+            "failure": "发送失败!"
+          },
+          "zh-hk": {
+            "success": "發送成功!",
+            "failure": "發送失敗!"
+          }
+        },
+        "isButton": false,
+        "emailSettings": {
+          "emailTitle": "",
+          "toEmail": "business@golpasal.com",
+          "zh-cn": {
+            "emailTitle": "用户反馈"
+          },
+          "zh-hk": {
+            "emailTitle": "用戶反饋"
+          },
+          "en": {
+            "emailTitle": "customer feedback"
+          }
+        },
+        "en": {
+          "buttonText": "Send",
+          "requiredLabel": "Required",
+          "emailErrorLabel": "Email format error"
+        },
+        "zh-cn": {
+          "buttonText": "发送",
+          "requiredLabel": "必填",
+          "emailErrorLabel": "邮箱格式错误"
+        },
+        "zh-hk": {
+          "buttonText": "發送",
+          "requiredLabel": "必填",
+          "emailErrorLabel": "邮箱格式错误"
+        }
+      }
+    }
+  ]
+}

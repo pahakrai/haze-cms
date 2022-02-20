@@ -1,0 +1,210 @@
+{
+  "Console Log": {
+    "prefix": "log",
+    "body": "console.log(\"$1\");$0"
+  },
+  "Console Log 2": {
+    "prefix": "con",
+    "body": "console.log(\"$1\");$0"
+  },
+  "Console Tron Log": {
+    "prefix": "tlog",
+    "body": "console.tron.log(\"$1\");$0"
+  },
+
+  /* IMPORTS */
+  "Import File": {
+    "prefix": "im",
+    "body": "import ${1} from \"${2}${1}\";$0"
+  },
+  "Import Local File": {
+    "prefix": "iml",
+    "body": "import ${1} from \"./${1}\";$0"
+  },
+  "Import All": {
+    "prefix": "ima",
+    "body": "import * as ${1} from \"${2}${1}\";$0"
+  },
+  "Import Some": {
+    "prefix": "ims",
+    "body": "import {$1} from \"$2\";$0"
+  },
+  "Import From Root": {
+    "prefix": "imr",
+    "body": "import ${1} from \"~/${2}\";${0}"
+  },
+  "Import App Components": {
+    "prefix": "imc",
+    "body": "import {$1} from \"~/Components\";$0"
+  },
+  "Index File": {
+    "prefix": "imi",
+    "body": [
+      "/* @flow */",
+      "import ${1:MyComponent} from \"./${1:MyComponent}\";",
+      "$0",
+      "export default ${1:MyComponent};"
+    ]
+  },
+
+  /* COMPONENT METHODS */
+  "Set State": {
+    "prefix": "sst",
+    "body": ["this.setState({", "  ${1}: $2", "});$0"]
+  },
+
+  /* LIFECYCLE METHODS */
+  "constructor": {
+    "prefix": "cstt",
+    "body": ["constructor (props) {", "  super(props);", "  $0", "}"]
+  },
+
+  "componentDidMount": {
+    "prefix": "cdm",
+    "body": ["componentDidMount() {", "  $0", "}"]
+  },
+
+  "shouldComponentUpdate": {
+    "prefix": "scu",
+    "body": ["shouldComponentUpdate(nextProps, nextState) {", "  $0", "}"]
+  },
+
+  "componentWillUpdate": {
+    "prefix": "cwu",
+    "body": ["componentWillUpdate(nextProps, nextState) {", "  $0", "}"]
+  },
+
+  "componentDidUpdate": {
+    "prefix": "cdu",
+    "body": ["componentDidUpdate(prevProps, prevState) {", "  $0", "}"]
+  },
+
+  "RN Component": {
+    "prefix": "rnc",
+    "body": [
+      "import React, { PureComponent } from \"react\";",
+      "import PropTypes from \"prop-types\";",
+      "import { View } from \"react-native\";",
+      "",
+      "export default class $1 extends PureComponent {",
+      "  static propTypes = {};",
+      "",
+      "  static defaultProps = {};",
+      "",
+      "  render() {",
+      "    // const { } = this.props;",
+      "    ",
+      "    return (",
+      "      <View>",
+      "        $0",
+      "      </View>",
+      "    );",
+      "  }",
+      "}",
+      ""
+    ]
+  },
+
+  "RN Container Component": {
+    "prefix": "rncc",
+    "body": [
+      "import React, { PureComponent } from \"react\";",
+      "import { connect } from \"react-redux\";",
+      "import { bindActionCreators } from \"redux\";",
+      "import { View } from \"react-native\";",
+      "",
+      "// import Components",
+      "import Text from \"~/Components/Text\";",
+      "",
+      "class $1 extends PureComponent {",
+      "  static navigationOptions = () => {",
+      "    // const { params = {} } = navigation.state;",
+      "    return {};",
+      "  };",
+      "",
+      "  componentDidMount() {}",
+      "",
+      "  render() {",
+      "    return (",
+      "      <View>",
+      "        <Text>$1</Text>",
+      "      </View>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "const mapStateToProps = state => ({",
+      "  $0",
+      "});",
+      "const mapDispatchToProps = dispatch => bindActionCreators({}, dispatch);",
+      "export default connect(mapStateToProps, mapDispatchToProps)(",
+      "  $1",
+      ");"
+    ]
+  },
+
+  "RN stylesheet": {
+    "prefix": "style",
+    "body": [
+      "import {StyleSheet} from \"react-native\";",
+      "// import { Fonts, Colors, Metrics } from \"~/Themes\";",
+      "",
+      "export default StyleSheet.create({",
+      "  container: {",
+      "    $0",
+      "  }",
+      "});",
+      ""
+    ]
+  },
+
+  "Storybook": {
+    "prefix": "storybook",
+    "body": [
+      "import React from \"react\";",
+      "import { storiesOf } from \"@storybook/react-native\";",
+      "",
+      "import $1 from \"./$1\";",
+      "",
+      "storiesOf(\"$1\")",
+      "  .add(\"Default\", () => <$1$0 />)"
+    ]
+  },
+
+  "reduxsauce action": {
+    "prefix": "ract",
+    "body": [
+      "import { createActions } from \"reduxsauce\";",
+      "",
+      "export const { Types: $1Types, Creators: $1Actions } = createActions({",
+      "  sampleAction: [\"payloadFieldName\"]$0",
+      "});",
+      "",
+      "export default $1Actions;",
+      ""
+    ]
+  },
+
+  "reduxsauce reducer": {
+    "prefix": "rred",
+    "body": [
+      "import { createReducer } from \"reduxsauce\";",
+      "import Immutable from \"seamless-immutable\";",
+      "",
+      "import { setField } from \"../utils/reducer\";",
+      "import { $1Types } from \"./actions\";",
+      "",
+      "export const INITIAL_STATE = Immutable({",
+      "  fancyFieldNaMe: null",
+      "});",
+      "",
+      "export default createReducer(INITIAL_STATE, {",
+      "  [$1Types.SAMPLE_ACTION]: setField(",
+      "    \"fancyFieldNaMe\",",
+      "    \"payloadFieldName\"",
+      "  )",
+      "});",
+      ""
+    ]
+  }
+}

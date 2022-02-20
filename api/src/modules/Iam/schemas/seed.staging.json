@@ -1,0 +1,342 @@
+{
+  "model": "Iams",
+  "documents": [
+    {
+      "_id": "5f0d4b3e485c959b0f4a9d8e",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "5e9fcae14fc78a87a9bc4c43",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "GOLPASAL <no-reply@golpasal.com>",
+        "to": "support@golpasal.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d4b42b82c0b3984165820",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "DriKIDS <no-reply@golpasal.com>",
+        "to": "support@golpasal.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d4b471d241224f2153e68",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "Peacewms <no-reply@golpasal.com>",
+        "to": "support@peacewms.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d4b50b39419d47ad3fded",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "5ea7f40f68a8e97c03d55326",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "WTT <no-reply@golpasal.com>",
+        "to": "support@wtt.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d4b59981e4d76538b8009",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "GOLPASAL <no-reply@golpasal.com>",
+        "to": "support@golpasal.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d4b5e3d07e08edae63a31",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "5ea95dce2b462f77bf7acc04",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "Futuremakers’ First Job <no-reply@golpasal.com>",
+        "to": "support@golpasal.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "600faff2c623ea5f952abf22",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "5fe02d4db3ca9dfa8170b5ca",
+      "description": "aws ses iam (ses-smtp-user.taxiapp. Asia Pacific Singapore)",
+      "credentials": {
+        "name": "ses-smtp-user.taxiapp",
+        "accessKeyId": "190f08c83b7ad5c2f5be41f6d1d3d349fb0cc69545ecd2fb61795f2f2261f6fe",
+        "secretAccessKey": "0366efada8e28b38308c0e878cde4f60e12097ad606bca9ea1d2e1cbbb2ba8cae5799ae712dc3c20adb455ef1bb8c807"
+      },
+      "params": {
+        "from": "的士app (香港) <no-reply@golpasal.com>",
+        "to": "support@brilliantwealthytaxi@gmail.com",
+        "port": 587,
+        "host": "email-smtp.ap-southeast-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5fdc64a99b5e35844bf6021d",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "5fd83be73db74d57b304cb82",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "FS Travel <no-reply@golpasal.com>",
+        "to": "support@golpasal.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5a7d5ae798b823114db626a2",
+      "type": "AWS",
+      "subType": "s3",
+      "workspace": null,
+      "description": "aws s3 iam (s3-devcdn-golpasal)",
+      "credentials": {
+        "name": "s3-devcdn-golpasal",
+        "accessKeyId": "356f9a6e059cdfda46746420f859f0440abcc8295811aa802d562aba87e1dd82",
+        "secretAccessKey": "910305d08fcc7fe11753d6134e5987acc17f37ec6b85f9bb491702157de2b524055e7e3d4772fbd3d929afd7f094b16c"
+      },
+      "params": {
+        "region": "ap-southeast-1",
+        "bucket": "devcdn.golpasal.com",
+        "host": "https://devcdn.golpasal.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5a7d5ae798b823114db626ff",
+      "type": "AWS",
+      "subType": "sqs",
+      "workspace": null,
+      "description": "aws sqs iam (sqs-aws-dev)",
+      "credentials": {
+        "name": "sqs-aws-dev",
+        "accessKeyId": "26b4964d9d6f8ea68ca10b392b79f32a4a6e83a32e4f0f25bc5978aed4552c71",
+        "secretAccessKey": "2443749a6cbb02d16da3dd06cc9dc307fdeb28a95377711840359307bafc8c3c0173d168570be0b41a3149259a578453"
+      },
+      "params": {
+        "region": "ap-southeast-1"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d68807b2ea32e23825879",
+      "type": "SMS",
+      "workspace": "5e9fcae14fc78a87a9bc4c43",
+      "subType": "twilio",
+      "description": "sms using twilio (development)",
+      "credentials": {
+        "name": "sms-golpasal-twilio",
+        "accountSid": "6fdde39c7cb5762f82b0164b9a42f869d7f82e49c25eb78db8948bd5fca608b525dd30df7b76f7683c852edfea7fd3ba",
+        "authToken": "0c77471d754efa528bd9782683fa696dc9888c9cd21e640a5f479d8effef82115f0160de00b75a45e2eab1aa8df25a48",
+        "phoneNo": "+19514586259"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d687bcb4539e4bfaab684",
+      "type": "SMS",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "subType": "twilio",
+      "description": "sms using twilio (development)",
+      "credentials": {
+        "name": "sms-golpasal-twilio",
+        "accountSid": "6fdde39c7cb5762f82b0164b9a42f869d7f82e49c25eb78db8948bd5fca608b525dd30df7b76f7683c852edfea7fd3ba",
+        "authToken": "0c77471d754efa528bd9782683fa696dc9888c9cd21e640a5f479d8effef82115f0160de00b75a45e2eab1aa8df25a48",
+        "phoneNo": "+19514586259"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d687545d59376198339bc",
+      "type": "SMS",
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "subType": "twilio",
+      "description": "sms using twilio (development)",
+      "credentials": {
+        "name": "sms-golpasal-twilio",
+        "accountSid": "6fdde39c7cb5762f82b0164b9a42f869d7f82e49c25eb78db8948bd5fca608b525dd30df7b76f7683c852edfea7fd3ba",
+        "authToken": "0c77471d754efa528bd9782683fa696dc9888c9cd21e640a5f479d8effef82115f0160de00b75a45e2eab1aa8df25a48",
+        "phoneNo": "+19514586259"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d687053ac9d78899628c7",
+      "type": "SMS",
+      "workspace": "5ea7f40f68a8e97c03d55326",
+      "subType": "twilio",
+      "description": "sms using twilio (development)",
+      "credentials": {
+        "name": "sms-golpasal-twilio",
+        "accountSid": "6fdde39c7cb5762f82b0164b9a42f869d7f82e49c25eb78db8948bd5fca608b525dd30df7b76f7683c852edfea7fd3ba",
+        "authToken": "0c77471d754efa528bd9782683fa696dc9888c9cd21e640a5f479d8effef82115f0160de00b75a45e2eab1aa8df25a48",
+        "phoneNo": "+19514586259"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d686bea6264a9035e6676",
+      "type": "SMS",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "subType": "twilio",
+      "description": "sms using twilio (development)",
+      "credentials": {
+        "name": "sms-golpasal-twilio",
+        "accountSid": "6fdde39c7cb5762f82b0164b9a42f869d7f82e49c25eb78db8948bd5fca608b525dd30df7b76f7683c852edfea7fd3ba",
+        "authToken": "0c77471d754efa528bd9782683fa696dc9888c9cd21e640a5f479d8effef82115f0160de00b75a45e2eab1aa8df25a48",
+        "phoneNo": "+19514586259"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5f0d6866248d33e9788dca1e",
+      "type": "SMS",
+      "workspace": "5ea95dce2b462f77bf7acc04",
+      "subType": "twilio",
+      "description": "sms using twilio (development)",
+      "credentials": {
+        "name": "sms-golpasal-twilio",
+        "accountSid": "6fdde39c7cb5762f82b0164b9a42f869d7f82e49c25eb78db8948bd5fca608b525dd30df7b76f7683c852edfea7fd3ba",
+        "authToken": "0c77471d754efa528bd9782683fa696dc9888c9cd21e640a5f479d8effef82115f0160de00b75a45e2eab1aa8df25a48",
+        "phoneNo": "+19514586259"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "5fec39b6f571861de26a96d6",
+      "type": "SMS",
+      "workspace": "5fe02d4db3ca9dfa8170b5ca",
+      "subType": "twilio",
+      "description": "sms call using twilio (development)",
+      "credentials": {
+        "name": "sms-taxiapp-twilio",
+        "accountSid": "16526c1d43f9b862faf01788e2e139a4ba57f60bf8bb1c27987a787196658908c000e9b72c3e916766c3e8316cc0c092",
+        "authToken": "a7977b9b9b4b6738f3a07cf0c0af1f2024925dc08f26bd89e20b7bb0035cf6acabcf593d4a06b3093deed6d231f5138b",
+        "verifyServiceId": "aaa3913c01bd1d95b7174efd354d29728c1ba2ae55fa16a7f1d0482447d351cb7579c46a8fc604b7457c6497617fc205",
+        "phoneNo": "+19514586259"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "601bb2049723632eff5cdd76",
+      "type": "SMS",
+      "workspace": "5fe02d4db3ca9dfa8170b5ca",
+      "subType": "accessyou",
+      "description": "sms call using accessyou (production)",
+      "credentials": {
+        "name": "sms-taxiapp-accessyou",
+        "accountno": "58e36a7efadc725e69249eb3543a5f8b",
+        "user": "bca0ff70af770cffe1a44d0c34ea6f6e",
+        "pwd": "9a572d9f55b269a8a533daeb674fa43c"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "6059bcbe9c257defe1ed58f4",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "603c49b5db43c6f01a68c691",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "Wan Jhun Development Limited <no-reply@golpasal.com>",
+        "to": "support@golpasal.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    },
+    {
+      "_id": "6059bcf685907ab216b0e98c",
+      "type": "AWS",
+      "subType": "ses",
+      "workspace": "603c4a3dc77d84287d986486",
+      "description": "aws ses iam (ses-smtp-user.golpasal. N.Virginia)",
+      "credentials": {
+        "name": "ses-smtp-user.golpasal",
+        "accessKeyId": "bb0e90b852d080c1a74e75b4287cf2a7467f96229dd5b6612e9b7cd1551c815b",
+        "secretAccessKey": "10dfb447277ccf93455ed3138eb9b8234af0c4b38a4893193d3a66d2fce2ba4ca9fe605cd7e7f7793e37d93b6eb4292e"
+      },
+      "params": {
+        "from": "Gaam Sing Enginnering Limited <no-reply@golpasal.com>",
+        "to": "support@golpasal.com",
+        "port": 587,
+        "host": "email-smtp.us-east-1.amazonaws.com"
+      },
+      "isActive": true
+    }
+  ]
+}

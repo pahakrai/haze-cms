@@ -1,0 +1,63 @@
+import {WebSocketGateway, SubscribeMessage} from '@nestjs/websockets';
+import {AuthService} from '../Auth';
+
+import BaseSocket from '../../core/socket/base.socket';
+import SocketBucket from '../../core/socket/SocketBucket';
+import {forwardRef, Inject} from '@nestjs/common';
+
+const webSocketGatewayParams = [];
+if (process.env.SOCKET_PORT && process.env.SOCKET_PORT !== process.env.PORT) {
+  webSocketGatewayParams.push(parseInt(process.env.SOCKET_PORT, 10));
+}
+webSocketGatewayParams.push({namespace: 'userNotification'});
+
+@WebSocketGateway(...webSocketGatewayParams)
+export class UserNotificationSocket extends BaseSocket {
+  namespace: string = '/userNotification';
+  socketBucket: SocketBucket;
+
+  constructor(
+    @Inject(forwardRef(() => AuthService))
+    protected readonly authService: AuthService
+  ) {
+    super(authService);
+  }
+
+  @SubscribeMessage('sendNotification')
+  public sendNotification(client, {notification}) {
+    const {users, ...notificationWithoutUsers} = notification;
+    // go through each user, and emit to each of the sockets each user has
+
+    users.forEach(notificationUser => {
+      const userNotification = {
+        ...notificationWithoutUsers,
+        read: notificationUser.read
+      };
+      if (this.socketBucket.users[notificationUser.user]) {
+        this.socketBucket.users[notificationUser.user].sockets.forEach(soc => {
+          soc.emit(`${this.namespace}:receiveNotification`, userNotification);
+        });
+      }
+    });
+  }
+  @SubscribeMessage('updateNotification')
+  public updateNotification(client, {notification, users}) {
+    users.forEach(userId => {
+      if (this.socketBucket.users[userId]) {
+        this.socketBucket.users[userId].sockets.forEach(socket => {
+          socket.emit(`${this.namespace}:receiveNotification`, notification);
+        });
+      }
+    });
+  }
+  @SubscribeMessage('sendUserUnreadCount')
+  public unreadCount(client, {count, users}) {
+    users.forEach(userId => {
+      if (this.socketBucket.users[userId]) {
+        this.socketBucket.users[userId].sockets.forEach(socket => {
+          socket.emit(`${this.namespace}:receiveUnreadCount`, count);
+        });
+      }
+    });
+  }
+}

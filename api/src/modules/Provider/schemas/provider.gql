@@ -1,0 +1,35 @@
+input ProviderSignUpModel {
+  email: String!
+}
+
+input ProviderWorkspaceConfirmModel {
+  code: String
+  type: String
+  name: String
+  password: String!
+}
+
+type ProviderSignUpResponse {
+  user: User
+  workspace: Workspace
+  userToken: UserToken
+}
+
+type ProviderWorkspaceConfirmResponse {
+  workspace: Workspace
+  group: Group
+  workspaceSubscription: WorkspaceSubscription
+}
+
+type Mutation {
+  signUpProvider(signupModel: ProviderSignUpModel!): ProviderSignUpResponse
+  workspaceConfirm(
+    token: String!
+    options: ValidatePasscodeOptions
+    workspaceConfirm: ProviderWorkspaceConfirmModel
+  ): ProviderWorkspaceConfirmResponse
+  validatePasscodeToken(
+    token: String!
+    options: ValidatePasscodeOptions
+  ): PasscodeToken
+}

@@ -1,0 +1,156 @@
+<div id="pageFooter">
+  <div style="width: 100%;">
+    <%if (data.footerImage) { %>
+    <img
+      src="<%=data.footerImage%>"
+      style="
+        height: 150px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      "
+    />
+    <% } %>
+
+    <div style="position: absolute; bottom: 70px; padding-left: 60%;">
+      <table border:none cellspacing="0" cellpadding="0">
+        <tr>
+          <td style="padding: 0;">
+            <a
+              href="<%=data.instagramPath%>"
+              target="blank"
+              style="text-decoration: none;"
+            >
+              <img
+                src="<%=data.iconInstagram%>"
+                style="
+                  vertical-align: middle;
+                  height: 24px;
+                  margin-right: 4px;
+                  background: #e10980;
+                  border-radius: 4px;
+                "
+              />
+            </a>
+          </td>
+          <td style="padding: 0;">
+            <div
+              style="
+                border: 1px solid #d8d8d7;
+                border-radius: 4px;
+                font-size: 9px;
+                background: #ffffff;
+                height: 22px;
+              "
+            >
+              <div style="display: flex; display: -webkit-flex;">
+                <div
+                  style="
+                    font-family: Helvetica Neue;
+                    font-weight: bold;
+                    color: #504f4f;
+                    line-height: 24px;
+                    padding-left: 5px;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    width: 70px;
+                  "
+                >
+                  <%=data.instagramName%>
+                </div>
+                <div
+                  style="
+                    padding-top: 5px;
+                    padding-right: 4px;
+                    height: 10px;
+                    color: #d8d8d7;
+                  "
+                >
+                  |
+                </div>
+                <img
+                  src="<%=data.iconSearch%>"
+                  style="
+                    height: 10px;
+                    padding: 5px 5px 0px 0px;
+                    line-height: 24px;
+                  "
+                />
+              </div>
+            </div>
+          </td>
+          <td>
+            <div style="width: 50px;"></div>
+          </td>
+          <td style="padding: 0;">
+            <a
+              href="<%=data.facebookPath%>"
+              target="blank"
+              style="text-decoration: none;"
+            >
+              <img
+                src="<%=data.iconFacebook%>"
+                style="
+                  vertical-align: middle;
+                  height: 24px;
+                  margin-right: 4px;
+                  background: #3b5998;
+                  border-radius: 4px;
+                "
+              />
+            </a>
+          </td>
+          <td style="padding: 0;">
+            <div
+              style="
+                border: 1px solid #d8d8d7;
+                border-radius: 4px;
+                font-size: 9px;
+                background: #ffffff;
+                height: 22px;
+              "
+            >
+              <div style="display: flex; display: -webkit-flex;">
+                <div
+                  style="
+                    font-family: Helvetica Neue;
+                    font-weight: bold;
+                    color: #504f4f;
+                    line-height: 24px;
+                    padding-left: 5px;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    width: 70px;
+                  "
+                >
+                  <%=data.facebookName%>
+                </div>
+                <div
+                  style="
+                    padding-top: 5px;
+                    padding-right: 4px;
+                    height: 10px;
+                    color: #d8d8d7;
+                  "
+                >
+                  |
+                </div>
+                <img
+                  src="<%=data.iconSearch%>"
+                  style="
+                    height: 10px;
+                    padding: 5px 5px 0px 0px;
+                    line-height: 24px;
+                  "
+                />
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+.widget_folding_card_nav {
+  cursor: pointer;
+  padding: 25px 0 25px 0;
+  display: flex;
+  border-bottom: 1px solid #d5d5d5;
+}
+.widget_folding_card_subscript {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+}
+.widget_folding_card_title {
+  flex: 1;
+  padding-left: 15px;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.widget_folding_card_content {
+  cursor: pointer;
+  border-radius: 0 0 5px 5px;
+  padding: 15px 0 40px 25px;
+  font-size: 16px;
+}
+
+.widget_folding_card_content ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+  color: #666666;
+  font-size: 14px;
+  line-height: 30px;
+}

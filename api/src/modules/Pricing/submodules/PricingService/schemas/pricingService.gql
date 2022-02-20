@@ -1,0 +1,21 @@
+scalar Date
+
+type PricingService {
+  _id: ID!
+  pricing: Pricing
+  service: Service
+  workspace: Workspace
+}
+
+type PaginatePricingService {
+  nodes: [PricingService]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input PricingServiceSearchModel {
+  name: String
+}

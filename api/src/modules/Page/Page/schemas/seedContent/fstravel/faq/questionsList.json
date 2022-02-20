@@ -1,0 +1,616 @@
+{
+  "_id": "5ecf20c2e8309b65c8a39745",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5ecf20c2e8309b65c8a39746",
+        "direction": "column",
+        "widgets": ["5f169150055d75c0ffce1786"]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5f165ae96c8ff0f2ec03dbd8",
+      "position": "",
+      "inlineStyle": {
+        "lg": "max-width: 1280px;\nmargin: 0 auto;\npadding-top: 2%;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "foldingCard",
+      "data": {
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problem": {
+          "zh-hk": "除了所列價格之外，我還需要支付額外的費用嗎？",
+          "zh-cn": "除了所列价格之外，我还需要支付额外的费用吗？",
+          "en": "Are there any extra fees that I will have to pay on top of the listed price?"
+        },
+        "problemBgColor": "",
+        "open": true,
+        "iconBgColor": "#ee5959"
+      }
+    },
+    {
+      "_id": "5f165ae96c8ff0f2ec03dbd1",
+      "position": "",
+      "inlineStyle": {
+        "md": "padding-top: 10px;",
+        "lg": "max-width: 1280px;\nmargin: 0 auto;\npadding-top: 1%;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "foldingCard",
+      "data": {
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problem": {
+          "zh-hk": "我應該打印收據給導遊看嗎？",
+          "en": "Should I print a receipt to show the tour guide?",
+          "zh-cn": "我应该打印收据给导游看吗？"
+        },
+        "problemBgColor": "",
+        "open": false,
+        "iconBgColor": "#ee5959"
+      }
+    },
+    {
+      "_id": "5f165ae96c8ff0f2ec03dbd2",
+      "position": "",
+      "inlineStyle": {
+        "md": "padding-top: 10px;",
+        "lg": "max-width: 1280px;\nmargin: 0 auto;\npadding-top: 1%;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "foldingCard",
+      "data": {
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problem": {
+          "zh-hk": "我應該穿什麼？",
+          "en": "What should I wear?",
+          "zh-cn": "我应该穿什么？"
+        },
+        "problemBgColor": "",
+        "open": false,
+        "iconBgColor": "#ee5959"
+      }
+    },
+    {
+      "_id": "5f165ae96c8ff0f2ec03dbd3",
+      "position": "",
+      "inlineStyle": {
+        "md": "padding-top: 10px;",
+        "lg": "max-width: 1280px;\nmargin: 0 auto;\npadding-top: 1%;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "foldingCard",
+      "data": {
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problem": {
+          "zh-hk": "我需要帶些什麼？",
+          "en": "What do I need to bring?",
+          "zh-cn": "我需要带些什么？"
+        },
+        "problemBgColor": "",
+        "open": false,
+        "iconBgColor": "#ee5959"
+      }
+    },
+    {
+      "_id": "5f165ae96c8ff0f2ec03dbd4",
+      "position": "",
+      "inlineStyle": {
+        "md": "padding-top: 10px;",
+        "lg": "max-width: 1280px;\nmargin: 0 auto;\npadding-top: 1%;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "foldingCard",
+      "data": {
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problem": {
+          "zh-hk": "私人旅行需要多少錢？",
+          "en": "How much does it cost to do a private tour?",
+          "zh-cn": "私人旅行需要多少钱?"
+        },
+        "problemBgColor": "",
+        "open": false,
+        "iconBgColor": "#ee5959"
+      }
+    },
+    {
+      "_id": "5f169150055d75c0ffce1786",
+      "position": "",
+      "inlineStyle": {
+        "md": "padding: 2% 5% 2% 5%",
+        "lg": "font-family: Adobe Heiti Std!important;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "33.33",
+          "1": "33.33",
+          "2": "33.33"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "fixedHundredPercent": false,
+        "breakpoints": {
+          "md": {
+            "columnWidths": {
+              "0": "100.00"
+            },
+            "columnRatio": "even",
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          }
+        },
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5f169150055d75c0ffce1783",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5fec40073fa864b79fc296d4",
+                    "direction": "row",
+                    "widgets": ["5fec40043fa864b79fc296d3"]
+                  },
+                  {
+                    "_id": "5f1801cdba6fa36597d8deaa",
+                    "direction": "row",
+                    "widgets": ["5f165ae96c8ff0f2ec03dbd8"]
+                  },
+                  {
+                    "_id": "5f1801cdba6fa36597d8deab",
+                    "direction": "row",
+                    "widgets": ["5f1801beba6fa36597d8dea7"]
+                  },
+                  {
+                    "_id": "5f1801cdba6fa36597d8deaa",
+                    "direction": "row",
+                    "widgets": ["5f165ae96c8ff0f2ec03dbd1"]
+                  },
+                  {
+                    "_id": "5fec40273fa864b79fc296d6",
+                    "direction": "row",
+                    "widgets": ["5fec40243fa864b79fc296d5"]
+                  },
+                  {
+                    "_id": "5f1801cdba6fa36597d8deaa",
+                    "direction": "row",
+                    "widgets": ["5f165ae96c8ff0f2ec03dbd2"]
+                  },
+                  {
+                    "_id": "5f1801cdba6fa36597d8deaa",
+                    "direction": "row",
+                    "widgets": ["5f165ae96c8ff0f2ec03dbd3"]
+                  },
+                  {
+                    "_id": "5f1801cdba6fa36597d8deaa",
+                    "direction": "row",
+                    "widgets": ["5f165ae96c8ff0f2ec03dbd4"]
+                  },
+                  {
+                    "_id": "5fec40683fa864b79fc296d8",
+                    "direction": "row",
+                    "widgets": ["5fec40663fa864b79fc296d7"]
+                  },
+                  {
+                    "_id": "5fec40803fa864b79fc296da",
+                    "direction": "row",
+                    "widgets": ["5fec407b3fa864b79fc296d9"]
+                  },
+                  {
+                    "_id": "5fec40b73fa864b79fc296dd",
+                    "direction": "row",
+                    "widgets": ["5fec40b33fa864b79fc296dc"]
+                  },
+                  {
+                    "_id": "5fec40d93fa864b79fc296df",
+                    "direction": "row",
+                    "widgets": ["5fec40d63fa864b79fc296de"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5f169150055d75c0ffce1784",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5f169150055d75c0ffce1785",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "layout": {}
+    },
+    {
+      "_id": "5f1801beba6fa36597d8dea7",
+      "position": "",
+      "inlineStyle": {
+        "md": "padding-top: 10px;",
+        "lg": "max-width: 1280px;\nmargin: 0 auto;\npadding-top: 1%;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "foldingCard",
+      "data": {
+        "problem": {
+          "zh-hk": "我應該打印收據給導遊看嗎？",
+          "en": "Should I print a receipt to show the tour guide?",
+          "zh-cn": "我应该打印收据给导游看吗？"
+        },
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problemBgColor": "",
+        "open": false,
+        "iconBgColor": "#ee5959"
+      }
+    },
+    {
+      "_id": "5fec40043fa864b79fc296d3",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "h3",
+        "color": "#000",
+        "zh-hk": {
+          "text": "付款"
+        },
+        "zh-cn": {
+          "text": "付款"
+        },
+        "en": {
+          "text": "Payment"
+        }
+      }
+    },
+    {
+      "_id": "5fec40243fa864b79fc296d5",
+      "position": "",
+      "inlineStyle": {
+        "md": ""
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "md": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "60",
+          "marginRight": "0",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#000000",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        }
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "h3",
+        "color": "#000",
+        "zh-hk": {
+          "text": "準備"
+        },
+        "zh-cn": {
+          "text": "准备"
+        },
+        "en": {
+          "text": "Preparation"
+        }
+      }
+    },
+    {
+      "_id": "5fec40663fa864b79fc296d7",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "md": {
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "60",
+          "marginRight": "0",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "paddingLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#000000",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        }
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "left",
+        "heading": "h3",
+        "color": "#000",
+        "zh-hk": {
+          "text": "預約"
+        },
+        "zh-cn": {
+          "text": "预约"
+        },
+        "en": {
+          "text": "Reservation"
+        }
+      }
+    },
+    {
+      "_id": "5fec407b3fa864b79fc296d9",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "foldingCard",
+      "data": {
+        "problem": {
+          "zh-hk": "你們的退款政策是什麼？",
+          "zh-cn": "你们的退款政策是什么？",
+          "en": "What is your refund policy?"
+        },
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problemBgColor": "",
+        "open": false,
+        "iconBgColor": "#ee5959"
+      }
+    },
+    {
+      "_id": "5fec40b33fa864b79fc296dc",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "foldingCard",
+      "data": {
+        "problem": {
+          "zh-hk": "你們提供30天退款保證嗎？",
+          "zh-cn": "你们提供30天退款保证吗？",
+          "en": "Do you offer 30 days money back guarantee?"
+        },
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problemBgColor": "",
+        "open": false,
+        "iconBgColor": "#ee5959"
+      }
+    },
+    {
+      "_id": "5fec40d63fa864b79fc296de",
+      "position": "",
+      "inlineStyle": {
+        "lg": "padding-bottom: 50px;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "foldingCard",
+      "data": {
+        "problem": {
+          "zh-hk": "我需要預約嗎？",
+          "zh-cn": "我需要预约吗？",
+          "en": "Do I have to make a reservation?"
+        },
+        "reply": {
+          "zh-hk": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "zh-cn": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n",
+          "en": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua. Ut enim ad minim veniam.</p>\n"
+        },
+        "problemBgColor": "",
+        "open": false,
+        "iconBgColor": "#ee5959"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.widget_video_style {
+  height: inherit;
+  position: relative;
+}
+.page_display .widget_text_editor_style p {
+  font-size: inherit;
+}
+
+.widget_video_style img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+scalar Date
+
+type Follower {
+  _id: ID!
+  followee: User
+  follower: User
+  unfollowAt: Date
+  createdAt: Date
+  updatedAt: Date
+}
+
+type FollowRelationship {
+  _id: ID!
+  imFollowing: Boolean
+  followedMe: Boolean
+}
+
+type PaginateFollower {
+  nodes: [Follower]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+type Query {
+  isFollowing(follower: ID!, followee: ID!): Boolean
+  userFollowRelationship(userId: ID!, otherUsers: [ID!]!): [FollowRelationship]
+  userFollowers(userId: ID, paginate: Paginate): PaginateFollower
+  userFollowings(userId: ID, paginate: Paginate): PaginateFollower
+  userFollowersCount(userId: ID): Float
+  userFollowingsCount(userId: ID): Float
+}
+
+type Mutation {
+  follow(follower: ID, followee: ID): [FollowRelationship]
+  unfollow(follower: ID, followee: ID): [FollowRelationship]
+}
+
+type Subscription {
+  followerCountUpdate: Follower
+  userFollowed(userId: ID!): Follower
+  userUnfollowed(userId: ID!): Follower
+}

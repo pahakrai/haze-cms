@@ -1,0 +1,52 @@
+<%- include('../_layout/head') %>
+
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+      <table
+        border="0"
+        cellspacing="0"
+        cellpadding="0"
+        style="padding:2px 2px 0 2px;
+      margin: 0 auto;background-color: #F9F9F9; width: 600px"
+      >
+        <tbody style="background-color:#fff">
+          <tr>
+            <td style="padding: 0 0 0 10px;">
+              <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                <tbody>
+                  <tr>
+                    <td>
+                      <p style="margin-left: 15px;margin-bottom: 20px">
+                        <br />
+                        <strong><%=data.appName%> <%=data.emailType%></strong>
+                      </p>
+                      <div>
+                        <div style="min-height:75px;    margin-top: 40px;  text-indent: 25px;">
+                          <div>
+                            <h3><%=data.messageContent%></h3> 
+                          </div>
+                        </div>
+                      </div>
+                      <br />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  </body>
+</html>
+
+<%- include('../_layout/foot') %>

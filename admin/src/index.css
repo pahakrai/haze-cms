@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.stop-drag > p,
+.stop-drag > button,
+.stop-drag > div {
+  pointer-events: none;
+}
+.common-editor {
+  min-height: 300px !important;
+  max-height: 500px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+.rdw-editor-wrapper .rdw-dropdown-wrapper,
+.rdw-editor-wrapper .rdw-option-wrapper {
+  border: none !important;
+}
+.rdw-embedded-modal-header-option {
+  width: 100% !important;
+  align-items: start !important;
+}
+.page_editor_left_panel_tab_container {
+  height: calc(100% - 41px) !important;
+}

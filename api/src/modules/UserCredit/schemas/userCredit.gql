@@ -1,0 +1,44 @@
+scalar Date
+
+type UserCredit {
+  _id: ID!
+  user: User
+  transactionDate: Date
+  description: String
+  transactionType: String
+  amountType: String
+  currency: String
+  amount: Float
+  balance: Float
+}
+
+input UserCreditCreateModel {
+  name: String!
+}
+
+input UserCreditUpdateModel {
+  name: String
+}
+
+type PaginateUserCredit {
+  nodes: [UserCredit]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input UserCreditSearchModel {
+  userId: ID
+}
+
+type Query {
+  userCreditBalance(userId: ID!, amountType: String!, currency: String): Float
+  userCreditHistory(
+    userId: ID!
+    amountType: String!
+    currency: String
+    paginate: Paginate
+  ): PaginateUserCredit
+}

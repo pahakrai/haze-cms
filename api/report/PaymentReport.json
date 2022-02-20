@@ -1,0 +1,53 @@
+{
+  "version": "2020-11-24",
+  "templates": [
+    {
+      "worksheet": "PaymentReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "orderNo"
+          },
+          {
+            "idx": 2,
+            "fieldName": "receiptNo"
+          },
+          {
+            "idx": 3,
+            "fieldName": "client"
+          },
+          {
+            "idx": 4,
+            "fieldName": "date"
+          },
+          {
+            "idx": 5,
+            "fieldName": "paymentMethod"
+          },
+          {
+            "idx": 6,
+            "fieldName": "paymentStatus"
+          },
+          {
+            "idx": 7,
+            "fieldName": "amount"
+          },
+          {
+            "idx": 8,
+            "fieldName": "currency"
+          },
+          {
+            "idx": 9,
+            "fieldName": "remarks1"
+          },
+          {
+            "idx": 10,
+            "fieldName": "remarks2"
+          }
+        ]
+      }
+    }
+  ]
+}

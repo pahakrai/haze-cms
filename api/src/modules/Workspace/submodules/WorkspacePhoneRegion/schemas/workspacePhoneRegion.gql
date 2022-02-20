@@ -1,0 +1,55 @@
+scalar Date
+
+type WorkspacePhoneRegion {
+  _id: ID!
+  workspace: Workspace
+  phoneRegion: PhoneRegion
+  idx: Int
+  createdAt: Date
+  updatedAt: Date
+}
+
+input WorkspacePhoneRegionCreateModel {
+  workspace: String
+  phoneRegion: String
+  idx: Int
+}
+
+input WorkspacePhoneRegionUpdateModel {
+  workspace: String
+  phoneRegion: String
+  idx: Int
+}
+
+type PaginateWorkspacePhoneRegion {
+  nodes: [WorkspacePhoneRegion]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input WorkspacePhoneRegionSearchModel {
+  q: String
+  workspace: String
+}
+
+type Query {
+  workspacePhoneRegion(id: ID!): WorkspacePhoneRegion
+  workspacePhoneRegions(
+    query: WorkspacePhoneRegionSearchModel
+    paginate: Paginate
+    options: QueryOption
+  ): PaginateWorkspacePhoneRegion
+}
+
+type Mutation {
+  createWorkspacePhoneRegion(
+    workspacePhoneRegionCreateModel: WorkspacePhoneRegionCreateModel
+  ): WorkspacePhoneRegion
+  updateWorkspacePhoneRegion(
+    id: ID!
+    workspacePhoneRegionUpdateModel: WorkspacePhoneRegionUpdateModel
+  ): WorkspacePhoneRegion
+}

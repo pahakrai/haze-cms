@@ -1,0 +1,225 @@
+{
+  "_id": "5c91b4a722ef404da9298564",
+  "isTemplate": false,
+  "workspace": "5c91b4c11dd5438849a338b5",
+  "path": "/about",
+  "subPath": "",
+  "fromPageContent": null,
+  "globalWidgets": [],
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5c9b40c33829djk56313d38dk",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5c9b40c329d5656313d38dk4",
+            "direction": "row",
+            "widgets": [
+              {
+                "_id": "eeo240c329d56563hj3k49d",
+                "direction": "column",
+                "widgets": ["5c998603d55de26f326f127e"]
+              },
+              {
+                "_id": "eeo240c329d56563hj3k39d",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "eeo240c329ddd563hj3k39d",
+                    "direction": "row",
+                    "widgets": ["5c998614d55de26f326f127f"]
+                  },
+                  {
+                    "_id": "eeo240c329d56563hjjr4id",
+                    "direction": "row",
+                    "widgets": ["5c99861dd55de26f326f1280"]
+                  }
+                ]
+              },
+              {
+                "_id": "eeo240c329d56563hj3j59d",
+                "direction": "column",
+                "widgets": ["5c998631d55de26f326f1281"]
+              },
+              {
+                "_id": "eeo240c329d56563hk4j59d",
+                "direction": "column",
+                "widgets": ["eeo240c329d56563hk4j59d"]
+              },
+              {
+                "_id": "eeo240c329d56563l93j59d",
+                "direction": "column",
+                "widgets": ["eeo240c329d56563l93j59d"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5c998603d55de26f326f127e",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/icon_react.png",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5c998614d55de26f326f127f",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/icon_node.png",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5c99861dd55de26f326f1280",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/icon_aspnetcore.png",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5c998631d55de26f326f1281",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/icon_aspnetmvc.png",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "eeo240c329d56563hk4j59d",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/icon_aspnetcore.png",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "eeo240c329d56563l93j59d",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/icon_aspnetmvc.png",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    }
+  ]
+}

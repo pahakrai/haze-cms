@@ -1,0 +1,78 @@
+scalar Date
+scalar Upload
+
+type PostImage {
+  _id: ID
+  fileMeta: FileMeta
+}
+
+type Post {
+  _id: ID!
+  type: String
+  title: String
+  postDate: Date
+  snippets: String
+  likes: [User]
+  images: [PostImage]
+  content: String
+  priority: Float
+  isActive: Boolean
+  workspace: Workspace
+  createdBy: User
+  updatedBy: User
+  updatedAt: Date
+  createdAt: Date
+  updateDate: Date
+  createDate: Date
+  likeCount: Float
+  commentCount: Float
+  tags: [String]
+  platformTypes: [String]
+}
+
+type PaginatePost {
+  nodes: [Post]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input PostImageInput {
+  fileMeta: String
+}
+
+input PostInput {
+  content: String!
+  images: [PostImageInput]
+  postDate: Date
+  priority: Int
+  type: String
+  workspace: String
+}
+
+input PostSearchQuery {
+  q: String
+  isActive: Boolean
+  type: String
+  platformTypes: [String]
+}
+
+type Query {
+  postsByTag(tag: String!, paginate: Paginate): PaginatePost
+  feedPosts(paginate: Paginate): PaginatePost
+  feedFollowingPosts(paginate: Paginate, userId: String): PaginatePost
+  popularPosts(paginate: Paginate, excludeIds: [ID]): PaginatePost
+  post(id: String!): Post
+  posts(query: PostSearchQuery, paginate: Paginate): PaginatePost
+  postsByUser(userId: String!, paginate: Paginate): PaginatePost
+  postsLikeByUser(userId: String!, paginate: Paginate): PaginatePost
+  postsByUserCount(userId: String!): Float
+  postsLikeByUserCount(userId: ID!): Float
+}
+
+type Mutation {
+  togglePostLike(postId: String!, userId: String!): Post
+  createPost(files: [Upload!]!, postCreateModel: PostInput!): Post
+}

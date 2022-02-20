@@ -1,0 +1,57 @@
+<%- include('../_layout/head') %>
+
+<html>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+  />
+  <head>
+    <style>
+      table,
+      td,
+      p {
+        font-family: 'PingFangHK', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+      body {
+        background-color: #ffff;
+        padding: 16;
+      }
+    </style>
+  </head>
+  <body>
+    <table
+      cellspacing="0"
+      cellpadding="0"
+      style="padding: 2px;margin: 0 auto;background-color: #F9F9F9;"
+      width="600px"
+    >
+      <tbody style="background-color:#ffffff">
+        <tr>
+          <td style="padding-left: 25px;margin-bottom:30px;">
+            <p
+              style="color:#2D2D2D; font-size:16px;line-height:24px;margin-bottom: 16px"
+            >
+              <br />
+              <strong><%-data.greeting%>,</strong>
+            </p>
+            <p
+              style="color:#2D2D2D; font-size:16px;line-height:24px;margin-bottom: 30px"
+            >
+              <%-data.email_content%>
+            </p>
+            <p
+              style="color:#2D2D2D; font-size:16px;line-height:24px;margin-bottom: 30px"
+            >
+              <%-data.review_document%>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+<%- include('../_layout/foot') %>

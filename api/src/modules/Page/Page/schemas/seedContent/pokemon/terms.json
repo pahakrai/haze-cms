@@ -1,0 +1,91 @@
+{
+  "_id": "5e747ec29b06e3981c6752c9",
+  "isTemplate": false,
+  "subPath": "",
+  "fromPageContent": null,
+  "globalWidgets": [],
+  "layout": {
+    "boxed": true,
+    "marginUnit": "px",
+    "paddingUnit": "px",
+    "marginTop": 0,
+    "marginRight": 0,
+    "marginBottom": 0,
+    "marginLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5e747ec29b06e3981c6752b9",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5e9066b8f19cc96ddcea872d",
+            "direction": "row",
+            "widgets": ["5f97895f3511da21947f6084"]
+          }
+        ]
+      }
+    ]
+  },
+  "widgets": [
+    {
+      "_id": "5f97895f3511da21947f6084",
+      "position": "",
+      "inlineStyle": {
+        "lg": "font-size:16px"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "lg": {
+          "paddingLeft": "0",
+          "paddingTop": "0",
+          "paddingRight": "0",
+          "paddingBottom": "0",
+          "marginUnit": "px",
+          "paddingUnit": "px",
+          "marginTop": "0",
+          "marginRight": "0",
+          "marginBottom": "0",
+          "marginLeft": "0",
+          "borderTopWidth": "0",
+          "borderBottomWidth": "0",
+          "borderLeftWidth": "0",
+          "borderRightWidth": "0",
+          "borderStyle": "solid",
+          "borderColor": "#000000",
+          "backgroundType": "color",
+          "backgroundColor": "transparent",
+          "backgroundUri": "",
+          "backgroundSize": "cover",
+          "borderRadius": ""
+        }
+      },
+      "type": "textEditor",
+      "data": {
+        "zh-hk": {
+          "text": "<p class='text-center text-primary my-3'>Shopping Cart 條款及細則</p>"
+        },
+        "zh-cn": {
+          "text": "<p class='text-center text-primary my-3'>Shopping Cart 条款及细则</p>"
+        },
+        "en": {
+          "text": "<p class='text-center text-primary my-3'>Shopping Cart Terms & Condition</p>"
+        }
+      }
+    }
+  ]
+}

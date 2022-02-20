@@ -1,0 +1,1086 @@
+{
+  "model": "Products",
+  "documents": [
+    {
+      "name": {
+        "en": "dell",
+        "zh-hk": "戴尔",
+        "zh-cn": "戴尔"
+      },
+      "description": {
+        "en": "dell",
+        "zh-hk": "戴尔",
+        "zh-cn": "戴尔"
+      },
+      "content": {
+        "en": "dell",
+        "zh-hk": "戴尔",
+        "zh-cn": "戴尔"
+      },
+      "status": 0,
+      "_id": "5e9eb3e1f90722ad755ae799",
+      "_category": "Dell",
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "maxAllow": 0,
+      "platformTypes": ["admin", "web"],
+      "images": ["5eb92f668e65352876a3fe90", "5eb4e44e5cdf785ba1dafd65"],
+      "createdAt": "2020-04-21T08:50:41.886Z",
+      "updatedAt": "2020-04-21T08:50:41.886Z",
+      "priceRange": {
+        "min": 3299,
+        "max": 3299
+      }
+    },
+    {
+      "_id": "5eb90a396c53d5c1d7bcc25a",
+      "name": {
+        "en": "Dr Kids Easy Talk",
+        "zh-cn": "Dr Kids™ Easy Talk 幼儿英语启蒙课程",
+        "zh-hk": "Dr Kids™ Easy Talk 幼兒英語啓蒙課程"
+      },
+      "description": {
+        "en": "How can your children learn English while not being scared away by a dull and tense curriculum? We understand the real needs of parents and children. That is why we developed the Easy Talk course to create a pleasant and interactive learning environment for kids aged 2 to 4. The course makes it extremely interesting and entertaining for the kids to listen and speak English. What’s more, your kid is going to enjoy learning English right from the start.Unlike typical courses, Easy Talk aims to stimulate kids’ self-motivation, and makes the lessons fun. Easy Talk uses a series of self-published colourful storybooks. These books are filled with lovely cartoon characters and interesting storylines to attract kids so as to enhance their listening and speaking skills. Complemented with the other activities in class, the course also nurtures kids’ creativity and interpersonal skills, laying the foundation for their all-rounded development in future.",
+        "zh-cn": "作为家长的您,既希望孩子可以学好英语,又怕沉闷紧张的课程吓怕年幼子女？我们深明家长及小孩的真正需要,特设Easy Talk 幼儿课程,专为2至4岁小孩营造愉快互动的学习环境,以生动有趣的活动吸引幼儿听说英语,真正寓学习于娱乐,而更重要的是,让您的子女爱上英语,从小享受英语学习过程。",
+        "zh-hk": "作為家長的您,既希望孩子可以學好英語,又怕沉悶緊張的課程嚇怕年幼子女？我們深明家長及小孩的真正需要,特設Easy Talk 幼兒課程,專為2至4歲小孩營造愉快互動的學習環境,以生動有趣的活動吸引幼兒聽說英語,真正寓學習於娛樂,而更重要的是,讓您的子女愛上英語,從小享受英語學習過程。"
+      },
+      "_category": "KIDS",
+      "content": {
+        "en": "Easy TalkIn-house storybooks are used for Easy Talk. Each book consists of three interesting, positive stories with different themes and educational content that is of appropriate length. They are definitely the best materials for children’s English learning.",
+        "zh-cn": "Easy Talk课程用到的故事书全为自编教材,每本有三个主题故事,内容有趣正面,富教育意义,篇幅适当,绝对是适合小孩学习英语的最佳材料",
+        "zh-hk": "Easy Talk課程用到的故事書全為自編教材,每本有三個主題故事,內容有趣正面,富教育意義,篇幅適當,絕對是適合小孩學習英語的最佳材料"
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "images": ["5eb92f31e48f3ae987c0995b"],
+      "mediaList1": [
+        {
+          "image": "5f6b6625d110003be3d9a90c",
+          "description": "Easy Talk課程用到的故事書全為自編教材,每本有三個主題故事,內容有趣正面,富教育意義,篇幅適當,絕對是適合小孩學習英語的最佳材料"
+        }
+      ],
+      "mediaList2": [
+        {
+          "image": "5f6b6625d110003be311190c",
+          "description": "Easy Talk 封面"
+        },
+        {
+          "image": "5f6b6625d1100033e3d1190c",
+          "description": "Easy Talk 內頁1"
+        },
+        {
+          "image": "5f6b6625d1104033e3d1190c",
+          "description": "Easy Talk 內頁2"
+        }
+      ],
+      "platformTypes": ["admin", "web"],
+      "status": 1,
+      "priceRange": {
+        "min": 4000,
+        "max": 10000
+      }
+    },
+    {
+      "_id": "5eb90a236c53d5c1d7bcc25a",
+      "name": {
+        "en": "Blue skills",
+        "zh-cn": "上藍技巧",
+        "zh-hk": "上藍技巧"
+      },
+      "description": {
+        "en": "Blue skills",
+        "zh-cn": "上藍技巧",
+        "zh-hk": "上藍技巧"
+      },
+      "_category": "Group",
+      "content": {
+        "en": "",
+        "zh-cn": "",
+        "zh-hk": ""
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "images": ["5eb92f6c7ddad24361a6fb55"],
+      "platformTypes": ["admin", "web"],
+      "status": 1,
+      "priceRange": {
+        "min": 356,
+        "max": 356
+      }
+    },
+    {
+      "_id": "5eb20a396c53dbc1d7bcc25a",
+      "name": {
+        "en": "Basic exercises",
+        "zh-cn": "基本练习",
+        "zh-hk": "基本練習"
+      },
+      "description": {
+        "en": "Basic exercises",
+        "zh-cn": "基本练习",
+        "zh-hk": "基本練習"
+      },
+      "_category": "Training Camp",
+      "content": {
+        "en": "Basic exercises",
+        "zh-cn": "基本练习",
+        "zh-hk": "基本練習"
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "images": ["5eb92f668e65352876a3fe90"],
+      "platformTypes": ["admin", "web"],
+      "status": 1,
+      "priceRange": {
+        "min": 1400,
+        "max": 1400
+      }
+    },
+    {
+      "_id": "5eb90a296c53d4c1d7bcc25a",
+      "name": {
+        "en": "Projection skills",
+        "zh-cn": "投射技巧",
+        "zh-hk": "投射技巧"
+      },
+      "description": {
+        "en": "Projection skills",
+        "zh-cn": "投射技巧",
+        "zh-hk": "投射技巧"
+      },
+      "_category": "1 on 1",
+      "content": {
+        "en": "Projection skills",
+        "zh-cn": "投射技巧",
+        "zh-hk": "投射技巧"
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "images": ["5eb92f6c7ddad24361a6fb55"],
+      "platformTypes": ["admin", "web"],
+      "status": 1,
+      "priceRange": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    {
+      "_id": "5ecce20165de19502d04ccbc",
+      "name": {
+        "en": "Dr Kids™ Phonics and Phonetics Information",
+        "zh-hk": "Dr Kids™ 英語拼音課程",
+        "zh-cn": "Dr Kids™ 英语拼音课程"
+      },
+      "description": {
+        "en": "<p>Dr Kids™ Phonics &amp; Phonetics consists of 3 levels, Walker, Jogger, and finally Runner. After learning the entire Dr Kids™ Phonics &amp; Phonetics system, with the assistance of IPA, children will be able to pronounce all vocabulary easily.</p>",
+        "zh-hk": "<p>Dr Kids™ Phonics &amp; Phonetics 英語拼音課程一共分為三個級別,由初階至高階分別為Walker,Jogger及Runner。 當孩子學會全套Dr Kids™ 英語拼音系統,加上國際音標的輔助,拼讀所有英文生字都無難度。</p>",
+        "zh-cn": "<p>Dr Kids™Phonics &amp；Phonetics 英语拼音课程一共分为三个级别,由初阶至高阶分别为Walker,Jogger及Runner。当孩子学会全套Dr Kids™英语拼音系统,加上国际音标的辅助,拼读所有英文生字都无难度。</p>"
+      },
+      "content": {
+        "en": "<p>Dr Kids™ English Phonics &amp; Phonetics is written by scholars graduated from renowned universities, and English experts experienced in language teaching. The main editor has also edited the Oxford Dictionary. The difficulty of the course is progressive. Complemented with systematic teaching, children are able to learn and develop a solid foundation for blending.</p>",
+        "zh-hk": "<p>Dr Kids™ 英語拼音課程的教材由著名學府畢業的學者、資深語言教學專家合力編制,主編更曾為英國牛津字典編輯。課程由淺入深,再配合系統式教學,讓孩子能夠掌握拼音知識,穩固拼音法的根基。</p>",
+        "zh-cn": "<p>Dr Kids™英语拼音课程的教材由著名学府毕业的学者、资深语言教学专家合力编制,主编更曾为英国牛津字典编辑。课程由浅入深,再配合系统式教学,让孩子能够掌握拼音知识,稳固拼音法的根基。</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5facd8b07c7268a1cbc62653"],
+      "platformTypes": ["admin", "web"],
+      "status": 1,
+      "_category": "PRIMARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "priceRange": {
+        "min": 20,
+        "max": 2380
+      },
+      "createdAt": "2020-05-26T09:31:45.118Z",
+      "updatedAt": "2020-05-26T09:34:20.695Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ecce52565de19502d04cce7",
+      "name": {
+        "en": "Advanced Cambridge English",
+        "zh-hk": "高階劍橋英語課程",
+        "zh-cn": "高阶剑桥英语课程"
+      },
+      "description": {
+        "en": "<p>Advanced Cambridge English test is run by Cambridge English Language Assessment. It is an internationally recognised English test. The test consists of 3 levels: First level – KET, second level – PET, third level – FCE. This is the most trusted basic English certification for teenagers, and is widely recognised in the local academia. Candidates awarded KET certificate have achieved basic level of English writing and speaking; candidates awarded PET certificate have achieved intermediate level of English writing and speaking; candidates awarded FCE certificate have achieved upper intermediate level of English writing and speaking, and can communicate confidently in English.</p>",
+        "zh-hk": "<p>高階劍橋英語考試由劍橋大學考試局設立,為國際認可的英語測試,主要級別試分為第一級(KET 、第二級(PET及第三級(FCE ,為全球最具公信力的青少年基礎英語水平認證,亦獲本港學界廣泛承認。考獲KET證書的考生,表示該考生的日常英語寫作及會話程度已達到基礎水平；考獲PET證書的考生,表示該考生的日常英語寫作及會話程度已達到中級水平；考獲FCE證書的考生,表示該考生的日常英語寫作及會話程度已達到中高級水平,在大部份情境下可以自信地用英文進行溝通。</p>",
+        "zh-cn": "<p>高阶剑桥英语考试由剑桥大学考试局设立,为国际认可的英语测试,主要级别试分为第一级（KET）、第二级（PET）及第三级（FCE）,为全球最具公信力的青少年基础英语水平认证,亦获本港学界广泛承认。考获KET证书的考生,表示该考生的日常英语写作及会话程度已达到基础水平；考获PET证书的考生,表示该考生的日常英语写作及会话程度已达到中级水平；考获FCE证书的考生,表示该考生的日常英语写作及会话程度已达到中高级水平,在大部份情境下可以自信地用英文进行沟通。</p>"
+      },
+      "content": {
+        "en": "<p>Improve students' ability in listening, reading, writing and speaking effectively, so as to enhance their confidence in using English.</p><p>Include various English grammar and writing exercises to help students improve English proficiency.</p><p>Help students understand their strengths and weaknesses in using English, thereby gradually improves English competency.</p><p>Use textbooks published by Cambridge University Press to follow closely to the requirements of Cambridge English tests.</p>",
+        "zh-hk": "<p>有效提升學生的聆聽、閱讀、寫作及會話四方面的能力,增強學生對英語運用的信心。</p><p>包括不同英語文法及寫作運用,幫助學生提升校內英語成績。</p><p>協助學生了解自己在英語運用上的強弱,逐步提升英語能力。</p><p>採用劍橋大學出版社出版的教科書,保證緊貼劍橋英語級別試。</p><p>&nbsp;</p>",
+        "zh-cn": "<p>有效提升学生的聆听、阅读、写作及会话四方面的能力,增强学生对英语运用的信心。</p><p>包括不同英语文法及写作运用,帮助学生提升校内英语成绩。</p><p>协助学生了解自己在英语运用上的强弱,逐步提升英语能力。</p><p>采用剑桥大学出版社出版的教科书,保证紧贴剑桥英语级别试。</p><p>&nbsp；</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5facda8a8d02a94939b2b4b3"],
+      "platformTypes": ["admin", "web"],
+      "status": 1,
+      "_category": "SECONDARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "priceRange": {
+        "min": 220,
+        "max": 3330
+      },
+      "createdAt": "2020-05-26T09:45:09.595Z",
+      "updatedAt": "2020-05-26T09:45:09.595Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ecd1242d7e8ca5ac7360705",
+      "name": {
+        "en": "Private Training",
+        "zh-hk": "私人訓練",
+        "zh-cn": "私人训练"
+      },
+      "description": {
+        "en": "<p>We are offering personalised training for beginner, intermediate, and advanced players at Kidult Basketball.</p>",
+        "zh-hk": "<p>我們為Kidult籃球的初學者、中級和高級球員提供個人化培訓。</p>",
+        "zh-cn": "<p>我们为Kidult篮球的初学者、中级和高级球员提供个人化培训。</p>"
+      },
+      "content": {
+        "en": "<p>The program is based on highly focused workouts where the coaches at Kidult Basketball can provide detailed feedback on the area’s that need improvement in your game.</p><p>This is a comprehensive workout with a professional coach. Students will get a positive result in these criteria such as Strength, Flexibility, Mobility and Stability.</p>",
+        "zh-hk": "<p>該計畫基於高度集中的鍛煉,Kidult籃球的教練可以提供有關您需要改進的地方和詳細回顧</p><p>這是一個全面和專業的練練項目, 學生將在這些練習中獲得積極的成果,如力量、靈活性、流動性和穩定性。</p>",
+        "zh-cn": "<p>该计划基于高度集中的锻炼,Kidult篮球的教练可以提供有关您需要改进的地方和详细回顾</p><p>这是一个全面和专业的练练项目,学生将在这些练习中获得积极的成果,如力量、灵活性、流动性和稳定性。</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5eb92f668e65352876a3fe90"],
+      "status": 1,
+      "_category": "1 on 1",
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "platformTypes": ["admin", "web"],
+      "priceRange": {
+        "min": 30,
+        "max": 320
+      },
+      "createdAt": "2020-05-26T12:57:38.673Z",
+      "updatedAt": "2020-05-26T13:01:55.430Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ecd1acbd7e8ca5ac736071b",
+      "name": {
+        "en": "Basketball Academy",
+        "zh-hk": "藍球學院",
+        "zh-cn": "蓝球学院"
+      },
+      "description": {
+        "en": "<p>Regular basketball progpam</p>",
+        "zh-hk": "<p>常規籃球訓練課程</p>",
+        "zh-cn": "<p>常规篮球训练课程</p>"
+      },
+      "content": {
+        "en": "<p>Persistence is the way we can get better.</p>",
+        "zh-hk": "<p>堅持是我們變得更好的方法</p>",
+        "zh-cn": "<p>坚持是我们变得更好的方法</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5eb92f668e65352876a3fe90"],
+      "platformTypes": ["admin", "memberApp"],
+      "status": 1,
+      "_category": "Group",
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "priceRange": {
+        "min": 110,
+        "max": 320
+      },
+      "createdAt": "2020-05-26T13:34:03.204Z",
+      "updatedAt": "2020-05-26T13:34:03.204Z",
+      "__v": 0
+    },
+    {
+      "_id": "5ecd1fe7d7e8ca5ac736072e",
+      "name": {
+        "en": "Basketball Training Camp",
+        "zh-hk": "籃球訓練營",
+        "zh-cn": "篮球训练营"
+      },
+      "description": {
+        "en": "<p>Basketball Training Camp</p>",
+        "zh-hk": "<p>籃球訓練營</p>",
+        "zh-cn": "<p>篮球训练营</p>"
+      },
+      "content": {
+        "en": "<p>Basketball Training Camp</p>",
+        "zh-hk": "<p>籃球訓練營</p>",
+        "zh-cn": "<p>篮球训练营</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5eb92f668e65352876a3fe90"],
+      "platformTypes": ["admin", "memberApp"],
+      "status": 1,
+      "_category": "Training Camp",
+      "workspace": "5e9fcae14fc78a87a9bc4c22",
+      "priceRange": {
+        "min": 30,
+        "max": 240
+      },
+      "createdAt": "2020-05-26T13:55:51.107Z",
+      "updatedAt": "2020-05-26T13:55:51.107Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f212d886a17f8193ee80405",
+      "name": {
+        "en": "Cambridge Englilsh",
+        "zh-hk": "初階劍橋英語課程",
+        "zh-cn": "初阶剑桥英语课程"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Cambridge English: Young Learners English (YLE was established by Cambridge English Language Assessment. It is an internationally recognized English test that assesses students aged 4 or above on listening, speaking, reading and writing. The examination consists of three levels: Starters, Movers and Flyers. Candidates will receive an internationally recognized certificate as a proof of their English level.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">劍橋英語：基礎考試（YLE）由劍橋大學考試局設立,為國際認可的英語測試,專為評估四歲或以上學童在英語聽、說、讀、寫四方面的能力而設。考試分為三個級別,: 基礎考試第一級（Starters）、第二級（Movers）、第三級（Flyers）。在劍橋英語考試取得佳績的考生,將獲得國際認可證書,以證明其英語水平。</span></p>",
+        "zh-cn": "<p>剑桥英语：基础考试（YLE）由剑桥大学考试局设立,为国际认可的英语测试,专为评估四岁或以上学童在英语听丶说丶读丶写四方面的能力而设。考试分为三个级别,: 基础考试第一级（Starters）丶第二级（Movers）丶第三级（Flyers）。在剑桥英语考试取得佳绩的考生,将获得国际认可证书,以证明其英语水平。</p>"
+      },
+      "content": {
+        "en": "<p><span style=\"color:rgb(51,51,51;\">N1 – K2 students can take Pre-starters course to better prepare for Starters level. K2 – P6 students can take Starters, Movers and Flyers. In addition, after completing Flyers, students may also take advanced Cambridge English courses, e.g. KET, PET and FCE.</span></p>",
+        "zh-hk": "<p><span style=\"color:rgb(51,51,51;\">N1 – K2的學生可先報讀Pre-starters課程,為升讀Starters預先作好準備,考取更好成績。K2至小六的學生可報讀 Starters, Movers及 Flyers。另外,學生完成Flyers後,更可報讀高階劍橋英語課程 KET, PET 及 FCE。</span></p>",
+        "zh-cn": "<p>N1 － K2的学生可先报读Pre-starters课程,为升读Starters预先作好准备,考取更好成绩。K2至小六的学生可报读 Starters, Movers及 Flyers。另外,学生完成Flyers後,更可报读高阶剑桥英语课程 KET, PET 及 FCE。</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "KIDS",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 2000,
+        "max": 3600
+      },
+      "createdAt": "2020-07-29T08:04:24.834Z",
+      "updatedAt": "2020-07-29T08:04:24.834Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f2131b46a17f8193ee80428",
+      "name": {
+        "en": "GAPSK Mandarin for Kids",
+        "zh-hk": "幼兒GAPSK 普通話證書課程",
+        "zh-cn": "幼儿GAPSK 普通话证书课程"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Dr I-Kids Education Centre is a recognised partner of GAPSK examination committee. We are committed to providing professional Mandarin teaching, such that students can improve their Mandarin proficiency while earning an accredited certificate and prepare for further studies. The Centre also actively encourages and supports students to participate in various types of Mandarin competitions, so that students can receive professional affirmations of their Mandarin proficiency.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">智趣小博士教育中心為 GAPSK 考試委員會認可之合作伙伴, 一直以來致力為學生提供專業的普通話教學,提升學生的普通話水平同時,為考取認可證書及升學作好準備。本中心亦積極鼓勵及支持學生參與不同類形的普通話比賽,讓學生得到普通話的專業肯定。</span></p>",
+        "zh-cn": "<p>智趣小博士教育中心为 GAPSK 考试委员会认可之合作伙伴, 一直以来致力为学生提供专业的普通话教学,提升学生的普通话水平同时,为考取认可证书及升学作好准备。本中心亦积极鼓励及支持学生参与不同类形的普通话比赛,让学生得到普通话的专业肯定。</p>"
+      },
+      "content": {
+        "en": "<p><strong>Why GAPSK?</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">General Aptitude Putonghua Shuiping Kaoshi (GAPSK is developed by the Language Education Research Institute of Peking University as a new indicator of primary and secondary school students’ Mandarin proficiency. The result can be regarded as a recognition of candidates’ Mandarin ability for their studies or career.</span><br><strong>GAPSK Kindergarten</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Organised by the examination committee, this level can be taken by any K1, K2 or K3 students. The exam comprises listening and speaking skills, which are assessed through a number of games.</span><br><strong>GAPSK Primary &amp; Secondary</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">This test includes written and oral parts. The written test aims to assess candidates’ listening skills, pinyin as well as Mandarin grammar. The oral test focuses on reading words, short sentences (or short passages, self introduction and speaking.</span><br><strong>Results certificate</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Results of GAPSK exams will be released 6 to 8 weeks after the examination.</span><br><strong>Level certificate</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Students achieving 60 marks or above will receive the results certificate as well as a level certificate co-issued by the Language Education Research Institute of Peking University and the GAPSK examination committee.</span></p>",
+        "zh-hk": "<p><strong>為何選擇GAPSK？</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">港澳地區中小學生普通話水平測試考試（GAPSK）,由北京大學語文教育研究所研發,作為全港澳中小學生普通話能力的一個新指標,成績更可作為學生升學或投身社會時的普通話語言能力的認證。</span><br><strong>GAPSK幼稚園普通話水平考試</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">由考試委員會舉辦,任何幼稚園K1、K2或K3學童均可報考。內容分聆聽及說話兩部份,以遊戲形式重點評估學生聽、說普通話的能力。</span><br><strong>GAPSK中小學普通話水平考試</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">考試形式包括筆試及口試,筆試主要考核考生的聆聽能力、拼音和普通話語法知識。口試考核範圍包括朗讀字詞、短句（或短文）、自我介紹和自由說話的能力。</span><br><strong>成績證書</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">GAPSK 考試成績於考試日之後六至八個星期會有結果。</span><br><strong>等級證書</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">凡考獲60分或以上,將獲得成績證書以及由北京大學語文教育研究所及GAPSK考試委員會共同頒發的等級證書。</span></p>",
+        "zh-cn": "<p>为何选择GAPSK？港澳地区中小学生普通话水平测试考试（GAPSK）,由北京大学语文教育研究所研发,作为全港澳中小学生普通话能力的一个新指标,成绩更可作为学生升学或投身社会时的普通话语言能力的认证。GAPSK幼稚园普通话水平考试由考试委员会举办,任何幼稚园K1丶K2或K3学童均可报考。内容分聆听及说话两部份,以游戏形式重点评估学生听丶说普通话的能力。GAPSK中小学普通话水平考试考试形式包括笔试及口试,笔试主要考核考生的聆听能力丶拼音和普通话语法知识。口试考核范围包括朗读字词丶短句（或短文）丶自我介绍和自由说话的能力。成绩证书GAPSK 考试成绩於考试日之後六至八个星期会有结果。等级证书凡考获60分或以上,将获得成绩证书以及由北京大学语文教育研究所及GAPSK考试委员会共同颁发的等级证书。</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "KIDS",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 2200,
+        "max": 3000
+      },
+      "createdAt": "2020-07-29T08:22:12.887Z",
+      "updatedAt": "2020-07-29T08:22:12.887Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f2133806a17f8193ee80441",
+      "name": {
+        "en": "Handwriting and Word Recognition for Kids",
+        "zh-hk": "幼兒硬筆認字班",
+        "zh-cn": "幼儿硬笔认字班"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">The course encourages children to recognize and write Chinese words in a fun and easy way. Children will practice proper writing postures and increase their ability in reading Chinese, preparing them for primary Chinese curriculum.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">以輕鬆有趣的練習模式鼓勵幼兒學習中文,培養良好的書寫習慣及提升認讀中文字的能力,穩固語文基礎,為入學做足準備。</span></p>",
+        "zh-cn": "<p>以轻松有趣的练习模式鼓励幼儿学习中文,培养良好的书写习惯及提升认读中文字的能力,稳固语文基础,为入学做足准备。</p>"
+      },
+      "content": {
+        "en": "<p>Train to write in proper posture and correct stroke order.</p><p>Arouse students’ writing interest through fun exercises.</p><p>Strengthen hand muscle and eye-hand coordination through coloring and tracing lines.</p><p>Understand and memorize complex words as images.</p>",
+        "zh-hk": "<p>教授孩子掌握正確的筆順及姿勢</p><p>透過趣味性的題目及練習,提高孩子對寫字的興趣</p><p>填色及連線練習有效訓練手部肌肉,有助手眼協調能力的發展</p><p>把結構複雜的中文字圖像化,使孩子更易理解字詞的意思</p>",
+        "zh-cn": "<p>教授孩子掌握正确的笔顺及姿势</p><p>透过趣味性的题目及练习,提高孩子对写字的兴趣</p><p>填色及连线练习有效训练手部肌肉,有助手眼协调能力的发展</p><p>把结构复杂的中文字图像化,使孩子更易理解字词的意思</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "KIDS",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 1800,
+        "max": 3000
+      },
+      "createdAt": "2020-07-29T08:29:52.431Z",
+      "updatedAt": "2020-07-29T08:29:52.431Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f2136336a17f8193ee8045c",
+      "name": {
+        "en": "Maths for Kids",
+        "zh-hk": "幼兒數學基礎班",
+        "zh-cn": "幼儿数学基础班"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">The course will teach students basic mathematical concepts, including shapes, symmetry, and the relationship between numbers and values. It will also teach students basic arithmetic operations to prepare for primary school curriculum.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">教授基礎的數學概念,包括圖形、對稱,亦會認識數字與數值之間的關係,並教授基礎的運算技巧,為小學課程作準備。</span></p>",
+        "zh-cn": "<p>教授基础的数学概念,包括图形丶对称,亦会认识数字与数值之间的关系,并教授基础的运算技巧,为小学课程作准备。</p>"
+      },
+      "content": {
+        "en": "<p>Step by step approach.</p><p>Lively teaching style.</p><p>Effectively improve students’ school performance.</p><p>Train students’ logical thinking and reasoning.</p>",
+        "zh-hk": "<p>訓練多思考,細心計</p><p>教學活潑生動,提升學習興趣</p><p>啟發學生思維及邏輯分析</p><p>誘導學生主動學習及思考</p>",
+        "zh-cn": "<p>训练多思考,细心计</p><p>教学活泼生动,提升学习兴趣</p><p>启发学生思维及逻辑分析</p><p>诱导学生主动学习及思考</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5facda915ab46e2088bf41ad"],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "KIDS",
+      "mediaList1": [
+        {
+          "_id": "5f2136336a17f8193ee8045d",
+          "image": "5f2136256a17f8193ee8045a",
+          "description": "Maths for Kids 课程视频"
+        }
+      ],
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList2": [],
+      "priceRange": {
+        "min": 3000,
+        "max": 4800
+      },
+      "createdAt": "2020-07-29T08:41:23.456Z",
+      "updatedAt": "2020-07-29T08:41:23.456Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f213de46a17f8193ee80476",
+      "name": {
+        "en": "Primary GAPSK Mandarin",
+        "zh-hk": "小學GAPSK 普通話證書課程",
+        "zh-cn": "小学GAPSK 普通话证书课程"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Dr I-Kids Education Centre is a recognised partner of GAPSK examination committee. We are committed to providing professional Mandarin teaching, such that students can improve their Mandarin proficiency while earning an accredited certificate and prepare for further studies. The Centre also actively encourages and supports students to participate in various types of Mandarin competitions, so that students can receive professional affirmations of their Mandarin proficiency.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">智趣小博士教育中心為 GAPSK 考試委員會認可之合作伙伴, 一直以來致力為學生提供專業的普通話教學,提升學生的普通話水平同時,為考取認可證書及升學作好準備。本中心亦積極鼓勵及支持學生參與不同類形的普通話比賽,讓學生得到普通話的專業肯定。</span></p>",
+        "zh-cn": "<p>智趣小博士教育中心为 GAPSK 考试委员会认可之合作伙伴, 一直以来致力为学生提供专业的普通话教学,提升学生的普通话水平同时,为考取认可证书及升学作好准备。本中心亦积极鼓励及支持学生参与不同类形的普通话比赛,让学生得到普通话的专业肯定。</p>"
+      },
+      "content": {
+        "en": "<p><strong>Why GAPSK?</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">General Aptitude Putonghua Shuiping Kaoshi (GAPSK is developed by the Language Education Research Institute of Peking University as a new indicator of primary and secondary school students’ Mandarin proficiency. The result can be regarded as a recognition of candidates’ Mandarin ability for their studies or career.</span><br><strong>GAPSK Kindergarten</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Organised by the examination committee, this level can be taken by any K1, K2 or K3 students. The exam comprises listening and speaking skills, which are assessed through a number of games.</span><br><strong>GAPSK Primary &amp; Secondary</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">This test includes written and oral parts. The written test aims to assess candidates’ listening skills, pinyin as well as Mandarin grammar. The oral test focuses on reading words, short sentences (or short passages, self introduction and speaking.</span><br><strong>Results certificate</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Results of GAPSK exams will be released 6 to 8 weeks after the examination.</span><br><strong>Level certificate</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Students achieving 60 marks or above will receive the results certificate as well as a level certificate co-issued by the Language Education Research Institute of Peking University and the GAPSK examination committee.</span></p>",
+        "zh-hk": "<p>為何選擇GAPSK？</p><p>港澳地區中小學生普通話水平測試考試（GAPSK）,由北京大學語文教育研究所研發,作為全港澳中小學生普通話能力的一個新指標,成績更可作為學生升學或投身社會時的普通話語言能力的認證。</p><p>GAPSK幼稚園普通話水平考試</p><p>由考試委員會舉辦,任何幼稚園K1、K2或K3學童均可報考。內容分聆聽及說話兩部份,以遊戲形式重點評估學生聽、說普通話的能力。</p><p>GAPSK中小學普通話水平考試</p><p>考試形式包括筆試及口試,筆試主要考核考生的聆聽能力、拼音和普通話語法知識。口試考核範圍包括朗讀字詞、短句（或短文）、自我介紹和自由說話的能力。</p><p>成績證書</p><p>GAPSK 考試成績於考試日之後六至八個星期會有結果。</p><p>等級證書</p><p>凡考獲60分或以上,將獲得成績證書以及由北京大學語文教育研究所及GAPSK考試委員會共同頒發的等級證書。</p>",
+        "zh-cn": "<p>为何选择GAPSK？</p><p>港澳地区中小学生普通话水平测试考试（GAPSK）,由北京大学语文教育研究所研发,作为全港澳中小学生普通话能力的一个新指标,成绩更可作为学生升学或投身社会时的普通话语言能力的认证。</p><p>GAPSK幼稚园普通话水平考试</p><p>由考试委员会举办,任何幼稚园K1丶K2或K3学童均可报考。内容分聆听及说话两部份,以游戏形式重点评估学生听丶说普通话的能力。</p><p>GAPSK中小学普通话水平考试</p><p>考试形式包括笔试及口试,笔试主要考核考生的聆听能力丶拼音和普通话语法知识。口试考核范围包括朗读字词丶短句（或短文）丶自我介绍和自由说话的能力。</p><p>成绩证书</p><p>GAPSK 考试成绩於考试日之後六至八个星期会有结果。</p><p>等级证书</p><p>凡考获60分或以上,将获得成绩证书以及由北京大学语文教育研究所及GAPSK考试委员会共同颁发的等级证书。</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "PRIMARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 1500,
+        "max": 2400
+      },
+      "createdAt": "2020-07-29T09:14:12.804Z",
+      "updatedAt": "2020-07-29T09:14:12.804Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f21495c6a17f8193ee8048f",
+      "name": {
+        "en": "Longman PTE",
+        "zh-hk": "朗文PTE英語考試證書課程",
+        "zh-cn": "朗文PTE英语考试证书课程"
+      },
+      "description": {
+        "en": "<p>The PTE Pearson Test of English is an international English proficiency test for children aged 5 to 12 years. The test is conducted in a relaxed and fun manner to comprehensively test children’s reading, writing, listening and speaking skills. PTE is internationally recognised as an indicator of the language proficiency of primary school children prospecting to study abroad. The certification would therefore be helpful to children’s application to their favourite schools.<br>The test is divided into written and oral parts. The written test comprises reading, writing and listening. The test background is based on the story of the Brown family. The oral test assesses the candidates’ verbal communication ability through their English presentation, as well as their interaction with other candidates during a board game.</p>",
+        "zh-hk": "<p>PTE 兒童英語考試 (Pearson Test of English,是專為 5 至 12 歲兒童而設的國際英語水平測試。考試以輕鬆、富趣味的形式進行,全面測試兒童的讀、寫、聽、說。PTE 兒童英語考試獲國際認證,可作為小學生海外升學的語言能力評核指標,幫助兒童入讀心儀的學校。<br>考試分筆試及口試兩部分,筆試分為讀、寫、聽能力三個方面,以布朗家庭的生活故事為背景主題； 口試則評核考生的口語溝通能力,評分根據考生的英語匯報 (presentation,以及參與棋盤遊戲 (board game 時與其他考生互動的表現。</p>",
+        "zh-cn": "<p>PTE 儿童英语考试 (Pearson Test of English,是专为 5 至 12 岁儿童而设的国际英语水平测试。考试以轻松丶富趣味的形式进行,全面测试儿童的读丶写丶听丶说。PTE 儿童英语考试获国际认证,可作为小学生海外升学的语言能力评核指标,帮助儿童入读心仪的学校。考试分笔试及口试两部分,笔试分为读丶写丶听能力三个方面,以布朗家庭的生活故事为背景主题； 口试则评核考生的口语沟通能力,评分根据考生的英语汇报 (presentation,以及参与棋盘游戏 (board game 时与其他考生互动的表现。</p>"
+      },
+      "content": {
+        "en": "<p>Children will learn everyday English to improve their English communication skills</p><p>A full vocabulary list is provided to boost students’ confidence in the exam</p><p>Mock exams will be held to fully prepare students for the non-traditional written examination format</p><p>The best assessment option of your kid’s English other than Cambridge English</p>",
+        "zh-hk": "<p>教授生活化英語,提高孩子日常以英語溝通的能力</p><p>備有完整詞彙表,試前溫習更有信心</p><p>提供模擬考試,令學生充分地準備非傳統筆試的考試模式</p><p>劍橋英語外評核孩子整體英語水平的最佳選擇</p>",
+        "zh-cn": "<p>教授生活化英语,提高孩子日常以英语沟通的能力</p><p>备有完整词汇表,试前温习更有信心</p><p>提供模拟考试,令学生充分地准备非传统笔试的考试模式</p><p>剑桥英语外评核孩子整体英语水平的最佳选择</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "PRIMARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 2200,
+        "max": 3600
+      },
+      "createdAt": "2020-07-29T10:03:08.056Z",
+      "updatedAt": "2020-07-29T10:03:08.056Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f214b416a17f8193ee804a0",
+      "name": {
+        "en": "primary Trinity GESE",
+        "zh-hk": "小學Trinity聖三一英語會話課程",
+        "zh-cn": "小学Trinity圣三一英语会话课程"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Trinity College London Graded Examination in Spoken English (GESE is a globally recognised English oral exam. Organised by Trinity College London, the test assesses students’ English comprehension and communication ability based on international standards. The test is conducted in over 60 countries and is recognised by the Hong Kong Examinations and Assessment Authority.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Trinity College London Graded Examination in Spoken English (GESE 為國際認可的英語會話考試，由國際認證機構英國聖三一學院舉辦，以國際基準來考核學生之英語理解及溝通能力。舉辦考試的國家超過60個，遍佈全球，其資格更被香港考試及評核局認可，信心保證。</span></p>",
+        "zh-cn": "<p>Trinity College London Graded Examination in Spoken English (GESE 为国际认可的英语会话考试，由国际认证机构英国圣三一学院举办，以国际基准来考核学生之英语理解及沟通能力。举办考试的国家超过60个，遍布全球，其资格更被香港考试及评核局认可，信心保证。</p>"
+      },
+      "content": {
+        "en": "<p>Highly recognised, a must-have certificate for primary and secondary school enrollment.</p><p>Enhance children’s ability to express and communicate in English.</p><p>Learn English vocabulary and grammar through conversations.</p><p>Teach conversational skills in an easy and interactive way to enhance children’s self-esteem.</p><p>Use officially recognised teaching materials to follow closely the examination syllabus.</p>",
+        "zh-hk": "<p>認受性高，為報讀中小學的必備證書。</p><p>提升孩子以英語表達及溝通的能力。</p><p>透過會話，學習英文詞彙及文法的運用。</p><p>以輕鬆、互動方式教授會話技巧，增強孩子的自信心。</p><p>採用官方認可教材，保證緊貼考試內容。</p>",
+        "zh-cn": "<p>认受性高，为报读中小学的必备证书。</p><p>提升孩子以英语表达及沟通的能力。</p><p>透过会话，学习英文词汇及文法的运用。</p><p>以轻松丶互动方式教授会话技巧，增强孩子的自信心。</p><p>采用官方认可教材，保证紧贴考试内容。</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "PRIMARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 1800,
+        "max": 2700
+      },
+      "createdAt": "2020-07-29T10:11:13.278Z",
+      "updatedAt": "2020-07-29T10:11:13.278Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f214dba6a17f8193ee804b1",
+      "name": {
+        "en": "Primary Cambridge English",
+        "zh-hk": "小學劍橋英語課程",
+        "zh-cn": "小学剑桥英语课程"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Cambridge English: Young Learners English (YLE was established by Cambridge English Language Assessment. It is an internationally recognized English test that assesses students aged 4 or above on listening, speaking, reading and writing. The examination consists of three levels: Starters, Movers and Flyers. Candidates will receive an internationally recognized certificate as a proof of their English level.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">劍橋英語：基礎考試（YLE）由劍橋大學考試局設立，為國際認可的英語測試，專為評估四歲或以上學童在英語聽、說、讀、寫四方面的能力而設。考試分為三個級別，: 基礎考試第一級（Starters）、第二級（Movers）、第三級（Flyers）。在劍橋英語考試取得佳績的考生，將獲得國際認可證書，以證明其英語水平。</span></p>",
+        "zh-cn": "<p>剑桥英语：基础考试（YLE）由剑桥大学考试局设立，为国际认可的英语测试，专为评估四岁或以上学童在英语听丶说丶读丶写四方面的能力而设。考试分为三个级别，: 基础考试第一级（Starters）丶第二级（Movers）丶第三级（Flyers）。在剑桥英语考试取得佳绩的考生，将获得国际认可证书，以证明其英语水平。</p>"
+      },
+      "content": {
+        "en": "<p><span style=\"color:rgb(51,51,51;\">N1 – K2 students can take Pre-starters course to better prepare for Starters level. K2 – P6 students can take Starters, Movers and Flyers. In addition, after completing Flyers, students may also take advanced Cambridge English courses, e.g. KET, PET and FCE.</span></p>",
+        "zh-hk": "<p><span style=\"color:rgb(51,51,51;\">N1 – K2的學生可先報讀Pre-starters課程，為升讀Starters預先作好準備，考取更好成績。K2至小六的學生可報讀 Starters, Movers及 Flyers。另外，學生完成Flyers後，更可報讀高階劍橋英語課程 KET, PET 及 FCE。</span></p>",
+        "zh-cn": "<p>N1 － K2的学生可先报读Pre-starters课程，为升读Starters预先作好准备，考取更好成绩。K2至小六的学生可报读 Starters, Movers及 Flyers。另外，学生完成Flyers後，更可报读高阶剑桥英语课程 KET, PET 及 FCE。</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "PRIMARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 2200,
+        "max": 3600
+      },
+      "createdAt": "2020-07-29T10:21:46.515Z",
+      "updatedAt": "2020-07-29T10:21:46.515Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f214fa06a17f8193ee804c2",
+      "name": {
+        "en": "Junior High School Trinity GESE",
+        "zh-hk": "初中Trinity聖三一英語會話課程",
+        "zh-cn": "初中Trinity圣三一英语会话课程"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Trinity College London Graded Examination in Spoken English (GESE is a globally recognised English oral exam. Organised by Trinity College London, the test assesses students’ English comprehension and communication ability based on international standards. The test is conducted in over 60 countries and is recognised by the Hong Kong Examinations and Assessment Authority.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Trinity College London Graded Examination in Spoken English (GESE 為國際認可的英語會話考試，由國際認證機構英國聖三一學院舉辦，以國際基準來考核學生之英語理解及溝通能力。舉辦考試的國家超過60個，遍佈全球，其資格更被香港考試及評核局認可，信心保證。</span></p>",
+        "zh-cn": "<p>Trinity College London Graded Examination in Spoken English (GESE 为国际认可的英语会话考试，由国际认证机构英国圣三一学院举办，以国际基准来考核学生之英语理解及沟通能力。举办考试的国家超过60个，遍布全球，其资格更被香港考试及评核局认可，信心保证。</p>"
+      },
+      "content": {
+        "en": "<p>Highly recognised, a must-have certificate for primary and secondary school enrollment.</p><p>Enhance children’s ability to express and communicate in English.</p><p>Learn English vocabulary and grammar through conversations.</p><p>Teach conversational skills in an easy and interactive way to enhance children’s self-esteem.</p><p>Use officially recognised teaching materials to follow closely the examination syllabus.</p>",
+        "zh-hk": "<p>認受性高，為報讀中小學的必備證書。</p><p>提升孩子以英語表達及溝通的能力。</p><p>透過會話，學習英文詞彙及文法的運用。</p><p>以輕鬆、互動方式教授會話技巧，增強孩子的自信心。</p><p>採用官方認可教材，保證緊貼考試內容。</p>",
+        "zh-cn": "<p>认受性高，为报读中小学的必备证书。</p><p>提升孩子以英语表达及沟通的能力。</p><p>透过会话，学习英文词汇及文法的运用。</p><p>以轻松丶互动方式教授会话技巧，增强孩子的自信心。</p><p>采用官方认可教材，保证紧贴考试内容。</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "SECONDARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 3000,
+        "max": 4800
+      },
+      "createdAt": "2020-07-29T10:29:52.621Z",
+      "updatedAt": "2020-07-29T10:29:52.621Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f2152406a17f8193ee804d3",
+      "name": {
+        "en": "Junior High School GAPSK Mandarin",
+        "zh-hk": "初中GAPSK 普通話證書課程",
+        "zh-cn": "初中GAPSK 普通话证书课程"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">Dr I-Kids Education Centre is a recognised partner of GAPSK examination committee. We are committed to providing professional Mandarin teaching, such that students can improve their Mandarin proficiency while earning an accredited certificate and prepare for further studies. The Centre also actively encourages and supports students to participate in various types of Mandarin competitions, so that students can receive professional affirmations of their Mandarin proficiency.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">智趣小博士教育中心為 GAPSK 考試委員會認可之合作伙伴， 一直以來致力為學生提供專業的普通話教學，提升學生的普通話水平同時，為考取認可證書及升學作好準備。本中心亦積極鼓勵及支持學生參與不同類形的普通話比賽，讓學生得到普通話的專業肯定。</span></p>",
+        "zh-cn": "<p>智趣小博士教育中心为 GAPSK 考试委员会认可之合作伙伴， 一直以来致力为学生提供专业的普通话教学，提升学生的普通话水平同时，为考取认可证书及升学作好准备。本中心亦积极鼓励及支持学生参与不同类形的普通话比赛，让学生得到普通话的专业肯定。</p>"
+      },
+      "content": {
+        "en": "<p><strong>Why GAPSK?</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">General Aptitude Putonghua Shuiping Kaoshi (GAPSK is developed by the Language Education Research Institute of Peking University as a new indicator of primary and secondary school students’ Mandarin proficiency. The result can be regarded as a recognition of candidates’ Mandarin ability for their studies or career.</span></p>",
+        "zh-hk": "<p><strong>為何選擇GAPSK？</strong><br><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">港澳地區中小學生普通話水平測試考試（GAPSK），由北京大學語文教育研究所研發，作為全港澳中小學生普通話能力的一個新指標，成績更可作為學生升學或投身社會時的普通話語言能力的認證。</span></p>",
+        "zh-cn": "<p>为何选择GAPSK？港澳地区中小学生普通话水平测试考试（GAPSK），由北京大学语文教育研究所研发，作为全港澳中小学生普通话能力的一个新指标，成绩更可作为学生升学或投身社会时的普通话语言能力的认证。</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "SECONDARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 2800,
+        "max": 3600
+      },
+      "createdAt": "2020-07-29T10:41:04.668Z",
+      "updatedAt": "2020-07-29T10:41:04.668Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f2153c06a17f8193ee804e4",
+      "name": {
+        "en": "Dr I-Kids Chinese/English/Maths",
+        "zh-hk": "小博士中英數全科研習班",
+        "zh-cn": "小博士中英数全科研习班"
+      },
+      "description": {
+        "en": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">This course is designed based on the new 3-3-4 curriculum and Diploma of Secondary Education. It covers key learning focuses, so that students can fully consolidate their classroom knowledge.</span></p>",
+        "zh-hk": "<p><span style=\"background-color:rgb(247,247,247;color:rgb(51,51,51;\">本課程的內容特別針對新三三四課程及全新中學文憑試，教授學習重點，讓學生能夠充分鞏固課堂知識。</span></p>",
+        "zh-cn": "<p>本课程的内容特别针对新三三四课程及全新中学文凭试，教授学习重点，让学生能够充分巩固课堂知识。</p>"
+      },
+      "content": {
+        "en": "<p>Our in-house teaching materials, which integrate textbooks and exercises, are written by doctoral instructors. Quality is guaranteed.</p><p>Include Chinese, English, and Mathematics to follow the school curriculum.</p><p>Learning interest is intrigued by specific themes to make classroom content easier to grasp.</p><p>Filled with teaching and practicing components to consolidate students’ knowledge.</p><p>Enhance students’ writing and reading ability through understanding and applying Chinese and English grammar.</p><p>Strengthen mathematical concepts and analytical skills.</p>",
+        "zh-hk": "<p>採用自編教材，所有教材均由博士級導師親自編撰，集教學課本及練習於一身，信心保證。</p><p>包括中、英、數三科，內容緊貼學校教程。</p><p>設有特定主題，增加學習趣味之餘讓學生更易掌握課程知識。</p><p>課程分教學及題目操練部分，以鞏固所學知識。</p><p>透過中英文文法的理解及運用，提升學生寫作及閱讀能力。</p><p>加強學生數學概念及分析能力。</p>",
+        "zh-cn": "<p>采用自编教材，所有教材均由博士级导师亲自编撰，集教学课本及练习於一身，信心保证。</p><p>包括中丶英丶数三科，内容紧贴学校教程。</p><p>设有特定主题，增加学习趣味之馀让学生更易掌握课程知识。</p><p>课程分教学及题目操练部分，以巩固所学知识。</p><p>透过中英文文法的理解及运用，提升学生写作及阅读能力。</p><p>加强学生数学概念及分析能力。</p>"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "SECONDARY",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 3000,
+        "max": 3000
+      },
+      "createdAt": "2020-07-29T10:47:28.574Z",
+      "updatedAt": "2020-07-29T10:47:28.574Z",
+      "__v": 0
+    },
+    {
+      "_id": "5fbf5553ada5873de625cd25",
+      "name": {
+        "en": "Miu-Two's counterattack evolution",
+        "zh-hk": "Miu-Two的反擊進化",
+        "zh-cn": "Miu-Two的反击进化"
+      },
+      "description": {
+        "en": "<p>Miu-Two's counterattack evolution</p>\n",
+        "zh-hk": "<p>Miu-Two的反擊進化</p>\n",
+        "zh-cn": "<p>Miu-Two的反击进化</p>\n"
+      },
+      "content": {
+        "en": "<p>Miu-Two's counterattack evolution</p>\n",
+        "zh-hk": "<p>Miu-Two的反擊進化</p>\n",
+        "zh-cn": "<p>Miu-Two的反击进化</p>\n"
+      },
+      "maxAllow": 0,
+      "images": ["5fbf5af48ce217231eb448e8"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "CD_DVD&BLURAY",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 960,
+        "max": 1800
+      }
+    },
+    {
+      "_id": "5fbf54ccada5873de625cd1e",
+      "name": {
+        "en": "[Pre-order] Pokemon card game Sword&Shield VMAX special set",
+        "zh-hk": "[預訂]口袋妖怪紙牌遊戲Sword＆Shield VMAX特別套裝",
+        "zh-cn": "[预订]口袋妖怪纸牌游戏Sword＆Shield VMAX特别套装"
+      },
+      "description": {
+        "en": "<p>[Pre-order] Pokemon card game Sword&amp;Shield VMAX special set</p>\n",
+        "zh-hk": "<p>[預訂]口袋妖怪紙牌遊戲Sword＆Shield VMAX特別套裝</p>\n",
+        "zh-cn": "<p>[预订]口袋妖怪纸牌游戏Sword＆Shield VMAX特别套装</p>\n"
+      },
+      "content": {
+        "en": "<p>[Pre-order] Pokemon card game Sword&amp;Shield VMAX special set</p>\n",
+        "zh-hk": "<p>[預訂]口袋妖怪紙牌遊戲Sword＆Shield VMAX特別套裝</p>\n",
+        "zh-cn": "<p><span style=\"color: rgba(0,0,0,0.85;background-color: rgb(255,255,255;font-size: 14px;font-family: Roboto, sans-serif;\">[预订]口袋妖怪纸牌游戏Sword＆Shield VMAX特别套装</span></p>\n"
+      },
+      "maxAllow": 0,
+      "images": ["5fbf5b37f6f86ae8b055d225"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "GAMES",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 490,
+        "max": 840
+      }
+    },
+    {
+      "_id": "5fbf5435ada5873de625cd17",
+      "name": {
+        "en": "A4 transparent file 5P Pokémon Christmas Wonderland Amusement Park",
+        "zh-hk": "A4透明文件5P神奇寶貝聖誕仙境游樂園",
+        "zh-cn": "A4透明文件5P神奇宝贝圣诞仙境游乐园"
+      },
+      "description": {
+        "en": "<p>A4 transparent file 5P Pokémon Christmas Wonderland Amusement Park</p>\n",
+        "zh-hk": "<p>A4透明文件5P神奇寶貝聖誕仙境游樂園</p>\n",
+        "zh-cn": "<p>A4透明文件5P神奇宝贝圣诞仙境游乐园</p>\n"
+      },
+      "content": {
+        "en": "<p>A4 transparent file 5P Pokémon Christmas Wonderland Amusement Park</p>\n",
+        "zh-hk": "<p>A4透明文件5P神奇寶貝聖誕仙境游樂園</p>\n",
+        "zh-cn": "<p>A4透明文件5P神奇宝贝圣诞仙境游乐园</p>\n"
+      },
+      "maxAllow": 0,
+      "images": ["5fbf5b6e5ea305872dc938a9"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "STATIONARY",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 220,
+        "max": 280
+      }
+    },
+    {
+      "_id": "5fbf533dada5873de625cd10",
+      "name": {
+        "en": "Pokemon stripes",
+        "zh-hk": "寵物小精靈條紋",
+        "zh-cn": "宠物小精灵条纹"
+      },
+      "description": {
+        "en": "<p>Pokemon stripes</p>\n",
+        "zh-hk": "<p>寵物小精靈條紋</p>\n",
+        "zh-cn": "<p>宠物小精灵条纹</p>\n"
+      },
+      "content": {
+        "en": "<p>Pokemon stripes</p>\n",
+        "zh-hk": "<p>寵物小精靈條紋</p>\n",
+        "zh-cn": "<p>宠物小精灵条纹</p>\n"
+      },
+      "maxAllow": 0,
+      "images": ["5fbf5ab683c5c92c39f350a1"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "BOOKS",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 95,
+        "max": 105
+      }
+    },
+    {
+      "_id": "5fbf51a0ada5873de625cd09",
+      "name": {
+        "en": "Guest towel Pokémon Christmas Wonderland",
+        "zh-hk": "客用毛巾神奇寶貝聖誕節仙境",
+        "zh-cn": "客用毛巾神奇宝贝圣诞节仙境"
+      },
+      "description": {
+        "en": "<p>Guest towel Pokémon Christmas Wonderland</p>\n",
+        "zh-hk": "<p>客用毛巾神奇寶貝聖誕節仙境</p>\n",
+        "zh-cn": "<p>客用毛巾神奇宝贝圣诞节仙境</p>\n"
+      },
+      "content": {
+        "en": "<p>Guest towel Pokémon Christmas Wonderland</p>\n",
+        "zh-hk": "<p><span style=\"color: rgba(0,0,0,0.85;background-color: rgb(255,255,255;font-size: 14px;font-family: Roboto, sans-serif;\">客用毛巾神奇寶貝聖誕節仙境</span></p>\n",
+        "zh-cn": "<p><span style=\"color: rgba(0,0,0,0.85;background-color: rgb(255,255,255;font-size: 14px;font-family: Roboto, sans-serif;\">客用毛巾神奇宝贝圣诞节仙境</span></p>\n"
+      },
+      "maxAllow": 0,
+      "images": ["5fbf5b1045358467db6736ad"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "GROCERIES",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 40,
+        "max": 50
+      }
+    },
+    {
+      "_id": "5ff2eaaf773f105cfa44adc1",
+      "name": {
+        "en": "Tokyo Trip 1",
+        "zh-hk": "東京之旅1",
+        "zh-cn": "东京之旅1"
+      },
+      "description": {
+        "en": "<p>Tokyo Trip 1</p>",
+        "zh-hk": "<p>東京之旅1</p>",
+        "zh-cn": "<p>东京之旅1</p>"
+      },
+      "content": {
+        "en": "<p>Tokyo Trip 1</p>",
+        "zh-hk": "<p>東京之旅1</p>",
+        "zh-cn": "<p>东京之旅1</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5ff2f3903e7b8c226b3be868"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "INDIVIDUAL_TRAVEL_PACKAGE",
+      "workspace": "5fd83be73db74d57b304cb82",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 40,
+        "max": 50
+      },
+      "productionDate": "2021-01-22T08:22:40.741Z",
+      "placeOfOrigin": "5ff2e8023eed8d9cd84298db"
+    },
+    {
+      "_id": "5ff2eaaaf12009fda0355d87",
+      "name": {
+        "en": "Seoul Trip 1",
+        "zh-hk": "首爾之旅1",
+        "zh-cn": "首尔之旅1"
+      },
+      "description": {
+        "en": "Seoul Trip 1",
+        "zh-hk": "首爾之旅1",
+        "zh-cn": "首尔之旅1"
+      },
+      "content": {
+        "en": "<p>Seoul Trip 1</p>",
+        "zh-hk": "<p>首爾之旅1</p>",
+        "zh-cn": "<p>首尔之旅1</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5ff2f387a6359ae7027d285a"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "INDIVIDUAL_TRAVEL_PACKAGE",
+      "workspace": "5fd83be73db74d57b304cb82",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 40,
+        "max": 50
+      },
+      "productionDate": "2021-01-22T08:22:40.741Z",
+      "placeOfOrigin": "5ff2e821eec052a0e098d0d9"
+    },
+    {
+      "_id": "5ff2eaa6ec07920abfc7332d",
+      "name": {
+        "en": "Paris Trip 1",
+        "zh-hk": "巴黎之旅1",
+        "zh-cn": "巴黎之旅1"
+      },
+      "description": {
+        "en": "Paris Trip 1",
+        "zh-hk": "巴黎之旅1",
+        "zh-cn": "巴黎之旅1"
+      },
+      "content": {
+        "en": "<p>Paris Trip 1</p>",
+        "zh-hk": "<p>巴黎之旅1</p>",
+        "zh-cn": "<p>巴黎之旅1</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5ff2f38c330adb2b52d1a4f8"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "INDIVIDUAL_TRAVEL_PACKAGE",
+      "workspace": "5fd83be73db74d57b304cb82",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 40,
+        "max": 50
+      },
+      "productionDate": "2021-01-22T08:22:40.741Z",
+      "placeOfOrigin": "5ff2e826620f198a725e262a"
+    },
+    {
+      "_id": "5ff2eaa00a5a7d14422646c7",
+      "name": {
+        "en": "London Trip 1",
+        "zh-hk": "倫敦之旅1",
+        "zh-cn": "伦敦之旅1"
+      },
+      "description": {
+        "en": "London Trip 1",
+        "zh-hk": "倫敦之旅1",
+        "zh-cn": "伦敦之旅1"
+      },
+      "content": {
+        "en": "<p>London Trip 1</p>",
+        "zh-hk": "<p>倫敦之旅1</p>",
+        "zh-cn": "<p>伦敦之旅1</p>"
+      },
+      "maxAllow": 0,
+      "images": ["5ff2f382faf1b184c8f3df06"],
+      "platformTypes": ["admin", "web", "memberApp"],
+      "remarks": "",
+      "status": 1,
+      "_category": "INDIVIDUAL_TRAVEL_PACKAGE",
+      "workspace": "5fd83be73db74d57b304cb82",
+      "mediaList1": [],
+      "mediaList2": [],
+      "priceRange": {
+        "min": 40,
+        "max": 50
+      },
+      "productionDate": "2021-01-22T08:22:40.741Z",
+      "placeOfOrigin": "5ff2e82b6f7bf969ba8183de"
+    },
+    {
+      "_id": "6014fddc6e91ff67579707d9",
+      "name": {
+        "en": "Credit",
+        "zh-hk": "積分",
+        "zh-cn": "积分"
+      },
+      "description": {
+        "en": "<p>Credit</p>\n",
+        "zh-hk": "<p>積分</p>\n",
+        "zh-cn": "<p>积分</p>\n"
+      },
+      "content": {
+        "en": "<p>Credit</p>\n",
+        "zh-hk": "<p>積分</p>\n",
+        "zh-cn": "<p>积分</p>\n"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "types": [],
+      "platformTypes": ["admin", "memberApp", "merchantApp", "web"],
+      "remarks": "Credit",
+      "status": 1,
+      "_category": "OTHER_SERVICE",
+      "productionDate": "2021-01-28T16:00:00.000Z",
+      "placeOfOrigin": "5fe04c3504008ad0daabc523",
+      "workspace": "5fe02d4db3ca9dfa8170b5ca",
+      "mediaList1": [],
+      "mediaList2": [],
+      "mediaList3": [],
+      "priceRange": {
+        "min": 100,
+        "max": 500
+      }
+    },
+    {
+      "_id": "60598e89b94cdecd1fdfeac7",
+      "name": {
+        "en": "Air-conditioning installation",
+        "zh-hk": "冷氣安裝",
+        "zh-cn": "冷气安装"
+      },
+      "description": {
+        "en": "<p>Air-conditioning installation</p>\n",
+        "zh-hk": "<p>冷氣安裝</p>\n",
+        "zh-cn": "<p>冷气安装</p>\n"
+      },
+      "content": {
+        "en": "<p>Air-conditioning installation</p>\n",
+        "zh-hk": "<p>冷氣安裝</p>\n",
+        "zh-cn": "<p>冷气安装</p>\n"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "types": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "Air Conditioning Installation",
+      "workspace": "603c49b5db43c6f01a68c691",
+      "mediaList1": [],
+      "mediaList2": [],
+      "mediaList3": [],
+      "priceRange": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "_id": "6059927a4ecc0547fbed6a68",
+      "name": {
+        "en": "Air-conditioning cleaning",
+        "zh-hk": "冷氣清洗",
+        "zh-cn": "冷气清洗"
+      },
+      "description": {
+        "en": "<p>Air-conditioning cleaning</p>\n",
+        "zh-hk": "<p>冷氣清洗</p>\n",
+        "zh-cn": "<p>冷气清洗</p>\n"
+      },
+      "content": {
+        "en": "<p>Air-conditioning cleaning</p>\n",
+        "zh-hk": "<p>冷氣清洗</p>\n",
+        "zh-cn": "<p>冷气清洗</p>\n"
+      },
+      "maxAllow": 0,
+      "images": [],
+      "types": [],
+      "platformTypes": ["admin", "web"],
+      "remarks": "",
+      "status": 1,
+      "_category": "Air Conditioning Cleaning",
+      "workspace": "603c49b5db43c6f01a68c691",
+      "mediaList1": [],
+      "mediaList2": [],
+      "mediaList3": [],
+      "priceRange": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  ]
+}

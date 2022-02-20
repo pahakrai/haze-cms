@@ -1,0 +1,51 @@
+scalar Date
+
+type FileMeta {
+  _id: ID!
+  folder: String
+  mimetype: String
+  serviceType: String
+  tags: [String]
+  uri: String
+  thumbnailUri: String
+  originalName: String
+  fileExtension: String
+  displayName: String
+  uploadedName: String
+  workspace: String!
+  size: Float
+  isSystemFile: Boolean
+}
+
+input fileMetaUpdate {
+  folder: String
+  mimetype: String
+  serviceType: String
+  tags: [String]
+  uri: String
+  thumbnailUri: String
+  originalName: String
+  fileExtension: String
+  displayName: String
+  uploadedName: String
+  size: Float
+  isSystemFile: Boolean
+}
+
+input FileMetaSearchModel {
+  q: String
+  workspace: String
+}
+
+type Query {
+  fileMetas(query: FileMetaSearchModel):[FileMeta]
+  fileMeta(id: ID!): FileMeta
+}
+
+type Mutation {
+  updateFileMeta(id: ID!, fileMeta: fileMetaUpdate!): FileMeta
+}
+
+type Subscription {
+  fileMetaUpdated(id: ID!): FileMeta
+}

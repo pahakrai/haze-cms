@@ -1,0 +1,44 @@
+scalar Date
+
+type PostComment {
+  _id: ID!
+  title: String
+  comment: String
+  post: Post!
+  user: User
+  likes: [User]
+  workspace: Workspace
+  createdAt: Date
+}
+
+type PaginatePostComment {
+  nodes: [PostComment]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input PostCommentForm {
+  title: String
+  user: ID
+  post: ID
+  comment: String!
+  likes: [ID]
+}
+
+type Query {
+  postComment(id: ID!): PostComment
+  postComments(postId: ID!, paginate: Paginate): PaginatePostComment
+  postCommentCount(postId: ID!): Float
+}
+
+type Mutation {
+  postCommentCreate(postCommentForm: PostCommentForm): PostComment
+  togglePostCommentLike(postCommentId: ID!, userId: ID!): PostComment
+}
+
+type Subscription {
+  postCommentCreated(postId: ID!): PostComment
+}

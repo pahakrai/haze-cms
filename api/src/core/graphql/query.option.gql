@@ -1,0 +1,6 @@
+scalar JSON
+
+input QueryOption {
+  sort: JSON
+  limit: Int
+}

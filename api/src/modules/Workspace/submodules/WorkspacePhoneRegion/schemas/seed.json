@@ -1,0 +1,35 @@
+{
+  "model": "WorkspacePhoneRegions",
+  "documents": [
+    {
+      "_id": "5ef1b4ec1e922510433136f3",
+      "idx": 1,
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "phoneRegion": "5aede0835ea0d39b9977566f"
+    },
+    {
+      "_id": "5f51ab20632b53c3302bf450",
+      "idx": 1,
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "phoneRegion": "5ed617c05c9651b474960d38"
+    },
+    {
+      "_id": "5ef1c20a926a710611375097",
+      "idx": 1,
+      "workspace": "5ea7f40f68a8e97c03d55326",
+      "phoneRegion": "5ed617c05c9651b474960d38"
+    },
+    {
+      "_id": "6007d85eeec7aff3178eae99",
+      "idx": 1,
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "phoneRegion": "5ed617c05c9651b474960d38"
+    },
+    {
+      "_id": "6007d86d3441c83749dcb0d2",
+      "idx": 1,
+      "workspace": "5fe02d4db3ca9dfa8170b5ca",
+      "phoneRegion": "5aede0835ea0d39b9977566f"
+    }
+  ]
+}

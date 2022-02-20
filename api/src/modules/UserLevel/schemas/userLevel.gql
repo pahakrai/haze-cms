@@ -1,0 +1,61 @@
+scalar Date
+
+type UserLevel {
+  _id: ID!
+  name: String
+  workspace: Workspace
+  userType: String
+  isActive: Boolean!
+  createdAt: Date
+  updatedAt: Date
+}
+
+input LocLocalize {
+  en: String
+  zhhk: String
+  zhcn: String
+}
+
+input UserLevelCreateModel {
+  name: LocLocalize!
+  isActive: Boolean!
+  workspace: String
+  userType: String
+}
+
+input UserLevelUpdateModel {
+  name: LocLocalize!
+  isActive: Boolean
+  workspace: String
+  userType: String
+}
+
+type PaginateUserLevel {
+  nodes: [UserLevel]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input UserLevelSearchModel {
+  q: String
+}
+
+type Query {
+  userLevel(id: ID!): UserLevel
+  userLevels(
+    query: UserLevelSearchModel
+    paginate: Paginate
+    options: QueryOption
+  ): PaginateUserLevel
+}
+
+type Mutation {
+  createUserLevel(userLevelCreateModel: UserLevelCreateModel): UserLevel
+  updateUserLevel(
+    id: ID!
+    userLevelUpdateModel: UserLevelUpdateModel
+  ): UserLevel
+}

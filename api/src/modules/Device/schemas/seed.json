@@ -1,0 +1,23 @@
+{
+  "model": "Devices",
+  "documents": [
+    {
+      "_id": "500C3723-1FBE-4E29-97B4-8268C3F93166",
+      "location": {
+        "type": "Point",
+        "coordinates": [114.224333123515, 22.3119996216616],
+        "heading": 0
+      },
+      "deviceName": "michael’s iPhone 14.4",
+      "locale": "zh-hk",
+      "online": false,
+      "scope": "client_mobile",
+      "deviceStatus": 1,
+      "deviceType": "ios",
+      "lastOnTime": "2021-02-24T09:04:33.753Z",
+      "pushNotificationToken": "ExponentPushToken[z-KiUVMuyPiDnJmGLtBj34]",
+      "user": "5ebe693bfd5624a79d8f9cc1",
+      "workspace": "5fe02d4db3ca9dfa8170b5ca"
+    }
+  ]
+}

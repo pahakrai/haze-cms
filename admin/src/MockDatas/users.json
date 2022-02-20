@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "5adc4244dbed50657c33bdc4",
+    "name": "Kelvinator",
+    "company": "5adc3fd9999a39309ffcd969",
+    "email": "admin@test.com",
+    "createdAt": "2014-07-11T01:16:03 -08:00",
+    "active": true
+  },
+  {
+    "_id": "49b699d1bb3af06e43562ad4",
+    "name": "John Doe",
+    "company": "5adc3fd9999a39309ffcd969",
+    "email": "johnDoe@test.com",
+    "createdAt": "2014-07-11T01:16:03 -08:00",
+    "active": true
+  },
+  {
+    "_id": "5adc3fd96566f28d7f52b81b",
+    "name": "Lisa Wong",
+    "company": "5adc3fd9999a39309ffcd969",
+    "email": "lisaWong@test.com",
+    "createdAt": "2014-07-11T01:16:03 -08:00",
+    "active": true
+  },
+  {
+    "_id": "5adc41a212f9b60a9755974c",
+    "name": "Raymond Tran",
+    "company": "5adc3fd9999a39309ffcd969",
+    "email": "raymondTran@test.com",
+    "createdAt": "2014-07-11T01:16:03 -08:00",
+    "active": true
+  }
+]

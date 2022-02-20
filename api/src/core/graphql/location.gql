@@ -1,0 +1,39 @@
+scalar JSON
+
+input LocationPropertyInput {
+  name: String
+  district: String
+  regions: [String!]
+  elevation_m: Float
+  mapResult: JSON
+}
+
+input LocationGeometryInput {
+  type: String
+  coordinates: [Float]
+}
+
+input LocationInput {
+  type: String
+  properties: LocationPropertyInput
+  geometry: LocationGeometryInput
+}
+
+type LocationProperty {
+  name: String
+  district: Region
+  regions: [Region]
+  elevation_m: Float
+  mapResult: JSON
+}
+
+type LocationGeometry {
+  type: String
+  coordinates: [Float]
+}
+
+type Location {
+  type: String
+  properties: LocationProperty
+  geometry: LocationGeometry
+}

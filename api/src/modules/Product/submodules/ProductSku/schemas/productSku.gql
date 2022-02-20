@@ -1,0 +1,95 @@
+scalar Date
+
+type ProductSkuSpecs {
+  spec: ProductSpec
+  value: String
+}
+
+type ProductSku {
+  _id: ID!
+  product: Product
+  code: String
+  image: FileMeta
+  specs: [ProductSkuSpecs]
+  currency: String
+  amount: Float
+  discountAmount: Float
+  maxAllow: Int
+  idx: Int
+  qty: Int
+  validateInventory: Boolean
+  isQuote: Boolean
+  createdAt: Date
+  updatedAt: Date
+  expiryDate: Date
+}
+
+input ProductSkuSpecsInput {
+  spec: String
+  value: String
+}
+
+input ProductSkuCreateModel {
+  product: String!
+  code: String!
+  image: String!
+  specs: [ProductSkuSpecsInput!]
+  currency: String!
+  amount: Float!
+  discountAmount: Float!
+  idx: Int!
+  qty: Int!
+  validateInventory: Boolean
+  isQuote: Boolean
+  expiryDate: Date
+}
+
+input ProductSkuUpdateModel {
+  product: String
+  code: String
+  image: String
+  specs: [ProductSkuSpecsInput]
+  currency: String
+  amount: Float
+  discountAmount: Float
+  idx: Int
+  qty: Int
+  validateInventory: Boolean
+  isQuote: Boolean
+  expiryDate: Date
+}
+
+type PaginateProductSku {
+  nodes: [ProductSku]
+  startCursor: ID
+  endCursor: ID
+  nodeCount: Float
+  total: Float
+  isEnd: Boolean
+}
+
+input ProductSkuSearchModel {
+  # q: String
+  idx: Int
+  product: ID
+  validateInventory: Boolean
+  isQuote: Boolean
+  specs: [ProductSkuSpecsInput]
+}
+
+type Query {
+  productSku(id: ID!): ProductSku
+  productSkus(
+    query: ProductSkuSearchModel
+    paginate: Paginate
+    options: QueryOption
+  ): PaginateProductSku
+}
+
+type Mutation {
+  createProductSku(productSkuCreateModel: ProductSkuCreateModel): ProductSku
+  updateProductSku(
+    id: ID!
+    productSkuUpdateModel: ProductSkuUpdateModel
+  ): ProductSku
+}

@@ -1,0 +1,62 @@
+{
+  "model": "UserLevels",
+  "documents": [
+    {
+      "_id": "5f2249eb5804c062c2e65a53",
+      "name": {
+        "en": "Primary1",
+        "zh-hk": "一年級",
+        "zh-cn": "一年级"
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "userType": "member",
+      "isActive": true
+    },
+    {
+      "_id": "5f224d4028009e6a0dbfdae2",
+      "name": {
+        "en": "Primary2",
+        "zh-hk": "二年級",
+        "zh-cn": "二年级"
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "userType": "member",
+      "isActive": true
+    },
+    {
+      "_id": "5f224d4028009e330dbfdae2",
+      "name": {
+        "en": "First class",
+        "zh-hk": "初班",
+        "zh-cn": "初班"
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "userType": "user",
+      "isActive": true
+    },
+
+    {
+      "_id": "5f34efeec7b0ce35cf73ab33",
+      "name": {
+        "en": "Middle shift",
+        "zh-hk": "中班",
+        "zh-cn": "中班"
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "userType": "user",
+      "isActive": true
+    },
+
+    {
+      "_id": "5f34efe4bef083ed76d0c173",
+      "name": {
+        "en": "Gaoban",
+        "zh-hk": "高班",
+        "zh-cn": "高班"
+      },
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "userType": "user",
+      "isActive": true
+    }
+  ]
+}

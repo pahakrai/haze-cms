@@ -1,0 +1,185 @@
+{
+  "model": "Coupons",
+  "documents": [
+    {
+      "_id": "5f15789f7564e70588c67b98",
+      "code": "BUY100HKD10",
+      "title": "買滿100 , discount HKD 10",
+      "description": "買滿100 , discount HKD 10",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "startAt": "2020-08-11T10:57:35.953Z",
+      "expireAt": "2020-09-11T10:57:35.953Z",
+      "noOfCoupon": 100,
+      "currency": "HKD",
+      "redeemLimitPerUser": 10,
+      "images": ["5ea557e8747c452c727d97fa"],
+      "criteria": {
+        "products": ["5f2133806a17f8193ee80441"],
+        "productsLogicGate": "or",
+        "paymentMethods": ["credit-card-stripe"],
+        "paymentMethodsLogicGate": "or",
+        "amount": 100
+      },
+      "effect": {
+        "type": "fixed",
+        "amount": 10,
+        "creditType": "product_specific"
+      },
+      "isActive": true,
+      "createdAt": "2020-07-20T10:57:35.953Z",
+      "updatedAt": "2020-07-20T10:57:35.953Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f1a880e7cb986418464124b",
+      "code": "BUY100_5POFF",
+      "title": "買滿100 , discount 5%",
+      "description": "買滿100 , discount 5%",
+      "images": ["5ea557e8747c452c727d97fa"],
+      "noOfCoupon": 500,
+      "criteria": {
+        "products": ["5f21495c6a17f8193ee8048f"],
+        "productsLogicGate": "or",
+        "paymentMethods": ["credit-card-stripe"],
+        "paymentMethodsLogicGate": "or",
+        "amount": 100
+      },
+      "effect": {
+        "type": "percent",
+        "amount": 0.05,
+        "creditType": "product_specific"
+      },
+      "currency": "HKD",
+      "redeemLimitPerUser": 1,
+      "isActive": true,
+      "startAt": "2020-07-11T16:00:00.000Z",
+      "expireAt": "2020-10-11T16:00:00.000Z",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "createdAt": "2020-07-24T07:04:46.868Z",
+      "updatedAt": "2020-07-24T07:04:46.868Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f3208077f592702cc2b8d26",
+      "code": "BUYA_HKD88",
+      "title": "買了product , discount HKD 88",
+      "description": "買了product , discount HKD 88",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "startAt": "2020-07-20T10:57:35.953Z",
+      "expireAt": "2020-09-20T10:57:35.953Z",
+      "noOfCoupon": 200,
+      "currency": "HKD",
+      "redeemLimitPerUser": 10,
+      "images": ["5ea557e8747c452c727d97fa"],
+      "criteria": {
+        "products": ["5f214b416a17f8193ee804a0"],
+        "productsLogicGate": "or",
+        "paymentMethods": ["credit-card-stripe"],
+        "paymentMethodsLogicGate": "or",
+        "amount": 100
+      },
+      "effect": {
+        "type": "fixed",
+        "amount": 88,
+        "creditType": "product_specific"
+      },
+      "isActive": true,
+      "createdAt": "2020-07-20T10:57:35.953Z",
+      "updatedAt": "2020-07-20T10:57:35.953Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f32085bcaff71de606c2af4",
+      "code": "BUYB_5POFF",
+      "title": "買了product , discount discount %5",
+      "description": "買了product , discount discount %5",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "startAt": "2020-08-01T10:57:35.953Z",
+      "expireAt": "2020-10-01T10:57:35.953Z",
+      "noOfCoupon": 300,
+      "currency": "HKD",
+      "redeemLimitPerUser": 10,
+      "images": ["5ea557e8747c452c727d97fa"],
+      "criteria": {
+        "products": ["5f214b416a17f8193ee804a0", "5f2152406a17f8193ee804d3"],
+        "productsLogicGate": "or",
+        "paymentMethods": ["credit-card-stripe"],
+        "paymentMethodsLogicGate": "or",
+        "amount": 100
+      },
+      "effect": {
+        "type": "percent",
+        "amount": 0.05,
+        "creditType": "product_specific"
+      },
+      "isActive": true,
+      "createdAt": "2020-07-20T10:57:35.953Z",
+      "updatedAt": "2020-07-20T10:57:35.953Z",
+      "__v": 0
+    },
+    {
+      "_id": "5f32088fc70ea90c3986c9af",
+      "code": "BUY10000_N_A_HKD1500",
+      "title": "product + 買滿10000",
+      "description": "買了某product +  買滿10000 discount HKD 1500",
+      "workspace": "5e9fcae14fc78a87a9bc4c11",
+      "startAt": "2020-08-10T10:57:35.953Z",
+      "expireAt": "2020-10-10T10:57:35.953Z",
+      "noOfCoupon": 100,
+      "currency": "HKD",
+      "redeemLimitPerUser": 10,
+      "images": ["5ea557e8747c452c727d97fa"],
+      "criteria": {
+        "products": ["5f2153c06a17f8193ee804e4", "5f2152406a17f8193ee804d3"],
+        "productsLogicGate": "or",
+        "paymentMethods": [],
+        "paymentMethodsLogicGate": "any",
+        "amount": 10000
+      },
+      "effect": {
+        "type": "fixed",
+        "amount": 1500,
+        "creditType": "whole_order"
+      },
+      "isActive": true,
+      "createdAt": "2020-07-20T10:57:35.953Z",
+      "updatedAt": "2020-07-20T10:57:35.953Z",
+      "__v": 0
+    },
+    {
+      "_id": "5fdc1e73795ce49054dcb09e",
+      "code": "BUY1000_N_A_HKD150",
+      "title": "product + 買滿1000",
+      "description": "買了某product +  買滿1000 discount HKD 150",
+      "workspace": "5ea95dce2b462f77bf7acc02",
+      "startAt": "2020-11-12T10:57:35.953Z",
+      "expireAt": "2020-12-30T10:57:35.953Z",
+      "noOfCoupon": 100,
+      "currency": "HKD",
+      "redeemLimitPerUser": 2,
+      "images": ["5ea557e8747c452c727d97fa"],
+      "criteria": {
+        "products": [
+          "5fbf51a0ada5873de625cd09",
+          "5fbf533dada5873de625cd10",
+          "5fbf5435ada5873de625cd17",
+          "5fbf5553ada5873de625cd25",
+          "5fbf54ccada5873de625cd1e"
+        ],
+        "productsLogicGate": "or",
+        "paymentMethods": [],
+        "paymentMethodsLogicGate": "any",
+        "amount": 1000
+      },
+      "effect": {
+        "type": "fixed",
+        "amount": 150,
+        "creditType": "whole_order"
+      },
+      "isActive": true,
+      "createdAt": "2020-07-20T10:57:35.953Z",
+      "updatedAt": "2020-07-20T10:57:35.953Z",
+      "__v": 0
+    }
+  ]
+}

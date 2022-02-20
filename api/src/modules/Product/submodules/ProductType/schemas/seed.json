@@ -1,0 +1,73 @@
+{
+  "model": "ProductTypes",
+  "documents": [
+    {
+      "_id": "5fe563067dcad24e85853787",
+      "name": {
+        "en": "course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "description": {
+        "en": "course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "content": "课程",
+      "images": [],
+      "status": 0,
+      "workspace": "5e9fcae14fc78a87a9bc4c11"
+    },
+    {
+      "_id": "5fe563067dcad24e85853781",
+      "name": {
+        "en": "Air-conditioning cleaning",
+        "zh-hk": "冷氣清洗",
+        "zh-cn": "冷气清洗"
+      },
+      "description": {
+        "en": "Air-conditioning cleaning",
+        "zh-hk": "冷氣清洗",
+        "zh-cn": "冷气清洗"
+      },
+      "content": "product-type/airco-clean/why,product-type/airco-clean/price-list,product-type/airco-clean/cleaning-process",
+      "images": [],
+      "status": 0,
+      "workspace": "603c49b5db43c6f01a68c691"
+    },
+    {
+      "_id": "5fe563067dcad24e85853782",
+      "name": {
+        "en": "Air-conditioning installation",
+        "zh-hk": "冷氣安裝",
+        "zh-cn": "冷气安装"
+      },
+      "description": {
+        "en": "Air-conditioning installation",
+        "zh-hk": "冷氣安裝",
+        "zh-cn": "冷气安装"
+      },
+      "content": "product-type/airco-install/installation-case,product-type/airco-install/price-list,product-type/airco-install/install-process",
+      "images": [],
+      "status": 0,
+      "workspace": "603c49b5db43c6f01a68c691"
+    },
+    {
+      "_id": "5fe563067dcad24e85853783",
+      "name": {
+        "en": "Air-conditioning purchase",
+        "zh-hk": "冷氣購買",
+        "zh-cn": "冷气购买"
+      },
+      "description": {
+        "en": "Air-conditioning purchase",
+        "zh-hk": "冷氣購買",
+        "zh-cn": "冷气购买"
+      },
+      "content": "product-type/airco-purchase/purchase-case,product-type/airco-purchase/price-list,product-type/airco-purchase/purchase-process",
+      "images": [],
+      "status": 0,
+      "workspace": "603c49b5db43c6f01a68c691"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+// just what we need in page
+export const PRODUCT_DETAIL_PAGE_FIELDS = `
+   _id
+   name
+   description
+   content
+   category{
+      _id
+      name
+   }
+   tags {
+      text
+   }
+   images{
+      _id
+      uri
+   }
+   skus{
+      _id
+      currency
+      amount
+      qty
+      validateInventory
+      isQuote
+      specs{
+         spec{
+            _id
+            values{
+               _id
+            }
+         }
+         value
+      }
+      discountAmount
+   }
+   specs{
+      _id
+      name
+      values{
+         _id
+         name
+      }
+      icon{
+         _id
+         uri
+      }
+      activeIcon{
+         _id
+         uri
+      }
+   }
+   remarks
+`;

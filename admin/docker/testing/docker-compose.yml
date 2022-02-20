@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+  admin:
+    image: ecomm-admin_testing
+    container_name: ecomm-admin_testing
+    stdin_open: true
+    tty: true
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile
+      args:
+        - NPM_TOKEN=${NPM_TOKEN}
+    volumes:
+      - '../../:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '3112:3000'
+    env_file:
+      - .env.testing

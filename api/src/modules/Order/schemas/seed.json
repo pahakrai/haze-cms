@@ -1,0 +1,42 @@
+{
+  "model": "Orders",
+  "documents": [
+    {
+      "_id": "5f1a451d042d038e3703614e",
+      "contact": {
+        "name": "Stephen Ip",
+        "phone": "51234561"
+      },
+      "consignee": {
+        "name": "",
+        "phone": ""
+      },
+      "charge": {
+        "hasQuote": false,
+        "totalAmount": 500,
+        "base": 500,
+        "tips": 0,
+        "basePriceType": "fixed",
+        "currency": "HKD",
+        "coupons": [],
+        "services": [],
+        "others": []
+      },
+      "quotation": null,
+      "clientDevice": "",
+      "completeTime": null,
+      "remarks": "",
+      "creditRequired": 0,
+      "client": "5e7835da3f7bf150efe74ab3",
+      "status": 0,
+      "orderNo": "O21030000001",
+      "orderType": "shopping",
+      "date": "2021-03-02T08:54:21.500Z",
+      "services": [],
+      "workspace": "5fe02d4db3ca9dfa8170b5ca",
+      "createdAt": "2021-03-02T08:54:21.503Z",
+      "updatedAt": "2021-03-02T08:54:21.503Z",
+      "__v": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Currencies",
+  "documents": [
+    {
+      "_id": "5b2c6992f717de2c98f8e0a3",
+      "code": "HKD",
+      "isActive": true,
+      "symbol": "$"
+    },
+    {
+      "_id": "5c133cfca8914ab69114ea48",
+      "code": "RMB",
+      "isActive": false,
+      "symbol": "￥"
+    },
+    {
+      "_id": "5c133d21a8914ab69114ea98",
+      "code": "USD",
+      "isActive": false,
+      "symbol": "$"
+    }
+  ]
+}

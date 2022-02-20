@@ -1,0 +1,2127 @@
+{
+  "_id": "5de4c58a6caf042107054d36",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5de4c58a6caf042107054d37",
+        "direction": "column",
+        "widgets": [
+          {
+            "_id": "5de4ea9e58f94d42e4ac9b0c",
+            "direction": "row",
+            "widgets": ["5de4dbf82aebc1e9cd105255"]
+          },
+          {
+            "_id": "5de4eae458f94d42e4ac9b15",
+            "direction": "row",
+            "widgets": ["5de4eae058f94d42e4ac9b14"]
+          }
+        ]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5de4dbf82aebc1e9cd105255",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "halfMoonPie",
+      "data": {
+        "title": {
+          "0": "t",
+          "1": "e",
+          "2": "s",
+          "3": "t",
+          "4": " ",
+          "5": "t",
+          "6": "i",
+          "7": "t",
+          "8": "l",
+          "9": "e",
+          "en": "Technology",
+          "zh-cn": "技术应用",
+          "zh-hk": "技術應用"
+        },
+        "subtitle": {
+          "0": "t",
+          "1": "e",
+          "2": "s",
+          "3": "t",
+          "4": " ",
+          "5": "s",
+          "6": "u",
+          "7": "b",
+          "8": "t",
+          "9": "i",
+          "10": "t",
+          "11": "l",
+          "12": "e",
+          "en": "Our aim is to provide cost-effective service to you. By using Open Sources and the Most Modern Technology, we guarantee our products are compatible in all main tools, platforms and smartphone systems. In addition, cloud computing services give you instant access to the resources you need. You do not have to invest huge sums of money in hardware beforehand, instead, you only need to pay for the usage.",
+          "zh-cn": "我们的目标是为您提供具有成本效益的服务。通过使用开源软件和最现先进的技术，我们保证产品可兼容于所有主要工具、平台和智能手机系统。另外借助云计算服务，您可以即时存取所需的资源，而且您无须预先在硬件投资巨额资金，只需要为使用量付费。",
+          "zh-hk": "我們的目標是為您提供具有成本效益的服務。通過使用開源軟件和最現先進的技術，我們保證產品可兼容於所有主要工具、平台和智能手機系統。另外藉助雲端運算服務，您可以即時存取所需的資源，而且您無須預先在硬體投資巨額資金，只需要為使用量付費。"
+        },
+        "img": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/banner.png"
+      }
+    },
+    {
+      "_id": "5de4eaa858f94d42e4ac9b0f",
+      "position": "",
+      "inlineStyle": "color: rgb(51, 51, 51); \nfont-size: 30px; \nfont-weight: 300; \nmargin: 2vh 0px; \ntext-align: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Language\n"
+        }
+      }
+    },
+    {
+      "_id": "5de4eae058f94d42e4ac9b14",
+      "position": "",
+      "inlineStyle": "background: rgb(243, 244, 246);",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {
+        "marginUnit": "px",
+        "paddingUnit": "px",
+        "marginTop": "72",
+        "marginRight": "0",
+        "marginBottom": "0",
+        "marginLeft": "0",
+        "paddingTop": "54",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "backgroundType": "color",
+        "backgroundColor": "transparent",
+        "backgroundUri": "",
+        "backgroundSize": "cover"
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "1",
+        "columnWidths": {
+          "0": "100.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4eae058f94d42e4ac9b11",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5de4f59a58f94d42e4ac9b3f",
+                    "direction": "row",
+                    "widgets": ["5de4f4e258f94d42e4ac9b3a"]
+                  },
+                  {
+                    "_id": "5de4f59a58f94d42e4ac9b40",
+                    "direction": "row",
+                    "widgets": ["5de4f59558f94d42e4ac9b3e"]
+                  },
+                  {
+                    "_id": "5de5be7aff01a73b02266fb4",
+                    "direction": "row",
+                    "widgets": ["5de5be77ff01a73b02266fb3"]
+                  },
+                  {
+                    "_id": "5de5bbfbff01a73b02266fa5",
+                    "direction": "row",
+                    "widgets": ["5de5bbe4ff01a73b02266fa1"]
+                  },
+                  {
+                    "_id": "5de5bedbff01a73b02266fb6",
+                    "direction": "row",
+                    "widgets": ["5de5bec3ff01a73b02266fb5"]
+                  },
+                  {
+                    "_id": "5de5bf13ff01a73b02266fbd",
+                    "direction": "row",
+                    "widgets": ["5de5bf0eff01a73b02266fbc"]
+                  },
+                  {
+                    "_id": "5de5bf20ff01a73b02266fbf",
+                    "direction": "row",
+                    "widgets": ["5de5bf17ff01a73b02266fbe"]
+                  },
+                  {
+                    "_id": "5de5bf28ff01a73b02266fc4",
+                    "direction": "row",
+                    "widgets": ["5de5bf24ff01a73b02266fc3"]
+                  },
+                  {
+                    "_id": "5de5bf08ff01a73b02266fb8",
+                    "direction": "row",
+                    "widgets": ["5de5bf04ff01a73b02266fb7"]
+                  },
+                  {
+                    "_id": "5de5bfc5ff01a73b02266fcb",
+                    "direction": "row",
+                    "widgets": ["5de5bfbeff01a73b02266fca"]
+                  },
+                  {
+                    "_id": "5de5d68b524f421db43c1505",
+                    "direction": "row",
+                    "widgets": ["5de5d64d524f421db43c1503"]
+                  },
+                  {
+                    "_id": "5de5bf67ff01a73b02266fc6",
+                    "direction": "row",
+                    "widgets": ["5de5bf60ff01a73b02266fc5"]
+                  },
+                  {
+                    "_id": "5de5bfcbff01a73b02266fd0",
+                    "direction": "row",
+                    "widgets": ["5de5bfc8ff01a73b02266fcf"]
+                  }
+                ]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4eae058f94d42e4ac9b12",
+                "direction": "column",
+                "widgets": [
+                  {
+                    "_id": "5de4ebed58f94d42e4ac9b1a",
+                    "direction": "row",
+                    "widgets": ["5de4eaa858f94d42e4ac9b0f"]
+                  },
+                  {
+                    "_id": "5de4ebed58f94d42e4ac9b1b",
+                    "direction": "row",
+                    "widgets": ["5de4ebea58f94d42e4ac9b19"]
+                  }
+                ]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4eae058f94d42e4ac9b13",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      },
+      "properties": []
+    },
+    {
+      "_id": "5de4ebea58f94d42e4ac9b19",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "3",
+        "columnWidths": {
+          "0": "33.33",
+          "1": "33.33",
+          "2": "33.33"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4ebea58f94d42e4ac9b16",
+                "direction": "column",
+                "widgets": ["5de4ebf658f94d42e4ac9b1c"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4ebea58f94d42e4ac9b17",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4ebea58f94d42e4ac9b18",
+                "direction": "column",
+                "widgets": []
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "5de4ebf658f94d42e4ac9b1c",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/reactjs.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/reactjs.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/reactjs.png"
+        },
+        "width": "",
+        "height": "140",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de4f4e258f94d42e4ac9b3a",
+      "position": "",
+      "inlineStyle": "\n    font-family: helvetica, \"PT Sans\", sans-serif;\n    color: rgb(51, 51, 51);\n    font-size: 30px;\n    font-weight: 100;\n    text-align: center;\n    margin:19px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Language"
+        },
+        "zh-cn": {
+          "text": "语言"
+        },
+        "zh-hk": {
+          "text": "語言"
+        }
+      },
+      "properties": [
+        {
+          "_id": "5de5df14524f421db43c1521",
+          "type": "anchor",
+          "data": {
+            "id": "language",
+            "showAnchorIcon": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5de4f59558f94d42e4ac9b3e",
+      "position": "",
+      "inlineStyle": "\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: row;\n    padding-bottom: 20px;\n    justify-content: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "5",
+        "columnWidths": {
+          "0": "20.00",
+          "1": "20.00",
+          "2": "20.00",
+          "3": "20.00",
+          "4": "20.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4f59558f94d42e4ac9b3b",
+                "direction": "column",
+                "widgets": ["5de5baacff01a73b02266f97"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4f59558f94d42e4ac9b3c",
+                "direction": "column",
+                "widgets": ["5de5baf5ff01a73b02266f9a"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de4f59558f94d42e4ac9b3d",
+                "direction": "column",
+                "widgets": ["5de5bb11ff01a73b02266f9b"]
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bae0ff01a73b02266f98",
+                "direction": "column",
+                "widgets": ["5de5bb14ff01a73b02266f9c"]
+              }
+            ]
+          },
+          "4": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bae0ff01a73b02266f99",
+                "direction": "column",
+                "widgets": ["5de5bb18ff01a73b02266f9d"]
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "lg": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "20.00",
+              "1": "20.00",
+              "2": "20.00",
+              "3": "20.00",
+              "4": "20.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "md": {
+            "columnWidths": {
+              "0": "33.33",
+              "1": "33.33",
+              "2": "33.33",
+              "3": "50",
+              "4": "50"
+            },
+            "fixedHundredPercent": false
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "50",
+              "1": "50",
+              "2": "50",
+              "3": "50",
+              "4": "100"
+            }
+          },
+          "xs": {
+            "columnWidths": {
+              "0": "100",
+              "1": "100",
+              "2": "100",
+              "3": "100",
+              "4": "100"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5de5baacff01a73b02266f97",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/icon_react.png",
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5baf5ff01a73b02266f9a",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/nodejs.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/nodejs.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/nodejs.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5bb11ff01a73b02266f9b",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/asp-net.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/asp-net.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/asp-net.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5bb14ff01a73b02266f9c",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/net-mvc.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/net-mvc.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/net-mvc.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5bb18ff01a73b02266f9d",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/expressjs.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/expressjs.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/expressjs.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5bbe4ff01a73b02266fa1",
+      "position": "",
+      "inlineStyle": "\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: row;\n    padding-bottom: 20px;\n    justify-content: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "4",
+        "columnWidths": {
+          "0": "25.00",
+          "1": "25.00",
+          "2": "25.00",
+          "3": "25.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bbe4ff01a73b02266f9e",
+                "direction": "column",
+                "widgets": ["5de5bd52ff01a73b02266fb1"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bbe4ff01a73b02266f9f",
+                "direction": "column",
+                "widgets": ["5de5bcfaff01a73b02266fac"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bbe4ff01a73b02266fa0",
+                "direction": "column",
+                "widgets": ["5de5bda0ff01a73b02266fb2"]
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bbf1ff01a73b02266fa3",
+                "direction": "column",
+                "widgets": ["5de5bd36ff01a73b02266faf"]
+              }
+            ]
+          },
+          "4": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bbf1ff01a73b02266fa4",
+                "direction": "column",
+                "widgets": ["5de5bd18ff01a73b02266fae"]
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "25.00",
+              "1": "25.00",
+              "2": "25.00",
+              "3": "25.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "50",
+              "1": "50",
+              "2": "50",
+              "3": "50"
+            },
+            "fixedHundredPercent": false
+          },
+          "xs": {
+            "columnWidths": {
+              "0": "100",
+              "1": "100",
+              "2": "100",
+              "3": "100"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5de5bcfaff01a73b02266fac",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/webstorm.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/webstorm.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/webstorm.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5bd18ff01a73b02266fae",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": "",
+        "width": "",
+        "height": "",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5bd36ff01a73b02266faf",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/android-studio.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/android-studio.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/android-studio.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5bd52ff01a73b02266fb1",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/vscode.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/vscode.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/vscode.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5bda0ff01a73b02266fb2",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/xcode.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/xcode.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/xcode.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5be77ff01a73b02266fb3",
+      "position": "",
+      "inlineStyle": "\n    font-family: helvetica, \"PT Sans\", sans-serif;\n    color: rgb(51, 51, 51);\n    font-size: 30px;\n    font-weight: 100;\n    text-align: center;\n    margin:19px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Tools"
+        },
+        "zh-cn": {
+          "text": "工具"
+        },
+        "zh-hk": {
+          "text": "工具"
+        }
+      },
+      "properties": [
+        {
+          "_id": "5de5df26524f421db43c1522",
+          "type": "anchor",
+          "data": {
+            "id": "development-tools",
+            "showAnchorIcon": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5de5bec3ff01a73b02266fb5",
+      "position": "",
+      "inlineStyle": "\n    font-family: helvetica, \"PT Sans\", sans-serif;\n    color: rgb(51, 51, 51);\n    font-size: 30px;\n    font-weight: 100;\n    text-align: center;\n    margin:19px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Database"
+        },
+        "zh-cn": {
+          "text": "数据库"
+        },
+        "zh-hk": {
+          "text": "數據庫"
+        }
+      },
+      "properties": [
+        {
+          "_id": "5de5df30524f421db43c1523",
+          "type": "anchor",
+          "data": {
+            "id": "database",
+            "showAnchorIcon": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5de5bf04ff01a73b02266fb7",
+      "position": "",
+      "inlineStyle": "\n    font-family: helvetica, \"PT Sans\", sans-serif;\n    color: rgb(51, 51, 51);\n    font-size: 30px;\n    font-weight: 100;\n    text-align: center;\n    margin:19px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Design"
+        },
+        "zh-cn": {
+          "text": "设计"
+        },
+        "zh-hk": {
+          "text": "設計"
+        }
+      },
+      "properties": [
+        {
+          "_id": "5de5df4c524f421db43c1524",
+          "type": "anchor",
+          "data": {
+            "id": "ux-design",
+            "showAnchorIcon": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5de5bf0eff01a73b02266fbc",
+      "position": "",
+      "inlineStyle": "\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: row;\n    padding-bottom: 20px;\n    justify-content: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "4",
+        "columnWidths": {
+          "0": "25.00",
+          "1": "25.00",
+          "2": "25.00",
+          "3": "25.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bf0eff01a73b02266fb9",
+                "direction": "column",
+                "widgets": ["5de5bffeff01a73b02266fd5"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bf0eff01a73b02266fba",
+                "direction": "column",
+                "widgets": ["5de5c002ff01a73b02266fd6"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bf0eff01a73b02266fbb",
+                "direction": "column",
+                "widgets": ["5de5c005ff01a73b02266fd7"]
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bfe8ff01a73b02266fd1",
+                "direction": "column",
+                "widgets": ["5de5c009ff01a73b02266fd8"]
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "25.00",
+              "1": "25.00",
+              "2": "25.00",
+              "3": "25.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "50",
+              "1": "50",
+              "2": "50",
+              "3": "50"
+            },
+            "fixedHundredPercent": false
+          },
+          "xs": {
+            "columnWidths": {
+              "0": "100",
+              "1": "100",
+              "2": "100",
+              "3": "100"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5de5bf17ff01a73b02266fbe",
+      "position": "",
+      "inlineStyle": "\n    font-family: helvetica, \"PT Sans\", sans-serif;\n    color: rgb(51, 51, 51);\n    font-size: 30px;\n    font-weight: 100;\n    text-align: center;\n    margin:19px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "System & Release"
+        },
+        "zh-cn": {
+          "text": "操作系统 & 发布"
+        },
+        "zh-hk": {
+          "text": "操作系統 & 發佈"
+        }
+      },
+      "properties": [
+        {
+          "_id": "5de5de5d524f421db43c1520",
+          "type": "anchor",
+          "data": {
+            "id": "operation-system",
+            "showAnchorIcon": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5de5bf24ff01a73b02266fc3",
+      "position": "",
+      "inlineStyle": "\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: row;\n    padding-bottom: 20px;\n    justify-content: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "4",
+        "columnWidths": {
+          "0": "25.00",
+          "1": "25.00",
+          "2": "25.00",
+          "3": "25.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bf24ff01a73b02266fc0",
+                "direction": "column",
+                "widgets": ["5de5c00cff01a73b02266fd9"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bf24ff01a73b02266fc1",
+                "direction": "column",
+                "widgets": ["5de5c010ff01a73b02266fda"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bf24ff01a73b02266fc2",
+                "direction": "column",
+                "widgets": ["5de5c013ff01a73b02266fdb"]
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bfedff01a73b02266fd2",
+                "direction": "column",
+                "widgets": ["5de5c017ff01a73b02266fdc"]
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "25.00",
+              "1": "25.00",
+              "2": "25.00",
+              "3": "25.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "50",
+              "1": "50",
+              "2": "50",
+              "3": "50"
+            },
+            "fixedHundredPercent": false
+          },
+          "xs": {
+            "columnWidths": {
+              "0": "100",
+              "1": "100",
+              "2": "100",
+              "3": "100"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5de5bf60ff01a73b02266fc5",
+      "position": "",
+      "inlineStyle": "\n    font-family: helvetica, \"PT Sans\", sans-serif;\n    color: rgb(51, 51, 51);\n    font-size: 30px;\n    font-weight: 100;\n    text-align: center;\n    margin:19px 0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "text",
+      "data": {
+        "text": "",
+        "textAlign": "center",
+        "heading": "p",
+        "color": "#000",
+        "en": {
+          "text": "Cloud Platform"
+        },
+        "zh-cn": {
+          "text": "云端平台"
+        },
+        "zh-hk": {
+          "text": "雲端平台"
+        }
+      },
+      "properties": [
+        {
+          "_id": "5de5d9fc524f421db43c1517",
+          "type": "anchor",
+          "data": {
+            "id": "cloud",
+            "showAnchorIcon": false
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5de5bfbeff01a73b02266fca",
+      "position": "",
+      "inlineStyle": "\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: row;\n    padding-bottom: 20px;\n    justify-content: center;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "4",
+        "columnWidths": {
+          "0": "25.00",
+          "1": "25.00",
+          "2": "25.00",
+          "3": "25.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bfbeff01a73b02266fc7",
+                "direction": "column",
+                "widgets": ["5de5c01bff01a73b02266fdd"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bfbeff01a73b02266fc8",
+                "direction": "column",
+                "widgets": ["5de5c01fff01a73b02266fde"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bfbeff01a73b02266fc9",
+                "direction": "column",
+                "widgets": ["5de5c022ff01a73b02266fdf"]
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bff1ff01a73b02266fd3",
+                "direction": "column",
+                "widgets": ["5de5c025ff01a73b02266fe0"]
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "25.00",
+              "1": "25.00",
+              "2": "25.00",
+              "3": "25.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "50",
+              "1": "50",
+              "2": "50",
+              "3": "50"
+            },
+            "fixedHundredPercent": false
+          },
+          "xs": {
+            "columnWidths": {
+              "0": "100",
+              "1": "100",
+              "2": "100",
+              "3": "100"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5de5bfc8ff01a73b02266fcf",
+      "position": "",
+      "inlineStyle": "\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: row;\n    padding-bottom: 20px;\n    justify-content: center;\n    padding-bottom: 56px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "layoutBuilder",
+      "data": {
+        "columns": "4",
+        "columnWidths": {
+          "0": "25.00",
+          "1": "25.00",
+          "2": "25.00",
+          "3": "25.00"
+        },
+        "columnJustifyContents": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnAlignItems": {
+          "0": "flex-start",
+          "1": "flex-start",
+          "2": "flex-start"
+        },
+        "columnRatio": "even",
+        "direction": "leftToRight",
+        "layouts": {
+          "0": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bfc8ff01a73b02266fcc",
+                "direction": "column",
+                "widgets": ["5de5c02aff01a73b02266fe1"]
+              }
+            ]
+          },
+          "1": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bfc8ff01a73b02266fcd",
+                "direction": "column",
+                "widgets": ["5de5c02eff01a73b02266fe2"]
+              }
+            ]
+          },
+          "2": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bfc8ff01a73b02266fce",
+                "direction": "column",
+                "widgets": ["5de5c032ff01a73b02266fe3"]
+              }
+            ]
+          },
+          "3": {
+            "stackName": "flex",
+            "stack": [
+              {
+                "_id": "5de5bff5ff01a73b02266fd4",
+                "direction": "column",
+                "widgets": ["5de5c035ff01a73b02266fe4"]
+              }
+            ]
+          }
+        },
+        "breakpoints": {
+          "md": {
+            "columnRatio": "even",
+            "columnWidths": {
+              "0": "25.00",
+              "1": "25.00",
+              "2": "25.00",
+              "3": "25.00"
+            },
+            "direction": "leftToRight",
+            "fixedHundredPercent": true
+          },
+          "sm": {
+            "columnWidths": {
+              "0": "50",
+              "1": "50",
+              "2": "50",
+              "3": "50"
+            },
+            "fixedHundredPercent": false
+          },
+          "xs": {
+            "columnWidths": {
+              "0": "100",
+              "1": "100",
+              "2": "100",
+              "3": "100"
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "5de5bffeff01a73b02266fd5",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/mysql.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/mysql.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/mysql.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c002ff01a73b02266fd6",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/xcode.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/xcode.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/xcode.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c005ff01a73b02266fd7",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/firebase.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/firebase.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/firebase.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c009ff01a73b02266fd8",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/redis.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/redis.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/redis.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c00cff01a73b02266fd9",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/linux.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/linux.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/linux.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c010ff01a73b02266fda",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/windows-server.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/windows-server.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/windows-server.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c013ff01a73b02266fdb",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/docker.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/docker.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/docker.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c017ff01a73b02266fdc",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/kubernetes.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/kubernetes.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/kubernetes.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c01bff01a73b02266fdd",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/sketch.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/sketch.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/sketch.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c01fff01a73b02266fde",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/origami.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/origami.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/origami.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c022ff01a73b02266fdf",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/invision.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/invision.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/invision.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c025ff01a73b02266fe0",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/photoshop.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/photoshop.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/photoshop.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c02aff01a73b02266fe1",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/aws.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/aws.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/aws.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c02eff01a73b02266fe2",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/azure.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/azure.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/azure.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c032ff01a73b02266fe3",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/aliyun.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/aliyun.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/aliyun.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5c035ff01a73b02266fe4",
+      "position": "",
+      "inlineStyle": {
+        "md": "display: flex;\njustify-content: center;",
+        "lg": "padding: 0 2vw;"
+      },
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "image",
+      "data": {
+        "src": {
+          "en": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/google-cloud.png",
+          "zh-hk": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/google-cloud.png",
+          "zh-cn": "https://cdn.golpasal.com/assets/images/5e9fcae14fc78a87a9bc4c43/seed/technologies/google-cloud.png"
+        },
+        "width": "140px",
+        "height": "140px",
+        "fit": "cover",
+        "position": "center"
+      }
+    },
+    {
+      "_id": "5de5d64d524f421db43c1503",
+      "position": "",
+      "inlineStyle": "height:0px;\nwidth:0px;",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "type": "link",
+      "data": {
+        "text": "",
+        "color": "rgba(131,38,38,1)",
+        "fontSize": "1em",
+        "href": "/technologies#cloud"
+      }
+    }
+  ]
+}

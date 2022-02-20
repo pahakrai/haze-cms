@@ -1,0 +1,1476 @@
+{
+  "model": "ProductSpecs",
+  "documents": [
+    {
+      "name": {
+        "en": "color",
+        "zh-hk": "顏色",
+        "zh-cn": "颜色"
+      },
+      "_id": "5ea57bd0e14d7859ef46faf7",
+      "product": "5e9eb3e1f90722ad755ae799",
+      "values": [
+        {
+          "_id": "5ea57bd0e14d7859ef46faf8",
+          "name": {
+            "en": "red",
+            "zh-hk": "红色",
+            "zh-cn": "红色"
+          }
+        },
+        {
+          "_id": "5ea57bd0e14d7859ef46faf9",
+          "name": {
+            "en": "white",
+            "zh-hk": "白色",
+            "zh-cn": "白色"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "RAM",
+        "zh-hk": "內存",
+        "zh-cn": "内存"
+      },
+      "_id": "5ea57da5e14d7859ef46faff",
+      "product": "5e9eb3e1f90722ad755ae799",
+      "values": [
+        {
+          "_id": "5ea57da5e14d7859ef46fb00",
+          "name": {
+            "en": "8G",
+            "zh-hk": "8G",
+            "zh-cn": "8G"
+          }
+        },
+        {
+          "_id": "5ea57da5e14d7859ef46fb01",
+          "name": {
+            "en": "16G",
+            "zh-hk": "16G",
+            "zh-cn": "16G"
+          }
+        },
+        {
+          "_id": "5ea57da5e14d7859ef46fb02",
+          "name": {
+            "en": "32G",
+            "zh-hk": "32G",
+            "zh-cn": "32G"
+          }
+        },
+        {
+          "_id": "5ea57da5e14d7859ef46fb03",
+          "name": {
+            "en": "64G",
+            "zh-hk": "64G",
+            "zh-cn": "64G"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "hard disk",
+        "zh-hk": "硬盤容量",
+        "zh-cn": "硬盘容量"
+      },
+      "_id": "5ea581e793b08c5b273dfa49",
+      "product": "5e9eb3e1f90722ad755ae799",
+      "values": [
+        {
+          "_id": "5ea57bd0e14d7859ef46fa78",
+          "name": {
+            "en": "500G",
+            "zh-hk": "500G",
+            "zh-cn": "500G"
+          }
+        },
+        {
+          "_id": "5ea57bd0e14d7859ef46fa12",
+          "name": {
+            "en": "750G",
+            "zh-hk": "750G",
+            "zh-cn": "750G"
+          }
+        },
+        {
+          "_id": "5ea57bd0e14d7859ef462323",
+          "name": {
+            "en": "1T",
+            "zh-hk": "1T",
+            "zh-cn": "1T"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5eb90c38bb7b57c3967849b3",
+      "product": "5eb90a396c53d5c1d7bcc25a",
+      "name": {
+        "en": "Course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "values": [
+        {
+          "_id": "5eb90c3c370d606db17e0006",
+          "name": {
+            "en": "Beginner level",
+            "zh-cn": "基础级",
+            "zh-hk": "入門級"
+          }
+        },
+        {
+          "_id": "5ecc664b9aa13aea6770547a",
+          "name": {
+            "en": "Advanced level level",
+            "zh-hk": "進階",
+            "zh-cn": "进阶"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5ecc691b9aa13aea6770547d",
+      "product": "5eb90a396c53d5c1d7bcc25a",
+      "name": {
+        "en": "Lessons",
+        "zh-hk": "堂數",
+        "zh-cn": "堂數"
+      },
+      "values": [
+        {
+          "_id": "5ecc692b9aa13aea6770547e",
+          "name": {
+            "en": "4 Lessons",
+            "zh-hk": "4堂",
+            "zh-cn": "4堂"
+          }
+        },
+        {
+          "_id": "5ecc69309aa13aea67705481",
+          "name": {
+            "en": "8 Lessons",
+            "zh-hk": "8堂",
+            "zh-cn": "8堂"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5eb90c38cc7b57c3967849b3",
+      "product": "5eb90a236c53d5c1d7bcc25a",
+      "name": {
+        "en": "Course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "values": [
+        {
+          "_id": "5eb90c3c270d606db17e0006",
+          "name": {
+            "en": "Beginner level",
+            "zh-cn": "基础级",
+            "zh-hk": "入門級"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5eb90c28cc8b57c3967849b3",
+      "product": "5eb20a396c53dbc1d7bcc25a",
+      "name": {
+        "en": "Course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "values": [
+        {
+          "_id": "5eb90c3c370d626db17e0006",
+          "name": {
+            "en": "Beginner level",
+            "zh-cn": "基础级",
+            "zh-hk": "入門級"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5eb80c38cc7b57c3927849b3",
+      "product": "5eb90a296c53d4c1d7bcc25a",
+      "name": {
+        "en": "Course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "values": [
+        {
+          "_id": "5eb90c3c370d626db17e2206",
+          "name": {
+            "en": "Beginner level",
+            "zh-cn": "基础级",
+            "zh-hk": "入門級"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "5ecce144d8d271648cb1d1ef",
+      "name": {
+        "en": "Course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Walker",
+            "zh-hk": "初階",
+            "zh-cn": "初阶"
+          },
+          "_id": "5ecce15fd8d271648cb1d1f7"
+        },
+        {
+          "name": {
+            "en": "Jogger",
+            "zh-hk": "中階",
+            "zh-cn": "中阶"
+          },
+          "_id": "5ecce163d8d271648cb1d1f9"
+        },
+        {
+          "name": {
+            "en": "Runner",
+            "zh-hk": "高階",
+            "zh-cn": "高阶"
+          },
+          "_id": "5ecce167d8d271648cb1d1fc"
+        }
+      ],
+      "product": "5ecce20165de19502d04ccbc",
+      "__v": 0,
+      "createdAt": "2020-05-26T09:31:45.141Z",
+      "updatedAt": "2020-05-26T09:31:45.141Z"
+    },
+    {
+      "_id": "5ecce149d8d271648cb1d1f0",
+      "name": {
+        "en": "Lessons",
+        "zh-hk": "堂數",
+        "zh-cn": "堂数"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "5 Lessons",
+            "zh-hk": "5堂",
+            "zh-cn": "5堂"
+          },
+          "_id": "5ecce175d8d271648cb1d200"
+        },
+        {
+          "name": {
+            "en": "8 Lessons",
+            "zh-hk": "8堂",
+            "zh-cn": "8堂"
+          },
+          "_id": "5ecce178d8d271648cb1d204"
+        }
+      ],
+      "product": "5ecce20165de19502d04ccbc",
+      "__v": 0,
+      "createdAt": "2020-05-26T09:31:45.142Z",
+      "updatedAt": "2020-05-26T09:31:45.142Z"
+    },
+    {
+      "_id": "5ecce46ad8d271648cb1d20b",
+      "name": {
+        "en": "Course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "First level",
+            "zh-hk": "第一級",
+            "zh-cn": "第一级"
+          },
+          "_id": "5ecce48bd8d271648cb1d20d"
+        },
+        {
+          "name": {
+            "en": "Second level",
+            "zh-hk": "第二級",
+            "zh-cn": "第二级"
+          },
+          "_id": "5ecce493d8d271648cb1d20f"
+        },
+        {
+          "name": {
+            "en": "Third level",
+            "zh-hk": "第三級",
+            "zh-cn": "第三级"
+          },
+          "_id": "5ecce499d8d271648cb1d212"
+        }
+      ],
+      "product": "5ecce52565de19502d04cce7",
+      "__v": 0,
+      "createdAt": "2020-05-26T09:45:09.600Z",
+      "updatedAt": "2020-05-26T09:45:09.600Z"
+    },
+    {
+      "_id": "5ecce46cd8d271648cb1d20c",
+      "name": {
+        "en": "Lessons",
+        "zh-hk": "堂數",
+        "zh-cn": "堂数"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "10 Lessons",
+            "zh-hk": "10堂",
+            "zh-cn": "10堂"
+          },
+          "_id": "5ecce4c2d8d271648cb1d227"
+        }
+      ],
+      "product": "5ecce52565de19502d04cce7",
+      "__v": 0,
+      "createdAt": "2020-05-26T09:45:09.601Z",
+      "updatedAt": "2020-05-26T09:45:09.601Z"
+    },
+    {
+      "_id": "5ecd11dfe3f4e5e2fb30bb7b",
+      "name": {
+        "en": "Course",
+        "zh-hk": "課程",
+        "zh-cn": "课程"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "1：1",
+            "zh-hk": "1：1",
+            "zh-cn": "1：1"
+          },
+          "_id": "5ecd11e7e3f4e5e2fb30bb7c"
+        },
+        {
+          "name": {
+            "en": "1：2",
+            "zh-hk": "1：2",
+            "zh-cn": "1：2"
+          },
+          "_id": "5ecd11ebe3f4e5e2fb30bb7e"
+        },
+        {
+          "name": {
+            "en": "1：3",
+            "zh-hk": "1：3",
+            "zh-cn": "1：3"
+          },
+          "_id": "5ecd11eee3f4e5e2fb30bb81"
+        }
+      ],
+      "product": "5ecd1242d7e8ca5ac7360705",
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z"
+    },
+    {
+      "_id": "5ecd18bce3f4e5e2fb30bb8e",
+      "name": {
+        "en": "Age",
+        "zh-hk": "年齡",
+        "zh-cn": "年龄"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "3-6years old",
+            "zh-hk": "3-6歲",
+            "zh-cn": "3-6岁"
+          },
+          "_id": "5ecd18f7e3f4e5e2fb30bb95"
+        },
+        {
+          "name": {
+            "en": "6-12years old",
+            "zh-hk": "6-12歲",
+            "zh-cn": "6-12岁"
+          },
+          "_id": "5ecd1902e3f4e5e2fb30bb97"
+        }
+      ],
+      "product": "5ecd1acbd7e8ca5ac736071b",
+      "__v": 0,
+      "createdAt": "2020-05-26T13:34:03.213Z",
+      "updatedAt": "2020-05-26T13:34:03.213Z"
+    },
+    {
+      "_id": "5ecd18c2e3f4e5e2fb30bb8f",
+      "name": {
+        "en": "Region",
+        "zh-hk": "地區",
+        "zh-cn": "地区"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "The Hermitage",
+            "zh-hk": "帝峰皇殿",
+            "zh-cn": "帝峰皇殿"
+          },
+          "_id": "5ecd1970e3f4e5e2fb30bb9a"
+        }
+      ],
+      "product": "5ecd1acbd7e8ca5ac736071b",
+      "__v": 0,
+      "createdAt": "2020-05-26T13:34:03.213Z",
+      "updatedAt": "2020-05-26T13:34:03.213Z"
+    },
+    {
+      "_id": "5ecd1f6b43c3e2dce323bfea",
+      "name": {
+        "en": "Age",
+        "zh-hk": "年齡",
+        "zh-cn": "年龄"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "3-6years old",
+            "zh-hk": "3-6歲",
+            "zh-cn": "3-6岁"
+          },
+          "_id": "5ecd1f7a43c3e2dce323bfeb"
+        },
+        {
+          "name": {
+            "en": "6-12years old",
+            "zh-hk": "6-12歲",
+            "zh-cn": "6-12岁"
+          },
+          "_id": "5ecd1f8643c3e2dce323bfed"
+        },
+        {
+          "name": {
+            "en": "6-8years old",
+            "zh-hk": "6-8歲",
+            "zh-cn": "6-8岁"
+          },
+          "_id": "5ecd1f9243c3e2dce323bff0"
+        },
+        {
+          "name": {
+            "en": "8-12years old",
+            "zh-hk": "8-12歲",
+            "zh-cn": "8-12岁"
+          },
+          "_id": "5ecd1f9e43c3e2dce323bff4"
+        }
+      ],
+      "product": "5ecd1fe7d7e8ca5ac736072e",
+      "__v": 0,
+      "createdAt": "2020-05-26T13:55:51.112Z",
+      "updatedAt": "2020-05-26T13:55:51.112Z"
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f212d886a17f8193ee80405",
+      "_id": "5f212c29d48d337e9d748d15",
+      "values": [
+        {
+          "_id": "5f212c63d48d337e9d748d25",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f212c69d48d337e9d748d2c",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f212d886a17f8193ee80405",
+      "_id": "5f212c1dd48d337e9d748d14",
+      "values": [
+        {
+          "_id": "5f212c3dd48d337e9d748d18",
+          "name": {"en": "4 Lessons", "zh-hk": "4堂", "zh-cn": "4堂"}
+        },
+        {
+          "_id": "5f212c4ad48d337e9d748d1a",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f212c4fd48d337e9d748d1d",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2131b46a17f8193ee80428",
+      "_id": "5f2130dfd48d337e9d748d47",
+      "values": [
+        {
+          "_id": "5f213105d48d337e9d748d4b",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f213125d48d337e9d748d4d",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2131b46a17f8193ee80428",
+      "_id": "5f2130e2d48d337e9d748d48",
+      "values": [
+        {
+          "_id": "5f213135d48d337e9d748d50",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f21313fd48d337e9d748d53",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2133806a17f8193ee80441",
+      "_id": "5f2132fad48d337e9d748d58",
+      "values": [
+        {
+          "_id": "5f213314d48d337e9d748d5a",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f21331ad48d337e9d748d5c",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2133806a17f8193ee80441",
+      "_id": "5f2132fed48d337e9d748d59",
+      "values": [
+        {
+          "_id": "5f213321d48d337e9d748d5f",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f213325d48d337e9d748d62",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2136336a17f8193ee8045c",
+      "_id": "5f2134bdd48d337e9d748d67",
+      "values": [
+        {
+          "_id": "5f2134c9d48d337e9d748d69",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f2134d0d48d337e9d748d6b",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2136336a17f8193ee8045c",
+      "_id": "5f2134c0d48d337e9d748d68",
+      "values": [
+        {
+          "_id": "5f2134ecd48d337e9d748d7a",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f2134efd48d337e9d748d7d",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f213de46a17f8193ee80476",
+      "_id": "5f213cd1d48d337e9d748d84",
+      "values": [
+        {
+          "_id": "5f213cdfd48d337e9d748d86",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f213d01d48d337e9d748d88",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f213de46a17f8193ee80476",
+      "_id": "5f213cd4d48d337e9d748d85",
+      "values": [
+        {
+          "_id": "5f213d0ed48d337e9d748d8b",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f213d12d48d337e9d748d8e",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f21495c6a17f8193ee8048f",
+      "_id": "5f2148e3c6fefc57ad447e1e",
+      "values": [
+        {
+          "_id": "5f2148fcc6fefc57ad447e24",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f214900c6fefc57ad447e27",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f21495c6a17f8193ee8048f",
+      "_id": "5f2148dec6fefc57ad447e1d",
+      "values": [
+        {
+          "_id": "5f2148ecc6fefc57ad447e1f",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f2148f6c6fefc57ad447e21",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f214b416a17f8193ee804a0",
+      "_id": "5f214ac5c6fefc57ad447e30",
+      "values": [
+        {
+          "_id": "5f214acfc6fefc57ad447e32",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f214ad4c6fefc57ad447e34",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f214b416a17f8193ee804a0",
+      "_id": "5f214ac8c6fefc57ad447e31",
+      "values": [
+        {
+          "_id": "5f214adbc6fefc57ad447e37",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f214adfc6fefc57ad447e3a",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f214dba6a17f8193ee804b1",
+      "_id": "5f214d35c6fefc57ad447e3f",
+      "values": [
+        {
+          "_id": "5f214d3fc6fefc57ad447e41",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f214d49c6fefc57ad447e47",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f214dba6a17f8193ee804b1",
+      "_id": "5f214d38c6fefc57ad447e40",
+      "values": [
+        {
+          "_id": "5f214d4fc6fefc57ad447e4a",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f214d53c6fefc57ad447e4d",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f214fa06a17f8193ee804c2",
+      "_id": "5f214f2b9a24876399cc667d",
+      "values": [
+        {
+          "_id": "5f214f339a24876399cc667f",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f214f3a9a24876399cc6681",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f214fa06a17f8193ee804c2",
+      "_id": "5f214f2f9a24876399cc667e",
+      "values": [
+        {
+          "_id": "5f214f4b9a24876399cc6684",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f214f4e9a24876399cc6687",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2152406a17f8193ee804d3",
+      "_id": "5f2151d39a24876399cc668c",
+      "values": [
+        {
+          "_id": "5f2151de9a24876399cc668e",
+          "name": {"en": "Beginner level", "zh-hk": "基礎", "zh-cn": "基础"}
+        },
+        {
+          "_id": "5f2151e39a24876399cc6690",
+          "name": {"en": "Advanced level", "zh-hk": "進階", "zh-cn": "进阶"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2152406a17f8193ee804d3",
+      "_id": "5f2151d69a24876399cc668d",
+      "values": [
+        {
+          "_id": "5f2151ec9a24876399cc6693",
+          "name": {"en": "8 Lessons", "zh-hk": "8堂", "zh-cn": "8堂"}
+        },
+        {
+          "_id": "5f2151f29a24876399cc6696",
+          "name": {"en": "12 Lessons", "zh-hk": "12堂", "zh-cn": "12堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2153c06a17f8193ee804e4",
+      "_id": "5f21533d9a24876399cc669b",
+      "values": [
+        {
+          "_id": "5f21534f9a24876399cc669d",
+          "name": {"en": "Chinese class", "zh-hk": "中文班", "zh-cn": "中文班"}
+        },
+        {
+          "_id": "5f2153619a24876399cc66a3",
+          "name": {"en": "English class", "zh-hk": "英文班", "zh-cn": "英文班"}
+        },
+        {
+          "_id": "5f21537f9a24876399cc66a6",
+          "name": {"en": "Math class", "zh-hk": "數學班", "zh-cn": "数学班"}
+        }
+      ],
+      "name": {"en": "Course", "zh-hk": "課程", "zh-cn": "课程"}
+    },
+    {
+      "__v": 0,
+      "createdAt": "2020-05-26T12:57:38.704Z",
+      "updatedAt": "2020-05-26T12:57:38.704Z",
+      "product": "5f2153c06a17f8193ee804e4",
+      "_id": "5f2153409a24876399cc669c",
+      "values": [
+        {
+          "_id": "5f2153909a24876399cc66aa",
+          "name": {"en": "10 Lessons", "zh-hk": "10堂", "zh-cn": "10堂"}
+        }
+      ],
+      "name": {"en": "Lessons", "zh-hk": "堂數", "zh-cn": "堂数"}
+    },
+    {
+      "_id": "5fbf556546777517ee18bfda",
+      "name": {
+        "en": "Version",
+        "zh-hk": "版本",
+        "zh-cn": "版本"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Regular Version",
+            "zh-hk": "普通版",
+            "zh-cn": "普通版"
+          },
+          "_id": "5fbf556946777517ee18bfdb"
+        },
+        {
+          "name": {
+            "en": "Limited Version",
+            "zh-hk": "珍藏版",
+            "zh-cn": "珍藏版"
+          },
+          "_id": "5fbf556c46777517ee18bfdd"
+        }
+      ],
+      "product": "5fbf54ccada5873de625cd1e"
+    },
+    {
+      "_id": "5fbf553148a29c0b24debb27",
+      "name": {
+        "en": "Version",
+        "zh-hk": "版本",
+        "zh-cn": "版本"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Regular Version",
+            "zh-hk": "普通版",
+            "zh-cn": "普通版"
+          },
+          "_id": "5fbf553648a29c0b24debb28"
+        },
+        {
+          "name": {
+            "en": "Limited Version",
+            "zh-hk": "珍藏版",
+            "zh-cn": "珍藏版"
+          },
+          "_id": "5fbf553948a29c0b24debb2a"
+        }
+      ],
+      "product": "5fbf5553ada5873de625cd25"
+    },
+    {
+      "_id": "5fbf540548a29c0b24debb1a",
+      "name": {
+        "en": "Size",
+        "zh-hk": "尺寸",
+        "zh-cn": "尺寸"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Big",
+            "zh-hk": "大",
+            "zh-cn": "大"
+          },
+          "_id": "5fbf540748a29c0b24debb1b"
+        },
+        {
+          "name": {
+            "en": "Small",
+            "zh-hk": "小",
+            "zh-cn": "小"
+          },
+          "_id": "5fbf540948a29c0b24debb1d"
+        }
+      ],
+      "product": "5fbf5435ada5873de625cd17"
+    },
+    {
+      "_id": "5fbf531f48a29c0b24debb14",
+      "name": {
+        "en": "Size",
+        "zh-hk": "尺寸",
+        "zh-cn": "尺寸"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Big",
+            "zh-hk": "大",
+            "zh-cn": "大"
+          },
+          "_id": "5fbf532248a29c0b24debb15"
+        },
+        {
+          "name": {
+            "en": "Small",
+            "zh-hk": "小",
+            "zh-cn": "小"
+          },
+          "_id": "5fbf532448a29c0b24debb17"
+        }
+      ],
+      "product": "5fbf533dada5873de625cd10"
+    },
+    {
+      "_id": "5fbf5156412d0d61df2ae235",
+      "name": {
+        "en": "Size",
+        "zh-hk": "尺寸",
+        "zh-cn": "尺寸"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Big",
+            "zh-hk": "大",
+            "zh-cn": "大"
+          },
+          "_id": "5fbf5166412d0d61df2ae236"
+        },
+        {
+          "name": {
+            "en": "Small",
+            "zh-hk": "小",
+            "zh-cn": "小"
+          },
+          "_id": "5fbf5169412d0d61df2ae238"
+        }
+      ],
+      "product": "5fbf51a0ada5873de625cd09"
+    },
+    {
+      "_id": "6007f8b506fcc9c43eb62b96",
+      "name": {
+        "zh-hk": "天",
+        "en": "Days",
+        "zh-cn": "天"
+      },
+      "icon": "60370b56e8c1423bd16569c9",
+      "activeIcon": "60370b56e8c1423bd16569c9",
+      "values": [
+        {
+          "name": {
+            "en": "6",
+            "zh-hk": "6",
+            "zh-cn": "6"
+          },
+          "_id": "6007f8b906fcc9c43eb62b97"
+        }
+      ],
+      "product": "5ff2eaaf773f105cfa44adc1"
+    },
+    {
+      "_id": "6007f8c706fcc9c43eb62b99",
+      "name": {
+        "zh-hk": "年齡範圍",
+        "en": "Age Range",
+        "zh-cn": "年龄范围"
+      },
+      "icon": "60370b60250cf1809c6befa2",
+      "activeIcon": "60370b60250cf1809c6befa2",
+      "values": [
+        {
+          "name": {
+            "en": "12",
+            "zh-hk": "12",
+            "zh-cn": "12"
+          },
+          "_id": "6007f8c906fcc9c43eb62b9a"
+        }
+      ],
+      "product": "5ff2eaaf773f105cfa44adc1"
+    },
+    {
+      "_id": "6007f8d206fcc9c43eb62b9c",
+      "name": {
+        "zh-hk": "日期",
+        "en": "Date",
+        "zh-cn": "日期"
+      },
+      "icon": "60370b4fdba486238b6bd029",
+      "activeIcon": "60370b4fdba486238b6bd029",
+      "values": [
+        {
+          "name": {
+            "zh-hk": "六 - 七月",
+            "en": "Jun - Jul",
+            "zh-cn": "六 - 七月"
+          },
+          "_id": "6007f8e706fcc9c43eb62b9f"
+        }
+      ],
+      "product": "5ff2eaaf773f105cfa44adc1"
+    },
+
+    {
+      "_id": "6008dcdc187559b03936e0ae",
+      "name": {
+        "zh-hk": "天",
+        "en": "Days",
+        "zh-cn": "天"
+      },
+      "icon": "60370b56e8c1423bd16569c9",
+      "activeIcon": "60370b56e8c1423bd16569c9",
+      "values": [
+        {
+          "name": {
+            "en": "6",
+            "zh-hk": "6",
+            "zh-cn": "6"
+          },
+          "_id": "6008dcec187559b03936e0af"
+        }
+      ],
+      "product": "5ff2eaaaf12009fda0355d87",
+      "__v": 0
+    },
+    {
+      "_id": "6008dcee187559b03936e0b1",
+      "name": {
+        "zh-hk": "年齡範圍",
+        "en": "Age Range",
+        "zh-cn": "年龄范围"
+      },
+      "icon": "60370b60250cf1809c6befa2",
+      "activeIcon": "60370b60250cf1809c6befa2",
+      "values": [
+        {
+          "name": {
+            "en": "18",
+            "zh-hk": "18",
+            "zh-cn": "18"
+          },
+          "_id": "6008dcf0187559b03936e0b2"
+        }
+      ],
+      "product": "5ff2eaaaf12009fda0355d87"
+    },
+    {
+      "_id": "6008dcf8187559b03936e0b4",
+      "name": {
+        "zh-hk": "日期",
+        "en": "Date",
+        "zh-cn": "日期"
+      },
+      "icon": "60370b4fdba486238b6bd029",
+      "activeIcon": "60370b4fdba486238b6bd029",
+      "values": [
+        {
+          "name": {
+            "en": "Jun - Jul",
+            "zh-hk": "六 - 七月",
+            "zh-cn": "六 - 七月"
+          },
+          "_id": "6008dd0b187559b03936e0b5"
+        }
+      ],
+      "product": "5ff2eaaaf12009fda0355d87"
+    },
+    {
+      "_id": "6008dd7abaae4da53f2ab8c0",
+      "name": {
+        "zh-hk": "天",
+        "en": "Days",
+        "zh-cn": "天"
+      },
+      "icon": "60370b56e8c1423bd16569c9",
+      "activeIcon": "60370b56e8c1423bd16569c9",
+      "values": [
+        {
+          "name": {
+            "en": "7",
+            "zh-hk": "7",
+            "zh-cn": "7"
+          },
+          "_id": "6008dd98baae4da53f2ab8cb"
+        }
+      ],
+      "product": "5ff2eaa6ec07920abfc7332d",
+      "__v": 0
+    },
+    {
+      "_id": "6008dd7fbaae4da53f2ab8c1",
+      "name": {
+        "zh-hk": "年齡範圍",
+        "en": "Age Range",
+        "zh-cn": "年龄范围"
+      },
+      "icon": "60370b60250cf1809c6befa2",
+      "activeIcon": "60370b60250cf1809c6befa2",
+      "values": [
+        {
+          "name": {
+            "en": "16",
+            "zh-hk": "16",
+            "zh-cn": "16"
+          },
+          "_id": "6008dd93baae4da53f2ab8c8"
+        }
+      ],
+      "product": "5ff2eaa6ec07920abfc7332d"
+    },
+    {
+      "_id": "6008dd84baae4da53f2ab8c2",
+      "icon": "60370b4fdba486238b6bd029",
+      "activeIcon": "60370b4fdba486238b6bd029",
+      "name": {
+        "zh-hk": "日期",
+        "en": "Date",
+        "zh-cn": "日期"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Jun - Jul",
+            "zh-hk": "六 - 七月",
+            "zh-cn": "六 - 七月"
+          },
+          "_id": "6008dd0b187559b03936e0b5"
+        }
+      ],
+      "product": "5ff2eaa6ec07920abfc7332d"
+    },
+    {
+      "_id": "6008ddce6809e63410388978",
+      "name": {
+        "zh-hk": "天",
+        "en": "Days",
+        "zh-cn": "天"
+      },
+      "icon": "60370b56e8c1423bd16569c9",
+      "activeIcon": "60370b56e8c1423bd16569c9",
+      "values": [
+        {
+          "name": {
+            "en": "3",
+            "zh-hk": "3",
+            "zh-cn": "3"
+          },
+          "_id": "6008ddeb6809e6341038897f"
+        }
+      ],
+      "product": "5ff2eaa00a5a7d14422646c7",
+      "__v": 0
+    },
+    {
+      "_id": "6008ddd36809e63410388979",
+      "name": {
+        "zh-hk": "年齡範圍",
+        "en": "Age Range",
+        "zh-cn": "年龄范围"
+      },
+      "icon": "60370b60250cf1809c6befa2",
+      "activeIcon": "60370b60250cf1809c6befa2",
+      "values": [
+        {
+          "name": {
+            "en": "12",
+            "zh-hk": "12",
+            "zh-cn": "12"
+          },
+          "_id": "6008dde76809e6341038897d"
+        }
+      ],
+      "product": "5ff2eaa00a5a7d14422646c7"
+    },
+    {
+      "_id": "6008ddd76809e6341038897a",
+      "name": {
+        "zh-hk": "日期",
+        "en": "Date",
+        "zh-cn": "日期"
+      },
+      "icon": "60370b4fdba486238b6bd029",
+      "activeIcon": "60370b4fdba486238b6bd029",
+      "values": [
+        {
+          "name": {
+            "en": "Jun - Jul",
+            "zh-hk": "六 - 七月",
+            "zh-cn": "六 - 七月"
+          },
+          "_id": "6008dd0b187559b03936e0b5"
+        }
+      ],
+      "product": "5ff2eaa00a5a7d14422646c7"
+    },
+    {
+      "_id": "6014fda7438ce47f6b436c06",
+      "name": {
+        "en": "Credit",
+        "zh-hk": "積分",
+        "zh-cn": "积分"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "500",
+            "zh-hk": "500",
+            "zh-cn": "500"
+          },
+          "_id": "6014fdb4686bc4d7d8b3de8d"
+        },
+        {
+          "name": {
+            "en": "100",
+            "zh-hk": "100",
+            "zh-cn": "100"
+          },
+          "_id": "60150162f5d822f2a6e38252"
+        }
+      ],
+      "product": "6014fddc6e91ff67579707d9"
+    },
+    {
+      "_id": "60598d5e5688453b6c93f14f",
+      "name": {
+        "en": "Type",
+        "zh-hk": "類型",
+        "zh-cn": "類型"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Window type air conditioner",
+            "zh-hk": "窗口式冷氣機",
+            "zh-cn": "窗口式冷气机"
+          },
+          "_id": "60598d735688453b6c93f152"
+        },
+        {
+          "name": {
+            "en": "Wall-mounted split air conditioner",
+            "zh-hk": "掛牆分體式冷氣機",
+            "zh-cn": "挂墙分体式冷气机"
+          },
+          "_id": "60598d6a5688453b6c93f150"
+        },
+        {
+          "name": {
+            "en": "Window split type air conditioner",
+            "zh-hk": "窗口分體式冷氣機",
+            "zh-cn": "窗口分体式冷气机"
+          },
+          "_id": "60598d7b5688453b6c93f155"
+        },
+        {
+          "name": {
+            "en": "Mobile air conditioner",
+            "zh-hk": "移動式冷氣機",
+            "zh-cn": "移动式冷气机"
+          },
+          "_id": "60598d835688453b6c93f159"
+        },
+        {
+          "name": {
+            "en": "Heating and cooling air conditioner",
+            "zh-hk": "冷暖空調機",
+            "zh-cn": "冷暖空调机"
+          },
+          "_id": "60598d8b5688453b6c93f15e"
+        }
+      ],
+      "product": "60598e89b94cdecd1fdfeac7"
+    },
+    {
+      "_id": "6059ad3b9146c70223f753d0",
+      "name": {
+        "en": "Region",
+        "zh-hk": "地區",
+        "zh-cn": "地区"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Residental",
+            "zh-hk": "住宅大廈",
+            "zh-cn": "住宅大厦"
+          },
+          "_id": "6059ad499146c70223f753d1"
+        },
+        {
+          "name": {
+            "en": "Industrial Building",
+            "zh-hk": "工業大廈",
+            "zh-cn": "工业大厦"
+          },
+          "_id": "6059ad529146c70223f753d7"
+        },
+        {
+          "name": {
+            "en": "Commercial Building",
+            "zh-hk": "商業大廈",
+            "zh-cn": "商业大厦"
+          },
+          "_id": "6059ad5b9146c70223f753e2"
+        }
+      ],
+      "product": "60598e89b94cdecd1fdfeac7"
+    },
+
+    {
+      "_id": "60599bd267aed96d9c5c502f",
+      "name": {
+        "en": "Type",
+        "zh-hk": "類型",
+        "zh-cn": "類型"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Window type air conditioner",
+            "zh-hk": "窗口式冷氣機",
+            "zh-cn": "窗口式冷气机"
+          },
+          "_id": "60599be467aed96d9c5c5030"
+        },
+        {
+          "name": {
+            "en": "Wall-mounted split air conditioner",
+            "zh-hk": "掛牆分體式冷氣機",
+            "zh-cn": "挂墙分体式冷气机"
+          },
+          "_id": "60599be867aed96d9c5c5032"
+        },
+        {
+          "name": {
+            "en": "Window split type air conditioner",
+            "zh-hk": "窗口分體式冷氣機",
+            "zh-cn": "窗口分体式冷气机"
+          },
+          "_id": "60599bed67aed96d9c5c5035"
+        },
+        {
+          "name": {
+            "en": "Mobile air conditioner",
+            "zh-hk": "移動式冷氣機",
+            "zh-cn": "移动式冷气机"
+          },
+          "_id": "60599bf167aed96d9c5c5039"
+        },
+        {
+          "name": {
+            "en": "Heating and cooling air conditioner",
+            "zh-hk": "冷暖空調機",
+            "zh-cn": "冷暖空调机"
+          },
+          "_id": "60599bf667aed96d9c5c503e"
+        }
+      ],
+      "product": "6059927a4ecc0547fbed6a68"
+    },
+    {
+      "_id": "6059b0dcb59c80217e4c795f",
+      "name": {
+        "en": "Region",
+        "zh-hk": "地區",
+        "zh-cn": "地区"
+      },
+      "values": [
+        {
+          "name": {
+            "en": "Residental",
+            "zh-hk": "住宅大廈",
+            "zh-cn": "住宅大厦"
+          },
+          "_id": "6059b113b59c80217e4c79af"
+        },
+        {
+          "name": {
+            "en": "Industrial Building",
+            "zh-hk": "工業大廈",
+            "zh-cn": "工业大厦"
+          },
+          "_id": "6059b119b59c80217e4c79b5"
+        },
+        {
+          "name": {
+            "en": "Commercial Building",
+            "zh-hk": "商業大廈",
+            "zh-cn": "商业大厦"
+          },
+          "_id": "6059b121b59c80217e4c79c0"
+        }
+      ],
+      "product": "6059927a4ecc0547fbed6a68"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<html>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+  />
+  <head>
+    <style>
+      table,
+      td,
+      p {
+        font-family: 'PingFangHK', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+      .pstyle {
+        color: #5e5e5e;
+        margin: 0;
+        font-size: 18px;
+        line-height: 24px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <%- include('../_layout/head') %>
+    <table
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+      style="padding: 0 20px 0 20px; margin: 0 auto; background-color: #f9f9f9;"
+      width="600px"
+    >
+      <tbody style="background-color: #fff;">
+        <tr>
+          <td style="padding: 0 0 0 10px;">
+            <table width="100%" border="0" cellpadding="5" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td>
+                    <p
+                      style="
+                        color: #2d2d2d;
+                        font-size: 16px;
+                        line-height: 24px;
+                        margin-bottom: 20px;
+                      "
+                    >
+                      <br />
+                      <strong><%=data.receipt_workspace_name%></strong>
+                    </p>
+                    <p class="pstyle">
+                      <p style="text-align: center">
+                        <%=data.display_invoice%> #<%=data.orderNo%>
+                      </p>
+                      <br />
+                      <div>
+                        <div style="float: left; text-align: left;font-size: 14px;width: 50%;">
+                          <%=data.display_date%> <br />
+                          <%=data.date%><br />
+                        </div>
+                        <div>
+                          <%=data.display_amount_paid%> <br />
+                          <%=data.currency%>$<%=data.totalAmount%><br />
+                        </div>
+                      </div>
+                      <br />
+                      <%if (!data.fullWidthStyle) { %>
+                      <a
+                        target="blank"
+                        href="<%=data.downPdf%>"
+                        download="<%=data.display_orderNo%>"
+                        style="
+                          background-color: #22ac38;
+                          border: none;
+                          color: white;
+                          padding: 15px 32px;
+                          text-align: center;
+                          text-decoration: none;
+                          display: inline-block;
+                          font-size: 16px;
+                          margin: 4px 2px;
+                          cursor: pointer;
+                        "
+                      >
+                        <%=data.display_down_pdf%>
+                      </a>
+                      <% } %>
+                    </p>
+                    <br />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <%- include('../_layout/foot') %>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<%- include('../_layout/head') %>
+
+<html>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+  />
+  <head>
+    <style>
+      table,
+      td,
+      p {
+        font-family: 'PingFangHK', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+      body {
+        background-color: #ffff;
+        padding: 16;
+      }
+    </style>
+  </head>
+  <body>
+    <table
+      cellspacing="0"
+      cellpadding="0"
+      style="padding: 2px; margin: 0 auto; background-color: #f9f9f9"
+      width="600px"
+    >
+      <tbody style="background-color: #ffffff">
+        <tr>
+          <td style="padding-left: 25px; margin-bottom: 30px">
+            <p
+              style="
+                color: #2d2d2d;
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 16px;
+              "
+            >
+              <br />
+              <strong><%-data.user.firstName%> <%-data.user.lastName%>,</strong>
+            </p>
+            <p><%-data.message%></p>
+            <br />
+            <%if (data.url) { %>
+            <a
+              target="blank"
+              href="<%=data.url%>"
+              style="
+                background-color: #395ee4;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+              "
+            >
+              <%-data.view%>
+            </a>
+            <% } %>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+<%- include('../_layout/foot') %>

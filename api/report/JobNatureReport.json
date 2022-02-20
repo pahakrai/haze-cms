@@ -1,0 +1,25 @@
+{
+  "version": "2020-11-25",
+  "templates": [
+    {
+      "worksheet": "JobNatureReport",
+      "details": {
+        "startRow": 2,
+        "columns": [
+          {
+            "idx": 1,
+            "fieldName": "jobType"
+          },
+          {
+            "idx": 2,
+            "fieldName": "industry"
+          },
+          {
+            "idx": 3,
+            "fieldName": "count"
+          }
+        ]
+      }
+    }
+  ]
+}

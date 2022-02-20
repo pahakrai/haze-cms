@@ -1,0 +1,45 @@
+{
+  "_id": "5df2f9d0d49ef9fcf5bc613e",
+  "layout": {
+    "stackName": "flex",
+    "stack": [
+      {
+        "_id": "5df2f9d0d49ef9fcf5bc613f",
+        "direction": "column",
+        "widgets": ["5df2fbc003d43eaabfc28ac3"]
+      }
+    ]
+  },
+  "isTemplate": false,
+  "widgets": [
+    {
+      "_id": "5df2fbc003d43eaabfc28ac3",
+      "position": "",
+      "inlineStyle": "",
+      "userPermission": {
+        "delete": true,
+        "edit": true,
+        "move": true
+      },
+      "hidden": false,
+      "mobileHidden": false,
+      "anchor": {
+        "hash": "",
+        "top": 0
+      },
+      "layout": {},
+      "type": "news",
+      "data": {
+        "zh-hk": {
+          "rightListTitle": "推薦資訊"
+        },
+        "zh-cn": {
+          "rightListTitle": "推荐资讯"
+        },
+        "en": {
+          "rightListTitle": "Suggested Resources"
+        }
+      }
+    }
+  ]
+}

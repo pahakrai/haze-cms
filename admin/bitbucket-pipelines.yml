@@ -1,0 +1,32 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:12.18.2
+
+pipelines:
+  branches:
+    testing:
+      - step:
+          name: Install dependency & Build
+          caches:
+            - node
+          script:
+            - yarn install --frozen-lockfile
+            - yarn lint
+            - yarn build:testing
+          artifacts:
+            - build/**
+      - step:
+          name: Deploy to s3
+          deployment: Testing
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.4.5
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                S3_BUCKET: $BUCKET_NAME
+                ACL: 'public-read'
+                LOCAL_PATH: 'build'

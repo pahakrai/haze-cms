@@ -1,0 +1,12 @@
+input ContactUsModel {
+  message: String
+  name: String
+  subject: String
+  userEmail: String!
+}
+
+type Mutation {
+  contactUs(model: ContactUsModel): Boolean
+  createEnquiry(input: String!, contactType: String!): Boolean
+  requestTrialEventCampaign(input: String!, contactType: String!): Boolean
+}
