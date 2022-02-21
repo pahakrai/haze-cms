@@ -1,33 +1,11 @@
-# README
+## haze k8s
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Kubernetes/skaffold for development
+- install docker and run kubernetes
+- install Ingress nginx from @kubernetes/ingress-nginx
+- install skaffold for development single pipeline
 
-### What is this repository for?
+## skaffold command
 
-- Quick summary
-- Version
-- [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up?
-
-- Summary of set up
-- Configuration
-- Dependencies
-- Database configuration
-- How to run tests
-- Deployment instructions
-
-### Contribution guidelines
-
-- Writing tests
-- Code review
-- Other guidelines
-
-### Who do I talk to?
-
-- Repo owner or admin
-- Other community or team contact
-
-### Lint
-
-- "pre-commit": "eslint 'src/\*_/_.{js,jsx}'",
+Run skaffold on the haze cms folder
+`skaffold dev`
