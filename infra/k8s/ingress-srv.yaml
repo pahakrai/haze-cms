@@ -1,0 +1,34 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-service
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: 'true'
+spec:
+  rules:
+    - host: haze.dev
+      http:
+        paths:
+          - path: /api/?(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: api-srv
+                port:
+                  number: 3000
+          - path: /admin/?(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: admin-srv
+                port:
+                  number: 3109
+          - path: /?(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: web-srv
+                port:
+                  number: 3601
+          

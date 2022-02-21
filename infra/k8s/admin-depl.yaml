@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: admin-depl
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: admin
+  template:
+    metadata:
+      labels:
+        app: admin
+    spec:
+      containers:
+        - name: admin
+          image: haze/admin
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: admin-srv
+spec:
+  selector:
+    app: admin
+  ports:
+    - name: admin
+      protocol: TCP
+      port: 3109
+      targetPort: 3109
