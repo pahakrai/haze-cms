@@ -9,8 +9,8 @@ build:
     # dont push to dockerhub
     push: false
   artifacts:
-    - image: haze/client
-      context: client
+    - image: haze/web
+      context: web
       docker:
         dockerfile: Dockerfile
       sync:
@@ -30,7 +30,7 @@ build:
           - src: '**/*.ts'
             dest: .
     - image: haze/api
-      context: tickets
+      context: api
       docker:
         dockerfile: Dockerfile
       sync:
