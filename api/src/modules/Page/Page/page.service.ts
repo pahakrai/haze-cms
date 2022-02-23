@@ -419,7 +419,7 @@ export class PageService extends BaseCRUDService<
     workspaceId?: string,
     isSeo?: boolean
   ): Promise<IPage | null> {
-    let relativeAddress = path || '';
+    let relativeAddress = path || '/';
     if (/^[^/]/.test(relativeAddress)) {
       relativeAddress = `/${relativeAddress}`;
     }

@@ -2,12 +2,14 @@ import React from "react";
 import App, { AppContext } from "next/app";
 import { ApolloProvider } from "@apollo/client";
 import { NextPageContext } from "next";
+import { QueryClientProvider, Hydrate } from "react-query";
 // TAG: INJECT MATERIAL UI START
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 // TAG: INJECT MATERIAL UI END
 
 import "~/public/styles/index.scss";
+import { queryClient } from '~/utils/react-query-client'
 
 import { initializeApollo, useApollo } from "~/lib/apollo/client";
 import FacebookPixel from "~/src/Modules/App/Components/FacebookPixel";
@@ -47,20 +49,24 @@ function CustomApp({ Component, pageProps }) {
   });
   // TAG: INJECT MATERIAL UI END
   return (
-    <ApolloProvider client={apolloClient}>
-      <Favicon />
-      <FacebookPixel />
-      <GoogleTagManager />
-      <PageMeta pageParam={pageProps?.pageParam} />
-      <IntlProvider locale={pageProps.language}>
-        <ToastProvider>
-          <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <Component {...pageProps} />
-          </ThemeProvider>
-        </ToastProvider>
-      </IntlProvider>
-    </ApolloProvider>
+    <QueryClientProvider client={queryClient}>
+      <Hydrate state={pageProps.dehydratedState}>
+        <ApolloProvider client={apolloClient}>
+          <Favicon />
+          <FacebookPixel />
+          <GoogleTagManager />
+          <PageMeta pageParam={pageProps?.pageParam} />
+          <IntlProvider locale={pageProps.language}>
+            <ToastProvider>
+              <ThemeProvider theme={theme}>
+                <CssBaseline />
+                <Component {...pageProps} />
+              </ThemeProvider>
+            </ToastProvider>
+          </IntlProvider>
+        </ApolloProvider>
+      </Hydrate>
+    </QueryClientProvider>
   );
 }
 CustomApp.getInitialProps = async (acx: AppContext) => {
@@ -68,13 +74,24 @@ CustomApp.getInitialProps = async (acx: AppContext) => {
   const language = languageFilter(getLanguageFromReq(acx.ctx.req)); // get language from server side cookies
   const token = getAccessTokenFromReq(acx.ctx.req);
   setGlobalLanguage(language); // set global language
+
+  let pageProps = {}
+  // // NOTE: OVERRIDE THE CHILD PAGE PROPS
+  // if (acx.Component.getInitialProps) {
+  //   pageProps = await acx.Component.getInitialProps(
+  //     acx.ctx
+  //     // NOTE: CHECK WHY CURRENT USER DATA IS DELAYED TO CHILD PAGES
+  //     // currentUserData // current user pass to other pages
+  //   )
+  // }
+
   // for all page with pageParam
   return {
     ...appProps,
     pageProps: {
       language,
       token,
-      ...appProps?.pageProps,
+      ...{...appProps?.pageProps, ...pageProps},
       pageParam: (
         acx.ctx?.req ||
         // when isServer = false, get pageProps

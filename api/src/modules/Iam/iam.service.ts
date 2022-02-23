@@ -26,7 +26,6 @@ export class IamService extends BaseService<IAM> {
     query: IamSearchModle,
     options: IamFindOption = {decryptCredential: false}
   ) {
-    console.log(this.cryptoKey, 'crypto key here');
     // find IAM
     const iam = await this.iamRepository.findOne(query).exec();
 
