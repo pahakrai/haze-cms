@@ -1,14 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-import { List, Button } from 'antd';
-import PostCardItem from './PostCardItem';
+import React from 'react'
+import styled from 'styled-components'
+import { List, Button } from 'antd'
+import PostCardItem from './PostCardItem'
 
 const ListFooterWarp = styled.div`
   text-align: center;
   margin-top: 12px;
   height: 32px;
   line-height: 32px;
-`;
+`
 
 class PostList extends React.PureComponent {
   static defaultProps = {
@@ -17,10 +17,10 @@ class PostList extends React.PureComponent {
     isEnd: true,
     onItemClick: () => true,
     onLoadMore: () => true
-  };
+  }
 
-  _renderItem = post => {
-    const { onItemClick, intl } = this.props;
+  _renderItem = (post) => {
+    const { onItemClick, intl } = this.props
     return (
       <List.Item>
         <PostCardItem
@@ -29,11 +29,11 @@ class PostList extends React.PureComponent {
           onClick={() => onItemClick(post)}
         />
       </List.Item>
-    );
-  };
+    )
+  }
 
   _renderFooter = () => {
-    const { isEnd, isNextPageLoading, onLoadMore, intl } = this.props;
+    const { isEnd, isNextPageLoading, onLoadMore, intl } = this.props
     return (
       <ListFooterWarp>
         {isEnd ? (
@@ -46,11 +46,11 @@ class PostList extends React.PureComponent {
           </Button>
         )}
       </ListFooterWarp>
-    );
-  };
+    )
+  }
 
   render() {
-    const { posts } = this.props;
+    const { posts } = this.props
     return (
       <List
         grid={{ gutter: 16, xs: 1, sm: 1, md: 2, lg: 2, xl: 3, xxl: 4 }}
@@ -58,8 +58,8 @@ class PostList extends React.PureComponent {
         renderItem={this._renderItem}
         footer={this._renderFooter()}
       />
-    );
+    )
   }
 }
 
-export default PostList;
+export default PostList

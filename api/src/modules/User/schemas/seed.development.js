@@ -182,6 +182,37 @@ module.exports = {
         email: true,
         phone: true
       }
+    },
+    {
+      _id: '6217b42f058f1f1942cbd4be',
+      workspaces: ['5e9fcae14fc78a87a9bc4c43'],
+      currentWorkspace: '5e9fcae14fc78a87a9bc4c43',
+      phoneRegionCode: '+852',
+      email: 'rai.pahak@gmail.com',
+      firstName: 'Pahak',
+      lastName: 'Rai',
+      dob: '2022-02-23T18:15:00.000Z',
+      gender: 'M',
+      username: 'rai.pahak',
+      verified: {
+        email: true,
+        phone: false
+      },
+      isVerified: true,
+      status: 1,
+      userTypes: ['member'],
+      description: '',
+      preferences: {
+        language: 'en',
+        receiveNotification: true,
+        themes: [],
+        subscriptionNotification: false
+      },
+      avatars: [],
+      activationIssues: [],
+      createdAt: '2022-02-24T16:37:03.294Z',
+      updatedAt: '2022-02-24T16:37:53.800Z',
+      __v: 0
     }
   ]
 };

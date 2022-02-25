@@ -113,6 +113,23 @@ module.exports = {
         // TagImage Administrator
         '5f73e6a7bb72e60d58a428f3'
       ]
+    },
+    {
+      _id: '6218b683cba53de63f3041d1',
+      // Members of cms that can maintain posts
+      name: 'Posts Owner',
+      // golpasal
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      users: [
+        // rai.pahak@gmail.com
+        '6217b42f058f1f1942cbd4be'
+      ],
+      policies: [
+        // Post Administrator
+        '5b2b44930b6fbf38cdcec90a'
+        // // Post Comment Administrator
+        // '5c7ce221f1d3458e089e6e57'
+      ]
     }
   ]
 };

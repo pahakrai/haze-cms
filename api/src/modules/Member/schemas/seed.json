@@ -1,4 +1,25 @@
 {
   "model": "Members",
-  "documents": []
+  "documents": [
+    {
+      "_id": "6217b432058f1f1942cbd549",
+      "user": "6217b42f058f1f1942cbd4be",
+      "preferences": {
+        "wage": {
+          "currency": "HKD",
+          "unit": "month"
+        },
+        "showAvgFeedback": true,
+        "categories": [],
+        "tags": [],
+        "locations": [],
+        "employmentTypes": []
+      },
+      "avgFeedback": 0,
+      "files": [],
+      "createdAt": "2022-02-24T16:37:06.786Z",
+      "updatedAt": "2022-02-24T16:37:06.786Z",
+      "__v": 0
+    }
+  ]
 }

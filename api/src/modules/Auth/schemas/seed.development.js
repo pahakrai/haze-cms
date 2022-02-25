@@ -902,6 +902,25 @@ module.exports = {
           id: ''
         }
       ]
+    },
+    {
+      _id: '6218e220d4c562a6a88733f9',
+      user: '6217b42f058f1f1942cbd4be',
+      password: '$2a$10$MkPFMynB4e48pDFGX4tUEe0AIyTwLUVjpGWcmpFVfLPdCgrO.hyMW',
+      passcode: {
+        scope: ''
+      },
+      loginChannels: [
+        {
+          type: 'default',
+          id: '',
+          _id: '6218bb922f0ab69f8dd19b3d'
+        }
+      ],
+      refreshTokens: [],
+      __v: 0,
+      createdAt: '2022-02-25T11:20:50.752Z',
+      updatedAt: '2022-02-25T11:20:50.752Z'
     }
   ]
 };

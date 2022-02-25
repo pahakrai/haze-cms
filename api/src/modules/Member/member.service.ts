@@ -323,29 +323,6 @@ export class MemberService extends BaseCRUDService<
 
     // create new member
     const newMember = await this.createMember(createModel, files);
-    const myWorkspace = await this.workspaceService.findById(currentWorkspace);
-
-    // get hook
-    const integration = myWorkspace.integrations.find(
-      i => i.app === IntegrationAppType.EEOCN
-    );
-    const hook = integration?.hooks?.find(h => h.code === 'CREATE_STUDENT');
-
-    if (hook) {
-      // create new student in eeo api
-      await this.createStudentToEEO(
-        hook,
-        myWorkspace,
-        userId,
-        newMember._id.toHexString(),
-        user?.phoneRegionCode,
-        user?.phone,
-        user?.firstName && user?.lastName
-          ? user?.firstName + ' ' + user?.lastName
-          : user?.username,
-        model?.user?.password
-      );
-    }
 
     // for auth purposes return user with token as well
     return {user, member: newMember, userToken};

@@ -1,39 +1,39 @@
 /* @flow */
 
-import React from 'react';
-import { injectIntl } from 'react-intl';
-import styled from 'styled-components';
+import React from 'react'
+import { injectIntl } from 'react-intl'
+import styled from 'styled-components'
 
 // import { appWorkspace } from '../Lib/util';
-import LoginForm from '../Containers/Login/LoginForm';
-import { useLoginPageWorkspaceName } from '../Containers/Login/hooks';
-import LoginFormHeader from '../Containers/Login/LoginFormHeader';
+import LoginForm from '../Containers/Login/LoginForm'
+import { useLoginPageWorkspaceName } from '../Containers/Login/hooks'
+import LoginFormHeader from '../Containers/Login/LoginFormHeader'
 
-import DocumentTitle from '../Components/Common/DocumentTitle';
-import ContentContainer from '../Components/Common/ContentContainer';
+import DocumentTitle from '../Components/Common/DocumentTitle'
+import ContentContainer from '../Components/Common/ContentContainer'
 // import Link from '../Components/Common/Link';
 
-const versionNo = require('../../package.json').version;
+const versionNo = require('../../package.json').version
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-`;
+`
 const LinksWrap = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-`;
+`
 const CopyRight = styled.div`
   width: 100%;
   text-align: center;
   padding: 0 10px 15px 10px;
-`;
+`
 
 export default injectIntl(({ intl }) => {
-  const workspaceName = useLoginPageWorkspaceName();
+  const workspaceName = useLoginPageWorkspaceName()
 
   return (
     <DocumentTitle title={'Login Page'}>
@@ -86,5 +86,5 @@ export default injectIntl(({ intl }) => {
         </CopyRight>
       </Container>
     </DocumentTitle>
-  );
-});
+  )
+})

@@ -5,7 +5,7 @@
   "private": false,
   "scripts": {
     "i": "yarn install --frozen-lockfile",
-    "start": "cross-env PORT=3109 env-cmd -f docker/development/.env.development --no-override react-scripts start",
+    "start": "cross-env PORT=3109 DISABLE_ESLINT_PLUGIN=true env-cmd -f docker/development/.env.development --no-override react-scripts start",
     "start:testing": "PORT=3109 env-cmd -f docker/testing/.env.testing --no-override react-scripts start",
     "start:production:drikids": "PORT=3109 env-cmd -f docker/release-drikids/.env.release --no-override react-scripts start",
     "test": "react-scripts test --env=jsdom",

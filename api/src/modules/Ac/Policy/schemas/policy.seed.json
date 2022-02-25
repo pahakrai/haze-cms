@@ -23,14 +23,18 @@
             "System:Administrator",
             "User:Management:View",
             "User:SystemAdmin:View",
-            "User:Provider:View",
             "User:SystemAdmin:Invite",
-            "User:Provider:Invite",
             "User:SystemAdmin:Edit",
-            "User:Provider:Edit",
             "User:SystemAdmin:Delete",
+            "MyWorkspace:Account:Update",
+            "User:Provider:Invite",
+            "User:Provider:Edit",
             "User:Provider:Delete",
-            "MyWorkspace:Account:Update"
+            "User:Provider:View",
+            "User:Member:Edit",
+            "User:Member:Invite",
+            "User:Member:Delete",
+            "User:Member:View"
           ]
         }
       ],
@@ -46,11 +50,15 @@
           "Action": [
             "System:Support",
             "User:Management:View",
+            "MyWorkspace:Account:Update",
             "User:Provider:View",
             "User:Provider:Invite",
             "User:Provider:Edit",
             "User:Provider:Delete",
-            "MyWorkspace:Account:Update"
+            "User:Member:Edit",
+            "User:Member:Invite",
+            "User:Member:Delete",
+            "User:Member:View"
           ]
         }
       ],
@@ -217,7 +225,11 @@
             "User:Provider:View",
             "User:Provider:Invite",
             "User:Provider:Edit",
-            "User:Provider:Delete"
+            "User:Provider:Delete",
+            "User:Member:Edit",
+            "User:Member:Invite",
+            "User:Member:Delete",
+            "User:Member:View"
           ],
           "Effect": "Allow"
         }

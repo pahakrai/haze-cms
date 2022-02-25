@@ -17,8 +17,8 @@ module.exports = {
         loginBackgroundImage: '5ea557e8747c452c727d08da',
         ratingMaxValue: 5
       },
-      webHost: 'localhost:3400',
-      merchantWebHost: 'localhost:3400',
+      webHost: 'localhost:3601',
+      merchantWebHost: 'localhost:3601',
       adminHost: 'localhost:3109',
       alwaysHttpsWebHost: false,
       alwaysHttpsMerchantWebHost: false,

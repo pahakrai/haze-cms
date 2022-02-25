@@ -4,7 +4,7 @@
       "_id": "5eb3e4460bc6e44a21319df8",
       "userType": "member",
       "loginRequireVerify": true,
-      "signUpAcGroups": ["5c760de61e6fbb3b98c8d1ba"],
+      "signUpAcGroups": ["6218b683cba53de63f3041d1"],
       "signUpRequireVerify": true,
       "verifiedRequirements": ["email"],
       "activateByAdmin": false,
