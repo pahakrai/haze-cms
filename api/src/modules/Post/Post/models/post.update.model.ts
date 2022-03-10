@@ -13,6 +13,9 @@ export class PostUpdateModel {
     queryType: string;
     title: string;
   }>;
+  industries: Array<string>;
+  subjects: Array<string>;
+  regions: Array<string>;
   content: object;
   priority: number;
   isActive: boolean;

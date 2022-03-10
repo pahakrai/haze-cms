@@ -4,6 +4,7 @@ type Category {
   _id: ID!
   code: String!
   name: String!
+  type: String!
   icon: FileMeta
   parent: Category
   isActive: Boolean!
@@ -43,6 +44,7 @@ input CategorySearchModel {
   _ids: [String]
   code: String
   parent: String
+  types: String
   ancestors: [String]
   workspaces: [String]
 }

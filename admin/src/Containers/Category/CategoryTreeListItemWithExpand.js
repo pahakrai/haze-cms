@@ -1,27 +1,26 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
-import CategoryTreeListItem from '../../Components/App/Category/CategoryTreeListItem';
+import CategoryTreeListItem from '../../Components/App/Category/CategoryTreeListItem'
 
-import CategoryTreeList from './CategoryTreeList';
+import CategoryTreeList from './CategoryTreeList'
 
 const ChildWrapper = styled.div`
   margin-left: 40px;
-`;
+`
 class CategoryTreeListItemWithExpand extends React.PureComponent {
   constructor() {
-    super();
-
+    super()
     this.state = {
       expand: false
-    };
+    }
   }
 
   _onItemClick = () => {
     this.setState(({ expand }) => ({
       expand: !expand
-    }));
-  };
+    }))
+  }
 
   render() {
     const {
@@ -33,18 +32,19 @@ class CategoryTreeListItemWithExpand extends React.PureComponent {
       ancestors,
       deleteCategory,
       ...props
-    } = this.props;
-    const mutualProps = { selectItems, withCheckBox, onItemCheckboxChange };
-    const { expand } = this.state;
+    } = this.props
+    const mutualProps = { selectItems, withCheckBox, onItemCheckboxChange }
+    const { expand } = this.state
 
     return (
       <React.Fragment>
         <CategoryTreeListItem
           category={category}
-          onClick={this._onItemClick}
+          onClick={() => false}
           intl={intl}
           checkbox={withCheckBox}
           deleteCategory={deleteCategory}
+          // onClick={this._onItemClick}
           {...mutualProps}
           {...props}
         />
@@ -60,8 +60,8 @@ class CategoryTreeListItemWithExpand extends React.PureComponent {
           </ChildWrapper>
         )}
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default CategoryTreeListItemWithExpand;
+export default CategoryTreeListItemWithExpand

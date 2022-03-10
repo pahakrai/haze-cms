@@ -668,6 +668,25 @@ module.exports = {
             }
           ]
         },
+        // Category Management
+        {
+          _id: '621f7eea41ee3e863cb4d2bb',
+          auth: ['Category:View'],
+          workspaceTypes: ['company-website'],
+          localeId: 'nav.categories',
+          icon: 'GiCheckboxTree',
+          items: [
+            {
+              _id: '621f7efd77cb06e0698d09b6',
+              to: '/category',
+              icon: 'GiCheckboxTree',
+              localeId: 'nav.categories',
+              component: 'CategoryPage',
+              auth: ['Category:Create', 'Category:Edit'],
+              priority: 1
+            }
+          ]
+        },
         // Coupon management navigations
         {
           _id: '5e8415aa3494d7c017473d33',

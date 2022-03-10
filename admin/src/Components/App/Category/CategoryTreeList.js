@@ -1,12 +1,12 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from 'react'
 
-import CategoryTreeListItem from './CategoryTreeListItem';
-import CategoryTreeListItemAddButton from './CategoryTreeListItemAddButton';
+import CategoryTreeListItem from './CategoryTreeListItem'
+import CategoryTreeListItemAddButton from './CategoryTreeListItemAddButton'
 
 class CategoryTreeList extends PureComponent {
   render() {
     const {
-      categorys,
+      categories,
       renderItem,
       intl,
       onAddBtnClick,
@@ -17,15 +17,15 @@ class CategoryTreeList extends PureComponent {
       selectItems,
       // parent,
       deleteCategory
-    } = this.props;
+    } = this.props
     return (
       <div>
         {/* {parent && (
           <CategoryTreeListItemAddButton intl={intl} onClick={onAddBtnClick} />
         )} */}
         <CategoryTreeListItemAddButton intl={intl} onClick={onAddBtnClick} />
-        {Array.isArray(categorys) &&
-          categorys.map(category => {
+        {Array.isArray(categories) &&
+          categories.map((category) => {
             return renderItem ? (
               renderItem(category)
             ) : (
@@ -40,11 +40,11 @@ class CategoryTreeList extends PureComponent {
                 selectItems={selectItems}
                 deleteCategory={deleteCategory}
               />
-            );
+            )
           })}
       </div>
-    );
+    )
   }
 }
 
-export default CategoryTreeList;
+export default CategoryTreeList

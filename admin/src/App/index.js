@@ -1,23 +1,26 @@
-import React, { PureComponent } from 'react';
+import React from 'react'
 
-import { ToastProvider } from '../Lib/Toast';
+import { ToastProvider } from '../Lib/Toast'
 
-import Router from './Router';
-import Intl from './Intl';
-import AntdLocaleProvider from './AntdLocaleProvider';
-import ReduxProvider from './ReduxProvider';
-import LoadingProvider from './LoadingProvider';
-import ThemeProvider from './ThemeProvider';
-import PersistorWrapper from './PersistorWrapper';
-import Starter from './Starter';
-import DocumentTitle from './DocumentTitle';
-import DocumentFavicon from './DocumentFavicon';
-import Metas from './Metas';
-import GlobalStyle from './GlobalStyle';
+import Router from './Router'
+import Intl from './Intl'
+import AntdLocaleProvider from './AntdLocaleProvider'
+import ReduxProvider from './ReduxProvider'
+import LoadingProvider from './LoadingProvider'
+import ThemeProvider from './ThemeProvider'
+import PersistorWrapper from './PersistorWrapper'
+import Starter from './Starter'
+import DocumentTitle from './DocumentTitle'
+import DocumentFavicon from './DocumentFavicon'
+import Metas from './Metas'
+import GlobalStyle from './GlobalStyle'
+import { QueryClientProvider, QueryClient } from 'react-query'
 
-class App extends PureComponent {
-  render() {
-    return (
+export const queryClient = new QueryClient()
+
+const App = () => {
+  return (
+    <QueryClientProvider client={queryClient}>
       <ReduxProvider>
         <PersistorWrapper>
           <Intl>
@@ -39,8 +42,8 @@ class App extends PureComponent {
           </Intl>
         </PersistorWrapper>
       </ReduxProvider>
-    );
-  }
+    </QueryClientProvider>
+  )
 }
 
-export default App;
+export default App

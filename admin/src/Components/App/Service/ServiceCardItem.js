@@ -1,19 +1,17 @@
-import React from 'react';
-import { helpers } from '@golpasal/common';
-import getSymbolFromCurrency from 'currency-symbol-map';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-import Label from '../../Common/Label';
-import Card from '../../Common/Card';
-import hasIn from 'lodash/hasIn';
-import { Button as AndButton } from 'antd';
-import Modal from '../../../Components/Modal';
-
-import PricingForm from '../../../Containers/Pricing/PricingForm';
+import React from 'react'
+import { helpers } from '@golpasal/common'
+import getSymbolFromCurrency from 'currency-symbol-map'
+import { Link } from 'react-router-dom'
+import styled from 'styled-components'
+import Label from '../../Common/Label'
+import Card from '../../Common/Card'
+import hasIn from 'lodash/hasIn'
+import { Button as AndButton } from 'antd'
+import Modal from '../../../Components/Modal'
 
 const LabelField = styled(Label.Field)`
   height: 30px;
-`;
+`
 export const Wrapper = styled.div`
   width: 100%;
   padding: 20px 5px;
@@ -24,17 +22,17 @@ export const Wrapper = styled.div`
   @media (max-width: 700px) {
     display: none;
   }
-`;
+`
 
 export const CardWrapper = styled(Card)`
   cursor: pointer;
   @media (min-width: 700px) {
     display: none;
   }
-`;
+`
 
 export const Item = styled.div`
-  font-size: ${props => props.theme.fonts.size.h5};
+  font-size: ${(props) => props.theme.fonts.size.h5};
   text-align: center;
   display: table-cell;
   width: 100%;
@@ -44,29 +42,29 @@ export const Item = styled.div`
   display: inline-block;
   display: table-cell;
   cursor: pointer;
-`;
+`
 
 export const HiddenItem = styled(Item)`
-  @media (max-width: ${props => props.theme.flexa.breakpoints.md}rem) {
+  @media (max-width: ${(props) => props.theme.flexa.breakpoints.md}rem) {
     display: none;
   }
-`;
+`
 
 export const ActionsItem = styled(Item)`
   min-width: 94px;
-`;
+`
 
 export class TunnelCardItem extends React.PureComponent {
   render() {
-    const { item, intl, serviceTypes, onClick, hasPricing } = this.props;
+    const { item, intl, serviceTypes, onClick } = this.props
     const category = hasIn(item, `category.name[${intl.locale}]`)
       ? item.category.name[intl.locale]
-      : '';
+      : ''
 
-    let showType;
+    let showType
     if (serviceTypes.length > 0) {
-      const data = serviceTypes.find(v => v.type === item.type);
-      showType = data ? data.name : '';
+      const data = serviceTypes.find((v) => v.type === item.type)
+      showType = data ? data.name : ''
     }
 
     const unitObject = helpers.getConstantByValue(
@@ -74,15 +72,15 @@ export class TunnelCardItem extends React.PureComponent {
       'ServiceUnit',
       item.unit,
       intl.locale
-    );
+    )
     // const type = typeObject && typeObject.text ? typeObject.text : '';
-    const unit = unitObject && unitObject.text ? unitObject.text : '';
+    const unit = unitObject && unitObject.text ? unitObject.text : ''
 
-    const price = item?.pricingService?.pricing?.amount
-      ? getSymbolFromCurrency(
-          item?.pricingService?.pricing?.currency || 'HKD'
-        ) + item?.pricingService?.pricing?.amount
-      : '(N/A)';
+    // const price = item?.pricingService?.pricing?.amount
+    //   ? getSymbolFromCurrency(
+    //       item?.pricingService?.pricing?.currency || 'HKD'
+    //     ) + item?.pricingService?.pricing?.amount
+    //   : '(N/A)'
 
     return (
       <React.Fragment>
@@ -93,42 +91,12 @@ export class TunnelCardItem extends React.PureComponent {
           <Item onClick={onClick}>{showType}</Item>
           <Item onClick={onClick}>{unit}</Item>
           <Item onClick={onClick}>{category}</Item>
-          {hasPricing && <Item onClick={onClick}>{price}</Item>}
           <Item onClick={onClick}>
             {item.isActive
               ? intl.formatMessage({ id: 'display_active' })
               : intl.formatMessage({ id: 'display_inactive' })}
           </Item>
-          {hasPricing && (
-            <ActionsItem>
-              <AndButton.Group>
-                <div style={{ display: 'flex' }}>
-                  <Modal.Button
-                    modalStyle={{
-                      content: { width: '90%', minWidth: 50, margin: ' 0 auto' }
-                    }}
-                    text={
-                      item?.pricingService?._id
-                        ? intl.formatMessage({ id: 'nav.edit' }) +
-                          intl.formatMessage({ id: 'display_cart_price' })
-                        : intl.formatMessage({ id: 'add' }) +
-                          intl.formatMessage({ id: 'display_cart_price' })
-                    }
-                    content={closeModal => (
-                      <PricingForm
-                        closeModal={closeModal}
-                        serviceId={item._id}
-                        pricingId={item?.pricingService?.pricing?._id}
-                        intl={intl}
-                      />
-                    )}
-                  />
-                </div>
-              </AndButton.Group>
-            </ActionsItem>
-          )}
         </Wrapper>
-
         <CardWrapper>
           <Link to={`/service/${item._id}`} target="_blank">
             <Label>{intl.formatMessage({ id: 'display_service_name' })} </Label>
@@ -149,15 +117,6 @@ export class TunnelCardItem extends React.PureComponent {
             <LabelField rows={1}>{unit}</LabelField>
             <Label>{intl.formatMessage({ id: 'categories' })} </Label>
             <LabelField rows={1}>{category}</LabelField>
-            {hasPricing && (
-              <div>
-                <Label>
-                  {intl.formatMessage({ id: 'display_cart_price' })}{' '}
-                </Label>
-                <LabelField rows={1}>{price}</LabelField>
-              </div>
-            )}
-            <Item onClick={onClick}>{price}</Item>
             <Label>{intl.formatMessage({ id: 'status' })} </Label>
             <LabelField rows={1}>
               {item.isActive
@@ -165,38 +124,10 @@ export class TunnelCardItem extends React.PureComponent {
                 : intl.formatMessage({ id: 'display_inactive' })}
             </LabelField>
           </Link>
-          {hasPricing && (
-            <ActionsItem>
-              <AndButton.Group>
-                <div style={{ display: 'flex' }}>
-                  <Modal.Button
-                    modalStyle={{
-                      content: { width: '90%', minWidth: 50, margin: ' 0 auto' }
-                    }}
-                    text={
-                      item?.pricingService?._id
-                        ? intl.formatMessage({ id: 'nav.edit' }) +
-                          intl.formatMessage({ id: 'display_cart_price' })
-                        : intl.formatMessage({ id: 'add' }) +
-                          intl.formatMessage({ id: 'display_cart_price' })
-                    }
-                    content={closeModal => (
-                      <PricingForm
-                        closeModal={closeModal}
-                        serviceId={item._id}
-                        pricingId={item?.pricingService?.pricing?._id}
-                        intl={intl}
-                      />
-                    )}
-                  />
-                </div>
-              </AndButton.Group>
-            </ActionsItem>
-          )}
         </CardWrapper>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default TunnelCardItem;
+export default TunnelCardItem

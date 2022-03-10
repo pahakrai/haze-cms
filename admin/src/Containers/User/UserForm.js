@@ -11,11 +11,9 @@ import { getFormValues, touch as touchFormAction } from 'redux-form'
 
 import { toast } from '../../Lib/Toast'
 import UserService from '../../Services/APIServices/UserService'
-import MerchantService from '../../Services/APIServices/MerchantService'
 
 import { UserActions } from '../../Redux/User/actions'
 import { ParamActions } from '../../Redux/Param/actions'
-import { DriverActions } from '../../Redux/Driver/actions'
 import { WorkspacePhoneRegionActions } from '../../Redux/WorkspacePhoneRegion/actions'
 import AccountSelector from '../../Redux/Account/selectors'
 import { AccountActions } from '../../Redux/Account/actions'
@@ -32,10 +30,8 @@ import UserForm from '../../Components/App/User/UserForm'
 
 import {
   getUserById,
-  getMerchantByUserId,
   getLanguages,
   getMemberByUserId,
-  getDriverByUserId,
   getUserLevels,
   getCurrencies,
   getWorkspacePhoneRegions
@@ -71,7 +67,6 @@ class UserFormContainer extends React.PureComponent {
     activeKey: '1',
     requirementFields: [],
     getUserRequirementsLoading: false,
-    merchantField: [],
     getUserPasscodeLoading: false,
     userPasscode: '******'
   }
@@ -93,8 +88,6 @@ class UserFormContainer extends React.PureComponent {
     getUserLevels({
       query: { isActive: true }
     })
-    // get merchant file types
-    this.getFileType()
 
     if (!currencies.length) {
       fetchCurrencies()
@@ -121,14 +114,7 @@ class UserFormContainer extends React.PureComponent {
       this.updateRequirementFields()
     }
   }
-  async getFileType() {
-    const response = await MerchantService.getMerchantFileType({})
-    if (response.ok) {
-      this.setState({
-        merchantField: response.data
-      })
-    }
-  }
+
   async updateRequirementFields() {
     const { userType } = this.props
     this.setState({ getUserRequirementsLoading: true })
@@ -159,15 +145,12 @@ class UserFormContainer extends React.PureComponent {
   }
 
   onSubmit = () => {
-    const { activeKey, requirementFields, merchantField } = this.state
+    const { activeKey, requirementFields } = this.state
     const {
       createUser,
       updateUserProfile,
       getRegionById,
       fromValues,
-      driverFromValues,
-      vehicleFromValues,
-      merchantFromValues,
       preferenceFormValues,
       touchFormAction,
       currentWorkspace
@@ -179,13 +162,9 @@ class UserFormContainer extends React.PureComponent {
         updateUserProfile,
         getRegionById,
         fromValues,
-        driverFromValues,
-        vehicleFromValues,
-        merchantFromValues,
         preferenceFormValues,
         touchFormAction,
         requirementFields,
-        merchantField,
         currentWorkspace
       },
       this
@@ -316,12 +295,10 @@ class UserFormContainer extends React.PureComponent {
     const {
       currentWorkspace,
       displayActivationIssuesTab = true,
-      driver,
       fieldControl = {},
       form,
       languages,
       intl,
-      merchant,
       member,
       readOnly,
       phoneRegions,
@@ -330,7 +307,6 @@ class UserFormContainer extends React.PureComponent {
       updateMode,
       getUserErrors,
       hasMember,
-      hasMerchant,
       userLevels,
       currencies,
       workspacePhoneRegions
@@ -360,7 +336,6 @@ class UserFormContainer extends React.PureComponent {
         userType={userType}
         languages={languages}
         hasMember={hasMember}
-        hasMerchant={hasMerchant}
         fieldControl={fieldControl}
         phoneRegions={phoneRegions}
         initialValues={initialValues}
@@ -378,24 +353,6 @@ class UserFormContainer extends React.PureComponent {
         getUserPasscodeLoading={getUserPasscodeLoading}
       />
     )
-    let tab_merchant_name = ''
-    switch (currentWorkspace.type) {
-      case Common.type.WorkspaceType.EDUCATION:
-        tab_merchant_name = 'tab_user_from_teacher'
-        break
-      case Common.type.WorkspaceType.SHOPPING:
-        tab_merchant_name = 'tab_user_from_merchant'
-        break
-      case Common.type.WorkspaceType.LOGISTICS:
-        tab_merchant_name = 'tab_user_from_deliveryman'
-        break
-      case Common.type.WorkspaceType.JOBHUNTING:
-        tab_merchant_name = 'tab_user_from_employer'
-        break
-      default:
-        tab_merchant_name = 'tab_user_from_merchant'
-        break
-    }
 
     if (!updateMode) {
       return userForm
@@ -423,15 +380,11 @@ class UserFormContainer extends React.PureComponent {
             intl,
             updateMode,
             initialValues,
-            driver,
-            merchant,
             member,
             currentWorkspace,
             userType,
             displaySubmitButtons,
             displayActivationIssuesTab,
-            tab_merchant_name,
-            hasMerchant,
             hasMember,
             userLevels,
             readOnly,
@@ -455,31 +408,17 @@ class UserFormContainer extends React.PureComponent {
 }
 
 const mapStateToProps = (state, ownProps) => {
-  const {
-    USER_CREATE,
-    USER_UPDATE,
-    DRIVER_UPDATE,
-    VEHICLE_UPDATE,
-    MERCHANT_UPDATE,
-    PREFERENCE_UPDATE
-  } = FormName
+  const { USER_CREATE, USER_UPDATE, PREFERENCE_UPDATE } = FormName
   const form = ownProps.updateMode ? USER_UPDATE : USER_CREATE
   const member = getMemberByUserId(state, ownProps.userId)
-  const hasMerchant = getMerchantByUserId(state, ownProps.userId)
   return {
     form,
     updateUserProfileLoading: state.loading.updateUserProfile,
     fromValues: getFormValues(form)(state),
-    driverFromValues: getFormValues(DRIVER_UPDATE)(state),
-    vehicleFromValues: getFormValues(VEHICLE_UPDATE)(state),
-    merchantFromValues: getFormValues(MERCHANT_UPDATE)(state),
     preferenceFormValues: getFormValues(PREFERENCE_UPDATE)(state),
     user: getUserById(state, ownProps.userId),
-    driver: getDriverByUserId(state, ownProps.userId),
-    merchant: getMerchantByUserId(state, ownProps.userId),
     member: getMemberByUserId(state, ownProps.userId),
     hasMember: Boolean(member),
-    hasMerchant,
     userFilters: state.filter.user,
     getUserErrors: state.error.getUser,
     languages: getLanguages(state),
@@ -502,7 +441,6 @@ const mapDispatchToProps = (dispatch) =>
       sendResetPasswordEmail: AccountActions.sendResetPasswordEmail,
       sendConfirmUserEmail: AccountActions.sendConfirmUserEmail,
       getAllPhoneRegions: PhoneRegionActions.getAllPhoneRegions,
-      getDriverByUserId: DriverActions.getDriverByUserId,
       getUserProfile: UserActions.getUserProfile,
       getPreferenceLanguage: ParamActions.getPreferenceLanguage,
       sendVerifyPassCode: UserActions.sendVerifyPassCode,

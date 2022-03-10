@@ -40,8 +40,6 @@ export { default as PostFormPage } from './PostFormPage'
 export { default as OrderFormPage } from './OrderFormPage'
 export { default as OrderPage } from './OrderPage'
 
-export { default as PricingPage } from './PricingPage'
-
 export { default as PagePage } from './PagePage'
 export { default as PageFormPage } from './PageFormPage'
 export { default as PageContentPage } from './PageContentPage'

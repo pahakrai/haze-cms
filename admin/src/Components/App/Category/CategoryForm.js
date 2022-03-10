@@ -1,54 +1,54 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { reduxForm } from 'redux-form';
-import styled from 'styled-components';
-import { FormattedMessage } from 'react-intl';
-import { Tabs } from 'antd';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { reduxForm } from 'redux-form'
+import styled from 'styled-components'
+import { FormattedMessage } from 'react-intl'
+import { Tabs } from 'antd'
 
-import { isMultiLanguageCategory } from '../../../Lib/util';
+import { isMultiLanguageCategory } from '../../../Lib/util'
 
-import Button from '../../Common/Button';
-import Title from '../../Common/Title';
-import Card from '../../Common/Card';
+import Button from '../../Common/Button'
+import Title from '../../Common/Title'
+import Card from '../../Common/Card'
 
-import { RowWrapper, ColWrapper } from '../Form/Wrapper';
-import Errors from '../../Form/Errors';
-import Form from '../../Form/Form';
-import Uploader from '../../Form/Uploader';
+import { RowWrapper, ColWrapper } from '../Form/Wrapper'
+import Errors from '../../Form/Errors'
+import Form from '../../Form/Form'
+import Uploader from '../../Form/Uploader'
 // import Dropdown from '../../Form/Dropdown';
 // import FileMetaDropdown from '../../Form/FileMetaDropdown';
-import TextInput from '../../Form/TextInput';
-import Switch from '../../Form/Switch';
+import TextInput from '../../Form/TextInput'
+import Switch from '../../Form/Switch'
 import MultiLanguageTextInput, {
   validateMTField
-} from '../../Form/MultiLanguageTextInput';
+} from '../../Form/MultiLanguageTextInput'
 
 const ButtonWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-`;
+`
 
 const Wrapper = styled.div`
   height: 550px;
   border: 1px solid #eee;
   padding: 20px;
   overflow: auto;
-`;
+`
 
 const validate = (values, { currentUserType }) => {
-  const errors = {};
+  const errors = {}
 
-  const nameError = validateMTField(values.name || {}, isMultiLanguageCategory);
+  const nameError = validateMTField(values.name || {}, isMultiLanguageCategory)
 
   if (!values.code) {
-    errors.code = <FormattedMessage id={'error.required'} />;
+    errors.code = <FormattedMessage id={'error.required'} />
   }
   if (values.idx && !/^[0-9]+$/.test(values.idx)) {
-    errors.idx = <FormattedMessage id={'error.number'} />;
+    errors.idx = <FormattedMessage id={'error.number'} />
   }
   if (nameError) {
-    errors.name = nameError;
+    errors.name = nameError
   }
 
   // if (!values.workspace) {
@@ -58,16 +58,16 @@ const validate = (values, { currentUserType }) => {
   //     errors.workspace = <FormattedMessage id="error.workspace.required" />;
   //   }
   // }
-  return errors;
-};
+  return errors
+}
 
 class CategoryForm extends React.PureComponent {
   static contextTypes = {
     _reduxForm: PropTypes.object
-  };
+  }
 
   renderButtons() {
-    const { intl, pristine, submitting, updateMode } = this.props;
+    const { intl, pristine, submitting, updateMode } = this.props
 
     if (updateMode) {
       return (
@@ -78,7 +78,7 @@ class CategoryForm extends React.PureComponent {
             })}
           </Button.Primary>
         </ButtonWrapper>
-      );
+      )
     }
     return (
       <ButtonWrapper>
@@ -88,7 +88,7 @@ class CategoryForm extends React.PureComponent {
           })}
         </Button.Primary>
       </ButtonWrapper>
-    );
+    )
   }
 
   render() {
@@ -102,7 +102,7 @@ class CategoryForm extends React.PureComponent {
       updateMode
       // currentUserType
       // svgFileMetas
-    } = this.props;
+    } = this.props
     const inputConent = (
       <RowWrapper>
         <ColWrapper xs={12}>
@@ -152,7 +152,7 @@ class CategoryForm extends React.PureComponent {
           />{' '}
         </ColWrapper>
       </RowWrapper>
-    );
+    )
     return (
       <Form
         onSubmit={onSubmit}
@@ -160,7 +160,7 @@ class CategoryForm extends React.PureComponent {
         onSubmitFail={onSubmitFail}
       >
         <Errors />
-
+        {this.props.categoryType}
         <Title.Wrapper>
           {!noTitle && (
             <Title>{intl.formatMessage({ id: 'nav.categories' })}</Title>
@@ -197,7 +197,7 @@ class CategoryForm extends React.PureComponent {
           <Card style={{ marginTop: 0 }}>{inputConent}</Card>
         )}
       </Form>
-    );
+    )
   }
 }
 export default reduxForm({
@@ -205,4 +205,4 @@ export default reduxForm({
   enableReinitialize: true,
   destroyOnUnmount: false,
   initialValues: {}
-})(CategoryForm);
+})(CategoryForm)

@@ -1,53 +1,42 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { formValueSelector, change as formValueChange } from 'redux-form';
-import { bindActionCreators } from 'redux';
-import { FormattedMessage } from 'react-intl';
-import { withRouter } from 'react-router';
-import Common from '@golpasal/common';
-import cloneDeep from 'lodash/cloneDeep';
+import React from 'react'
+import { connect } from 'react-redux'
+import { formValueSelector, change as formValueChange } from 'redux-form'
+import { bindActionCreators } from 'redux'
+import { FormattedMessage } from 'react-intl'
+import { withRouter } from 'react-router'
+import Common from '@golpasal/common'
+import cloneDeep from 'lodash/cloneDeep'
 
-import { toast } from '../../Lib/Toast';
-import { formatUserName } from '../../Lib/util';
+import { toast } from '../../Lib/Toast'
+import { formatUserName } from '../../Lib/util'
 
-import OrderLogisticForm from '../../Components/App/Order/OrderLogisticForm';
-import Loading from '../../Components/Common/Loading';
-import {
-  getAllUnitOfMeasure,
-  getAllVehicleType,
-  getUserById
-} from '../../Redux/selectors';
-import { UnitOfMeasureActions } from '../../Redux/UnitOfMeasure/actions';
-import { VehicleTypeActions } from '../../Redux/VehicleType/actions';
-import AccountSelector from '../../Redux/Account/selectors';
-import { OrderActions } from '../../Redux/Order/actions';
-import CheckoutService from '../../Services/APIServices/CheckoutService';
-import OrderService from '../../Services/APIServices/OrderService';
-import FormName from '../../Constants/Form';
-import { generateOrderPriceByPriceType } from './utils';
+import OrderLogisticForm from '../../Components/App/Order/OrderLogisticForm'
+import Loading from '../../Components/Common/Loading'
+import { getAllUnitOfMeasure, getUserById } from '../../Redux/selectors'
+import { UnitOfMeasureActions } from '../../Redux/UnitOfMeasure/actions'
+import AccountSelector from '../../Redux/Account/selectors'
+import { OrderActions } from '../../Redux/Order/actions'
+import CheckoutService from '../../Services/APIServices/CheckoutService'
+import OrderService from '../../Services/APIServices/OrderService'
+import FormName from '../../Constants/Form'
+import { generateOrderPriceByPriceType } from './utils'
 
-const { OrderType, OrderLogisticLocationType } = Common.type;
-const { TravelOrderStatus } = Common.status;
+const { OrderType, OrderLogisticLocationType } = Common.type
+const { TravelOrderStatus } = Common.status
 
 class OrderLogisticFormContainer extends React.Component {
   static defaultProps = {
     onSubmitSuccess: () => true
-  };
+  }
   state = {
     checkoutLoading: false,
     checkoutUrl: ''
-  };
+  }
   componentDidMount() {
-    const {
-      orderId,
-      updateMode,
-      getAllUnitOfMeasure,
-      getAllVehicleType
-    } = this.props;
-    getAllUnitOfMeasure();
-    getAllVehicleType({ isActive: true });
-    this.date = new Date().toISOString();
-    orderId && updateMode && this.updateCheckOutUrl();
+    const { orderId, updateMode, getAllUnitOfMeasure } = this.props
+    getAllUnitOfMeasure()
+    this.date = new Date().toISOString()
+    orderId && updateMode && this.updateCheckOutUrl()
   }
 
   async componentDidUpdate(prevProps) {
@@ -62,13 +51,13 @@ class OrderLogisticFormContainer extends React.Component {
       formValueClientObject,
       formValueContact,
       formValueChange
-    } = this.props;
+    } = this.props
 
     if (updateMode && prevProps.orderId !== orderId && orderId) {
-      this.updateCheckOutUrl();
+      this.updateCheckOutUrl()
     }
 
-    const prevCapacity = prevProps.formValueLogisticItems;
+    const prevCapacity = prevProps.formValueLogisticItems
     if (
       JSON.stringify(prevProps.formValueLogisticItems) !==
       JSON.stringify(formValueLogisticItems)
@@ -92,9 +81,9 @@ class OrderLogisticFormContainer extends React.Component {
               prevCapacity?.weight2 !== v?.weight2 ||
               prevCapacity?.weightUnit2 !== v?.weightUnit2)
           ) {
-            return this.getCbmAndRt(v, index);
+            return this.getCbmAndRt(v, index)
           }
-        });
+        })
     }
 
     // update contact
@@ -108,66 +97,66 @@ class OrderLogisticFormContainer extends React.Component {
         form,
         'contact.name',
         formatUserName(formValueClientObject)
-      );
-      formValueChange(form, 'contact.phone', formValueClientObject.phone);
+      )
+      formValueChange(form, 'contact.phone', formValueClientObject.phone)
     }
 
     if (getOrderErrors) {
-      history.push('/error');
+      history.push('/error')
     }
   }
 
   async getCbmAndRt(v, index) {
-    const { formValueChange, form, formValueLogisticItems } = this.props;
+    const { formValueChange, form, formValueLogisticItems } = this.props
     if (formValueLogisticItems) {
-      const { data } = await OrderService.getCbmAndRt(v);
-      formValueChange(form, `logisticItems[${index}].rt`, data?.rt);
-      formValueChange(form, `logisticItems[${index}].cbm`, data?.cbm);
+      const { data } = await OrderService.getCbmAndRt(v)
+      formValueChange(form, `logisticItems[${index}].rt`, data?.rt)
+      formValueChange(form, `logisticItems[${index}].cbm`, data?.cbm)
     }
   }
 
   updateCheckOutUrl = async () => {
     try {
-      const { orderId, currentWorkspace } = this.props;
-      this.setState({ checkoutLoading: true });
+      const { orderId, currentWorkspace } = this.props
+      this.setState({ checkoutLoading: true })
       if (!currentWorkspace || !currentWorkspace.webHost || !orderId) {
-        throw new Error('order id or url does not exist');
+        throw new Error('order id or url does not exist')
       }
-      const result = await CheckoutService.checkout({ orderId });
-      const checkoutId = result && result.data && result.data._id;
+      const result = await CheckoutService.checkout({ orderId })
+      const checkoutId = result && result.data && result.data._id
       if (!checkoutId) {
-        throw new Error('checkout id does not exist');
+        throw new Error('checkout id does not exist')
       }
       const domain = currentWorkspace.webHost
         .replace(/[/]*$/, '')
-        .replace(/^http:\/\//, '');
-      const http = currentWorkspace.alwaysHttpsWebHost ? 'https' : 'http';
-      const url = `${http}://${domain}/order/checkout?id=${checkoutId}`;
+        .replace(/^http:\/\//, '')
+      const http = currentWorkspace.alwaysHttpsWebHost ? 'https' : 'http'
+      const url = `${http}://${domain}/order/checkout?id=${checkoutId}`
 
-      this.setState({ checkoutUrl: url });
+      this.setState({ checkoutUrl: url })
     } catch (e) {
     } finally {
-      this.setState({ checkoutLoading: false });
+      this.setState({ checkoutLoading: false })
     }
-  };
+  }
 
-  onSubmit = order => {
-    const { createOrder, updateOrder } = this.props;
-    const fn = order._id ? updateOrder : createOrder;
+  onSubmit = (order) => {
+    const { createOrder, updateOrder } = this.props
+    const fn = order._id ? updateOrder : createOrder
     const formValues = {
       ...order,
       logistic: {
         ...((order && order.logistic) || {}),
         logisticItems: order.logisticItems
       }
-    };
-    delete formValues.signature;
-    fn(formValues);
-  };
+    }
+    delete formValues.signature
+    fn(formValues)
+  }
 
   getInitialValues = () => {
-    const { order, updateMode, initialValues, currentWorkspace } = this.props;
-    const locationType = currentWorkspace?.preferences?.order?.locationType;
+    const { order, updateMode, initialValues, currentWorkspace } = this.props
+    const locationType = currentWorkspace?.preferences?.order?.locationType
     const createValue = {
       date: this.date,
       time: { duration: 0 },
@@ -177,7 +166,7 @@ class OrderLogisticFormContainer extends React.Component {
           : {},
       orderType: OrderType.LOGISTICS,
       ...initialValues
-    };
+    }
     if (updateMode) {
       const updateValue = {
         ...order,
@@ -192,22 +181,22 @@ class OrderLogisticFormContainer extends React.Component {
           },
           locTo: [
             ...((order && order.logistic && order.logistic.locTo) || [])
-          ].map(v => {
-            const _locToObj = cloneDeep(v);
-            const district = _locToObj?.properties?.district?._id;
-            _locToObj.properties.district = district;
-            return _locToObj;
+          ].map((v) => {
+            const _locToObj = cloneDeep(v)
+            const district = _locToObj?.properties?.district?._id
+            _locToObj.properties.district = district
+            return _locToObj
           }),
           peopleInCharge: [
             ...((order && order.logistic && order.logistic.peopleInCharge) ||
               [])
-          ].map(v => v._id)
+          ].map((v) => v._id)
         },
         logisticItems: order?.logisticItems || [],
         time: { ...((order && order.time) || {}) },
         services:
           order && order.services
-            ? [...order.services].map(v => ({
+            ? [...order.services].map((v) => ({
                 ...v,
                 service: v.service._id
               }))
@@ -218,60 +207,55 @@ class OrderLogisticFormContainer extends React.Component {
           order.logistic &&
           order.logistic.peopleInCharge &&
           order.logistic.peopleInCharge[0]
-      };
-      delete updateValue.logistic.order;
-      delete updateValue.time.order;
+      }
+      delete updateValue.logistic.order
+      delete updateValue.time.order
 
-      return updateValue;
+      return updateValue
     } else {
-      return createValue;
+      return createValue
     }
-  };
+  }
 
   onSubmitSuccess = () => {
-    const {
-      updateMode,
-      history,
-      onSubmitSuccess,
-      orderSelectedId
-    } = this.props;
+    const { updateMode, history, onSubmitSuccess, orderSelectedId } = this.props
     toast.success(
       <FormattedMessage
         id={updateMode ? 'updated_successfully' : 'created_successfully'}
       />
-    );
-    onSubmitSuccess && onSubmitSuccess();
+    )
+    onSubmitSuccess && onSubmitSuccess()
     if (orderSelectedId && !updateMode) {
-      history.push('/orders/' + orderSelectedId);
+      history.push('/orders/' + orderSelectedId)
     } else {
-      this.componentDidMount();
+      this.componentDidMount()
     }
-  };
+  }
 
   onSubmitFail = () => {
-    const { updateMode } = this.props;
+    const { updateMode } = this.props
     toast.error(
       <FormattedMessage
         id={updateMode ? 'updated_failure' : 'created_failure'}
       />
-    );
-  };
+    )
+  }
 
   cancelOrder = () => {
-    const { cancelOrder, cancelOrderLoading, orderId } = this.props;
-    !cancelOrderLoading && cancelOrder(orderId);
-  };
-  updateOrderStatus = status => {
-    const { updateOrderStatus, updateOrderStatusLoading, orderId } = this.props;
-    !updateOrderStatusLoading && updateOrderStatus(orderId, status);
-  };
+    const { cancelOrder, cancelOrderLoading, orderId } = this.props
+    !cancelOrderLoading && cancelOrder(orderId)
+  }
+  updateOrderStatus = (status) => {
+    const { updateOrderStatus, updateOrderStatusLoading, orderId } = this.props
+    !updateOrderStatusLoading && updateOrderStatus(orderId, status)
+  }
   getAmountText = () => {
-    const { formValueCharge, intl } = this.props;
-    return generateOrderPriceByPriceType(intl, formValueCharge);
-  };
+    const { formValueCharge, intl } = this.props
+    return generateOrderPriceByPriceType(intl, formValueCharge)
+  }
   render() {
-    const key = this.props.order ? this.props.order._id : 'new';
-    let isLoading = false; // dummy
+    const key = this.props.order ? this.props.order._id : 'new'
+    let isLoading = false // dummy
     const {
       updateMode,
       intl,
@@ -287,17 +271,16 @@ class OrderLogisticFormContainer extends React.Component {
       formValueLogisticItems,
       currentWorkspace,
       unitOfMeasures,
-      formValueVehicleType,
-      vehicleTypes
-    } = this.props;
-    const { checkoutUrl, checkoutLoading } = this.state;
+      formValueVehicleType
+    } = this.props
+    const { checkoutUrl, checkoutLoading } = this.state
     if (updateMode && !order) {
-      isLoading = true;
+      isLoading = true
     }
-    const hasConsignee = currentWorkspace?.preferences?.order?.hasConsignee;
-    const initialValues = this.getInitialValues();
+    const hasConsignee = currentWorkspace?.preferences?.order?.hasConsignee
+    const initialValues = this.getInitialValues()
     const orderDisabled =
-      initialValues.status === TravelOrderStatus.ARRIVE_DESTINATION;
+      initialValues.status === TravelOrderStatus.ARRIVE_DESTINATION
     return isLoading ? (
       <Loading />
     ) : (
@@ -315,7 +298,7 @@ class OrderLogisticFormContainer extends React.Component {
         // other props
         intl={intl}
         orderId={orderId}
-        vehicleTypes={vehicleTypes}
+        vehicleTypes={[]}
         formValueLogisticItems={formValueLogisticItems}
         formValueVehicleType={formValueVehicleType}
         unitOfMeasures={unitOfMeasures}
@@ -332,17 +315,17 @@ class OrderLogisticFormContainer extends React.Component {
         formValueDriver={formValueDriver}
         amountText={this.getAmountText()}
       />
-    );
+    )
   }
 }
 const mapStateToProps = (state, { orderId, order }) => {
-  const { ORDER_CREATE, ORDER_UPDATE } = FormName;
-  const updateMode = Boolean(orderId);
-  const form = updateMode ? ORDER_UPDATE : ORDER_CREATE;
-  const selector = formValueSelector(form);
-  const currentWorkspace = AccountSelector.getCurrentWorkspace(state);
-  const formValueClient = selector(state, 'client');
-  const formValueClientObject = getUserById(state, formValueClient);
+  const { ORDER_CREATE, ORDER_UPDATE } = FormName
+  const updateMode = Boolean(orderId)
+  const form = updateMode ? ORDER_UPDATE : ORDER_CREATE
+  const selector = formValueSelector(form)
+  const currentWorkspace = AccountSelector.getCurrentWorkspace(state)
+  const formValueClient = selector(state, 'client')
+  const formValueClientObject = getUserById(state, formValueClient)
 
   return {
     form,
@@ -363,13 +346,12 @@ const mapStateToProps = (state, { orderId, order }) => {
     formValueClientObject,
     cancelOrderLoading: state.loading.cancelOrder,
     unitOfMeasures: getAllUnitOfMeasure(state),
-    vehicleTypes: getAllVehicleType(state),
     currentWorkspace,
     // releaseOrderLoading: state.loading.releaseOrder,
     orderSelectedId: state.order.selected
-  };
-};
-const mapDispatchToProps = dispatch =>
+  }
+}
+const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
       createOrder: OrderActions.createOrder,
@@ -377,12 +359,10 @@ const mapDispatchToProps = dispatch =>
       cancelOrder: OrderActions.cancelOrder,
       updateOrderStatus: OrderActions.updateOrderStatus,
       getAllUnitOfMeasure: UnitOfMeasureActions.getAllUnitOfMeasure,
-      getAllVehicleType: VehicleTypeActions.getAllVehicleType,
-      // releaseOrder: OrderActions.releaseOrder,
       formValueChange
     },
     dispatch
-  );
+  )
 export default withRouter(
   connect(mapStateToProps, mapDispatchToProps)(OrderLogisticFormContainer)
-);
+)

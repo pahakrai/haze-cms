@@ -1,11 +1,11 @@
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
-import Service from '../../../../Services/APIServices/EventService';
-import { toast } from '../../../../Lib/Toast';
+import Service from '../../../../Services/APIServices/EventService'
+import { toast } from '../../../../Lib/Toast'
 
-const onSendEmail = params => {
-  return new Promise(reslove => {
+const onSendEmail = (params) => {
+  return new Promise((reslove) => {
     Service.self
       .post(`/homes/contact-us-generic`, {
         toEmail: params.toEmail,
@@ -14,23 +14,23 @@ const onSendEmail = params => {
         userEmail: params.email,
         message: params.message || ''
       })
-      .then(res => {
+      .then((res) => {
         if (res && res.status === 200) {
           toast.success(<FormattedMessage id={'msg.submit_success'} />, {
             position: 'top-right',
             autoClose: 1000
-          });
+          })
           // browserHistory.push('/contact-success');
-          reslove(true);
+          reslove(true)
         } else {
-          reslove(false);
+          reslove(false)
         }
       })
       .catch(() => {
-        reslove(false);
-      });
-  });
-};
+        reslove(false)
+      })
+  })
+}
 export default {
   contactForm: { onSendEmail },
   button: { defaultBackgroundColor: '#edba37' },
@@ -42,4 +42,4 @@ export default {
   introVideoSlide: {
     customRenderEditorWidgetFormRight: true
   }
-};
+}

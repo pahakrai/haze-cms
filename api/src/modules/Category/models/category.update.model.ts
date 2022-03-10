@@ -30,6 +30,12 @@ export class CategoryUpdateModel {
   @ApiPropertyOptional({description: 'all parents of this category'})
   ancestors?: string[];
 
+  @IsOptional()
+  @ApiPropertyOptional({
+    description: 'category by type eg: subject, industry, etc.'
+  })
+  type?: string;
+
   @IsBoolean()
   @IsOptional()
   @ApiPropertyOptional({description: 'is category active'})

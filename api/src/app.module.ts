@@ -103,6 +103,7 @@ import {WorkspaceSubscriptionInvoiceModule} from './modules/Workspace/submodules
 import {WorkspaceSubscriptionModule} from './modules/Workspace/submodules/WorkspaceSubscription/workspaceSubscription.module';
 import {WorkspaceTypeModule} from './modules/WorkspaceType/workspaceType.module';
 import {GraphQLModuleFactory} from './core/graphql/factory';
+import {RegionModule} from './modules/Region/region.module';
 
 @Module({
   imports: [
@@ -212,6 +213,7 @@ import {GraphQLModuleFactory} from './core/graphql/factory';
     ProviderModule,
     PushNotificationModule,
     QuotationModule,
+    RegionModule,
     SalesVolumeModule,
     ServiceModule,
     ShoppingCartModule,

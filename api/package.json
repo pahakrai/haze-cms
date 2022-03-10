@@ -27,7 +27,7 @@
     }
   },
   "dependencies": {
-    "@golpasal/common": "^0.0.9",
+    "@golpasal/common": "^0.0.11",
     "@golpasal/crypto": "^0.0.1",
     "@golpasal/lib": "^0.0.1",
     "@nestjs/common": "^7.6.13",

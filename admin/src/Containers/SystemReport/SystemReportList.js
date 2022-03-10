@@ -1,26 +1,23 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import React from 'react'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
 
-import Loading from '../../Components/Common/Loading';
-import SystemReportList from '../../Components/App/SystemReport/SystemReportList';
-import { SystemReportActions } from '../../Redux/SystemReport/actions';
-import { WorkspaceActions } from '../../Redux/Workspace/actions';
-import { CustomerActions } from '../../Redux/Customer/actions';
-import { EmployeeActions } from '../../Redux/Employee/actions';
-import AccountSelector from '../../Redux/Account/selectors';
+import Loading from '../../Components/Common/Loading'
+import SystemReportList from '../../Components/App/SystemReport/SystemReportList'
+import { SystemReportActions } from '../../Redux/SystemReport/actions'
+import { WorkspaceActions } from '../../Redux/Workspace/actions'
+import { CustomerActions } from '../../Redux/Customer/actions'
+import { EmployeeActions } from '../../Redux/Employee/actions'
+import AccountSelector from '../../Redux/Account/selectors'
 
 import {
   getWorkspaces,
   getCustomers,
   getEmployees,
-  getAllVehicleType,
   getReportsWorkspaceAllowToAccess
-} from '../../Redux/selectors';
-import { getCurrentWorkspace } from '../../Redux/Account/selectors';
-
-import { VehicleTypeActions } from '../../Redux/VehicleType/actions';
-import { withRouter } from 'react-router-dom';
+} from '../../Redux/selectors'
+import { getCurrentWorkspace } from '../../Redux/Account/selectors'
+import { withRouter } from 'react-router-dom'
 
 class SystemReportListContainer extends React.PureComponent {
   componentDidMount() {
@@ -34,8 +31,8 @@ class SystemReportListContainer extends React.PureComponent {
       // employees,
       getAllVehicleType
       // currentUserWorkspace
-    } = this.props;
-    if (!workspaces || workspaces.length === 0) fetchWorkspaces();
+    } = this.props
+    if (!workspaces || workspaces.length === 0) fetchWorkspaces()
     // if (!customers || customers.length === 0)
     //   fetchCustomers({ workspace: currentUserWorkspace });
     // if (!employees || employees.length === 0) {
@@ -43,9 +40,8 @@ class SystemReportListContainer extends React.PureComponent {
     // }
 
     if (!systemReports.length) {
-      this.fetchSystemReports({ refresh: true });
+      this.fetchSystemReports({ refresh: true })
     }
-    getAllVehicleType();
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -54,43 +50,43 @@ class SystemReportListContainer extends React.PureComponent {
       currentUserWorkspace,
       fetchEmployees,
       fetchCustomers
-    } = this.props;
+    } = this.props
     if (prevProps.currentUser !== currentUser) {
       this.fetchSystemReports({
         filterValues: {},
         refresh: true
-      });
-      fetchCustomers({ currentUserWorkspace });
-      fetchEmployees({ currentUserWorkspace });
+      })
+      fetchCustomers({ currentUserWorkspace })
+      fetchEmployees({ currentUserWorkspace })
     }
   }
 
   _onLoadMore = () => {
-    const { fetchSystemReports } = this.props;
-    fetchSystemReports({ append: true });
-  };
+    const { fetchSystemReports } = this.props
+    fetchSystemReports({ append: true })
+  }
 
   fetchSystemReports(options = { querys: {} }) {
-    const { fetchSystemReports, currentUser } = this.props;
-    let workspace;
+    const { fetchSystemReports, currentUser } = this.props
+    let workspace
     if (currentUser) {
       if (currentUser.workspace) {
-        workspace = currentUser.workspace;
+        workspace = currentUser.workspace
       }
     }
     fetchSystemReports({
       ...options,
       query: { ...options.querys, workspace, populates: [] }
-    });
+    })
   }
 
-  onItemClick = systemReport => {
-    this.props.history.push(`/systemReports/${systemReport._id}`);
-  };
+  onItemClick = (systemReport) => {
+    this.props.history.push(`/systemReports/${systemReport._id}`)
+  }
 
   render() {
-    const { onItemClick } = this;
-    const isLoading = false;
+    const { onItemClick } = this
+    const isLoading = false
     const {
       systemReports,
       locale,
@@ -98,7 +94,6 @@ class SystemReportListContainer extends React.PureComponent {
       workspaces,
       customers,
       employees,
-      vehicleTypes,
       pagination: { fetching, isEnd },
       renderFooter,
       header,
@@ -108,7 +103,7 @@ class SystemReportListContainer extends React.PureComponent {
       currentUserType,
       currentWorkspace,
       getSystemReportByParameter
-    } = this.props;
+    } = this.props
     return isLoading ? (
       <Loading />
     ) : (
@@ -126,7 +121,7 @@ class SystemReportListContainer extends React.PureComponent {
         currentUserType={currentUserType}
         customers={customers}
         employees={employees}
-        vehicleTypes={vehicleTypes}
+        vehicleTypes={[]}
         getSystemReportByName={getSystemReportByName}
         getSystemReportByParameter={getSystemReportByParameter}
         // onDeleteClick={expense => true}
@@ -134,10 +129,10 @@ class SystemReportListContainer extends React.PureComponent {
         gutter={gutter}
         header={header}
       />
-    );
+    )
   }
 }
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   locale: state.intl,
   systemReports: getReportsWorkspaceAllowToAccess(state),
   workspaces: getWorkspaces(state),
@@ -149,8 +144,8 @@ const mapStateToProps = state => ({
   currentUser: AccountSelector.getCurrentUser(state),
   currentUserType: (AccountSelector.getCurrentUser(state) || {}).userType,
   currentUserWorkspace: (AccountSelector.getCurrentUser(state) || {}).workspace
-});
-const mapDispatchToProps = dispatch =>
+})
+const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
       fetchSystemReports: SystemReportActions.getReportsWorkspaceAllowToAccess,
@@ -158,12 +153,11 @@ const mapDispatchToProps = dispatch =>
         SystemReportActions.getSystemReportByParameter,
       fetchWorkspaces: WorkspaceActions.getWorkspaces,
       fetchCustomers: CustomerActions.getCustomersWithAll,
-      getAllVehicleType: VehicleTypeActions.getAllVehicleType,
       fetchEmployees: EmployeeActions.getEmployee,
       getSystemReportByName: SystemReportActions.getSystemReportByName
     },
     dispatch
-  );
+  )
 export default withRouter(
   connect(mapStateToProps, mapDispatchToProps)(SystemReportListContainer)
-);
+)

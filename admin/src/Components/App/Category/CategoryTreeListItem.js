@@ -1,17 +1,17 @@
-import React from 'react';
-import styled from 'styled-components';
-import { hasIn } from 'lodash';
-import { Tooltip, Button, Modal } from 'antd';
-import { EditOutlined, DeleteOutlined } from '@ant-design/icons';
+import React from 'react'
+import styled from 'styled-components'
+import { hasIn } from 'lodash'
+import { Tooltip, Button, Modal } from 'antd'
+import { EditOutlined, DeleteOutlined } from '@ant-design/icons'
 
-import Checkbox from '../../Common/Checkbox';
+import Checkbox from '../../Common/Checkbox'
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-`;
+`
 const Container = styled.div`
   padding: 10px 13px;
   border: 1px solid #888;
@@ -23,7 +23,7 @@ const Container = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-`;
+`
 
 // const Icon = styled.img`
 //   background-color: #ddd;
@@ -38,14 +38,14 @@ const Text = styled.span`
   white-space: nowrap;
   width: 130px;
   cursor: pointer;
-`;
+`
 
 const RightSideWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-`;
+`
 
 // const SwitchSideWrapper = styled.div`
 //   margin-right: 8px;
@@ -64,37 +64,38 @@ const RightSideWrapper = styled.div`
 // };
 
 class CategoryTreeListItem extends React.PureComponent {
-  _onEditBtnClick = e => {
-    const { category, onEditBtnClick } = this.props;
+  _onEditBtnClick = (e) => {
+    const { category, onEditBtnClick } = this.props
     if (e && e.stopPropagation) {
-      e.stopPropagation();
+      e.stopPropagation()
     } else {
-      e.cancelBubble = true;
+      e.cancelBubble = true
     }
-    onEditBtnClick(category);
-  };
+    onEditBtnClick(category)
+  }
 
-  _onItemSwitchToggle = value => {
-    const { category, onItemSwitchToggle } = this.props;
-    onItemSwitchToggle(category, value);
-  };
+  _onItemSwitchToggle = (value) => {
+    const { category, onItemSwitchToggle } = this.props
+    onItemSwitchToggle(category, value)
+  }
 
-  _onItemCheckboxChange = value => {
-    const { category, onItemCheckboxChange } = this.props;
-    onItemCheckboxChange(category, value);
-  };
-  _onItemDeleteToggle = e => {
-    const { deleteCategory, category } = this.props;
-    deleteCategory(category._id);
-  };
+  _onItemCheckboxChange = (value) => {
+    const { category, onItemCheckboxChange } = this.props
+    onItemCheckboxChange(category, value)
+  }
 
-  onClickStopPropagation = e => {
+  _onItemDeleteToggle = (e) => {
+    const { deleteCategory, category } = this.props
+    deleteCategory(category._id)
+  }
+
+  onClickStopPropagation = (e) => {
     if (e && e.stopPropagation) {
-      e.stopPropagation();
+      e.stopPropagation()
     } else {
-      e.cancelBubble = true;
+      e.cancelBubble = true
     }
-  };
+  }
 
   render() {
     const {
@@ -104,17 +105,17 @@ class CategoryTreeListItem extends React.PureComponent {
       // itemSwitchLoading,
       checkbox = true,
       selectItems = []
-    } = this.props;
+    } = this.props
     if (!category) {
-      return;
+      return
     }
     const name = hasIn(category, `name.${intl.locale}`)
       ? category.name[intl.locale]
-      : '';
+      : ''
     // const iconUri = hasIn(category, `icon.fileMeta.uri`)
     //   ? category.icon.fileMeta.uri
     //   : '';
-    const continerStyle = { marginBottom: 10 };
+    const continerStyle = { marginBottom: 10 }
 
     const content = (
       <Container onClick={onClick} style={checkbox ? {} : continerStyle}>
@@ -152,8 +153,8 @@ class CategoryTreeListItem extends React.PureComponent {
             shape="circle"
             icon={<DeleteOutlined />}
             size="small"
-            onClick={e => {
-              this.onClickStopPropagation(e);
+            onClick={(e) => {
+              this.onClickStopPropagation(e)
               Modal.confirm({
                 title: intl.formatMessage({
                   id: 'msg.remove_category'
@@ -161,15 +162,15 @@ class CategoryTreeListItem extends React.PureComponent {
                 okText: intl.formatMessage({ id: 'display_yes' }),
                 cancelText: intl.formatMessage({ id: 'cancel' }),
                 onOk: () => {
-                  this._onItemDeleteToggle(e);
-                  return Promise.resolve();
+                  this._onItemDeleteToggle(e)
+                  return Promise.resolve()
                 }
-              });
+              })
             }}
           />
         </RightSideWrapper>
       </Container>
-    );
+    )
 
     if (checkbox) {
       return (
@@ -181,11 +182,11 @@ class CategoryTreeListItem extends React.PureComponent {
           />
           {content}
         </Wrapper>
-      );
+      )
     }
 
-    return content;
+    return content
   }
 }
 
-export default CategoryTreeListItem;
+export default CategoryTreeListItem

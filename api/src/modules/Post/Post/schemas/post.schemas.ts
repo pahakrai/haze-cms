@@ -32,6 +32,11 @@ export const Schema = new MongooseSchema(
     platformTypes: [
       {type: SchemaTypes.String, enum: Object.values(PlatformType)}
     ],
+    industries: [
+      {type: SchemaTypes.String, required: false, ref: 'Categories'}
+    ],
+    subjects: [{type: SchemaTypes.String, required: false, ref: 'Categories'}],
+    regions: [{type: SchemaTypes.String, required: false, ref: 'Regions'}],
     createdBy: {type: SchemaTypes.ObjectId, required: true},
     updatedBy: {type: SchemaTypes.ObjectId, required: true}
   },

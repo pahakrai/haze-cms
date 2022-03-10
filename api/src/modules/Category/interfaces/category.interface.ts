@@ -25,6 +25,8 @@ export interface ICategory extends Document {
    */
   icon: FileMeta | FileMeta['_id'];
 
+  type: string;
+
   /**
    * all parents of this category
    */

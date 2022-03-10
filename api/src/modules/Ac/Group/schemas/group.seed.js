@@ -59,9 +59,11 @@ module.exports = {
         // MyWorkspace Account App
         '6049923d8d4a8f0e6bc841e5',
         // Policy Administrator
-        '604ec3cdb30f73e5f31e5a94'
+        '604ec3cdb30f73e5f31e5a94',
         // // Service Administrator
         // '5eb2e0afa05f2d495224fb3f',
+        // Region Access
+        '5eaab8a70f97059328065a11'
       ]
     },
     // golpasal System Support

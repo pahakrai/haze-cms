@@ -1,9 +1,4 @@
 {
-  "Console Log": {
-    "prefix": "log",
-    "body": "console.log('$1');$0"
-  },
-
   "Import File": {
     "prefix": "im",
     "body": "import ${1} from '${2}${1}';$0"

@@ -1,42 +1,42 @@
-import React, { useState, useCallback } from 'react';
-import { injectIntl } from 'react-intl';
-import { bindActionCreators } from 'redux';
-import { withRouter } from 'react-router-dom';
-import { connect } from 'react-redux';
+import React, { useState, useCallback } from 'react'
+import { injectIntl } from 'react-intl'
+import { bindActionCreators } from 'redux'
+import { withRouter } from 'react-router-dom'
+import { connect } from 'react-redux'
 
-import useAntdBreakpoint from '../Lib/common/useAntdBreakpoint';
+import useAntdBreakpoint from '../Lib/common/useAntdBreakpoint'
 
-import PostListContainer from '../Containers/Post/PostList';
-import PostSearchButton from '../Containers/Post/PostSearchButton';
-import PostSearchInput from '../Containers/Post/PostSearchInput';
-import PostDateFilter from '../Containers/Post/PostDateFilter';
-import PostStatusFilter from '../Containers/Post/PostStatusFilter';
-import PostPlatformTypesFilter from '../Containers/Post/PostPlatformTypesFilter';
-import PostCreateButton from '../Containers/Post/PostCreateButton';
+import PostListContainer from '../Containers/Post/PostList'
+import PostSearchButton from '../Containers/Post/PostSearchButton'
+import PostSearchInput from '../Containers/Post/PostSearchInput'
+import PostDateFilter from '../Containers/Post/PostDateFilter'
+import PostStatusFilter from '../Containers/Post/PostStatusFilter'
+import PostPlatformTypesFilter from '../Containers/Post/PostPlatformTypesFilter'
+import PostCreateButton from '../Containers/Post/PostCreateButton'
 
-import DocumentTitle from '../Components/Common/DocumentTitle';
-import ContentContainer from '../Components/Common/ContentContainer';
-import FilterLayout from '../Components/Common/FilterLayout';
+import DocumentTitle from '../Components/Common/DocumentTitle'
+import ContentContainer from '../Components/Common/ContentContainer'
+import FilterLayout from '../Components/Common/FilterLayout'
 
 const Page = ({ intl, pagination }) => {
-  const [filterValues, setFilterValues] = useState({});
-  const breakpoint = useAntdBreakpoint();
+  const [filterValues, setFilterValues] = useState({})
+  const breakpoint = useAntdBreakpoint()
 
   const _onChanged = useCallback(
-    value => {
+    (value) => {
       setFilterValues({
         ...filterValues,
         ...value
-      });
+      })
     },
     [filterValues]
-  );
+  )
 
   const commonFilter = {
     intl,
     filterValues: filterValues,
     onChanged: _onChanged
-  };
+  }
 
   return (
     <DocumentTitle title={intl.formatMessage({ id: 'nav.posts' })}>
@@ -46,17 +46,14 @@ const Page = ({ intl, pagination }) => {
           <PostStatusFilter {...commonFilter} />
           <PostPlatformTypesFilter {...commonFilter} />
           <PostDateFilter {...commonFilter} />
-
           {breakpoint.xl && breakpoint.lg && <div />}
           {breakpoint.xl && breakpoint.lg && <div />}
           {breakpoint.xl && breakpoint.lg && <div />}
           {!breakpoint.xl && breakpoint.lg && <div />}
           {!breakpoint.xl && !breakpoint.lg && <div />}
-
           <FilterLayout.ButtonFloatLayout>
             <PostSearchButton {...commonFilter} />
           </FilterLayout.ButtonFloatLayout>
-
           <React.Fragment>
             <FilterLayout.ButtonFloatLayout>
               <FilterLayout.ButtonFloatLayout marginRight={8}>
@@ -84,14 +81,14 @@ const Page = ({ intl, pagination }) => {
         </FilterLayout>
       </ContentContainer>
     </DocumentTitle>
-  );
-};
+  )
+}
 
-const intledPage = injectIntl(Page);
-const mapStateToProps = state => ({
+const intledPage = injectIntl(Page)
+const mapStateToProps = (state) => ({
   pagination: state.pagination.posts
-});
-const mapDispatchToProps = dispatch => bindActionCreators({}, dispatch);
+})
+const mapDispatchToProps = (dispatch) => bindActionCreators({}, dispatch)
 export default withRouter(
   connect(mapStateToProps, mapDispatchToProps)(intledPage)
-);
+)

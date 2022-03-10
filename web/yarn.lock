@@ -352,10 +352,10 @@
     intl-messageformat-parser "^6.0.10"
     tslib "^2.0.1"
 
-"@golpasal/common@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@golpasal/common/-/common-0.0.2.tgz#41cc27d1396d0ff9502ee8241e7791e86710067e"
-  integrity sha512-EY3pLhvkhmF0Sa862RCbV7/uY7XdFw+eU/ic18p8inxFFQJmcXWbYtKxJYvMMmX4RHyvBj4zHe/3WpFBW1iZTQ==
+"@golpasal/common@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@golpasal/common/-/common-0.0.11.tgz#96bc6e2d4c92d36f2561caf55480f76cf8ff632d"
+  integrity sha512-fSEOXRAyE/rymrq+9b7ohAryx77ocb9tnbl1yj6Ya9SaMvatK1hI3cajmw/+AVm/IwP2/zgTdRotNVxhI2OKew==
   dependencies:
     "@types/crypto-js" "^4.0.1"
     "@types/uuid" "^8.3.0"

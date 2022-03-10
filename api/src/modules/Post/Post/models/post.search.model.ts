@@ -53,6 +53,18 @@ export class PostSearchModel extends BaseSearchModel {
   @IsOptional()
   likes?: Array<string>;
 
+  @IsString({each: true})
+  @IsOptional()
+  industries?: Array<string>;
+
+  @IsString({each: true})
+  @IsOptional()
+  subjects?: Array<string>;
+
+  @IsString({each: true})
+  @IsOptional()
+  regions?: Array<string>;
+
   @IsOptional()
   @IsString({each: true})
   platformTypes?: Array<string>;

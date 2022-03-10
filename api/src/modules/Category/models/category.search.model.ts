@@ -17,6 +17,12 @@ export class CategorySearchModel extends BaseSearchModel {
   @ApiPropertyOptional({description: 'all parents of this category'})
   ancestors?: string[];
 
+  @IsOptional()
+  @ApiPropertyOptional({
+    description: 'category by type eg: subject, industry, etc.'
+  })
+  types?: string[];
+
   @IsBoolean()
   @IsOptional()
   @ApiPropertyOptional({description: 'is category active'})

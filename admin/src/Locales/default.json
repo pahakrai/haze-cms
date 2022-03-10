@@ -1289,6 +1289,8 @@
   "nav.course_time_manager": "Course Schedules",
   "nav.course_time_list": "Course Schedule List",
   "nav.categories": "Categories",
+  "nav.categories.industries": "Industries",
+  "nav.categories.subjects": "Subjects",
   "nav.categories_import": "Import Categories",
   "nav.change_password": "Change Password",
   "nav.components": "Components",

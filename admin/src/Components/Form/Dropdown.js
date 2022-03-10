@@ -1,11 +1,11 @@
-import React from 'react';
-import { Field } from 'redux-form';
-import Select from 'react-select';
-import styled from 'styled-components';
-import { injectIntl } from 'react-intl';
+import React from 'react'
+import { Field } from 'redux-form'
+import Select from 'react-select'
+import styled from 'styled-components'
+import { injectIntl } from 'react-intl'
 
-import { ErrorMessage } from './Errors';
-import FieldContainer from './FieldContainer';
+import { ErrorMessage } from './Errors'
+import FieldContainer from './FieldContainer'
 
 import {
   HorizontalContainer,
@@ -13,12 +13,12 @@ import {
   HorizontalFieldLabel,
   FieldLabel,
   HorizontalContainerWrapper
-} from './form.styled';
+} from './form.styled'
 
 const SelectWrapper = styled.div`
   flex: 1;
-`;
-export const Dropdown = props => {
+`
+export const Dropdown = (props) => {
   const {
     input,
     label,
@@ -33,29 +33,29 @@ export const Dropdown = props => {
     isMulti,
     placeholder,
     ...res
-  } = props;
-  let Container = FieldContainer;
-  let Label = FieldLabel;
-  const options = [...(_options || [])];
+  } = props
+  let Container = FieldContainer
+  let Label = FieldLabel
+  const options = [...(_options || [])]
   const errorMessage =
     touched &&
     ((error && <ErrorMessage>{error}</ErrorMessage>) ||
-      (warning && <ErrorMessage>{warning}</ErrorMessage>));
+      (warning && <ErrorMessage>{warning}</ErrorMessage>))
 
   if (horizontal) {
-    Container = HorizontalContainer;
-    Label = HorizontalFieldLabel;
+    Container = HorizontalContainer
+    Label = HorizontalFieldLabel
   }
 
   const labelComponent = !noLabel ? (
     <Label style={labelStyle}>{label}</Label>
-  ) : null;
+  ) : null
   const value =
     (!isMulti
-      ? options.find(opt => opt.value === (input && input.value))
-      : options.filter(opt =>
+      ? options.find((opt) => opt.value === (input && input.value))
+      : options.filter((opt) =>
           ((input && input.value) || []).includes(opt.value)
-        )) || undefined;
+        )) || undefined
   return (
     <HorizontalContainerWrapper
       style={horizontal ? containerStyle : undefined}
@@ -74,17 +74,17 @@ export const Dropdown = props => {
             }
             options={options}
             isDisabled={disabled}
-            onChange={opt => {
+            onChange={(opt) => {
               input.onChange(
                 !isMulti
                   ? opt
                     ? opt.value
                     : ''
-                  : opt?.map(v => v && v.value) || [],
+                  : opt?.map((v) => v && v.value) || [],
                 opt
-              );
+              )
             }}
-            onBlur={opt => input.onBlur && input.onBlur(opt ? opt.value : '')}
+            onBlur={(opt) => input.onBlur && input.onBlur(opt ? opt.value : '')}
             value={value || null}
             styles={selectStyles({ disabled })}
             isMulti={isMulti}
@@ -97,11 +97,11 @@ export const Dropdown = props => {
         {horizontal && errorMessage}
       </HorizontalErrorContainer>
     </HorizontalContainerWrapper>
-  );
-};
+  )
+}
 
 export const selectStyles = ({ disabled }) => ({
-  control: provided => ({
+  control: (provided) => ({
     ...provided,
     borderWidth: 1,
     borderRadius: 0,
@@ -112,8 +112,8 @@ export const selectStyles = ({ disabled }) => ({
     fontSize: 16,
     padding: '2px 0px'
   })
-});
+})
 
-export default injectIntl(props => {
-  return <Field {...props} component={Dropdown} />;
-});
+export default injectIntl((props) => {
+  return <Field {...props} component={Dropdown} />
+})

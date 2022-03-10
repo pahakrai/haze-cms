@@ -21,6 +21,43 @@ const redirectUrl = (ctx: NextPageContext) => {
   const formatedUrl = format(url);
   return formatedUrl;
 };
+
+const ssoServerJWTURL = "";
+
+const ssoRedirect = () => {
+  return async function (req, res, next) {
+    // check if the req has the queryParameter as ssoToken
+    // and who is the referer.
+    const { ssoToken } = req.query;
+    if (ssoToken != null) {
+      // to remove the ssoToken in query parameter redirect.
+      const redirectURL = url.parse(req.url).pathname;
+      try {
+        const response = await axios.get(
+          `${ssoServerJWTURL}?ssoToken=${ssoToken}`,
+          {
+            headers: {
+              Authorization: "Bearer l1Q7zkOL59cRqWBkQ12ZiGVW2DBL"
+            }
+          }
+        );
+        const { token } = response.data;
+        const decoded = await verifyJwtToken(token);
+        // now that we have the decoded jwt, use the,
+        // global-session-id as the session id so that
+        // the logout can be implemented with the global session.
+        req.session.user = decoded;
+      } catch (err) {
+        return next(err);
+      }
+
+      return res.redirect(`${redirectURL}`);
+    }
+
+    return next();
+  };
+};
+
 const redirectBaseOnLogin = async (
   ctx: NextPageContext,
   route?: string,
@@ -63,6 +100,7 @@ const redirectBaseOnLogin = async (
   }
   const shouldRedirect = redirectIfAuthed ? isLoggedIn : !isLoggedIn;
   const data = apolloClient.cache.extract();
+  ssoRedirect()("wat", "wat", "");
   if (shouldRedirect) {
     if (ctx.res) {
       ctx.res.writeHead(302, {
@@ -80,31 +118,31 @@ export interface WithAuthRedirectOptions {
   route?: string;
   redirectIfAuthed?: boolean;
 }
-export const withAuthRedirect = (options?: WithAuthRedirectOptions) => <P,>(
-  Page: NextComponentType<any, {}, P>
-) => {
-  return class extends React.Component<P> {
-    static async getInitialProps(ctx: NextPageContext) {
-      let sequential = await redirectBaseOnLogin(
-        ctx,
-        options?.route,
-        options?.redirectIfAuthed
-      );
-      let pageProps = {};
-      if (!sequential) {
-        return pageProps;
+export const withAuthRedirect =
+  (options?: WithAuthRedirectOptions) =>
+  <P,>(Page: NextComponentType<any, {}, P>) => {
+    return class extends React.Component<P> {
+      static async getInitialProps(ctx: NextPageContext) {
+        let sequential = await redirectBaseOnLogin(
+          ctx,
+          options?.route,
+          options?.redirectIfAuthed
+        );
+        let pageProps = {};
+        if (!sequential) {
+          return pageProps;
+        }
+        if (Page.getInitialProps) {
+          pageProps = await Page.getInitialProps({
+            ...ctx,
+            initialApolloState: sequential
+          });
+        }
+        // TIPS: avoid development mode throw getInitialProps return empty object warning add authed:true
+        return { ...pageProps };
       }
-      if (Page.getInitialProps) {
-        pageProps = await Page.getInitialProps({
-          ...ctx,
-          initialApolloState: sequential
-        });
+      render() {
+        return <Page {...this.props} />;
       }
-      // TIPS: avoid development mode throw getInitialProps return empty object warning add authed:true
-      return { ...pageProps };
-    }
-    render() {
-      return <Page {...this.props} />;
-    }
+    };
   };
-};

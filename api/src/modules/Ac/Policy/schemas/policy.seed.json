@@ -505,8 +505,8 @@
           "Effect": "Allow"
         }
       ],
-      "workspaceTypes": ["company-website", "shopping"],
-      "workspaceAccess": ["5ea7f40f68a8e97c03d55326"]
+      "workspaceTypes": ["company-website"],
+      "workspaceAccess": []
     },
     {
       "_id": "5c7ce483f1d3458e089e74a5",

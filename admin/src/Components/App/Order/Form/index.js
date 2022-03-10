@@ -1,55 +1,54 @@
-import React from 'react';
-import { reduxForm } from 'redux-form';
-import styled from 'styled-components';
-import { Tabs } from 'antd';
-import { Modal } from 'antd';
-import Common from '@golpasal/common';
+import React from 'react'
+import { reduxForm } from 'redux-form'
+import styled from 'styled-components'
+import { Tabs } from 'antd'
+import { Modal } from 'antd'
+import Common from '@golpasal/common'
 
-import ContentLoader from '../../../Common/ContentLoader';
-import Title from '../../../Common/Title';
-import _Card from '../../../Common/Card';
+import ContentLoader from '../../../Common/ContentLoader'
+import Title from '../../../Common/Title'
+import _Card from '../../../Common/Card'
 
 import {
   RowWrapper,
   LeftColWrapper,
   RightColWrapper,
   ColWrapper
-} from '../../Form/Wrapper';
-import Errors from '../../../Form/Errors';
-import Form from '../../../Form/Form';
-import TextInput from '../../../Form/TextInput';
+} from '../../Form/Wrapper'
+import Errors from '../../../Form/Errors'
+import Form from '../../../Form/Form'
+import TextInput from '../../../Form/TextInput'
 
-import Button from '../../../Common/Button';
-import Checkbox from '../../../Common/Checkbox';
+import Button from '../../../Common/Button'
+import Checkbox from '../../../Common/Checkbox'
 
-import OrderSold from '../Form/OrderSold';
-import OrderDate from '../Form/OrderDate';
-import OrderPaymentBy from '../Form/OrderPaymentBy';
-import OrderNumber from '../Form/OrderNumber';
-import OrderQuotationNumber from '../Form/OrderQuotationNumber';
-import OrderStatusBar from '../Form/OrderStatusBar';
-import OrderProducts from '../Form/OrderProducts';
-import OrderEventCampaign from '../Form/OrderEventCampaign';
-import OrderCharge from '../Form/OrderCharge';
-import OrderAddressInput from '../Form/OrderAddressForm/OrderAddressInput';
-import OrderPayment from '../Form/OrderPayment/OrderPayment';
-import OrderShipment from '../Form/OrderShipment/OrderShipment';
-import OrderChargeServices from '../Form/OrderChargeServices';
-import OrderChargeOthers from '../Form/OrderChargeOthers';
-import CopyTextContainer from '../../../App/CopyTextContainer';
-import ShipmentStatusBar from './OrderShipment/ShipmentStatusBar';
-import OrderLog from './OrderLog';
+import OrderSold from '../Form/OrderSold'
+import OrderDate from '../Form/OrderDate'
+import OrderPaymentBy from '../Form/OrderPaymentBy'
+import OrderNumber from '../Form/OrderNumber'
+import OrderQuotationNumber from '../Form/OrderQuotationNumber'
+import OrderStatusBar from '../Form/OrderStatusBar'
+import OrderProducts from '../Form/OrderProducts'
+import OrderCharge from '../Form/OrderCharge'
+import OrderAddressInput from '../Form/OrderAddressForm/OrderAddressInput'
+import OrderPayment from '../Form/OrderPayment/OrderPayment'
+import OrderShipment from '../Form/OrderShipment/OrderShipment'
+import OrderChargeServices from '../Form/OrderChargeServices'
+import OrderChargeOthers from '../Form/OrderChargeOthers'
+import CopyTextContainer from '../../../App/CopyTextContainer'
+import ShipmentStatusBar from './OrderShipment/ShipmentStatusBar'
+import OrderLog from './OrderLog'
 import {
   validate,
   asyncValidate,
   shouldAsyncValidate
-} from '../../../../Containers/Order/OrderFormUtils';
+} from '../../../../Containers/Order/OrderFormUtils'
 
-const { OrderStatus, ShipmentStatus } = Common.status;
+const { OrderStatus, ShipmentStatus } = Common.status
 
 const Card = styled(_Card)`
   margin: 10px 0;
-`;
+`
 
 const OrderStatusBarWrapper = styled(Card)`
   margin-top: 0;
@@ -59,15 +58,15 @@ const OrderStatusBarWrapper = styled(Card)`
   @media (max-width: 1000px) {
     flex-direction: column;
   }
-`;
+`
 
-const DetailInfoWrapper = styled.div``;
+const DetailInfoWrapper = styled.div``
 const CancelButton = styled.div`
   cursor: pointer;
   color: #999;
   text-decoration-line: underline;
   margin-right: 30px;
-`;
+`
 
 const OrderForm = ({
   asyncValidating,
@@ -76,13 +75,9 @@ const OrderForm = ({
   onSubmit,
   onSubmitSuccess,
   onSubmitFail,
-  onCopyRawText,
-  disabled,
-  formValueAmount,
   currentWorkspace,
   currentWorkspaceType,
   cancelOrder,
-  cancelOrderLoading,
   initialValues,
   pristine,
   submitting,
@@ -103,14 +98,14 @@ const OrderForm = ({
   touchAllField,
   getFormTexts
 }) => {
-  const canEditAddress = !updateMode || formValueStatus < OrderStatus.SHIPPED;
+  const canEditAddress = !updateMode || formValueStatus < OrderStatus.SHIPPED
 
-  const allowEdit = currentWorkspace?.preferences?.order?.allowEdit;
+  const allowEdit = currentWorkspace?.preferences?.order?.allowEdit
   const renderButtons = () => {
     const _onSubmit = () => {
-      touchAllField();
-    };
-    const disabledButton = submitting || asyncValidating;
+      touchAllField()
+    }
+    const disabledButton = submitting || asyncValidating
 
     if (updateMode) {
       return (
@@ -124,7 +119,7 @@ const OrderForm = ({
             id: 'order_update'
           })}
         </Button.Primary>
-      );
+      )
     }
     return (
       <Button.Primary
@@ -138,8 +133,8 @@ const OrderForm = ({
           id: 'order_create'
         })}
       </Button.Primary>
-    );
-  };
+    )
+  }
 
   const renderStatusButton = () => {
     const confirm = (title, callback) =>
@@ -150,10 +145,10 @@ const OrderForm = ({
         okText: intl.formatMessage({ id: 'display_yes' }),
         cancelText: intl.formatMessage({ id: 'cancel' }),
         onOk: () => {
-          callback();
-          return Promise.resolve();
+          callback()
+          return Promise.resolve()
         }
-      });
+      })
     const cancel = (
       <CancelButton
         onClick={() => confirm('msg.update_order_status', cancelOrder)}
@@ -162,7 +157,7 @@ const OrderForm = ({
           id: 'display_order_cancel'
         })}
       </CancelButton>
-    );
+    )
     const ship = (
       <Button.Primary
         margin={false}
@@ -177,7 +172,7 @@ const OrderForm = ({
           id: 'display_order_ship'
         })}
       </Button.Primary>
-    );
+    )
     const complete = (
       <Button.Primary
         margin={false}
@@ -192,7 +187,7 @@ const OrderForm = ({
           id: 'display_order_complete'
         })}
       </Button.Primary>
-    );
+    )
     const checkout = (
       <CopyTextContainer text={checkoutUrl}>
         {({ onCopy }) => (
@@ -209,7 +204,7 @@ const OrderForm = ({
           </Button.Primary>
         )}
       </CopyTextContainer>
-    );
+    )
 
     switch (formValueStatus) {
       case OrderStatus.PENDING_PAYMENT:
@@ -217,20 +212,20 @@ const OrderForm = ({
           <>
             {cancel} {checkout}
           </>
-        );
+        )
       case OrderStatus.PREPARE_SHIPMENT:
         return (
           <>
             {cancel} {ship}
           </>
-        );
+        )
       case OrderStatus.SHIPPED:
-        return <>{complete}</>;
+        return <>{complete}</>
       case OrderStatus.COMPLETED:
       default:
     }
-    return null;
-  };
+    return null
+  }
 
   const renderShipmentStatusButton = () => {
     const confirm = (title, callback) =>
@@ -241,10 +236,10 @@ const OrderForm = ({
         okText: intl.formatMessage({ id: 'display_yes' }),
         cancelText: intl.formatMessage({ id: 'cancel' }),
         onOk: () => {
-          callback();
-          return Promise.resolve();
+          callback()
+          return Promise.resolve()
         }
-      });
+      })
     const cancel = (
       <CancelButton
         margin={false}
@@ -259,7 +254,7 @@ const OrderForm = ({
           id: 'display_cancel'
         })}
       </CancelButton>
-    );
+    )
     const inProgress = (
       <Button.Primary
         margin={false}
@@ -274,7 +269,7 @@ const OrderForm = ({
           id: 'display_inProgress'
         })}
       </Button.Primary>
-    );
+    )
     const complete = (
       <Button.Primary
         margin={false}
@@ -289,7 +284,7 @@ const OrderForm = ({
           id: 'display_complete'
         })}
       </Button.Primary>
-    );
+    )
 
     switch (shipment.status) {
       case ShipmentStatus.PENDING:
@@ -297,14 +292,14 @@ const OrderForm = ({
           <>
             {cancel} {inProgress}
           </>
-        );
+        )
       case ShipmentStatus.IN_PROGRESS:
-        return <>{complete}</>;
+        return <>{complete}</>
       case ShipmentStatus.COMPLETED:
       default:
     }
-    return null;
-  };
+    return null
+  }
 
   const orderForm = (
     <RowWrapper>
@@ -346,16 +341,6 @@ const OrderForm = ({
                     />
                     <OrderDate name="date" updateMode={updateMode} />
                   </div>
-                  {currentWorkspace && currentWorkspace._id && (
-                    <OrderEventCampaign
-                      name="eventCampaigns"
-                      updateMode={updateMode}
-                      intl={intl}
-                      workspace={currentWorkspace && currentWorkspace._id}
-                      workspaceType={currentWorkspaceType}
-                      formValueClient={formValueClient}
-                    />
-                  )}
                   <OrderPaymentBy
                     payment={payment}
                     intl={intl}
@@ -480,7 +465,7 @@ const OrderForm = ({
         </Card>
       </RightColWrapper>
     </RowWrapper>
-  );
+  )
   return (
     <Form
       name={form}
@@ -564,8 +549,8 @@ const OrderForm = ({
         </Tabs>
       )}
     </Form>
-  );
-};
+  )
+}
 
 export default reduxForm({
   validate,
@@ -574,4 +559,4 @@ export default reduxForm({
   enableReinitialize: true,
   destroyOnUnmount: false,
   initialValues: {}
-})(OrderForm);
+})(OrderForm)

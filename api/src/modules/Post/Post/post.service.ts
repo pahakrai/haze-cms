@@ -71,7 +71,10 @@ export class PostService
       isActive,
       excludeIds,
       likes,
-      platformTypes
+      platformTypes,
+      industries,
+      subjects,
+      regions
     } = query;
 
     const utcOffset = this.getUTCOffset();
@@ -118,6 +121,24 @@ export class PostService
           {platformTypes: {$in: platformTypes}},
           {platformTypes: {$in: [null, []]}}
         ]
+      });
+    }
+
+    if (Array.isArray(regions) && regions.length > 0) {
+      queryAnd.push({
+        $or: [{regions: {$in: platformTypes}}]
+      });
+    }
+
+    if (Array.isArray(industries) && industries.length > 0) {
+      queryAnd.push({
+        $or: [{industries: {$in: industries}}]
+      });
+    }
+
+    if (Array.isArray(subjects) && subjects.length > 0) {
+      queryAnd.push({
+        $or: [{subjects: {$in: subjects}}]
       });
     }
 

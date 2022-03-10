@@ -32,6 +32,12 @@ export class CategoryCreateModel {
   @ApiProperty({description: 'all parents of this category'})
   ancestors: string[];
 
+  @IsString()
+  @ApiProperty({
+    description: 'category by type eg: subject, industry, etc.'
+  })
+  type: string;
+
   @IsBoolean()
   @IsOptional()
   @ApiProperty({description: 'is category active'})

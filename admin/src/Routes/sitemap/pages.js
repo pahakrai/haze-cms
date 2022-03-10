@@ -24,7 +24,6 @@ import {
   RegionPage,
   OrderFormPage,
   OrderPage,
-  PricingPage,
   PageContentPage,
   PagePage,
   PageFormPage,
@@ -90,7 +89,7 @@ import {
   ForbiddenPage
 } from '../../Pages/Errors'
 
-const { UserType } = Common.type
+const { UserType, CategoryType } = Common.type
 
 export default {
   HomePage,
@@ -189,11 +188,15 @@ export default {
   SignUpPage,
   SignUpSendMailSuccessfullyPage,
   SignUpConfirmPage,
-  PricingPage,
   LogoutPage,
   PageNotFoundPage,
   VerifyUserPage,
-  CategoryPage,
+  IndustryCategoryPage: ({ match, ...props }) => (
+    <CategoryPage type={CategoryType.INDUSTRY} />
+  ),
+  SubjectCategoryPage: ({ match, ...props }) => (
+    <CategoryPage type={CategoryType.SUBJECT} />
+  ),
   MyWorkspaceFormPage,
   WorkspacePage,
   WorkspaceFormPage: ({ match, ...props }) => (

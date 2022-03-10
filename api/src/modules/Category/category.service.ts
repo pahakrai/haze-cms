@@ -2,7 +2,7 @@ import {Injectable, Scope, Inject} from '@nestjs/common';
 import {InjectModel} from '@nestjs/mongoose';
 import {REQUEST} from '@nestjs/core';
 import {BadRequestException, PaginateOptionsQueryModel} from 'src/core';
-
+import {ObjectId} from 'mongodb';
 import {BaseCRUDService} from 'src/core/layers';
 
 // interfaces & models
@@ -38,7 +38,7 @@ export class CategoryService extends BaseCRUDService<
     const query: any = {};
     let workspace: string;
     const user = this.getCurrentUser<IUser>();
-    const {q, _ids, code, parent, ancestors, isActive} = searchModel;
+    const {q, _ids, code, parent, ancestors, isActive, types} = searchModel;
 
     // handle workspace
     if (user?.currentWorkspace) {
@@ -49,7 +49,7 @@ export class CategoryService extends BaseCRUDService<
       workspace = this.getHeaderWorkspace();
     }
 
-    query.workspace = workspace ? workspace : null;
+    query.workspace = workspace ? new ObjectId(workspace) : null;
     if (q) {
       const qReg = new RegExp(q, 'i');
       query.$or = [
@@ -80,6 +80,10 @@ export class CategoryService extends BaseCRUDService<
 
     if (ancestors?.length > 0) {
       query.ancestors = {$in: ancestors};
+    }
+
+    if (types?.length > 0) {
+      query.type = {$in: types};
     }
 
     if (typeof isActive === 'boolean') {

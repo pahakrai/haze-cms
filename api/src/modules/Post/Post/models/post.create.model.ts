@@ -73,6 +73,15 @@ export class PostCreateModel {
   @IsOptional()
   tags: Array<any>;
 
+  @IsOptional()
+  industries: Array<string>;
+
+  @IsOptional()
+  subjects: Array<string>;
+
+  @IsOptional()
+  regions: Array<string>;
+
   @ApiProperty({required: false, description: 'default is false'})
   @IsOptional()
   @IsBoolean()

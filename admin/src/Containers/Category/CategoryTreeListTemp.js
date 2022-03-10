@@ -1,35 +1,35 @@
-import React from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import React from 'react'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
 
-import Loading from '../../Components/Common/Loading';
-import CategoryTreeListComponent from '../../Components/App/Category/CategoryTreeList';
-import Modal from '../../Components/Modal';
+import Loading from '../../Components/Common/Loading'
+import CategoryTreeListComponent from '../../Components/App/Category/CategoryTreeList'
+import Modal from '../../Components/Modal'
 
-import { CategoryActions } from '../../Redux/Category/actions';
+import { CategoryActions } from '../../Redux/Category/actions'
 
-import CategoryTreeListItemWithExpand from './CategoryTreeListItemWithExpand';
-import CategoryForm from './CategoryForm';
+import CategoryTreeListItemWithExpand from './CategoryTreeListItemWithExpand'
+import CategoryForm from './CategoryForm'
 
 class _CategoryTreeList extends React.PureComponent {
   constructor() {
-    super();
+    super()
 
     this.state = {
       modalOpen: false,
       formParams: {}
-    };
+    }
   }
 
-  fetchCategorys(querys) {
-    const { fetchCategorys } = this.props;
-    fetchCategorys({
+  fetchCategories(querys) {
+    const { fetchCategories } = this.props
+    fetchCategories({
       ...querys,
       populates: []
-    });
+    })
   }
 
-  _renderItem = category => {
+  _renderItem = (category) => {
     const {
       intl,
       toggleActiveLoading,
@@ -38,7 +38,7 @@ class _CategoryTreeList extends React.PureComponent {
       onItemCheckboxChange,
       ancestors,
       deleteCategory
-    } = this.props;
+    } = this.props
     return (
       <CategoryTreeListItemWithExpand
         key={category._id}
@@ -54,34 +54,37 @@ class _CategoryTreeList extends React.PureComponent {
         ancestors={ancestors}
         deleteCategory={deleteCategory}
       />
-    );
-  };
-  handleChangeModalState = otherState => {
+    )
+  }
+
+  handleChangeModalState = (otherState) => {
     this.setState(({ modalOpen }) => ({
       modalOpen: !modalOpen,
       ...otherState
-    }));
-  };
-  _onItemSwitchToggle = (category, value) => {
-    const { toggleActive } = this.props;
+    }))
+  }
 
-    toggleActive(category._id, value);
-  };
-  _onEditBtnClick = category => {
-    this.handleChangeModalState({ formParams: { categoryId: category._id } });
-  };
+  _onItemSwitchToggle = (category, value) => {
+    const { toggleActive } = this.props
+    toggleActive(category._id, value)
+  }
+
+  _onEditBtnClick = (category) => {
+    this.handleChangeModalState({ formParams: { categoryId: category._id } })
+  }
+
   _onAddBtnClick = () => {
-    const { parent, ancestors } = this.props;
-    this.handleChangeModalState({ formParams: { parent, ancestors } });
-  };
-  _onCategorySubmitSuccess = () => {
-    const { fetchCategorys, parent } = this.props;
-    fetchCategorys(parent ? { parent } : {});
-    this.handleChangeModalState({ formParams: {} });
-  };
+    const { parent, ancestors } = this.props
+    this.handleChangeModalState({ formParams: { parent, ancestors } })
+  }
+  _oncategoriesubmitSuccess = () => {
+    const { fetchCategories, parent } = this.props
+    fetchCategories(parent ? { parent } : {})
+    this.handleChangeModalState({ formParams: {} })
+  }
   render() {
     const {
-      categorys = [],
+      categories = [],
       locale,
       intl,
       gutter,
@@ -91,10 +94,10 @@ class _CategoryTreeList extends React.PureComponent {
       parent
       // deleteCategory,
       // deleteCategoryLoading
-    } = this.props;
-    const isLoading = false;
+    } = this.props
+    const isLoading = false
     // const isLoading = deleteCategoryLoading;
-    const { modalOpen, formParams } = this.state;
+    const { modalOpen, formParams } = this.state
     return isLoading ? (
       <Loading />
     ) : (
@@ -104,7 +107,7 @@ class _CategoryTreeList extends React.PureComponent {
           locale={locale}
           gutter={gutter}
           parent={parent}
-          categorys={categorys}
+          categories={categories}
           renderItem={this._renderItem}
           onAddBtnClick={this._onAddBtnClick}
           withCheckBox={withCheckBox}
@@ -128,14 +131,15 @@ class _CategoryTreeList extends React.PureComponent {
           />
           <CategoryForm
             intl={intl}
+            categoryType={this.props.categoryType}
             noCardWrapper
             noTitle
-            onSubmitSuccess={this._onCategorySubmitSuccess}
+            onSubmitSuccess={this._oncategoriesubmitSuccess}
             {...formParams}
           />
         </Modal>
       </React.Fragment>
-    );
+    )
   }
 }
 
@@ -144,20 +148,20 @@ const mapStateToProps = (state, { ancestors = [], parent }) => ({
   ancestors: parent ? [...ancestors, parent] : [],
   toggleActiveLoading: state.loading.toggleActive,
   deleteCategoryLoading: state.loading.deleteCategory
-});
+})
 
-const mapDispatchToProps = dispatch =>
+const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
-      fetchCategorys: CategoryActions.getAllCategory,
+      fetchCategories: CategoryActions.getAllCategory,
       deleteCategory: CategoryActions.deleteCategory,
       toggleActive: CategoryActions.toggleActive
     },
     dispatch
-  );
+  )
 const CategoryTreeList = connect(
   mapStateToProps,
   mapDispatchToProps
-)(_CategoryTreeList);
+)(_CategoryTreeList)
 
-export default CategoryTreeList;
+export default CategoryTreeList

@@ -1,5 +1,8 @@
 import {Schema as MongooseSchema, SchemaTypes} from 'mongoose';
 import {LocalizeStringSchema} from 'src/core';
+import Common from '@golpasal/common';
+
+const {CategoryType} = Common.type;
 
 export const CollectionName = 'Categories';
 export const Schema = new MongooseSchema(
@@ -23,7 +26,13 @@ export const Schema = new MongooseSchema(
     // is category active
     isActive: {type: SchemaTypes.Boolean, default: true},
     // for sorting by specifics
-    idx: {type: SchemaTypes.Number, default: 0, required: false}
+    idx: {type: SchemaTypes.Number, default: 0, required: false},
+    // which type category belongs to
+    type: {
+      type: SchemaTypes.String,
+      // required: true,
+      enum: Object.values(CategoryType)
+    }
   },
   {
     collection: CollectionName,

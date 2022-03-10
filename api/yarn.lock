@@ -508,10 +508,10 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.2.tgz#30aa825f11d438671d585bd44e7fd564535fc210"
   integrity sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==
 
-"@golpasal/common@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@golpasal/common/-/common-0.0.9.tgz#575f5b2a286914a67e0a2730ef144e3b87946b73"
-  integrity sha512-SVZOJycamB2iGaCgXq2/mcT4tMaqKQJ+5M81sfhBs5wEgiJtNWQFZZN3yWS4G5K7cK+xEs3wy/r4pHHgp/ReEw==
+"@golpasal/common@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@golpasal/common/-/common-0.0.11.tgz#96bc6e2d4c92d36f2561caf55480f76cf8ff632d"
+  integrity sha512-fSEOXRAyE/rymrq+9b7ohAryx77ocb9tnbl1yj6Ya9SaMvatK1hI3cajmw/+AVm/IwP2/zgTdRotNVxhI2OKew==
   dependencies:
     "@types/crypto-js" "^4.0.1"
     "@types/uuid" "^8.3.0"
