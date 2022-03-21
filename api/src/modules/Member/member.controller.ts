@@ -78,6 +78,26 @@ export class MemberController extends BaseController {
     return result;
   }
 
+  // NOTE: FOR ORGANIZATION SELECT FIELD ON FRONTEND WITH MINIMUM FIELDS
+  @Get('organizations')
+  public async getMemberOrganizations(@Query() query: MemberSearchModel) {
+    let result: any;
+    const fieldMaps = ['organizationName', 'user'];
+    const {paginate} = query;
+    if (paginate) {
+      result = await this.memberService.findWithPaginate(query);
+      result.docs = result.docs.map(d =>
+        fieldMaps.reduce((obj, field) => ({...obj, [field]: d[field]}), {})
+      );
+    } else {
+      result = await this.memberService.find(query);
+      result = result.map(d =>
+        fieldMaps.reduce((obj, field) => ({...obj, [field]: d[field]}), {})
+      );
+    }
+    return result;
+  }
+
   @Get('total-member-count')
   @UserTypes(UserType.SYSTEM_ADMIN, UserType.PROVIDER)
   public async memberCount() {

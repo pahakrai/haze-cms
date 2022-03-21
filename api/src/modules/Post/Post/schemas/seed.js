@@ -113,6 +113,502 @@ module.exports = {
       platformTypes: [],
       updatedAt: '2019-04-01T08:30:44.545Z',
       updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    // New Data
+    {
+      _id: '62307b6a1c9e84b76caae850',
+      content: {
+        en: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+        'zh-hk':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>',
+        'zh-cn':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      title: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307b7cad936d89d2fe4563',
+      content: {
+        en: '<p>The Hong Kong Monetary Authority (HKMA) today held the opening ceremony of the Quick Payment System (Quick Turn) to announce the full launch of the Quick Turn Service.</p><p></p><p>&quot;Fast Turn&quot; will be fully launched on September 30, 2018, when banks and operators of deposit and payment instruments participating in the system will begin to launch services to enable customers to make immediate payments and receipts through &quot;Fast Turn&quot;.</p><p></p><p>Mr. Chen Maobo, Financial Secretary, said: &quot;I am very happy to be with you to witness the entry of Hong Kong&#x27;s retail payment system into a new era. The opening of&quot;fast turnaround&quot;represents a major step forward in Hong Kong&#x27;s development towards a smart international financial centre.&quot;</p><p></p><p>Mr. Chen Delin, President of the HKMA, said: &quot;Since September 17, when we announced the launch of Quick Turn, more than 450,000 registrations have been registered as recipients. On September 30, Quick Turn will be fully opened. Hong Kong will enter a new era of electronic payment, because Quick Turn is the only micro-payment system in the world. After the opening of the system, Hong Kong will be able to register as a recipient. We can enjoy the year-round, easy to operate, clear and secure, fully connected, support Hong Kong dollar and Renminbi, as well as the instant payment service of fee-free micro-transfer. &quot;Hong Kong&#x27;s mobile application for sharing two-dimensional codes (HKQR), the first one in the world to integrate multiple two-dimensional codes into a two-dimensional code-sharing mobile application, will help promote it,&quot; he said. Two-dimensional code payment is popular in Hong Kong.</p><p></p><p>&quot;Fast turnaround&quot; is one of the seven measures announced by the HKMA in September 2017 to promote Hong Kong&#x27;s entry into a new era of smart banking. Fast turnaround operates 24 hours a day, seven days a week, providing a platform to fully connect operators of different banks and deposit-value payment instruments so that people can make cross-bank and deposit-value payments anytime and anywhere using the mobile phone number or e-mail address of the payee. Since September 17, 2018, when Quick Conversion is launched, citizens can register their mobile phone number or email address as a collection account code in Quick Conversion through the mobile application of participating banks and deposit and payment tool operators.</p><p></p><p>The public can consult relevant banks or operators of deposit and payment tools for details of the &quot;fast turnaround&quot; service and HKQR, and can also visit the website www.hkma.gov.hk/fps for more information.</p><p></p><p>Source: Hong Kong Monetary Authority</p>',
+        'zh-hk':
+          '<p>香港金融管理局（金管局）今日舉行快速支付系統(「轉數快」開通儀式，宣布「轉數快」服務全面啟動。</p><p></p><p>「轉數快」將於2018年9月30日全面啟用，屆時參與該系統的銀行及儲值支付工具營運商將開始推出服務，讓客戶可透過「轉數快」即時付款及收款。</p><p></p><p>財政司司長陳茂波先生表示：「我很高興與大家一起見證香港零售支付系統進入新紀元。『轉數快』的開通，代表着香港朝向智慧型國際金融中心的發展，又邁進一大步。」</p><p></p><p>金管局總裁陳德霖先生表示：「自從9月17日我們宣布啟動『轉數快』，開始接受市民登記為收款人，至今已經有超過45萬個登記。而9月30日『轉數快』就會全面開通。屆時香港便進入電子支付新紀元，因為『轉數快』是全世界獨一無二的小額支付系統，開通之後，我們便可享用年中無休、操作簡便、明確穩妥、全面接通、支持港元和人民幣，以及小額轉帳免收費的即時支付服務。」他更表示在9月17日上架的香港共用二維碼的流動應用程式(HKQR，是全球首個能將多個二維碼整合成為一個共用二維碼的流動應用程式，有助促進二維碼支付在香港普及。</p><p></p><p>「轉數快」是金管局於2017年9月宣布有關推動香港邁向智慧銀行新紀元的七項措施之一。「轉數快」每日24小時、每星期七天全天候運作，提供平台全面接通不同銀行及儲值支付工具營運商，讓市民可以隨時隨地利用收款人手機號碼或電郵地址進行跨銀行及儲值支付工具的即時資金轉帳。自2018年9月17日「轉數快」啟動後，市民可以通過參與銀行及儲值支付工具營運商的流動應用程式在「轉數快」登記手機號碼或電郵地址作爲收款帳戶代碼。</p><p></p><p>公眾可向相關銀行或儲值支付工具營運商查詢「轉數快」服務及HKQR的詳情，亦可瀏覽網站 www.hkma.gov.hk/fps，查閱更多資料。</p><p></p><p>資料來源：香港金融管理局</p>',
+        'zh-cn':
+          '<p>香港金融管理局（金管局）今日举行快速支付系统（「转数快」开通仪式，宣布「转数快」服务全面启动。</p><p></p><p>「转数快」将于2018年9月30日全面启用，届时参与该系统的银行及储值支付工具营运商将开始推出服务，让客户可透过「转数快」即时付款及收款。</p><p></p><p>财政司司长陈茂波先生表示：「我很高兴与大家一起见证香港零售支付系统进入新纪元。『转数快』的开通，代表着香港朝向智慧型国际金融中心的发展，又迈进一大步。」</p><p></p><p>金管局总裁陈德霖先生表示：「自从9月17日我们宣布启动『转数快』，开始接受市民登记为收款人，至今已经有超过45万个登记。而9月30日『转数快』就会全面开通。届时香港便进入电子支付新纪元，因为『转数快』是全世界独一无二的小额支付系统，开通之后，我们便可享用年中无休、操作简便、明确稳妥、全面接通、支持港元和人民币，以及小额转账免收费的即时支付服务。」他更表示在9月17日上架的香港共享二维码的流动应用程序（HKQR，是全球首个能将多个二维码整合成为一个共享二维码的流动应用程序，有助促进二维码支付在香港普及。</p><p></p><p>「转数快」是金管局于2017年9月宣布有关推动香港迈向智慧银行新纪元的七项措施之一。「转数快」每日24小时、每星期七天全天候运作，提供平台全面接通不同银行及储值支付工具营运商，让市民可以随时随地利用收款人手机号码或电邮地址进行跨银行及储值支付工具的即时资金转账。自2018年9月17日「转数快」启动后，市民可以通过参与银行及储值支付工具营运商的流动应用程序在「转数快」登记手机号码或电邮地址作为收款帐户代码。</p><p></p><p>公众可向相关银行或储值支付工具营运商查询「转数快」服务及HKQR的详情，亦可浏览网站 www.hkma.gov.hk/fps，查阅更多资料。</p><p></p><p>资料来源：香港金融管理局</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      title: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307b8cd71771529d4d8fc9',
+      content: {
+        en: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+        'zh-hk':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>',
+        'zh-cn':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      title: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307ba04a9112e016b2f2d3',
+      content: {
+        en: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+        'zh-hk':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>',
+        'zh-cn':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      title: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307baf01c9e652b3bed6d8',
+      content: {
+        en: '<p>The Hong Kong Monetary Authority (HKMA) today held the opening ceremony of the Quick Payment System (Quick Turn) to announce the full launch of the Quick Turn Service.</p><p></p><p>&quot;Fast Turn&quot; will be fully launched on September 30, 2018, when banks and operators of deposit and payment instruments participating in the system will begin to launch services to enable customers to make immediate payments and receipts through &quot;Fast Turn&quot;.</p><p></p><p>Mr. Chen Maobo, Financial Secretary, said: &quot;I am very happy to be with you to witness the entry of Hong Kong&#x27;s retail payment system into a new era. The opening of&quot;fast turnaround&quot;represents a major step forward in Hong Kong&#x27;s development towards a smart international financial centre.&quot;</p><p></p><p>Mr. Chen Delin, President of the HKMA, said: &quot;Since September 17, when we announced the launch of Quick Turn, more than 450,000 registrations have been registered as recipients. On September 30, Quick Turn will be fully opened. Hong Kong will enter a new era of electronic payment, because Quick Turn is the only micro-payment system in the world. After the opening of the system, Hong Kong will be able to register as a recipient. We can enjoy the year-round, easy to operate, clear and secure, fully connected, support Hong Kong dollar and Renminbi, as well as the instant payment service of fee-free micro-transfer. &quot;Hong Kong&#x27;s mobile application for sharing two-dimensional codes (HKQR), the first one in the world to integrate multiple two-dimensional codes into a two-dimensional code-sharing mobile application, will help promote it,&quot; he said. Two-dimensional code payment is popular in Hong Kong.</p><p></p><p>&quot;Fast turnaround&quot; is one of the seven measures announced by the HKMA in September 2017 to promote Hong Kong&#x27;s entry into a new era of smart banking. Fast turnaround operates 24 hours a day, seven days a week, providing a platform to fully connect operators of different banks and deposit-value payment instruments so that people can make cross-bank and deposit-value payments anytime and anywhere using the mobile phone number or e-mail address of the payee. Since September 17, 2018, when Quick Conversion is launched, citizens can register their mobile phone number or email address as a collection account code in Quick Conversion through the mobile application of participating banks and deposit and payment tool operators.</p><p></p><p>The public can consult relevant banks or operators of deposit and payment tools for details of the &quot;fast turnaround&quot; service and HKQR, and can also visit the website www.hkma.gov.hk/fps for more information.</p><p></p><p>Source: Hong Kong Monetary Authority</p>',
+        'zh-hk':
+          '<p>香港金融管理局（金管局）今日舉行快速支付系統(「轉數快」開通儀式，宣布「轉數快」服務全面啟動。</p><p></p><p>「轉數快」將於2018年9月30日全面啟用，屆時參與該系統的銀行及儲值支付工具營運商將開始推出服務，讓客戶可透過「轉數快」即時付款及收款。</p><p></p><p>財政司司長陳茂波先生表示：「我很高興與大家一起見證香港零售支付系統進入新紀元。『轉數快』的開通，代表着香港朝向智慧型國際金融中心的發展，又邁進一大步。」</p><p></p><p>金管局總裁陳德霖先生表示：「自從9月17日我們宣布啟動『轉數快』，開始接受市民登記為收款人，至今已經有超過45萬個登記。而9月30日『轉數快』就會全面開通。屆時香港便進入電子支付新紀元，因為『轉數快』是全世界獨一無二的小額支付系統，開通之後，我們便可享用年中無休、操作簡便、明確穩妥、全面接通、支持港元和人民幣，以及小額轉帳免收費的即時支付服務。」他更表示在9月17日上架的香港共用二維碼的流動應用程式(HKQR，是全球首個能將多個二維碼整合成為一個共用二維碼的流動應用程式，有助促進二維碼支付在香港普及。</p><p></p><p>「轉數快」是金管局於2017年9月宣布有關推動香港邁向智慧銀行新紀元的七項措施之一。「轉數快」每日24小時、每星期七天全天候運作，提供平台全面接通不同銀行及儲值支付工具營運商，讓市民可以隨時隨地利用收款人手機號碼或電郵地址進行跨銀行及儲值支付工具的即時資金轉帳。自2018年9月17日「轉數快」啟動後，市民可以通過參與銀行及儲值支付工具營運商的流動應用程式在「轉數快」登記手機號碼或電郵地址作爲收款帳戶代碼。</p><p></p><p>公眾可向相關銀行或儲值支付工具營運商查詢「轉數快」服務及HKQR的詳情，亦可瀏覽網站 www.hkma.gov.hk/fps，查閱更多資料。</p><p></p><p>資料來源：香港金融管理局</p>',
+        'zh-cn':
+          '<p>香港金融管理局（金管局）今日举行快速支付系统（「转数快」开通仪式，宣布「转数快」服务全面启动。</p><p></p><p>「转数快」将于2018年9月30日全面启用，届时参与该系统的银行及储值支付工具营运商将开始推出服务，让客户可透过「转数快」即时付款及收款。</p><p></p><p>财政司司长陈茂波先生表示：「我很高兴与大家一起见证香港零售支付系统进入新纪元。『转数快』的开通，代表着香港朝向智慧型国际金融中心的发展，又迈进一大步。」</p><p></p><p>金管局总裁陈德霖先生表示：「自从9月17日我们宣布启动『转数快』，开始接受市民登记为收款人，至今已经有超过45万个登记。而9月30日『转数快』就会全面开通。届时香港便进入电子支付新纪元，因为『转数快』是全世界独一无二的小额支付系统，开通之后，我们便可享用年中无休、操作简便、明确稳妥、全面接通、支持港元和人民币，以及小额转账免收费的即时支付服务。」他更表示在9月17日上架的香港共享二维码的流动应用程序（HKQR，是全球首个能将多个二维码整合成为一个共享二维码的流动应用程序，有助促进二维码支付在香港普及。</p><p></p><p>「转数快」是金管局于2017年9月宣布有关推动香港迈向智慧银行新纪元的七项措施之一。「转数快」每日24小时、每星期七天全天候运作，提供平台全面接通不同银行及储值支付工具营运商，让市民可以随时随地利用收款人手机号码或电邮地址进行跨银行及储值支付工具的即时资金转账。自2018年9月17日「转数快」启动后，市民可以通过参与银行及储值支付工具营运商的流动应用程序在「转数快」登记手机号码或电邮地址作为收款帐户代码。</p><p></p><p>公众可向相关银行或储值支付工具营运商查询「转数快」服务及HKQR的详情，亦可浏览网站 www.hkma.gov.hk/fps，查阅更多资料。</p><p></p><p>资料来源：香港金融管理局</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      title: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307bbff5e37d6f6506677c',
+      content: {
+        en: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+        'zh-hk':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>',
+        'zh-cn':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      title: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307bcf2ea6bedbe65a5473',
+      content: {
+        en: '<p>The Hong Kong Monetary Authority (HKMA) today held the opening ceremony of the Quick Payment System (Quick Turn) to announce the full launch of the Quick Turn Service.</p><p></p><p>&quot;Fast Turn&quot; will be fully launched on September 30, 2018, when banks and operators of deposit and payment instruments participating in the system will begin to launch services to enable customers to make immediate payments and receipts through &quot;Fast Turn&quot;.</p><p></p><p>Mr. Chen Maobo, Financial Secretary, said: &quot;I am very happy to be with you to witness the entry of Hong Kong&#x27;s retail payment system into a new era. The opening of&quot;fast turnaround&quot;represents a major step forward in Hong Kong&#x27;s development towards a smart international financial centre.&quot;</p><p></p><p>Mr. Chen Delin, President of the HKMA, said: &quot;Since September 17, when we announced the launch of Quick Turn, more than 450,000 registrations have been registered as recipients. On September 30, Quick Turn will be fully opened. Hong Kong will enter a new era of electronic payment, because Quick Turn is the only micro-payment system in the world. After the opening of the system, Hong Kong will be able to register as a recipient. We can enjoy the year-round, easy to operate, clear and secure, fully connected, support Hong Kong dollar and Renminbi, as well as the instant payment service of fee-free micro-transfer. &quot;Hong Kong&#x27;s mobile application for sharing two-dimensional codes (HKQR), the first one in the world to integrate multiple two-dimensional codes into a two-dimensional code-sharing mobile application, will help promote it,&quot; he said. Two-dimensional code payment is popular in Hong Kong.</p><p></p><p>&quot;Fast turnaround&quot; is one of the seven measures announced by the HKMA in September 2017 to promote Hong Kong&#x27;s entry into a new era of smart banking. Fast turnaround operates 24 hours a day, seven days a week, providing a platform to fully connect operators of different banks and deposit-value payment instruments so that people can make cross-bank and deposit-value payments anytime and anywhere using the mobile phone number or e-mail address of the payee. Since September 17, 2018, when Quick Conversion is launched, citizens can register their mobile phone number or email address as a collection account code in Quick Conversion through the mobile application of participating banks and deposit and payment tool operators.</p><p></p><p>The public can consult relevant banks or operators of deposit and payment tools for details of the &quot;fast turnaround&quot; service and HKQR, and can also visit the website www.hkma.gov.hk/fps for more information.</p><p></p><p>Source: Hong Kong Monetary Authority</p>',
+        'zh-hk':
+          '<p>香港金融管理局（金管局）今日舉行快速支付系統(「轉數快」開通儀式，宣布「轉數快」服務全面啟動。</p><p></p><p>「轉數快」將於2018年9月30日全面啟用，屆時參與該系統的銀行及儲值支付工具營運商將開始推出服務，讓客戶可透過「轉數快」即時付款及收款。</p><p></p><p>財政司司長陳茂波先生表示：「我很高興與大家一起見證香港零售支付系統進入新紀元。『轉數快』的開通，代表着香港朝向智慧型國際金融中心的發展，又邁進一大步。」</p><p></p><p>金管局總裁陳德霖先生表示：「自從9月17日我們宣布啟動『轉數快』，開始接受市民登記為收款人，至今已經有超過45萬個登記。而9月30日『轉數快』就會全面開通。屆時香港便進入電子支付新紀元，因為『轉數快』是全世界獨一無二的小額支付系統，開通之後，我們便可享用年中無休、操作簡便、明確穩妥、全面接通、支持港元和人民幣，以及小額轉帳免收費的即時支付服務。」他更表示在9月17日上架的香港共用二維碼的流動應用程式(HKQR，是全球首個能將多個二維碼整合成為一個共用二維碼的流動應用程式，有助促進二維碼支付在香港普及。</p><p></p><p>「轉數快」是金管局於2017年9月宣布有關推動香港邁向智慧銀行新紀元的七項措施之一。「轉數快」每日24小時、每星期七天全天候運作，提供平台全面接通不同銀行及儲值支付工具營運商，讓市民可以隨時隨地利用收款人手機號碼或電郵地址進行跨銀行及儲值支付工具的即時資金轉帳。自2018年9月17日「轉數快」啟動後，市民可以通過參與銀行及儲值支付工具營運商的流動應用程式在「轉數快」登記手機號碼或電郵地址作爲收款帳戶代碼。</p><p></p><p>公眾可向相關銀行或儲值支付工具營運商查詢「轉數快」服務及HKQR的詳情，亦可瀏覽網站 www.hkma.gov.hk/fps，查閱更多資料。</p><p></p><p>資料來源：香港金融管理局</p>',
+        'zh-cn':
+          '<p>香港金融管理局（金管局）今日举行快速支付系统（「转数快」开通仪式，宣布「转数快」服务全面启动。</p><p></p><p>「转数快」将于2018年9月30日全面启用，届时参与该系统的银行及储值支付工具营运商将开始推出服务，让客户可透过「转数快」即时付款及收款。</p><p></p><p>财政司司长陈茂波先生表示：「我很高兴与大家一起见证香港零售支付系统进入新纪元。『转数快』的开通，代表着香港朝向智慧型国际金融中心的发展，又迈进一大步。」</p><p></p><p>金管局总裁陈德霖先生表示：「自从9月17日我们宣布启动『转数快』，开始接受市民登记为收款人，至今已经有超过45万个登记。而9月30日『转数快』就会全面开通。届时香港便进入电子支付新纪元，因为『转数快』是全世界独一无二的小额支付系统，开通之后，我们便可享用年中无休、操作简便、明确稳妥、全面接通、支持港元和人民币，以及小额转账免收费的即时支付服务。」他更表示在9月17日上架的香港共享二维码的流动应用程序（HKQR，是全球首个能将多个二维码整合成为一个共享二维码的流动应用程序，有助促进二维码支付在香港普及。</p><p></p><p>「转数快」是金管局于2017年9月宣布有关推动香港迈向智慧银行新纪元的七项措施之一。「转数快」每日24小时、每星期七天全天候运作，提供平台全面接通不同银行及储值支付工具营运商，让市民可以随时随地利用收款人手机号码或电邮地址进行跨银行及储值支付工具的即时资金转账。自2018年9月17日「转数快」启动后，市民可以通过参与银行及储值支付工具营运商的流动应用程序在「转数快」登记手机号码或电邮地址作为收款帐户代码。</p><p></p><p>公众可向相关银行或储值支付工具营运商查询「转数快」服务及HKQR的详情，亦可浏览网站 www.hkma.gov.hk/fps，查阅更多资料。</p><p></p><p>资料来源：香港金融管理局</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      title: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307bdbea689635b1e94c42',
+      content: {
+        en: '<p>The Hong Kong Monetary Authority (HKMA) today held the opening ceremony of the Quick Payment System (Quick Turn) to announce the full launch of the Quick Turn Service.</p><p></p><p>&quot;Fast Turn&quot; will be fully launched on September 30, 2018, when banks and operators of deposit and payment instruments participating in the system will begin to launch services to enable customers to make immediate payments and receipts through &quot;Fast Turn&quot;.</p><p></p><p>Mr. Chen Maobo, Financial Secretary, said: &quot;I am very happy to be with you to witness the entry of Hong Kong&#x27;s retail payment system into a new era. The opening of&quot;fast turnaround&quot;represents a major step forward in Hong Kong&#x27;s development towards a smart international financial centre.&quot;</p><p></p><p>Mr. Chen Delin, President of the HKMA, said: &quot;Since September 17, when we announced the launch of Quick Turn, more than 450,000 registrations have been registered as recipients. On September 30, Quick Turn will be fully opened. Hong Kong will enter a new era of electronic payment, because Quick Turn is the only micro-payment system in the world. After the opening of the system, Hong Kong will be able to register as a recipient. We can enjoy the year-round, easy to operate, clear and secure, fully connected, support Hong Kong dollar and Renminbi, as well as the instant payment service of fee-free micro-transfer. &quot;Hong Kong&#x27;s mobile application for sharing two-dimensional codes (HKQR), the first one in the world to integrate multiple two-dimensional codes into a two-dimensional code-sharing mobile application, will help promote it,&quot; he said. Two-dimensional code payment is popular in Hong Kong.</p><p></p><p>&quot;Fast turnaround&quot; is one of the seven measures announced by the HKMA in September 2017 to promote Hong Kong&#x27;s entry into a new era of smart banking. Fast turnaround operates 24 hours a day, seven days a week, providing a platform to fully connect operators of different banks and deposit-value payment instruments so that people can make cross-bank and deposit-value payments anytime and anywhere using the mobile phone number or e-mail address of the payee. Since September 17, 2018, when Quick Conversion is launched, citizens can register their mobile phone number or email address as a collection account code in Quick Conversion through the mobile application of participating banks and deposit and payment tool operators.</p><p></p><p>The public can consult relevant banks or operators of deposit and payment tools for details of the &quot;fast turnaround&quot; service and HKQR, and can also visit the website www.hkma.gov.hk/fps for more information.</p><p></p><p>Source: Hong Kong Monetary Authority</p>',
+        'zh-hk':
+          '<p>香港金融管理局（金管局）今日舉行快速支付系統(「轉數快」開通儀式，宣布「轉數快」服務全面啟動。</p><p></p><p>「轉數快」將於2018年9月30日全面啟用，屆時參與該系統的銀行及儲值支付工具營運商將開始推出服務，讓客戶可透過「轉數快」即時付款及收款。</p><p></p><p>財政司司長陳茂波先生表示：「我很高興與大家一起見證香港零售支付系統進入新紀元。『轉數快』的開通，代表着香港朝向智慧型國際金融中心的發展，又邁進一大步。」</p><p></p><p>金管局總裁陳德霖先生表示：「自從9月17日我們宣布啟動『轉數快』，開始接受市民登記為收款人，至今已經有超過45萬個登記。而9月30日『轉數快』就會全面開通。屆時香港便進入電子支付新紀元，因為『轉數快』是全世界獨一無二的小額支付系統，開通之後，我們便可享用年中無休、操作簡便、明確穩妥、全面接通、支持港元和人民幣，以及小額轉帳免收費的即時支付服務。」他更表示在9月17日上架的香港共用二維碼的流動應用程式(HKQR，是全球首個能將多個二維碼整合成為一個共用二維碼的流動應用程式，有助促進二維碼支付在香港普及。</p><p></p><p>「轉數快」是金管局於2017年9月宣布有關推動香港邁向智慧銀行新紀元的七項措施之一。「轉數快」每日24小時、每星期七天全天候運作，提供平台全面接通不同銀行及儲值支付工具營運商，讓市民可以隨時隨地利用收款人手機號碼或電郵地址進行跨銀行及儲值支付工具的即時資金轉帳。自2018年9月17日「轉數快」啟動後，市民可以通過參與銀行及儲值支付工具營運商的流動應用程式在「轉數快」登記手機號碼或電郵地址作爲收款帳戶代碼。</p><p></p><p>公眾可向相關銀行或儲值支付工具營運商查詢「轉數快」服務及HKQR的詳情，亦可瀏覽網站 www.hkma.gov.hk/fps，查閱更多資料。</p><p></p><p>資料來源：香港金融管理局</p>',
+        'zh-cn':
+          '<p>香港金融管理局（金管局）今日举行快速支付系统（「转数快」开通仪式，宣布「转数快」服务全面启动。</p><p></p><p>「转数快」将于2018年9月30日全面启用，届时参与该系统的银行及储值支付工具营运商将开始推出服务，让客户可透过「转数快」即时付款及收款。</p><p></p><p>财政司司长陈茂波先生表示：「我很高兴与大家一起见证香港零售支付系统进入新纪元。『转数快』的开通，代表着香港朝向智慧型国际金融中心的发展，又迈进一大步。」</p><p></p><p>金管局总裁陈德霖先生表示：「自从9月17日我们宣布启动『转数快』，开始接受市民登记为收款人，至今已经有超过45万个登记。而9月30日『转数快』就会全面开通。届时香港便进入电子支付新纪元，因为『转数快』是全世界独一无二的小额支付系统，开通之后，我们便可享用年中无休、操作简便、明确稳妥、全面接通、支持港元和人民币，以及小额转账免收费的即时支付服务。」他更表示在9月17日上架的香港共享二维码的流动应用程序（HKQR，是全球首个能将多个二维码整合成为一个共享二维码的流动应用程序，有助促进二维码支付在香港普及。</p><p></p><p>「转数快」是金管局于2017年9月宣布有关推动香港迈向智慧银行新纪元的七项措施之一。「转数快」每日24小时、每星期七天全天候运作，提供平台全面接通不同银行及储值支付工具营运商，让市民可以随时随地利用收款人手机号码或电邮地址进行跨银行及储值支付工具的即时资金转账。自2018年9月17日「转数快」启动后，市民可以通过参与银行及储值支付工具营运商的流动应用程序在「转数快」登记手机号码或电邮地址作为收款帐户代码。</p><p></p><p>公众可向相关银行或储值支付工具营运商查询「转数快」服务及HKQR的详情，亦可浏览网站 www.hkma.gov.hk/fps，查阅更多资料。</p><p></p><p>资料来源：香港金融管理局</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      title: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307be855966cbb87e2c1b6',
+      content: {
+        en: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+        'zh-hk':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>',
+        'zh-cn':
+          '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      title: {
+        en: 'Lorem Ipsum',
+        'zh-cn': 'Lorem Ipsum',
+        'zh-hk': 'Lorem Ipsum'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307bfa9d7be7c7111dd9ca',
+      content: {
+        en: '<p>The Hong Kong Monetary Authority (HKMA) today held the opening ceremony of the Quick Payment System (Quick Turn) to announce the full launch of the Quick Turn Service.</p><p></p><p>&quot;Fast Turn&quot; will be fully launched on September 30, 2018, when banks and operators of deposit and payment instruments participating in the system will begin to launch services to enable customers to make immediate payments and receipts through &quot;Fast Turn&quot;.</p><p></p><p>Mr. Chen Maobo, Financial Secretary, said: &quot;I am very happy to be with you to witness the entry of Hong Kong&#x27;s retail payment system into a new era. The opening of&quot;fast turnaround&quot;represents a major step forward in Hong Kong&#x27;s development towards a smart international financial centre.&quot;</p><p></p><p>Mr. Chen Delin, President of the HKMA, said: &quot;Since September 17, when we announced the launch of Quick Turn, more than 450,000 registrations have been registered as recipients. On September 30, Quick Turn will be fully opened. Hong Kong will enter a new era of electronic payment, because Quick Turn is the only micro-payment system in the world. After the opening of the system, Hong Kong will be able to register as a recipient. We can enjoy the year-round, easy to operate, clear and secure, fully connected, support Hong Kong dollar and Renminbi, as well as the instant payment service of fee-free micro-transfer. &quot;Hong Kong&#x27;s mobile application for sharing two-dimensional codes (HKQR), the first one in the world to integrate multiple two-dimensional codes into a two-dimensional code-sharing mobile application, will help promote it,&quot; he said. Two-dimensional code payment is popular in Hong Kong.</p><p></p><p>&quot;Fast turnaround&quot; is one of the seven measures announced by the HKMA in September 2017 to promote Hong Kong&#x27;s entry into a new era of smart banking. Fast turnaround operates 24 hours a day, seven days a week, providing a platform to fully connect operators of different banks and deposit-value payment instruments so that people can make cross-bank and deposit-value payments anytime and anywhere using the mobile phone number or e-mail address of the payee. Since September 17, 2018, when Quick Conversion is launched, citizens can register their mobile phone number or email address as a collection account code in Quick Conversion through the mobile application of participating banks and deposit and payment tool operators.</p><p></p><p>The public can consult relevant banks or operators of deposit and payment tools for details of the &quot;fast turnaround&quot; service and HKQR, and can also visit the website www.hkma.gov.hk/fps for more information.</p><p></p><p>Source: Hong Kong Monetary Authority</p>',
+        'zh-hk':
+          '<p>香港金融管理局（金管局）今日舉行快速支付系統(「轉數快」開通儀式，宣布「轉數快」服務全面啟動。</p><p></p><p>「轉數快」將於2018年9月30日全面啟用，屆時參與該系統的銀行及儲值支付工具營運商將開始推出服務，讓客戶可透過「轉數快」即時付款及收款。</p><p></p><p>財政司司長陳茂波先生表示：「我很高興與大家一起見證香港零售支付系統進入新紀元。『轉數快』的開通，代表着香港朝向智慧型國際金融中心的發展，又邁進一大步。」</p><p></p><p>金管局總裁陳德霖先生表示：「自從9月17日我們宣布啟動『轉數快』，開始接受市民登記為收款人，至今已經有超過45萬個登記。而9月30日『轉數快』就會全面開通。屆時香港便進入電子支付新紀元，因為『轉數快』是全世界獨一無二的小額支付系統，開通之後，我們便可享用年中無休、操作簡便、明確穩妥、全面接通、支持港元和人民幣，以及小額轉帳免收費的即時支付服務。」他更表示在9月17日上架的香港共用二維碼的流動應用程式(HKQR，是全球首個能將多個二維碼整合成為一個共用二維碼的流動應用程式，有助促進二維碼支付在香港普及。</p><p></p><p>「轉數快」是金管局於2017年9月宣布有關推動香港邁向智慧銀行新紀元的七項措施之一。「轉數快」每日24小時、每星期七天全天候運作，提供平台全面接通不同銀行及儲值支付工具營運商，讓市民可以隨時隨地利用收款人手機號碼或電郵地址進行跨銀行及儲值支付工具的即時資金轉帳。自2018年9月17日「轉數快」啟動後，市民可以通過參與銀行及儲值支付工具營運商的流動應用程式在「轉數快」登記手機號碼或電郵地址作爲收款帳戶代碼。</p><p></p><p>公眾可向相關銀行或儲值支付工具營運商查詢「轉數快」服務及HKQR的詳情，亦可瀏覽網站 www.hkma.gov.hk/fps，查閱更多資料。</p><p></p><p>資料來源：香港金融管理局</p>',
+        'zh-cn':
+          '<p>香港金融管理局（金管局）今日举行快速支付系统（「转数快」开通仪式，宣布「转数快」服务全面启动。</p><p></p><p>「转数快」将于2018年9月30日全面启用，届时参与该系统的银行及储值支付工具营运商将开始推出服务，让客户可透过「转数快」即时付款及收款。</p><p></p><p>财政司司长陈茂波先生表示：「我很高兴与大家一起见证香港零售支付系统进入新纪元。『转数快』的开通，代表着香港朝向智慧型国际金融中心的发展，又迈进一大步。」</p><p></p><p>金管局总裁陈德霖先生表示：「自从9月17日我们宣布启动『转数快』，开始接受市民登记为收款人，至今已经有超过45万个登记。而9月30日『转数快』就会全面开通。届时香港便进入电子支付新纪元，因为『转数快』是全世界独一无二的小额支付系统，开通之后，我们便可享用年中无休、操作简便、明确稳妥、全面接通、支持港元和人民币，以及小额转账免收费的即时支付服务。」他更表示在9月17日上架的香港共享二维码的流动应用程序（HKQR，是全球首个能将多个二维码整合成为一个共享二维码的流动应用程序，有助促进二维码支付在香港普及。</p><p></p><p>「转数快」是金管局于2017年9月宣布有关推动香港迈向智慧银行新纪元的七项措施之一。「转数快」每日24小时、每星期七天全天候运作，提供平台全面接通不同银行及储值支付工具营运商，让市民可以随时随地利用收款人手机号码或电邮地址进行跨银行及储值支付工具的即时资金转账。自2018年9月17日「转数快」启动后，市民可以通过参与银行及储值支付工具营运商的流动应用程序在「转数快」登记手机号码或电邮地址作为收款帐户代码。</p><p></p><p>公众可向相关银行或储值支付工具营运商查询「转数快」服务及HKQR的详情，亦可浏览网站 www.hkma.gov.hk/fps，查阅更多资料。</p><p></p><p>资料来源：香港金融管理局</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      title: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+
+    {
+      _id: '62307c102aab2ae229be955a',
+      content: {
+        en: '<p>The Hong Kong Monetary Authority (HKMA) today held the opening ceremony of the Quick Payment System (Quick Turn) to announce the full launch of the Quick Turn Service.</p><p></p><p>&quot;Fast Turn&quot; will be fully launched on September 30, 2018, when banks and operators of deposit and payment instruments participating in the system will begin to launch services to enable customers to make immediate payments and receipts through &quot;Fast Turn&quot;.</p><p></p><p>Mr. Chen Maobo, Financial Secretary, said: &quot;I am very happy to be with you to witness the entry of Hong Kong&#x27;s retail payment system into a new era. The opening of&quot;fast turnaround&quot;represents a major step forward in Hong Kong&#x27;s development towards a smart international financial centre.&quot;</p><p></p><p>Mr. Chen Delin, President of the HKMA, said: &quot;Since September 17, when we announced the launch of Quick Turn, more than 450,000 registrations have been registered as recipients. On September 30, Quick Turn will be fully opened. Hong Kong will enter a new era of electronic payment, because Quick Turn is the only micro-payment system in the world. After the opening of the system, Hong Kong will be able to register as a recipient. We can enjoy the year-round, easy to operate, clear and secure, fully connected, support Hong Kong dollar and Renminbi, as well as the instant payment service of fee-free micro-transfer. &quot;Hong Kong&#x27;s mobile application for sharing two-dimensional codes (HKQR), the first one in the world to integrate multiple two-dimensional codes into a two-dimensional code-sharing mobile application, will help promote it,&quot; he said. Two-dimensional code payment is popular in Hong Kong.</p><p></p><p>&quot;Fast turnaround&quot; is one of the seven measures announced by the HKMA in September 2017 to promote Hong Kong&#x27;s entry into a new era of smart banking. Fast turnaround operates 24 hours a day, seven days a week, providing a platform to fully connect operators of different banks and deposit-value payment instruments so that people can make cross-bank and deposit-value payments anytime and anywhere using the mobile phone number or e-mail address of the payee. Since September 17, 2018, when Quick Conversion is launched, citizens can register their mobile phone number or email address as a collection account code in Quick Conversion through the mobile application of participating banks and deposit and payment tool operators.</p><p></p><p>The public can consult relevant banks or operators of deposit and payment tools for details of the &quot;fast turnaround&quot; service and HKQR, and can also visit the website www.hkma.gov.hk/fps for more information.</p><p></p><p>Source: Hong Kong Monetary Authority</p>',
+        'zh-hk':
+          '<p>香港金融管理局（金管局）今日舉行快速支付系統(「轉數快」開通儀式，宣布「轉數快」服務全面啟動。</p><p></p><p>「轉數快」將於2018年9月30日全面啟用，屆時參與該系統的銀行及儲值支付工具營運商將開始推出服務，讓客戶可透過「轉數快」即時付款及收款。</p><p></p><p>財政司司長陳茂波先生表示：「我很高興與大家一起見證香港零售支付系統進入新紀元。『轉數快』的開通，代表着香港朝向智慧型國際金融中心的發展，又邁進一大步。」</p><p></p><p>金管局總裁陳德霖先生表示：「自從9月17日我們宣布啟動『轉數快』，開始接受市民登記為收款人，至今已經有超過45萬個登記。而9月30日『轉數快』就會全面開通。屆時香港便進入電子支付新紀元，因為『轉數快』是全世界獨一無二的小額支付系統，開通之後，我們便可享用年中無休、操作簡便、明確穩妥、全面接通、支持港元和人民幣，以及小額轉帳免收費的即時支付服務。」他更表示在9月17日上架的香港共用二維碼的流動應用程式(HKQR，是全球首個能將多個二維碼整合成為一個共用二維碼的流動應用程式，有助促進二維碼支付在香港普及。</p><p></p><p>「轉數快」是金管局於2017年9月宣布有關推動香港邁向智慧銀行新紀元的七項措施之一。「轉數快」每日24小時、每星期七天全天候運作，提供平台全面接通不同銀行及儲值支付工具營運商，讓市民可以隨時隨地利用收款人手機號碼或電郵地址進行跨銀行及儲值支付工具的即時資金轉帳。自2018年9月17日「轉數快」啟動後，市民可以通過參與銀行及儲值支付工具營運商的流動應用程式在「轉數快」登記手機號碼或電郵地址作爲收款帳戶代碼。</p><p></p><p>公眾可向相關銀行或儲值支付工具營運商查詢「轉數快」服務及HKQR的詳情，亦可瀏覽網站 www.hkma.gov.hk/fps，查閱更多資料。</p><p></p><p>資料來源：香港金融管理局</p>',
+        'zh-cn':
+          '<p>香港金融管理局（金管局）今日举行快速支付系统（「转数快」开通仪式，宣布「转数快」服务全面启动。</p><p></p><p>「转数快」将于2018年9月30日全面启用，届时参与该系统的银行及储值支付工具营运商将开始推出服务，让客户可透过「转数快」即时付款及收款。</p><p></p><p>财政司司长陈茂波先生表示：「我很高兴与大家一起见证香港零售支付系统进入新纪元。『转数快』的开通，代表着香港朝向智慧型国际金融中心的发展，又迈进一大步。」</p><p></p><p>金管局总裁陈德霖先生表示：「自从9月17日我们宣布启动『转数快』，开始接受市民登记为收款人，至今已经有超过45万个登记。而9月30日『转数快』就会全面开通。届时香港便进入电子支付新纪元，因为『转数快』是全世界独一无二的小额支付系统，开通之后，我们便可享用年中无休、操作简便、明确稳妥、全面接通、支持港元和人民币，以及小额转账免收费的即时支付服务。」他更表示在9月17日上架的香港共享二维码的流动应用程序（HKQR，是全球首个能将多个二维码整合成为一个共享二维码的流动应用程序，有助促进二维码支付在香港普及。</p><p></p><p>「转数快」是金管局于2017年9月宣布有关推动香港迈向智慧银行新纪元的七项措施之一。「转数快」每日24小时、每星期七天全天候运作，提供平台全面接通不同银行及储值支付工具营运商，让市民可以随时随地利用收款人手机号码或电邮地址进行跨银行及储值支付工具的即时资金转账。自2018年9月17日「转数快」启动后，市民可以通过参与银行及储值支付工具营运商的流动应用程序在「转数快」登记手机号码或电邮地址作为收款帐户代码。</p><p></p><p>公众可向相关银行或储值支付工具营运商查询「转数快」服务及HKQR的详情，亦可浏览网站 www.hkma.gov.hk/fps，查阅更多资料。</p><p></p><p>资料来源：香港金融管理局</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      title: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307c294d72707b51326f0a',
+      content: {
+        en: '<p>The Hong Kong Monetary Authority (HKMA) today held the opening ceremony of the Quick Payment System (Quick Turn) to announce the full launch of the Quick Turn Service.</p><p></p><p>&quot;Fast Turn&quot; will be fully launched on September 30, 2018, when banks and operators of deposit and payment instruments participating in the system will begin to launch services to enable customers to make immediate payments and receipts through &quot;Fast Turn&quot;.</p><p></p><p>Mr. Chen Maobo, Financial Secretary, said: &quot;I am very happy to be with you to witness the entry of Hong Kong&#x27;s retail payment system into a new era. The opening of&quot;fast turnaround&quot;represents a major step forward in Hong Kong&#x27;s development towards a smart international financial centre.&quot;</p><p></p><p>Mr. Chen Delin, President of the HKMA, said: &quot;Since September 17, when we announced the launch of Quick Turn, more than 450,000 registrations have been registered as recipients. On September 30, Quick Turn will be fully opened. Hong Kong will enter a new era of electronic payment, because Quick Turn is the only micro-payment system in the world. After the opening of the system, Hong Kong will be able to register as a recipient. We can enjoy the year-round, easy to operate, clear and secure, fully connected, support Hong Kong dollar and Renminbi, as well as the instant payment service of fee-free micro-transfer. &quot;Hong Kong&#x27;s mobile application for sharing two-dimensional codes (HKQR), the first one in the world to integrate multiple two-dimensional codes into a two-dimensional code-sharing mobile application, will help promote it,&quot; he said. Two-dimensional code payment is popular in Hong Kong.</p><p></p><p>&quot;Fast turnaround&quot; is one of the seven measures announced by the HKMA in September 2017 to promote Hong Kong&#x27;s entry into a new era of smart banking. Fast turnaround operates 24 hours a day, seven days a week, providing a platform to fully connect operators of different banks and deposit-value payment instruments so that people can make cross-bank and deposit-value payments anytime and anywhere using the mobile phone number or e-mail address of the payee. Since September 17, 2018, when Quick Conversion is launched, citizens can register their mobile phone number or email address as a collection account code in Quick Conversion through the mobile application of participating banks and deposit and payment tool operators.</p><p></p><p>The public can consult relevant banks or operators of deposit and payment tools for details of the &quot;fast turnaround&quot; service and HKQR, and can also visit the website www.hkma.gov.hk/fps for more information.</p><p></p><p>Source: Hong Kong Monetary Authority</p>',
+        'zh-hk':
+          '<p>香港金融管理局（金管局）今日舉行快速支付系統(「轉數快」開通儀式，宣布「轉數快」服務全面啟動。</p><p></p><p>「轉數快」將於2018年9月30日全面啟用，屆時參與該系統的銀行及儲值支付工具營運商將開始推出服務，讓客戶可透過「轉數快」即時付款及收款。</p><p></p><p>財政司司長陳茂波先生表示：「我很高興與大家一起見證香港零售支付系統進入新紀元。『轉數快』的開通，代表着香港朝向智慧型國際金融中心的發展，又邁進一大步。」</p><p></p><p>金管局總裁陳德霖先生表示：「自從9月17日我們宣布啟動『轉數快』，開始接受市民登記為收款人，至今已經有超過45萬個登記。而9月30日『轉數快』就會全面開通。屆時香港便進入電子支付新紀元，因為『轉數快』是全世界獨一無二的小額支付系統，開通之後，我們便可享用年中無休、操作簡便、明確穩妥、全面接通、支持港元和人民幣，以及小額轉帳免收費的即時支付服務。」他更表示在9月17日上架的香港共用二維碼的流動應用程式(HKQR，是全球首個能將多個二維碼整合成為一個共用二維碼的流動應用程式，有助促進二維碼支付在香港普及。</p><p></p><p>「轉數快」是金管局於2017年9月宣布有關推動香港邁向智慧銀行新紀元的七項措施之一。「轉數快」每日24小時、每星期七天全天候運作，提供平台全面接通不同銀行及儲值支付工具營運商，讓市民可以隨時隨地利用收款人手機號碼或電郵地址進行跨銀行及儲值支付工具的即時資金轉帳。自2018年9月17日「轉數快」啟動後，市民可以通過參與銀行及儲值支付工具營運商的流動應用程式在「轉數快」登記手機號碼或電郵地址作爲收款帳戶代碼。</p><p></p><p>公眾可向相關銀行或儲值支付工具營運商查詢「轉數快」服務及HKQR的詳情，亦可瀏覽網站 www.hkma.gov.hk/fps，查閱更多資料。</p><p></p><p>資料來源：香港金融管理局</p>',
+        'zh-cn':
+          '<p>香港金融管理局（金管局）今日举行快速支付系统（「转数快」开通仪式，宣布「转数快」服务全面启动。</p><p></p><p>「转数快」将于2018年9月30日全面启用，届时参与该系统的银行及储值支付工具营运商将开始推出服务，让客户可透过「转数快」即时付款及收款。</p><p></p><p>财政司司长陈茂波先生表示：「我很高兴与大家一起见证香港零售支付系统进入新纪元。『转数快』的开通，代表着香港朝向智慧型国际金融中心的发展，又迈进一大步。」</p><p></p><p>金管局总裁陈德霖先生表示：「自从9月17日我们宣布启动『转数快』，开始接受市民登记为收款人，至今已经有超过45万个登记。而9月30日『转数快』就会全面开通。届时香港便进入电子支付新纪元，因为『转数快』是全世界独一无二的小额支付系统，开通之后，我们便可享用年中无休、操作简便、明确稳妥、全面接通、支持港元和人民币，以及小额转账免收费的即时支付服务。」他更表示在9月17日上架的香港共享二维码的流动应用程序（HKQR，是全球首个能将多个二维码整合成为一个共享二维码的流动应用程序，有助促进二维码支付在香港普及。</p><p></p><p>「转数快」是金管局于2017年9月宣布有关推动香港迈向智慧银行新纪元的七项措施之一。「转数快」每日24小时、每星期七天全天候运作，提供平台全面接通不同银行及储值支付工具营运商，让市民可以随时随地利用收款人手机号码或电邮地址进行跨银行及储值支付工具的即时资金转账。自2018年9月17日「转数快」启动后，市民可以通过参与银行及储值支付工具营运商的流动应用程序在「转数快」登记手机号码或电邮地址作为收款帐户代码。</p><p></p><p>公众可向相关银行或储值支付工具营运商查询「转数快」服务及HKQR的详情，亦可浏览网站 www.hkma.gov.hk/fps，查阅更多资料。</p><p></p><p>资料来源：香港金融管理局</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      title: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
+    },
+    {
+      _id: '62307c3bdfe695b26ac69b38',
+      content: {
+        en: '<p>The Hong Kong Monetary Authority (HKMA) today held the opening ceremony of the Quick Payment System (Quick Turn) to announce the full launch of the Quick Turn Service.</p><p></p><p>&quot;Fast Turn&quot; will be fully launched on September 30, 2018, when banks and operators of deposit and payment instruments participating in the system will begin to launch services to enable customers to make immediate payments and receipts through &quot;Fast Turn&quot;.</p><p></p><p>Mr. Chen Maobo, Financial Secretary, said: &quot;I am very happy to be with you to witness the entry of Hong Kong&#x27;s retail payment system into a new era. The opening of&quot;fast turnaround&quot;represents a major step forward in Hong Kong&#x27;s development towards a smart international financial centre.&quot;</p><p></p><p>Mr. Chen Delin, President of the HKMA, said: &quot;Since September 17, when we announced the launch of Quick Turn, more than 450,000 registrations have been registered as recipients. On September 30, Quick Turn will be fully opened. Hong Kong will enter a new era of electronic payment, because Quick Turn is the only micro-payment system in the world. After the opening of the system, Hong Kong will be able to register as a recipient. We can enjoy the year-round, easy to operate, clear and secure, fully connected, support Hong Kong dollar and Renminbi, as well as the instant payment service of fee-free micro-transfer. &quot;Hong Kong&#x27;s mobile application for sharing two-dimensional codes (HKQR), the first one in the world to integrate multiple two-dimensional codes into a two-dimensional code-sharing mobile application, will help promote it,&quot; he said. Two-dimensional code payment is popular in Hong Kong.</p><p></p><p>&quot;Fast turnaround&quot; is one of the seven measures announced by the HKMA in September 2017 to promote Hong Kong&#x27;s entry into a new era of smart banking. Fast turnaround operates 24 hours a day, seven days a week, providing a platform to fully connect operators of different banks and deposit-value payment instruments so that people can make cross-bank and deposit-value payments anytime and anywhere using the mobile phone number or e-mail address of the payee. Since September 17, 2018, when Quick Conversion is launched, citizens can register their mobile phone number or email address as a collection account code in Quick Conversion through the mobile application of participating banks and deposit and payment tool operators.</p><p></p><p>The public can consult relevant banks or operators of deposit and payment tools for details of the &quot;fast turnaround&quot; service and HKQR, and can also visit the website www.hkma.gov.hk/fps for more information.</p><p></p><p>Source: Hong Kong Monetary Authority</p>',
+        'zh-hk':
+          '<p>香港金融管理局（金管局）今日舉行快速支付系統(「轉數快」開通儀式，宣布「轉數快」服務全面啟動。</p><p></p><p>「轉數快」將於2018年9月30日全面啟用，屆時參與該系統的銀行及儲值支付工具營運商將開始推出服務，讓客戶可透過「轉數快」即時付款及收款。</p><p></p><p>財政司司長陳茂波先生表示：「我很高興與大家一起見證香港零售支付系統進入新紀元。『轉數快』的開通，代表着香港朝向智慧型國際金融中心的發展，又邁進一大步。」</p><p></p><p>金管局總裁陳德霖先生表示：「自從9月17日我們宣布啟動『轉數快』，開始接受市民登記為收款人，至今已經有超過45萬個登記。而9月30日『轉數快』就會全面開通。屆時香港便進入電子支付新紀元，因為『轉數快』是全世界獨一無二的小額支付系統，開通之後，我們便可享用年中無休、操作簡便、明確穩妥、全面接通、支持港元和人民幣，以及小額轉帳免收費的即時支付服務。」他更表示在9月17日上架的香港共用二維碼的流動應用程式(HKQR，是全球首個能將多個二維碼整合成為一個共用二維碼的流動應用程式，有助促進二維碼支付在香港普及。</p><p></p><p>「轉數快」是金管局於2017年9月宣布有關推動香港邁向智慧銀行新紀元的七項措施之一。「轉數快」每日24小時、每星期七天全天候運作，提供平台全面接通不同銀行及儲值支付工具營運商，讓市民可以隨時隨地利用收款人手機號碼或電郵地址進行跨銀行及儲值支付工具的即時資金轉帳。自2018年9月17日「轉數快」啟動後，市民可以通過參與銀行及儲值支付工具營運商的流動應用程式在「轉數快」登記手機號碼或電郵地址作爲收款帳戶代碼。</p><p></p><p>公眾可向相關銀行或儲值支付工具營運商查詢「轉數快」服務及HKQR的詳情，亦可瀏覽網站 www.hkma.gov.hk/fps，查閱更多資料。</p><p></p><p>資料來源：香港金融管理局</p>',
+        'zh-cn':
+          '<p>香港金融管理局（金管局）今日举行快速支付系统（「转数快」开通仪式，宣布「转数快」服务全面启动。</p><p></p><p>「转数快」将于2018年9月30日全面启用，届时参与该系统的银行及储值支付工具营运商将开始推出服务，让客户可透过「转数快」即时付款及收款。</p><p></p><p>财政司司长陈茂波先生表示：「我很高兴与大家一起见证香港零售支付系统进入新纪元。『转数快』的开通，代表着香港朝向智慧型国际金融中心的发展，又迈进一大步。」</p><p></p><p>金管局总裁陈德霖先生表示：「自从9月17日我们宣布启动『转数快』，开始接受市民登记为收款人，至今已经有超过45万个登记。而9月30日『转数快』就会全面开通。届时香港便进入电子支付新纪元，因为『转数快』是全世界独一无二的小额支付系统，开通之后，我们便可享用年中无休、操作简便、明确稳妥、全面接通、支持港元和人民币，以及小额转账免收费的即时支付服务。」他更表示在9月17日上架的香港共享二维码的流动应用程序（HKQR，是全球首个能将多个二维码整合成为一个共享二维码的流动应用程序，有助促进二维码支付在香港普及。</p><p></p><p>「转数快」是金管局于2017年9月宣布有关推动香港迈向智慧银行新纪元的七项措施之一。「转数快」每日24小时、每星期七天全天候运作，提供平台全面接通不同银行及储值支付工具营运商，让市民可以随时随地利用收款人手机号码或电邮地址进行跨银行及储值支付工具的即时资金转账。自2018年9月17日「转数快」启动后，市民可以通过参与银行及储值支付工具营运商的流动应用程序在「转数快」登记手机号码或电邮地址作为收款帐户代码。</p><p></p><p>公众可向相关银行或储值支付工具营运商查询「转数快」服务及HKQR的详情，亦可浏览网站 www.hkma.gov.hk/fps，查阅更多资料。</p><p></p><p>资料来源：香港金融管理局</p>'
+      },
+      createdAt: '2019-04-01T08:50:42.249Z',
+      createdBy: '5b2b44070b6fbf38cdcec833',
+      images: [
+        {
+          _id: '5ca1d325bc42492364bd7c15',
+          fileMeta: '5ca1b38dc58d8915e6c8eb56'
+        }
+      ],
+      isActive: true,
+      likes: [],
+      postDate: '2019-03-31T16:00:00.000Z',
+      priority: 1,
+      queries: [],
+      snippets: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      title: {
+        en: '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-cn': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元',
+        'zh-hk': '已超過45萬人登記「轉數快」   望帶港進入電付新紀元'
+      },
+      type: 'news',
+      workspace: '5e9fcae14fc78a87a9bc4c43',
+      platformTypes: [],
+      updatedAt: '2019-04-01T08:30:44.545Z',
+      updatedBy: '5b2b44070b6fbf38cdcec833'
     }
   ]
 };

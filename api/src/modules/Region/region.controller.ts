@@ -11,6 +11,7 @@ import {
   UploadedFiles,
   UseInterceptors
 } from '@nestjs/common';
+import {MapDisplayLocalizeInterceptor} from 'src/core';
 import {extname} from 'path';
 import {diskStorage} from 'multer';
 import {AnyFilesInterceptor} from '@nestjs/platform-express';
@@ -123,6 +124,7 @@ export class RegionController extends BaseController {
   }
 
   @Get()
+  @UseInterceptors(MapDisplayLocalizeInterceptor)
   public async find(@Query() query: RegionSearchModel) {
     // return this.regionService.find(query);
     let result: any;

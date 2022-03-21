@@ -4,6 +4,7 @@
     {
       "_id": "6217b432058f1f1942cbd549",
       "user": "6217b42f058f1f1942cbd4be",
+      "organizationName": "WHO",
       "preferences": {
         "wage": {
           "currency": "HKD",

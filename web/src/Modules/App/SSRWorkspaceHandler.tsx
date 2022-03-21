@@ -1,7 +1,8 @@
 import getConfig from "next/config";
+import { fetchWorkspace } from "../Workspace/Api";
 
 import { QUERY_WORKSPACE, WORKSPACE_FIELDS } from "../Workspace/Apollo/gqls";
-import { ScaffoldHandler } from "./withSSRScaffold";
+import { ScaffoldHandler, RQScaffoldHandler } from "./withSSRScaffold";
 
 const { publicRuntimeConfig } = getConfig();
 
@@ -12,4 +13,11 @@ export const SSRWorkspaceHandler: ScaffoldHandler = async (ctx, apollo) => {
       id: publicRuntimeConfig.WORKSPACE
     }
   });
+};
+
+export const SSRWorkspaceRQHandler: RQScaffoldHandler = async (
+  ctx,
+  rqClient
+) => {
+  await rqClient.prefetchQuery([], () => fetchWorkspace({}));
 };

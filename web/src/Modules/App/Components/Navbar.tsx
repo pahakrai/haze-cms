@@ -28,10 +28,10 @@ import {
 import { useShoppingCart } from "../../ShoppingCart/Hooks/useShoppingCart";
 import { useWorkspace } from "../../Workspace/Hooks/useWorkspace";
 import NavbarSearch from "./NavbarSearch";
-import CategoryMenu from "./CategoryMenu/index";
 import { VerticalMenu, HorizontalMenu } from "./MenuBar";
 import { LanguageDropDown } from "./LanguageDropdown";
 import RichShoppingCartIcon from "./RichShoppingCartIcon";
+import FilterMenu from "./FilterMenu/index";
 
 const { publicRuntimeConfig: Config } = getConfig();
 
@@ -272,8 +272,8 @@ export const Navbar = ({
         </Toolbar>
       </Container>
       <Hidden smDown>
-        <Container maxWidth="lg" className={classes.top_menus}>
-          <CategoryMenu />
+        <Container maxWidth="xl" className={classes.top_menus}>
+          <FilterMenu />
         </Container>
       </Hidden>
     </AppBar>

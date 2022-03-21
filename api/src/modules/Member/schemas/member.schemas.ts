@@ -10,6 +10,7 @@ export const Schema = new MongooseSchema(
   {
     user: {type: SchemaTypes.ObjectId, required: true, ref: 'Users'},
     files: [FileItemSchema],
+    organizationName: {type: SchemaTypes.String, required: false},
     preferences: {
       showAvgFeedback: {type: SchemaTypes.Boolean, default: true},
       categories: [{type: SchemaTypes.ObjectId, ref: 'Categories'}],

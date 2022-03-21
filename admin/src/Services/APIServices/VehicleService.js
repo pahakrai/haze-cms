@@ -1,43 +1,43 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
 export const findVehicleById = (_id, search) =>
-  ecommApi.get(`vehicles/${_id}?` + serialize(search));
-export const getVehicles = search => {
-  if (!search.plateNo) search.plateNo = '';
-  return ecommApi.get('vehicles?' + serialize(search));
-};
-export const searchVehicles = q => ecommApi.get('vehicles?q=' + q);
-export const updateVehicle = data => ecommApi.put('vehicles/' + data._id, data);
-export const deleteVehicle = id => ecommApi.delete('vehicles/' + id);
-export const createVehicle = data => ecommApi.post('vehicles/', data);
+  hazeApi.get(`vehicles/${_id}?` + serialize(search))
+export const getVehicles = (search) => {
+  if (!search.plateNo) search.plateNo = ''
+  return hazeApi.get('vehicles?' + serialize(search))
+}
+export const searchVehicles = (q) => hazeApi.get('vehicles?q=' + q)
+export const updateVehicle = (data) => hazeApi.put('vehicles/' + data._id, data)
+export const deleteVehicle = (id) => hazeApi.delete('vehicles/' + id)
+export const createVehicle = (data) => hazeApi.post('vehicles/', data)
 export const updateVehicleImage = (vehicleId, files, onUploadProgress) => {
-  const data = new FormData();
-  if (files) files.forEach(f => data.append(`files`, f));
+  const data = new FormData()
+  if (files) files.forEach((f) => data.append(`files`, f))
 
-  return ecommApi.put(`vehicles/${vehicleId}/image`, data, {
+  return hazeApi.put(`vehicles/${vehicleId}/image`, data, {
     onUploadProgress
-  });
-};
+  })
+}
 export const updateVehicleRegistrationDoc = (
   vehicleId,
   files,
   onUploadProgress
 ) => {
-  const data = new FormData();
-  if (files) files.forEach(f => data.append(`files`, f));
+  const data = new FormData()
+  if (files) files.forEach((f) => data.append(`files`, f))
 
-  return ecommApi.put(`vehicles/${vehicleId}/vehicle-registration-doc`, data, {
+  return hazeApi.put(`vehicles/${vehicleId}/vehicle-registration-doc`, data, {
     onUploadProgress
-  });
-};
+  })
+}
 
 export const updateVehiclePreference = (id, body) =>
-  ecommApi.patch(`vehicles/${id}/preference`, body);
-export const self = ecommApi;
+  hazeApi.patch(`vehicles/${id}/preference`, body)
+export const self = hazeApi
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   findVehicleById,
   getVehicles,
   searchVehicles,
@@ -47,4 +47,4 @@ export default {
   updateVehicleRegistrationDoc,
   createVehicle,
   updateVehiclePreference
-};
+}

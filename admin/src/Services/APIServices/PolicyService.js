@@ -1,26 +1,26 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getPolicies = query => {
-  return ecommApi.get('/policies?' + serialize(query));
-};
+const getPolicies = (query) => {
+  return hazeApi.get('/policies?' + serialize(query))
+}
 
 const getPolicyById = (id, query) => {
-  return ecommApi.get(`/policies/${id}?${serialize(query)}`);
-};
+  return hazeApi.get(`/policies/${id}?${serialize(query)}`)
+}
 
-const createPolicy = formValues => {
-  return ecommApi.post(`/policies`, formValues);
-};
+const createPolicy = (formValues) => {
+  return hazeApi.post(`/policies`, formValues)
+}
 
-const updatePolicy = formValues => {
-  return ecommApi.put(`/policies/` + formValues._id, formValues);
-};
+const updatePolicy = (formValues) => {
+  return hazeApi.put(`/policies/` + formValues._id, formValues)
+}
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   createPolicy,
   getPolicyById,
   getPolicies,
   updatePolicy
-};
+}

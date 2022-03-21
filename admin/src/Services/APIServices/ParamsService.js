@@ -1,17 +1,17 @@
-import { ecommApi } from '../APIs';
+import { hazeApi } from '../APIs'
 
-const getParamAvatar = () => ecommApi.get('params/by-type/user_avatar');
+const getParamAvatar = () => hazeApi.get('params/by-type/user_avatar')
 const getParamMobileURINavigation = () =>
-  ecommApi.get('params/?type=MobileURINavigation');
+  hazeApi.get('params/?type=MobileURINavigation')
 
-const getEdmTemplates = () => ecommApi.get('params/?type=EdmTemplate');
+const getEdmTemplates = () => hazeApi.get('params/?type=EdmTemplate')
 
 const getPreferenceLanguage = () =>
-  ecommApi.get(`/params/?type=PreferenceLanguage`);
+  hazeApi.get(`/params/?type=PreferenceLanguage`)
 
 export default {
   getParamAvatar,
   getParamMobileURINavigation,
   getEdmTemplates,
   getPreferenceLanguage
-};
+}

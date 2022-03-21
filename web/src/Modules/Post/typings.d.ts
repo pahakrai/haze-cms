@@ -30,6 +30,25 @@ interface IPostSearchModel {
   q?: string;
   type?: string;
   isActive?: boolean;
+  placeOfOrigin?: string;
+  category?: string;
+  platformTypes?: string[];
+  statuses?: number[];
+  tag?: string;
+  tags?: string[];
+  productionDateFr?: string;
+  productionDateTo?: string;
+  productExpiryDateFr?: string;
+  productExpiryDateTo?: string;
+  regions?: string[];
+  industries?: string[];
+  subjects?: string[];
+}
+
+interface IPostSearchModel {
+  q?: string;
+  type?: string;
+  isActive?: boolean;
 }
 interface IPostSearchVariables {
   query: IPostSearchModel;

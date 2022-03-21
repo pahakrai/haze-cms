@@ -1,12 +1,12 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-export const getSubscriptionLogs = search =>
-  ecommApi.get('feedbacks/find/subscription-logs?' + serialize(search));
+export const getSubscriptionLogs = (search) =>
+  hazeApi.get('feedbacks/find/subscription-logs?' + serialize(search))
 
-export const self = ecommApi;
+export const self = hazeApi
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   getSubscriptionLogs
-};
+}

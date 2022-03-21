@@ -1,17 +1,17 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getDevices = query => ecommApi.get(`/devices?${serialize(query)}`);
+const getDevices = (query) => hazeApi.get(`/devices?${serialize(query)}`)
 
-export const getDeviceById = id => ecommApi.get('devices/' + id);
+export const getDeviceById = (id) => hazeApi.get('devices/' + id)
 
-const createDevice = device => ecommApi.post(`devices`, device);
+const createDevice = (device) => hazeApi.post(`devices`, device)
 
-const updateDevice = device => ecommApi.put(`devices/${device._id}`, device);
+const updateDevice = (device) => hazeApi.put(`devices/${device._id}`, device)
 
 export default {
   getDevices,
   createDevice,
   updateDevice,
   getDeviceById
-};
+}

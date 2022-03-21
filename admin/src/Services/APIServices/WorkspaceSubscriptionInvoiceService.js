@@ -1,29 +1,26 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getWorkspaceSubscriptionInvoices = query =>
-  ecommApi.get(`/workspace-subscription-invoices?${serialize(query)}`);
+const getWorkspaceSubscriptionInvoices = (query) =>
+  hazeApi.get(`/workspace-subscription-invoices?${serialize(query)}`)
 
 const getWorkspaceSubscriptionInvoicesById = (id, query) => {
-  return ecommApi.get(
+  return hazeApi.get(
     '/workspace-subscription-invoices/' + id + '?' + serialize(query)
-  );
-};
-const createWorkspaceSubscriptionInvoice = workspaceSubscriptionInvoice =>
-  ecommApi.post(
-    `workspace-subscription-invoices`,
-    workspaceSubscriptionInvoice
-  );
+  )
+}
+const createWorkspaceSubscriptionInvoice = (workspaceSubscriptionInvoice) =>
+  hazeApi.post(`workspace-subscription-invoices`, workspaceSubscriptionInvoice)
 
-const updateWorkspaceSubscriptionInvoice = workspaceSubscriptionInvoice =>
-  ecommApi.put(
+const updateWorkspaceSubscriptionInvoice = (workspaceSubscriptionInvoice) =>
+  hazeApi.put(
     `workspace-subscription-invoices/${workspaceSubscriptionInvoice._id}`,
     workspaceSubscriptionInvoice
-  );
+  )
 
 export default {
   getWorkspaceSubscriptionInvoices,
   getWorkspaceSubscriptionInvoicesById,
   createWorkspaceSubscriptionInvoice,
   updateWorkspaceSubscriptionInvoice
-};
+}

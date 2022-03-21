@@ -1,12 +1,12 @@
-import { isAuthenticated } from '../Lib/Ac';
-import { RouteStrategy } from '../Lib/route';
-import { store } from '../Redux';
-import { AccountActions } from '../Redux/Account/actions';
-import ecommApi from '../Services/APIs/ecomm';
-import AccountService from '../Services/APIServices/AccountService';
+import { isAuthenticated } from '../Lib/Ac'
+import { RouteStrategy } from '../Lib/route'
+import { store } from '../Redux'
+import { AccountActions } from '../Redux/Account/actions'
+import hazeApi from '../Services/APIs/ecomm'
+import AccountService from '../Services/APIServices/AccountService'
 
 export default class extends RouteStrategy {
-  unAuthRedirect = '/login';
+  unAuthRedirect = '/login'
 
   async authenticate(
     policies: Array<string>,
@@ -15,22 +15,22 @@ export default class extends RouteStrategy {
     // if groups userType not specified, automatically pass
     // if (!policies && !userType) {
     if (!policies) {
-      return true;
+      return true
     }
     // get current state
-    const currentState = store.getState();
-    const { token: currentToken, userId: loggedUserId } = currentState.app;
+    const currentState = store.getState()
+    const { token: currentToken, userId: loggedUserId } = currentState.app
     // login user
-    const user = loggedUserId && currentState.resources.users[loggedUserId];
+    const user = loggedUserId && currentState.resources.users[loggedUserId]
     // !token
     if (!currentToken) {
       // user not exist
       // if ((policies || userType) && !user) return false;
-      if (policies && !user) return false;
+      if (policies && !user) return false
     } // token && !user
     else if (currentToken && !user) {
       // get user
-      return await this._handleUser(responseUser =>
+      return await this._handleUser((responseUser) =>
         // this._handleAuth(policies, userType, responseUser)
         this._handleAuth(
           policies,
@@ -38,18 +38,16 @@ export default class extends RouteStrategy {
           workspaceAccess,
           responseUser
         )
-      );
+      )
     } // token && user => token !Expired
     else if (currentToken && user) {
       // user and token form state , so need check token isAuthenticated,
       // if not isAuthenticated, need refetch token , by get me , refetch
       // _handleAuthUser
-      const userTokenAuthenticated = ecommApi
-        .getTokenManager()
-        .isAuthenticated();
+      const userTokenAuthenticated = hazeApi.getTokenManager().isAuthenticated()
       if (!userTokenAuthenticated) {
         // get user
-        return await this._handleUser(responseUser =>
+        return await this._handleUser((responseUser) =>
           // this._handleAuth(policies, userType, responseUser)
           this._handleAuth(
             policies,
@@ -57,24 +55,24 @@ export default class extends RouteStrategy {
             workspaceAccess,
             responseUser
           )
-        );
+        )
       }
       // return this._handleAuth(policies, userType, user);
-      return this._handleAuth(policies, workspaceTypes, workspaceAccess, user);
+      return this._handleAuth(policies, workspaceTypes, workspaceAccess, user)
     }
-    return false;
+    return false
   }
 
-  async _handleUser(getUserCallBack = user => false): Promise {
-    const response = await AccountService.getAccountUser();
+  async _handleUser(getUserCallBack = (user) => false): Promise {
+    const response = await AccountService.getAccountUser()
     if (response.status === 200 && !!response.data) {
-      const responseUser = response.data;
+      const responseUser = response.data
       // handle user
-      store.dispatch(AccountActions.setUser(responseUser));
+      store.dispatch(AccountActions.setUser(responseUser))
       // handle auth
-      return getUserCallBack(responseUser);
+      return getUserCallBack(responseUser)
     } else {
-      return this._handleNoAuth();
+      return this._handleNoAuth()
     }
   }
 
@@ -84,14 +82,14 @@ export default class extends RouteStrategy {
       requestActions,
       workspaceTypes,
       workspaceAccess
-    });
+    })
   }
 
   // no auth handle function
   _handleNoAuth(): boolean {
     // TODO: should it be handled here?
-    store.dispatch(AccountActions.logout());
-    return false;
+    store.dispatch(AccountActions.logout())
+    return false
   }
 
   // matched return true, else false

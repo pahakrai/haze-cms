@@ -1,27 +1,27 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getVehicleCategories = async query => {
-  const queryString = serialize(query);
-  const response = await ecommApi.get('/vehicleCategories?' + queryString);
-  return response;
-};
+const getVehicleCategories = async (query) => {
+  const queryString = serialize(query)
+  const response = await hazeApi.get('/vehicleCategories?' + queryString)
+  return response
+}
 
-const getVehicleCategoryById = id => ecommApi.get(`vehicleCategories/${id}`);
+const getVehicleCategoryById = (id) => hazeApi.get(`vehicleCategories/${id}`)
 
 const createVehicleCategory = (
   vehicleCategory,
   files = [],
   onUploadProgress
 ) => {
-  const data = new FormData();
+  const data = new FormData()
   if (files[0]) {
-    data.append(`files`, files[0]);
+    data.append(`files`, files[0])
   }
-  const stringtifyBody = JSON.stringify(vehicleCategory);
-  data.append('vehicleCategory', stringtifyBody);
-  return ecommApi.post(`vehicleCategories`, data, { onUploadProgress });
-};
+  const stringtifyBody = JSON.stringify(vehicleCategory)
+  data.append('vehicleCategory', stringtifyBody)
+  return hazeApi.post(`vehicleCategories`, data, { onUploadProgress })
+}
 
 const updateVehicleCategory = (
   id,
@@ -29,18 +29,18 @@ const updateVehicleCategory = (
   files,
   onUploadProgress
 ) => {
-  const data = new FormData();
+  const data = new FormData()
   if (files[0]) {
-    data.append(`files`, files[0]);
+    data.append(`files`, files[0])
   }
-  const stringtifyBody = JSON.stringify(vehicleCategory);
-  data.append('vehicleCategory', stringtifyBody);
-  return ecommApi.put(`vehicleCategories/${id}`, data, {
+  const stringtifyBody = JSON.stringify(vehicleCategory)
+  data.append('vehicleCategory', stringtifyBody)
+  return hazeApi.put(`vehicleCategories/${id}`, data, {
     onUploadProgress
-  });
-};
+  })
+}
 
-const deleteVehicleCategory = id => ecommApi.delete('vehicleCategories/' + id);
+const deleteVehicleCategory = (id) => hazeApi.delete('vehicleCategories/' + id)
 
 export default {
   getVehicleCategories,
@@ -48,4 +48,4 @@ export default {
   createVehicleCategory,
   updateVehicleCategory,
   deleteVehicleCategory
-};
+}

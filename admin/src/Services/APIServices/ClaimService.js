@@ -1,36 +1,36 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getClaims = opts => {
-  return ecommApi.get('/claims?' + serialize(opts));
-};
+const getClaims = (opts) => {
+  return hazeApi.get('/claims?' + serialize(opts))
+}
 
 const getClaimById = (id, query) => {
-  return ecommApi.get('/claims/' + id + '?' + serialize(query));
-};
+  return hazeApi.get('/claims/' + id + '?' + serialize(query))
+}
 
-const createClaim = formValues => {
-  return ecommApi.post(`/claims`, formValues);
-};
+const createClaim = (formValues) => {
+  return hazeApi.post(`/claims`, formValues)
+}
 
 const getExamineClaim = (id, examine) => {
-  return ecommApi.patch(`/claims/email/${id}`, examine);
-};
+  return hazeApi.patch(`/claims/email/${id}`, examine)
+}
 
-const updateClaim = formValues => {
-  return ecommApi.put(`/claims/` + formValues._id, formValues);
-};
+const updateClaim = (formValues) => {
+  return hazeApi.put(`/claims/` + formValues._id, formValues)
+}
 
-const approveClaim = id => ecommApi.patch(`claims/${id}/approve`);
+const approveClaim = (id) => hazeApi.patch(`claims/${id}/approve`)
 const rejectClaim = (id, formValues) =>
-  ecommApi.patch(`claims/${id}/decline`, formValues);
-const appealClaim = id => ecommApi.patch(`claims/${id}/appeal`);
+  hazeApi.patch(`claims/${id}/decline`, formValues)
+const appealClaim = (id) => hazeApi.patch(`claims/${id}/appeal`)
 
 const deleteExpense = (claimId, expenseId) =>
-  ecommApi.delete(`claims/${claimId}/remove/${expenseId}`);
+  hazeApi.delete(`claims/${claimId}/remove/${expenseId}`)
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   createClaim,
   approveClaim,
   getClaimById,
@@ -40,4 +40,4 @@ export default {
   appealClaim,
   updateClaim,
   deleteExpense
-};
+}

@@ -1,26 +1,26 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getSurveies = opts => {
-  return ecommApi.get('/surveys?' + serialize(opts));
-};
+const getSurveies = (opts) => {
+  return hazeApi.get('/surveys?' + serialize(opts))
+}
 
-const getSurveyById = id => {
-  return ecommApi.get(`/surveys/${id}`);
-};
+const getSurveyById = (id) => {
+  return hazeApi.get(`/surveys/${id}`)
+}
 
-const createSurvey = formValues => {
-  return ecommApi.post(`/surveys`, formValues);
-};
+const createSurvey = (formValues) => {
+  return hazeApi.post(`/surveys`, formValues)
+}
 
-const updateSurvey = formValues => {
-  return ecommApi.put(`/surveys/` + formValues._id, formValues);
-};
+const updateSurvey = (formValues) => {
+  return hazeApi.put(`/surveys/` + formValues._id, formValues)
+}
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   createSurvey,
   getSurveyById,
   getSurveies,
   updateSurvey
-};
+}

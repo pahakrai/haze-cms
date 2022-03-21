@@ -36,7 +36,7 @@ import PostSubject from './PostSubject'
 import PostRegion from './PostRegion'
 import request from '../../../utils/api-utils'
 import { serialize } from '../../../Services/APIServices/ServiceUtils'
-import { ecommApi } from '../../../Services/APIs'
+import { hazeApi } from '../../../Services/APIs'
 const CreateButton = withAuthButton(['Post:Create'])
 const EditButton = withAuthButton(['Post:Edit'])
 

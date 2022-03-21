@@ -1,4 +1,4 @@
-import ecommApi from './ecomm';
-import googleApi from './google';
-import localApi from './local';
-export { ecommApi, googleApi, localApi };
+import hazeApi from './ecomm'
+import googleApi from './google'
+import localApi from './local'
+export { hazeApi, googleApi, localApi }

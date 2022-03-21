@@ -1,45 +1,45 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-export const getPricingById = _id => ecommApi.get(`pricings/${_id}`);
+export const getPricingById = (_id) => hazeApi.get(`pricings/${_id}`)
 
-export const getPricingsList = search =>
-  ecommApi.get('pricings/routes?' + serialize(search));
+export const getPricingsList = (search) =>
+  hazeApi.get('pricings/routes?' + serialize(search))
 
-export const updatePricingsById = _id => ecommApi.put(`pricings/${_id}`);
+export const updatePricingsById = (_id) => hazeApi.put(`pricings/${_id}`)
 
-export const getPricingServices = search =>
-  ecommApi.get('pricings/services?' + serialize(search));
+export const getPricingServices = (search) =>
+  hazeApi.get('pricings/services?' + serialize(search))
 
-const createPricingService = pricing =>
-  ecommApi.post(`pricings/createPricingService`, pricing);
+const createPricingService = (pricing) =>
+  hazeApi.post(`pricings/createPricingService`, pricing)
 
-const createPricingTunnel = pricing =>
-  ecommApi.post(`pricings/createPricingTunnel`, pricing);
+const createPricingTunnel = (pricing) =>
+  hazeApi.post(`pricings/createPricingTunnel`, pricing)
 
-const updatePricing = pricing =>
-  ecommApi.put(`pricings/${pricing._id}`, pricing);
+const updatePricing = (pricing) =>
+  hazeApi.put(`pricings/${pricing._id}`, pricing)
 
-const updatePricingTunnel = pricingTunnel =>
-  ecommApi.put(
+const updatePricingTunnel = (pricingTunnel) =>
+  hazeApi.put(
     `pricings/${pricingTunnel._id}/updatePricingTunnel`,
     pricingTunnel
-  );
+  )
 
-export const getPricingTunnel = search =>
-  ecommApi.get('pricings/tunnels?' + serialize(search));
+export const getPricingTunnel = (search) =>
+  hazeApi.get('pricings/tunnels?' + serialize(search))
 
 const duplicateVehicleType = (vehicleType, tunnelId, _id) => {
-  return ecommApi.get(
+  return hazeApi.get(
     `/pricings/duplicate-vehicle-type/${vehicleType}/${tunnelId}` +
       (_id ? `/${_id}` : '')
-  );
-};
+  )
+}
 
-export const self = ecommApi;
+export const self = hazeApi
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   getPricingById,
   getPricingsList,
   updatePricingsById,
@@ -50,4 +50,4 @@ export default {
   updatePricingTunnel,
   getPricingTunnel,
   duplicateVehicleType
-};
+}

@@ -45,6 +45,8 @@ import {Member, MemberModel} from './interfaces';
 import {Workspace, WorkspaceHooks} from '../Workspace/interfaces/index';
 const {UserType, IntegrationAppType} = common.type;
 
+const USER_PROJECT = '_user';
+
 @Injectable({scope: Scope.REQUEST})
 export class MemberService extends BaseCRUDService<
   Member,
@@ -155,7 +157,7 @@ export class MemberService extends BaseCRUDService<
     }
   }
 
-  public _lookupQuery(searchModel: MemberSearchModel, userProject: string) {
+  public _lookupQuery(searchModel: MemberSearchModel) {
     let queryAnd = [];
     const {q} = searchModel;
 
@@ -171,20 +173,20 @@ export class MemberService extends BaseCRUDService<
         $or: [
           ...(ObjectId.isValid(q) ? [{_id: new ObjectId(q)}] : []),
           // user query search
-          {[`${userProject}.username`]: regQ},
-          {[`${userProject}.email`]: regQ},
-          {[`${userProject}.lastName`]: regQ},
-          {[`${userProject}.firstName`]: regQ},
-          {[`${userProject}.phone`]: regQ},
-          {[`${userProject}.name`]: regQ},
-          {[`${userProject}.description`]: regQ}
+          {[`${USER_PROJECT}.username`]: regQ},
+          {[`${USER_PROJECT}.email`]: regQ},
+          {[`${USER_PROJECT}.lastName`]: regQ},
+          {[`${USER_PROJECT}.firstName`]: regQ},
+          {[`${USER_PROJECT}.phone`]: regQ},
+          {[`${USER_PROJECT}.name`]: regQ},
+          {[`${USER_PROJECT}.description`]: regQ}
         ]
       });
     }
 
     if (workspaceId) {
       queryAnd.push({
-        [`${userProject}.workspaces`]: new ObjectId(workspaceId)
+        [`${USER_PROJECT}.workspaces`]: new ObjectId(workspaceId)
       });
     }
 
@@ -199,19 +201,18 @@ export class MemberService extends BaseCRUDService<
 
   // Override
   public async find(searchModel: MemberSearchModel): Promise<Array<Member>> {
-    const userProject = '_user';
-    const conditions = this._lookupQuery(searchModel, userProject);
+    const conditions = this._lookupQuery(searchModel);
     const aggregate = this.memberRepository
       .aggregate()
       .lookup({
         from: 'Users',
         localField: 'user',
         foreignField: '_id',
-        as: userProject
+        as: USER_PROJECT
       })
-      .unwind(`$${userProject}`)
+      .unwind(`$${USER_PROJECT}`)
       .match(conditions)
-      .project({[userProject]: false});
+      .project({[USER_PROJECT]: false});
 
     if (searchModel?.sort) {
       aggregate.sort(searchModel?.sort);
@@ -224,8 +225,7 @@ export class MemberService extends BaseCRUDService<
     searchModel: MemberSearchModel,
     options: CursorPaginateOptions
   ) {
-    const userProject = '_user';
-    const conditions = this._lookupQuery(searchModel, userProject);
+    const conditions = this._lookupQuery(searchModel);
 
     return this.memberRepository.cursorPaginate(
       [
@@ -234,17 +234,17 @@ export class MemberService extends BaseCRUDService<
             from: 'Users',
             localField: 'user',
             foreignField: '_id',
-            as: userProject
+            as: USER_PROJECT
           }
         },
         {
-          $unwind: `$${userProject}`
+          $unwind: `$${USER_PROJECT}`
         },
         {
           $match: conditions
         },
         {
-          $project: {[userProject]: false}
+          $project: {[USER_PROJECT]: false}
         }
       ],
       options
@@ -254,8 +254,7 @@ export class MemberService extends BaseCRUDService<
   public async findWithPaginate(
     searchModel: MemberSearchModel
   ): Promise<PaginateResult<Member>> {
-    const userProject = '_user';
-    const conditions = this._lookupQuery(searchModel, userProject);
+    const conditions = this._lookupQuery(searchModel);
     const paginateOptions = extractPaginateOptions(searchModel);
     // post lookup conditions considering lookups
     const where = [
@@ -264,13 +263,13 @@ export class MemberService extends BaseCRUDService<
           from: 'Users',
           localField: 'user',
           foreignField: '_id',
-          as: userProject
+          as: USER_PROJECT
         }
       },
-      {$unwind: `$${userProject}`},
+      {$unwind: `$${USER_PROJECT}`},
 
       {$match: conditions}, // post lookup conditions here
-      {$project: {[userProject]: false}}
+      {$project: {[USER_PROJECT]: false}}
     ];
     return this.memberRepository.paginate(where, paginateOptions);
   }

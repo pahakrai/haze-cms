@@ -1,27 +1,25 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getWorkspacePhoneRegions = query =>
-  ecommApi.get(`/workspace-phone-regions?${serialize(query)}`);
+const getWorkspacePhoneRegions = (query) =>
+  hazeApi.get(`/workspace-phone-regions?${serialize(query)}`)
 
 const getWorkspacePhoneRegionById = (id, query) => {
-  return ecommApi.get(
-    '/workspace-phone-regions/' + id + '?' + serialize(query)
-  );
-};
-const createWorkspacePhoneRegion = workspacePhoneRegion =>
-  ecommApi.post(`workspace-phone-regions`, workspacePhoneRegion);
+  return hazeApi.get('/workspace-phone-regions/' + id + '?' + serialize(query))
+}
+const createWorkspacePhoneRegion = (workspacePhoneRegion) =>
+  hazeApi.post(`workspace-phone-regions`, workspacePhoneRegion)
 
-const updateWorkspacePhoneRegion = workspacePhoneRegion =>
-  ecommApi.put(
+const updateWorkspacePhoneRegion = (workspacePhoneRegion) =>
+  hazeApi.put(
     `workspace-phone-regions/${workspacePhoneRegion._id}`,
     workspacePhoneRegion
-  );
+  )
 
-const deleteWorkspacePhoneRegion = id =>
-  ecommApi.delete(`workspace-phone-regions/${id}`);
+const deleteWorkspacePhoneRegion = (id) =>
+  hazeApi.delete(`workspace-phone-regions/${id}`)
 
-const getPhoneRegion = () => ecommApi.get('phone-regions');
+const getPhoneRegion = () => hazeApi.get('phone-regions')
 
 export default {
   getWorkspacePhoneRegions,
@@ -30,4 +28,4 @@ export default {
   updateWorkspacePhoneRegion,
   deleteWorkspacePhoneRegion,
   getPhoneRegion
-};
+}

@@ -1,10 +1,10 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getBenefits = query => {
-  return ecommApi.get('/benefits?' + serialize(query));
-};
+const getBenefits = (query) => {
+  return hazeApi.get('/benefits?' + serialize(query))
+}
 
 export default {
   getBenefits
-};
+}

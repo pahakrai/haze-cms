@@ -1,13 +1,13 @@
-import { ecommApi } from '../APIs';
+import { hazeApi } from '../APIs'
 
-const getAppHookByName = name => ecommApi.get(`/app-hooks?app=${name}`);
+const getAppHookByName = (name) => hazeApi.get(`/app-hooks?app=${name}`)
 
-const getAllAppHook = () => ecommApi.get('/app-hooks');
+const getAllAppHook = () => hazeApi.get('/app-hooks')
 
-const getAllAppHookName = () => ecommApi.get('/app-hooks/app-names');
+const getAllAppHookName = () => hazeApi.get('/app-hooks/app-names')
 
 export default {
   getAppHookByName,
   getAllAppHook,
   getAllAppHookName
-};
+}

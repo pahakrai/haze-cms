@@ -1,28 +1,28 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getPayroll = opts => ecommApi.get('payrolls?' + serialize(opts));
+const getPayroll = (opts) => hazeApi.get('payrolls?' + serialize(opts))
 
-const getPayeeUserType = () => ecommApi.get('payrolls/my-payee-usertype');
+const getPayeeUserType = () => hazeApi.get('payrolls/my-payee-usertype')
 
 const getPayrollById = (id, query) => {
-  return ecommApi.get('payrolls/' + id + '?' + serialize(query));
-};
+  return hazeApi.get('payrolls/' + id + '?' + serialize(query))
+}
 
-const createPayroll = formValues => {
-  return ecommApi.post(`payrolls`, formValues);
-};
+const createPayroll = (formValues) => {
+  return hazeApi.post(`payrolls`, formValues)
+}
 
-const updatePayrollById = formValues =>
-  ecommApi.put(`payrolls/${formValues.id}`, formValues.value);
+const updatePayrollById = (formValues) =>
+  hazeApi.put(`payrolls/${formValues.id}`, formValues.value)
 const changeStatus = (id, status) =>
-  ecommApi.put(`payrolls/${id}/status/${status}`);
+  hazeApi.put(`payrolls/${id}/status/${status}`)
 
-const calculateAmount = formValues =>
-  ecommApi.get('payrolls/calculate-amount?' + serialize(formValues));
+const calculateAmount = (formValues) =>
+  hazeApi.get('payrolls/calculate-amount?' + serialize(formValues))
 
 const approvePayroll = (id, status) =>
-  ecommApi.put(`payrolls/${id}/status/${status}`);
+  hazeApi.put(`payrolls/${id}/status/${status}`)
 export default {
   getPayroll,
   getPayrollById,
@@ -32,4 +32,4 @@ export default {
   approvePayroll,
   getPayeeUserType,
   calculateAmount
-};
+}

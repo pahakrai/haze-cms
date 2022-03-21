@@ -1,25 +1,25 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getUserLevels = opts => {
-  return ecommApi.get('/user-levels?' + serialize(opts));
-};
+const getUserLevels = (opts) => {
+  return hazeApi.get('/user-levels?' + serialize(opts))
+}
 
 const getUserLevelById = (id, opts) => {
-  return ecommApi.get(`/user-levels/${id}?` + serialize(opts));
-};
+  return hazeApi.get(`/user-levels/${id}?` + serialize(opts))
+}
 
-const createUserLevel = userLevel => {
-  return ecommApi.post(`user-levels`, userLevel);
-};
-const updateUserLevel = userLevel => {
-  return ecommApi.put(`user-levels/${userLevel._id}`, userLevel);
-};
+const createUserLevel = (userLevel) => {
+  return hazeApi.post(`user-levels`, userLevel)
+}
+const updateUserLevel = (userLevel) => {
+  return hazeApi.put(`user-levels/${userLevel._id}`, userLevel)
+}
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   createUserLevel,
   getUserLevelById,
   getUserLevels,
   updateUserLevel
-};
+}

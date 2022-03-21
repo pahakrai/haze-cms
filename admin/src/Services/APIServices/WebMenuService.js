@@ -1,15 +1,15 @@
-import { ecommApi } from '../APIs';
+import { hazeApi } from '../APIs'
 
-const getWebMenus = async () => await ecommApi.get('/web-menus?types[]=admin');
+const getWebMenus = async () => await hazeApi.get('/web-menus?types[]=admin')
 
-const allowAccess = async body =>
-  await ecommApi.post('/web-menus/allow-access', body, {
+const allowAccess = async (body) =>
+  await hazeApi.post('/web-menus/allow-access', body, {
     notRetry: true,
     notRefreshToken: true
-  });
+  })
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   getWebMenus,
   allowAccess
-};
+}

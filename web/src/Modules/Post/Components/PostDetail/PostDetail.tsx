@@ -41,6 +41,19 @@ const useClasses = makeStyles<string>((): any => ({
         }
       }
     }
+  },
+  pull_quote: {
+    width: "200px",
+    height: "200px",
+    shapeOutside: "content-box",
+    shapeMargin: "15px",
+    marginTop: "100px",
+    marginLeft: "15px",
+    float: "right",
+    fontSize: "14px",
+    color: "#764ABC",
+    fontStyle: "italic",
+    borderTop: "3px solid purple"
   }
 }));
 
@@ -74,7 +87,7 @@ export const PostDetail = () => {
       </div>
 
       <div
-        className={classes.content}
+        // className={classes.content}
         style={{
           backgroundColor: "#fff",
           padding: isMobile ? "0 20px 0 20px" : ""
@@ -92,24 +105,27 @@ export const PostDetail = () => {
             />
           </div>
         )}
+        <div className={classes.pull_quote}>
+          hello world is a beautfiul fox jumps over the great white fence in a
+          junble full of non white boxes
+        </div>
         <div
           style={{
-            textAlign: "center",
+            // textAlign: "center",
+            // maxWidth: 846,
             margin: "auto",
-            maxWidth: 846,
             width: "100%"
           }}
           dangerouslySetInnerHTML={{ __html: post?.content }}
         ></div>
-
         {/* <div className={classes.commentWrapper}>
           <Typography variant="body1" align="left">
             {intl.formatMessage({ id: "display_post_leave_reply" })}
           </Typography>
-        </div> */}
-        {/* <PostCommentList id={_id} /> */}
+        </div>
+        <PostCommentList id={_id} />
         <div style={{ marginTop: 50 }}></div>
-        <PostCommentForm id={_id} />
+        <PostCommentForm id={_id} /> */}
       </div>
       {/* </Container> */}
     </>

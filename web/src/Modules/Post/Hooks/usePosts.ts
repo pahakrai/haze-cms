@@ -1,6 +1,12 @@
 import { useQuery, FetchPolicy } from "@apollo/client";
-import { usePaginate } from "~/lib/apollo/paginate";
+import { useInfiniteQuery } from "react-query";
+import {
+  usePaginate,
+  hasNextPage,
+  transformPaginate
+} from "~/lib/apollo/paginate";
 import { QUERY_POSTS } from "../Apollo/gql";
+import { fetchPosts } from "../Api";
 
 interface usePostsArgs {
   variables: IPostSearchVariables;
@@ -25,4 +31,18 @@ export const usePosts = (
     }
   });
   return paginate.useProps(queryResult);
+};
+
+export const usePostsQuery = (query?: any, options?: any) => {
+  // const useQ = useInfiniteQuery;
+  const queryResult = useInfiniteQuery<any>(
+    ["posts"],
+    ({ pageParam }) => fetchPosts(transformPaginate({ ...query, pageParam })),
+    {
+      getNextPageParam: hasNextPage,
+      ...options
+    }
+  );
+  // hasNextPage, fetchNextPage, isFetching, isFetchingNextPage, isError, error, data
+  return queryResult;
 };

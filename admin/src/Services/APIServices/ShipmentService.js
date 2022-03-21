@@ -1,18 +1,18 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getShipments = query => ecommApi.get(`/shipments?${serialize(query)}`);
+const getShipments = (query) => hazeApi.get(`/shipments?${serialize(query)}`)
 
 const getShipmentById = (id, query) => {
-  return ecommApi.get('/shipments/' + id + '?' + serialize(query));
-};
-const createShipment = shipment => ecommApi.post(`shipments`, shipment);
+  return hazeApi.get('/shipments/' + id + '?' + serialize(query))
+}
+const createShipment = (shipment) => hazeApi.post(`shipments`, shipment)
 
-const updateShipment = shipment =>
-  ecommApi.put(`shipments/${shipment._id}`, shipment);
+const updateShipment = (shipment) =>
+  hazeApi.put(`shipments/${shipment._id}`, shipment)
 
 const updateShipmentStatus = (id, status) =>
-  ecommApi.patch(`shipments/${id}/status/${status}`);
+  hazeApi.patch(`shipments/${id}/status/${status}`)
 
 export default {
   getShipments,
@@ -20,4 +20,4 @@ export default {
   createShipment,
   updateShipment,
   updateShipmentStatus
-};
+}

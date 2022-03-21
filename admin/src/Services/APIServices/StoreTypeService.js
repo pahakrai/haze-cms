@@ -1,33 +1,33 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-export const getStoreTypes = search =>
-  ecommApi.get('store-types?' + serialize(search));
+export const getStoreTypes = (search) =>
+  hazeApi.get('store-types?' + serialize(search))
 
 export const getStoreTypeById = (id, search) =>
-  ecommApi.get('store-types/' + id + '?' + serialize(search));
+  hazeApi.get('store-types/' + id + '?' + serialize(search))
 
-const createStoreType = expenseType => {
-  return ecommApi.post(`store-types`, expenseType);
-};
+const createStoreType = (expenseType) => {
+  return hazeApi.post(`store-types`, expenseType)
+}
 
 const updateStoreType = (id, expenseType) => {
-  return ecommApi.put(`store-types/${id}`, expenseType);
-};
+  return hazeApi.put(`store-types/${id}`, expenseType)
+}
 
 const isDuplicateCode = (code, _id) => {
-  return ecommApi.get(
+  return hazeApi.get(
     `/store-types/duplicate-code-value/${code}` + (_id ? `/${_id}` : '')
-  );
-};
+  )
+}
 
-export const self = ecommApi;
+export const self = hazeApi
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   getStoreTypes,
   getStoreTypeById,
   updateStoreType,
   createStoreType,
   isDuplicateCode
-};
+}

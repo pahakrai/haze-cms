@@ -5,7 +5,7 @@ import { withRouter } from 'react-router'
 import { injectIntl } from 'react-intl'
 
 import { toast } from '../../Lib/Toast'
-import { ecommApi } from '../../Services/APIs'
+import { hazeApi } from '../../Services/APIs'
 import { appWorkspace, appAllowloginUserTypes } from '../../Lib/util'
 import FormName from '../../Constants/Form'
 
@@ -72,7 +72,7 @@ class LoginFormContainer extends React.PureComponent {
   setHeaderWorkspace = (workspace) => {
     const { _id, secret } = workspace || {}
     const { setLoginFromHeaderWorkspace } = this.props
-    const safeKey = ecommApi.safeKeyManager
+    const safeKey = hazeApi.safeKeyManager
     setLoginFromHeaderWorkspace(_id)
     if (_id && secret) {
       setLoginFromHeaderWorkspace(_id)

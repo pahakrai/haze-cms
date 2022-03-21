@@ -1,28 +1,28 @@
-import React, { PureComponent } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import React, { PureComponent } from 'react'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
 // import { AccountActions } from '../Redux/Account/actions';
-import { ecommApi } from '../Services/APIs';
+import { hazeApi } from '../Services/APIs'
 // import { getAccountUser } from "../Redux/Account/sagas";
 class AuthProvider extends PureComponent {
   // constructor(props) {
   //   super(props);
   // }
   componentDidMount() {
-    ecommApi.getTokenManager().on('authenticated', this.authenticated);
-    ecommApi.getTokenManager().on('unAuthenticated', this.unAuthenticated);
-    ecommApi.start();
+    hazeApi.getTokenManager().on('authenticated', this.authenticated)
+    hazeApi.getTokenManager().on('unAuthenticated', this.unAuthenticated)
+    hazeApi.start()
   }
-  authenticated = () => {};
-  unAuthenticated = () => {};
+  authenticated = () => {}
+  unAuthenticated = () => {}
   componentWillUnmount() {
-    ecommApi.getTokenManager().remove('authenticated', this.authenticated);
-    ecommApi.getTokenManager().remove('unAuthenticated', this.unAuthenticated);
+    hazeApi.getTokenManager().remove('authenticated', this.authenticated)
+    hazeApi.getTokenManager().remove('unAuthenticated', this.unAuthenticated)
   }
   render() {
-    return <div>{this.props.children}</div>;
+    return <div>{this.props.children}</div>
   }
 }
-const mapStateToProps = state => ({});
-const mapDispatchToProps = dispatch => bindActionCreators({}, dispatch);
-export default connect(mapStateToProps, mapDispatchToProps)(AuthProvider);
+const mapStateToProps = (state) => ({})
+const mapDispatchToProps = (dispatch) => bindActionCreators({}, dispatch)
+export default connect(mapStateToProps, mapDispatchToProps)(AuthProvider)

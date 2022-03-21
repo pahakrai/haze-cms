@@ -1,14 +1,14 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getSurveyResponses = query =>
-  ecommApi.get(`/survey-responses?${serialize(query)}`);
+const getSurveyResponses = (query) =>
+  hazeApi.get(`/survey-responses?${serialize(query)}`)
 
 const getSurveyResponseById = (id, opts) => {
-  return ecommApi.get(`/survey-responses/${id}?${serialize(opts)}`);
-};
+  return hazeApi.get(`/survey-responses/${id}?${serialize(opts)}`)
+}
 
 export default {
   getSurveyResponses,
   getSurveyResponseById
-};
+}

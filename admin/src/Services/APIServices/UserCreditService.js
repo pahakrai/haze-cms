@@ -1,19 +1,19 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getUserCredits = query =>
-  ecommApi.get(`/user-credits?${serialize(query)}`);
+const getUserCredits = (query) =>
+  hazeApi.get(`/user-credits?${serialize(query)}`)
 
-const createUserCredit = transaction =>
-  ecommApi.post(`/user-credits`, transaction);
+const createUserCredit = (transaction) =>
+  hazeApi.post(`/user-credits`, transaction)
 
-const getUserCreditByUId = uid => ecommApi.get('user-credits/' + uid);
+const getUserCreditByUId = (uid) => hazeApi.get('user-credits/' + uid)
 
-const getUserAllCreditByUId = uid => ecommApi.get(`/user-credits/${uid}/all`);
+const getUserAllCreditByUId = (uid) => hazeApi.get(`/user-credits/${uid}/all`)
 
 export default {
   createUserCredit,
   getUserCreditByUId,
   getUserCredits,
   getUserAllCreditByUId
-};
+}

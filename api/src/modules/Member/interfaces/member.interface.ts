@@ -23,6 +23,8 @@ export interface Member extends Document {
 
   preferences: MemberPreferences;
 
+  organizationName: string;
+
   locations: Address[];
 
   level: UserLevel | UserLevel['_id'];

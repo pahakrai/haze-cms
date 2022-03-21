@@ -10,6 +10,7 @@ import {
   UploadedFiles,
   UseFilters
 } from '@nestjs/common';
+import {MapDisplayLocalizeInterceptor} from 'src/core';
 import {ParamIdModel} from 'src/core/models';
 import {BaseController} from 'src/core/layers';
 import {HttpExceptionFilter} from 'src/core/filters';
@@ -102,7 +103,7 @@ export class CategoryController extends BaseController {
   }
 
   @Get()
-  @UseInterceptors(WorkspaceInterceptor)
+  @UseInterceptors(WorkspaceInterceptor, MapDisplayLocalizeInterceptor)
   public async find(
     @Query() query: CategorySearchModel,
     @WorkspaceId() workspace

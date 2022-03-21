@@ -1,21 +1,21 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getProductTypes = query =>
-  ecommApi.get(`/product-types?${serialize(query)}`);
+const getProductTypes = (query) =>
+  hazeApi.get(`/product-types?${serialize(query)}`)
 
 const getProductTypeById = (id, query) => {
-  return ecommApi.get('/product-types/' + id + '?' + serialize(query));
-};
-const createProductType = productType =>
-  ecommApi.post(`product-types`, productType);
+  return hazeApi.get('/product-types/' + id + '?' + serialize(query))
+}
+const createProductType = (productType) =>
+  hazeApi.post(`product-types`, productType)
 
-const updateProductType = productType =>
-  ecommApi.put(`product-types/${productType._id}`, productType);
+const updateProductType = (productType) =>
+  hazeApi.put(`product-types/${productType._id}`, productType)
 
 export default {
   getProductTypes,
   getProductTypeById,
   createProductType,
   updateProductType
-};
+}

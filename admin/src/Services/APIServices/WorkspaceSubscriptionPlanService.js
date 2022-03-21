@@ -1,14 +1,14 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getAllWorkspaceSubscriptionPlans = query => {
-  return ecommApi.get(`/subscription-plans?${serialize(query)}`);
-};
+const getAllWorkspaceSubscriptionPlans = (query) => {
+  return hazeApi.get(`/subscription-plans?${serialize(query)}`)
+}
 const getWorkspaceSubscriptionsById = (id, query) => {
-  return ecommApi.get('/workspace-plans/' + id + '?' + serialize(query));
-};
+  return hazeApi.get('/workspace-plans/' + id + '?' + serialize(query))
+}
 
 export default {
   getWorkspaceSubscriptionsById,
   getAllWorkspaceSubscriptionPlans
-};
+}

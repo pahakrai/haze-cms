@@ -1,18 +1,18 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getSubjects = query => ecommApi.get(`/subjects?${serialize(query)}`);
+const getSubjects = (query) => hazeApi.get(`/subjects?${serialize(query)}`)
 
-export const getSubjectById = id => ecommApi.get('subjects/' + id);
+export const getSubjectById = (id) => hazeApi.get('subjects/' + id)
 
-const createSubject = subject => ecommApi.post(`subjects`, subject);
+const createSubject = (subject) => hazeApi.post(`subjects`, subject)
 
-const updateSubject = subject =>
-  ecommApi.put(`subjects/${subject._id}`, subject);
+const updateSubject = (subject) =>
+  hazeApi.put(`subjects/${subject._id}`, subject)
 
 export default {
   getSubjects,
   getSubjectById,
   createSubject,
   updateSubject
-};
+}

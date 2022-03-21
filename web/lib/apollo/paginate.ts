@@ -81,28 +81,84 @@ export const usePaginateProps = (
   };
 };
 
-export const paginateProps = (
+export class Paginate {
+  protected fetchedEndCursors: string[] = [];
+  protected queryName: string = "";
+  protected paginate?: IPaginate = undefined;
+
+  constructor(queryName: string, paginate: any) {
+    this.queryName = queryName;
+    this.paginate = paginate;
+    paginate.__proto__ = {
+      options: this.options,
+      useProps: this.useProps,
+      reset: this.reset
+    };
+    return paginate;
+  }
+
+  public useProps = (props: any) => {
+    return usePaginateProps(
+      props,
+      this.queryName,
+      this.paginate,
+      this.fetchedEndCursors
+    );
+  };
+
+  public reset = () => {
+    this.fetchedEndCursors.splice(0);
+  };
+
+  public options =
+    (opts = { variables: (props: any) => ({}) }) =>
+    (props: any) => {
+      return {
+        notifyOnNetworkStatusChange: true,
+        variables: {
+          ...(opts.variables ? opts.variables(props) : {}),
+          paginate: this.paginate
+        }
+      };
+    };
+}
+
+export const usePaginate = (queryName: string, paginateOpts: IPaginate) => {
+  const paginateRef = useRef(new Paginate(queryName, paginateOpts));
+  useEffect(() => {
+    paginateRef.current?.reset();
+  });
+  return paginateRef.current;
+};
+
+/* React query paginate helpers */
+export interface IQueryPaginate {
+  first?: number;
+  last?: number;
+  skip?: number;
+}
+export const useQueryPaginateProps = (
   props: any,
   queryName: any,
-  paginate: IPaginate = { first: 5 },
+  paginate: IQueryPaginate = { first: 5 },
   fetchedEndCursors: Array<any> = []
 ) => {
   const {
+    fetchMore,
+    refetch,
+    loading,
+    error,
+    subscribeToMore,
+    networkStatus,
+    variables,
     data: {
-      fetchMore,
-      refetch,
-      loading,
-      error,
-      subscribeToMore,
-      networkStatus,
-      variables,
       [queryName]: { nodes, endCursor, isEnd, total: totalNumber } = {
         endCursor: "",
         isEnd: false,
         nodes: [],
         total: 0
       }
-    }
+    } = {}
   } = props;
   return {
     [`${queryName}`]: nodes,
@@ -145,9 +201,9 @@ export const paginateProps = (
         }
       });
     },
-    [`${queryName}Refetch`]: (variables?: any) => {
+    [`${queryName}Refetch`]: () => {
       fetchedEndCursors.splice(0);
-      refetch && refetch(variables);
+      refetch && refetch();
     },
     [`${queryName}Refetching`]: networkStatus === 4,
     [`${queryName}SubscribeToMore`]: subscribeToMore,
@@ -156,10 +212,10 @@ export const paginateProps = (
   };
 };
 
-export class Paginate {
+export class QueryPaginate {
   protected fetchedEndCursors: string[] = [];
   protected queryName: string = "";
-  protected paginate?: IPaginate = undefined;
+  protected paginate?: IQueryPaginate = undefined;
 
   constructor(queryName: string, paginate: any) {
     this.queryName = queryName;
@@ -167,7 +223,6 @@ export class Paginate {
     paginate.__proto__ = {
       options: this.options,
       useProps: this.useProps,
-      props: this.props,
       reset: this.reset
     };
     return paginate;
@@ -186,32 +241,42 @@ export class Paginate {
     this.fetchedEndCursors.splice(0);
   };
 
-  public props = (props: any) => {
-    return paginateProps(
-      props,
-      this.queryName,
-      this.paginate,
-      this.fetchedEndCursors
-    );
-  };
-
-  public options = (opts = { variables: (props: any) => ({}) }) => (
-    props: any
-  ) => {
-    return {
-      notifyOnNetworkStatusChange: true,
-      variables: {
-        ...(opts.variables ? opts.variables(props) : {}),
-        paginate: this.paginate
-      }
+  public options =
+    (opts = { variables: (props: any) => ({}) }) =>
+    (props: any) => {
+      return {
+        notifyOnNetworkStatusChange: true,
+        variables: {
+          ...(opts.variables ? opts.variables(props) : {}),
+          paginate: this.paginate
+        }
+      };
     };
-  };
 }
-
-export const usePaginate = (queryName: string, paginateOpts: IPaginate) => {
-  const paginateRef = useRef(new Paginate(queryName, paginateOpts));
+export const usePaginateQuery = (
+  queryName: string,
+  paginateOpts: IQueryPaginate
+) => {
+  const paginateRef = useRef(new QueryPaginate(queryName, paginateOpts));
   useEffect(() => {
     paginateRef.current?.reset();
   });
   return paginateRef.current;
+};
+
+export const transformPaginate = (pageQueryObj) => {
+  const pageNo = pageQueryObj.pageParam || 1;
+  const limit = pageQueryObj.limit || 10;
+  const offset = pageQueryObj.offset || (pageNo - 1) * limit;
+  delete pageQueryObj.pageParam;
+  return { ...pageQueryObj, limit, offset, localize: true, paginate: true };
+};
+
+export const hasNextPage = (_lastPage, pages) => {
+  // requires page length
+  if (pages.length < (_lastPage?.totalPages || 1)) {
+    return pages.length + 1;
+  } else {
+    return undefined;
+  }
 };

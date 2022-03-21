@@ -1,5 +1,5 @@
-import { ecommApi } from '../APIs';
+import { hazeApi } from '../APIs'
 
-const getAllPhoneRegions = async () => ecommApi.get('phone-regions/all');
+const getAllPhoneRegions = async () => hazeApi.get('phone-regions/all')
 
-export default { getAllPhoneRegions };
+export default { getAllPhoneRegions }

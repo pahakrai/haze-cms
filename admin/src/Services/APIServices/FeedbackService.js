@@ -1,14 +1,14 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
 export const getFeedbackById = (_id, search) =>
-  ecommApi.get(`feedbacks/${_id}?` + serialize(search));
-export const getFeedbacks = search =>
-  ecommApi.get('feedbacks?' + serialize(search));
-export const self = ecommApi;
+  hazeApi.get(`feedbacks/${_id}?` + serialize(search))
+export const getFeedbacks = (search) =>
+  hazeApi.get('feedbacks?' + serialize(search))
+export const self = hazeApi
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   getFeedbackById,
   getFeedbacks
-};
+}

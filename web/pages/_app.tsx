@@ -9,21 +9,22 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 // TAG: INJECT MATERIAL UI END
 
 import "~/public/styles/index.scss";
-import { queryClient } from '~/utils/react-query-client'
+import { queryClient } from "~/utils/react-query-client";
 
+// import { getAccessToken, getRefreshToken } from "~/lib/auth";
 import { initializeApollo, useApollo } from "~/lib/apollo/client";
-import FacebookPixel from "~/src/Modules/App/Components/FacebookPixel";
-import { GoogleTagManager } from "~/src/Modules/App/Components/GoogleTagManager";
 import Favicon from "~/src/Modules/App/Components/Favicon";
 import PageMeta from "~/src/Modules/Page/Components/PageMeta";
 import { getLanguageFromReq } from "~/lib/intl/getLanguageFromReq";
 import { IntlProvider } from "~/lib/intl/provider";
+import { FilterProvider } from "~/lib/filter/provider";
 import { setGlobalLanguage } from "~/lib/intl";
 import { languageFilter } from "~/lib/intl/checkLanguage";
 import { ToastProvider } from "~/lib/toast";
 import { getAccessTokenFromReq } from "~/lib/apollo/utils";
 import { useThemeSwitcher } from "~/src/Modules/App/Hooks/useThemeSwitcher";
-import { getAccessToken, getRefreshToken } from "~/lib/auth";
+// import FacebookPixel from "~/src/Modules/App/Components/FacebookPixel";
+// import { GoogleTagManager } from "~/src/Modules/App/Components/GoogleTagManager";
 
 export interface PageContext extends NextPageContext {}
 
@@ -53,14 +54,14 @@ function CustomApp({ Component, pageProps }) {
       <Hydrate state={pageProps.dehydratedState}>
         <ApolloProvider client={apolloClient}>
           <Favicon />
-          <FacebookPixel />
-          <GoogleTagManager />
           <PageMeta pageParam={pageProps?.pageParam} />
           <IntlProvider locale={pageProps.language}>
             <ToastProvider>
               <ThemeProvider theme={theme}>
-                <CssBaseline />
-                <Component {...pageProps} />
+                <FilterProvider>
+                  <CssBaseline />
+                  <Component {...pageProps} />
+                </FilterProvider>
               </ThemeProvider>
             </ToastProvider>
           </IntlProvider>
@@ -75,7 +76,7 @@ CustomApp.getInitialProps = async (acx: AppContext) => {
   const token = getAccessTokenFromReq(acx.ctx.req);
   setGlobalLanguage(language); // set global language
 
-  let pageProps = {}
+  let pageProps = {};
   // // NOTE: OVERRIDE THE CHILD PAGE PROPS
   // if (acx.Component.getInitialProps) {
   //   pageProps = await acx.Component.getInitialProps(
@@ -91,7 +92,7 @@ CustomApp.getInitialProps = async (acx: AppContext) => {
     pageProps: {
       language,
       token,
-      ...{...appProps?.pageProps, ...pageProps},
+      ...{ ...appProps?.pageProps, ...pageProps },
       pageParam: (
         acx.ctx?.req ||
         // when isServer = false, get pageProps

@@ -1,14 +1,14 @@
-import { ecommApi } from '../APIs';
+import { hazeApi } from '../APIs'
 
-const getThemeById = themeId => ecommApi.get('themes/' + themeId);
+const getThemeById = (themeId) => hazeApi.get('themes/' + themeId)
 
-const getMyTheme = () => ecommApi.get('/themes/my-themes?scope=admin');
+const getMyTheme = () => hazeApi.get('/themes/my-themes?scope=admin')
 
-const getAllTheme = () => ecommApi.get('/themes');
+const getAllTheme = () => hazeApi.get('/themes')
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   getThemeById,
   getMyTheme,
   getAllTheme
-};
+}

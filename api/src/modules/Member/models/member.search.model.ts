@@ -14,6 +14,10 @@ export class MemberSearchModel extends BaseSearchModel {
   user?: string;
 
   @IsOptional()
+  @IsString()
+  organizationName?: string;
+
+  @IsOptional()
   @IsInt({each: true})
   userStatuses?: Array<number>;
 

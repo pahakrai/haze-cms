@@ -1,26 +1,26 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getMembers = opts => {
-  return ecommApi.get('/members?' + serialize(opts));
-};
+const getMembers = (opts) => {
+  return hazeApi.get('/members?' + serialize(opts))
+}
 
-const getMemberById = id => {
-  return ecommApi.get('/members/' + id);
-};
+const getMemberById = (id) => {
+  return hazeApi.get('/members/' + id)
+}
 
-const createMember = formValues => {
-  return ecommApi.post(`/members`, formValues);
-};
+const createMember = (formValues) => {
+  return hazeApi.post(`/members`, formValues)
+}
 
-const updateMember = formValues => {
-  return ecommApi.put(`/members/` + formValues._id, formValues);
-};
+const updateMember = (formValues) => {
+  return hazeApi.put(`/members/` + formValues._id, formValues)
+}
 
 export default {
-  self: ecommApi,
+  self: hazeApi,
   createMember,
   getMemberById,
   getMembers,
   updateMember
-};
+}

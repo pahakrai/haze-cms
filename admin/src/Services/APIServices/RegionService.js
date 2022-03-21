@@ -1,40 +1,40 @@
-import { ecommApi } from '../APIs'
+import { hazeApi } from '../APIs'
 import { serialize } from './ServiceUtils'
 
 const getRegions = (query) => {
-  return ecommApi.get('/regions?' + serialize(query))
+  return hazeApi.get('/regions?' + serialize(query))
 }
 const getAllDistrict = async (query) =>
-  await ecommApi.get(
+  await hazeApi.get(
     '/regions?isActive=true&subTypes[]=neighborhood&&' + serialize(query)
   )
 const getRegionById = (id) => {
-  return ecommApi.get('/regions/' + id)
+  return hazeApi.get('/regions/' + id)
 }
 const getRegionPins = async (query) => {
-  return await ecommApi.get('/region-pins')
+  return await hazeApi.get('/region-pins')
 }
 
 const getAllWithChildren = async (query) => {
-  return await ecommApi.get(
+  return await hazeApi.get(
     '/regions?isActive=true&parent=null&recursive=true&&localize=true&&' +
       serialize(query)
   )
 }
 
-const createRegionPin = (regionPin) => ecommApi.post('region-pins', regionPin)
+const createRegionPin = (regionPin) => hazeApi.post('region-pins', regionPin)
 
 const updateRegionPin = (regionPin) =>
-  ecommApi.patch('region-pins/' + regionPin._id, regionPin)
+  hazeApi.patch('region-pins/' + regionPin._id, regionPin)
 
-const deleteRegionPin = (_id) => ecommApi.delete('region-pins/' + _id)
+const deleteRegionPin = (_id) => hazeApi.delete('region-pins/' + _id)
 
 const createRegion = (region, files, onUploadProgress) => {
   const data = new FormData()
   files.forEach((f) => data.append('files', f))
   const stringtifyBody = JSON.stringify(region)
   data.append('form', stringtifyBody)
-  return ecommApi.post('regions', data, onUploadProgress)
+  return hazeApi.post('regions', data, onUploadProgress)
 }
 
 const updateRegion = (formValues, files, onUploadProgress) => {
@@ -42,17 +42,12 @@ const updateRegion = (formValues, files, onUploadProgress) => {
   files.forEach((f) => data.append('files', f))
   const stringtifyBody = JSON.stringify(formValues)
   data.append('form', stringtifyBody)
-  return ecommApi.put(
-    `regions/${formValues._id}`,
-    data,
-    files,
-    onUploadProgress
-  )
+  return hazeApi.put(`regions/${formValues._id}`, data, files, onUploadProgress)
 }
 
-const deleteRegion = (_id) => ecommApi.delete('regions/' + _id)
+const deleteRegion = (_id) => hazeApi.delete('regions/' + _id)
 const getDistrictByCoordinates = (coordinates) =>
-  ecommApi.get(
+  hazeApi.get(
     'regions/get-by-coordinates?lat=' +
       coordinates[0] +
       '&lng=' +
@@ -60,11 +55,10 @@ const getDistrictByCoordinates = (coordinates) =>
       '&type=district'
   )
 
-const getRegionCoverLagLng = (lag, lng) =>
-  ecommApi.delete('regions/' + lag, lng)
+const getRegionCoverLagLng = (lag, lng) => hazeApi.delete('regions/' + lag, lng)
 
 const getRegionsByCoordinates = (lat, lng, opts = {}) =>
-  ecommApi.get('regions/get-by-coordinates', { lat, lng, ...opts })
+  hazeApi.get('regions/get-by-coordinates', { lat, lng, ...opts })
 
 export default {
   getRegions,

@@ -1,12 +1,12 @@
-import { ecommApi } from '../APIs';
-import { serialize } from './ServiceUtils';
+import { hazeApi } from '../APIs'
+import { serialize } from './ServiceUtils'
 
-const getUserGroupPolicys = async query =>
-  ecommApi.get(query ? `/policies?${serialize(query)}` : '/policies');
+const getUserGroupPolicys = async (query) =>
+  hazeApi.get(query ? `/policies?${serialize(query)}` : '/policies')
 
-const getUserGroupPolicyByCode = code => ecommApi.get(`policies/code/${code}`);
+const getUserGroupPolicyByCode = (code) => hazeApi.get(`policies/code/${code}`)
 
 export default {
   getUserGroupPolicys,
   getUserGroupPolicyByCode
-};
+}
